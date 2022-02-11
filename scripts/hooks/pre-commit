@@ -1,0 +1,31 @@
+#!/bin/sh
+
+echo "executing formatter & linter..."
+
+if [ "$(uname)" = "Darwin" ]; then # add support for linux
+  source venv/bin/activate
+elif [ "$(expr substr $(uname -s) 1 10)" = "MINGW64_NT" ]; then
+  source venv/Scripts/activate
+fi
+
+if ! [ -x "$(command -v black)" ]; then
+  echo 'Error: black is not installed.' >&2
+  exit 1
+fi
+
+# staged files (not deleted ones)
+staged_files=$(git diff --diff-filter=d --name-only --staged | grep .py)
+
+no_staged_files=$(echo -n $staged_files | wc -l)
+
+if [[ $no_staged_files -ne 0 ]]; then
+  echo "files that are staged (excluding deleted ones): "
+  echo "$staged_files"
+
+  for FILE in $staged_files; do
+    # Run black formatter on the staged file
+    black $FILE
+    git add $FILE
+  done
+fi
+exit 0
