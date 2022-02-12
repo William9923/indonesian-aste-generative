@@ -43,6 +43,9 @@ class T5Trainer:
         self.model.train()
         torch.set_grad_enabled(True)
 
+        # -- [Init dummy variables] --
+        best_epoch, best_val_loss, best_train_loss = -1, 999, 999
+
         for epoch in range(self.epochs):
             print(f"Current Epochs: {epoch+1}/{self.epochs}")
 
