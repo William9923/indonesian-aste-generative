@@ -1,4 +1,5 @@
 import os
+from pprint import pprint
 
 from transformers import T5Tokenizer
 
@@ -8,6 +9,7 @@ from src.constant import Path
 from src.loader import Loader
 from src.trainer import T5Trainer
 from src.evaluation import Evaluator
+from src.generator import T5Generator
 
 if __name__ == "__main__":
 
@@ -57,13 +59,22 @@ if __name__ == "__main__":
     saved_path = os.path.join(Path.MODEL, prefix)
     load_trainer.load(saved_path)
     model = load_trainer.get_model()
+
     # 4. Evaluation ...
-    # if mode == "eval":
-    #     pass
     evaluator = Evaluator(configs)
     evaluator.export("train", prefix, tokenizer, model, train_loader, train_sents)
     evaluator.export("val", prefix, tokenizer, model, val_loader, val_sents)
 
     # 5. Inference / Generate ...
+    sents = [
+        "pelayanan ramah , kamar nyaman dan fasilitas lengkap . hanya airnya showernya kurang panas .",
+        "tidak terlalu jauh dari pusat kota .",
+        "dengan harga terjangkau kita sudah mendapatkan fasilitas yang nyaman .",
+        "kamar luas dan bersih . seprai bersih .",
+        "seprai nya kurang bersih .",
+        "kamarnya bersih dan rapi . saya kebetulan dapat yang di lantai dua .",
+    ]
 
-    # TODO: split do-eval only or do train + eval
+    generator = T5Generator(tokenizer, model, configs)
+    res = generator.generate(sents, fix=True)
+    pprint(res)

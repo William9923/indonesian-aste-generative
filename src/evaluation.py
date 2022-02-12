@@ -101,7 +101,7 @@ class Evaluator:
         path = os.path.join(Path.MODEL, prefix, type)
         os.makedirs(path, exist_ok=True)
 
-        df, raw_score, fixed_score = self.evaluate(model, tokenizer, loader, sents)
+        df, raw_score, fixed_score = self.evaluate(tokenizer, model, loader, sents)
 
         exploded_cols = [
             "idx",
