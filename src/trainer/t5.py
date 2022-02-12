@@ -218,5 +218,5 @@ class T5Trainer:
     def __create_folder(self, prefix):
         self.folder_path = os.path.join(Path.MODEL, prefix)
         self.ckpt_path = os.path.join(self.folder_path, Path.CHECKPOINT)
-        os.mkdir(self.folder_path)
-        os.mkdir(self.ckpt_path)
+        os.makedirs(self.folder_path)
+        os.makedirs(self.ckpt_path)
