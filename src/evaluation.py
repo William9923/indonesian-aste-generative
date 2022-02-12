@@ -96,12 +96,13 @@ class Evaluator:
             "all_preds": all_preds,
             "all_fixed_preds": all_fixed_preds,
         }
+        
 
     def export(self, type, prefix, tokenizer, model, loader, sents):
         path = os.path.join(Path.MODEL, prefix, type)
         os.makedirs(path, exist_ok=True)
 
-        df, raw_score, fixed_score = self.evaluate(tokenizer, model, loader, sents)
+        df, raw_score, fixed_score = self.evaluation_summary_result(tokenizer, model, loader, sents)
 
         exploded_cols = [
             "idx",
