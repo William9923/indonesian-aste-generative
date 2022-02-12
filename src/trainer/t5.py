@@ -76,10 +76,8 @@ class T5Trainer:
         torch.set_grad_enabled(True)
 
         best_val_loss = 999  # init dummy variable
-
+        train_loss, val_loss = [], []
         for epoch in range(self.epochs):
-            train_loss, val_loss = [], []
-
             with tqdm(self.train_loader, unit="batch") as tepoch:
                 train_loss_per_batch = []
                 for batch in tepoch:
@@ -116,9 +114,6 @@ class T5Trainer:
         self.is_trained = True
 
     def save(self):
-        if not self.is_trained:
-            print("Warning: Model not trained!")
-            return
         path = os.path.join(self.folder_path, f"model-best.pt")
         try:
             os.remove(path)
@@ -188,7 +183,7 @@ class T5Trainer:
 
     def __create_folder(self, prefix):
         self.folder_path = os.path.join(Path.MODEL, prefix)
-        os.makedirs(self.folder_path)
+        os.makedirs(self.folder_path, exist_ok=True)
 
     def training_report(self):
         if not self.is_trained:
