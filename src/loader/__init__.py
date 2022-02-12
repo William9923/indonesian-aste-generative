@@ -20,20 +20,31 @@ class Loader:
         self.__load()
         self.is_loaded = True
 
-    def get_train_loader(self):
+    def get_train_dataset(self):
         if not self.is_loaded:
             raise ValueError("Loader had not loaded the dataset!")
-        dataset = self.train_dataset
+        return self.train_dataset
+    
+    def get_test_dataset(self):
+        if not self.is_loaded:
+            raise ValueError("Loader had not loaded the dataset!")
+        return self.test_dataset
+
+    def get_val_dataset(self):
+        if not self.is_loaded:
+            raise ValueError("Loader had not loaded the dataset!")
+        return self.val_dataset
+
+    def get_train_loader(self):
+        dataset = self.get_train_dataset()
         batch_size = self.configs.get("trainer").get("batch_size")
         num_workers = self.configs.get("main").get("num_worker")
         return DataLoader(
             dataset=dataset, batch_size=batch_size, num_workers=num_workers
         )
-
+    
     def get_test_loader(self):
-        if not self.is_loaded:
-            raise ValueError("Loader had not loaded the dataset!")
-        dataset = self.test_dataset
+        dataset = self.get_test_dataset()
         batch_size = self.configs.get("trainer").get("eval_batch_size")
         num_workers = self.configs.get("main").get("num_worker")
         return DataLoader(
@@ -41,9 +52,7 @@ class Loader:
         )
 
     def get_val_loader(self):
-        if not self.is_loaded:
-            raise ValueError("Loader had not loaded the dataset!")
-        dataset = self.val_dataset
+        dataset = self.get_val_dataset()
         batch_size = self.configs.get("trainer").get("eval_batch_size")
         num_workers = self.configs.get("main").get("num_worker")
         return DataLoader(

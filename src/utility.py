@@ -7,6 +7,24 @@ import numpy as np
 from src.constant import Path
 
 
+
+EMPTY = ''
+def extract(sequence):
+    extractions = []
+    triplets = sequence.split("; ")
+    for elem in triplets:
+        elem = elem[1:-1] # Remove the in the start "("  and at the end ")".
+        try:
+            a, b, c = elem.split(', ')
+        except ValueError:
+            a, b, c = '', '', ''
+        
+        # Postprocess...
+        if (a == EMPTY or b == EMPTY or c == EMPTY) or (a,b,c) in extractions:
+            continue
+        extractions.append((a, b, c)) 
+    return extractions
+
 def get_config(path):
     return yaml.safe_load(open(path, "r"))
 
