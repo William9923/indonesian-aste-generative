@@ -1,6 +1,6 @@
 from args import init_args
 from src.utility import get_config, set_seed
-from pprint import pprint
+from src.loader import Loader
 
 if __name__ == "__main__":
     
@@ -12,6 +12,7 @@ if __name__ == "__main__":
     set_seed(configs["main"]["seed"])
 
     # 2. Preparing Dataset ...
+    loader = Loader(configs)
  
     # 3. Training ...
 

@@ -1,9 +1,13 @@
+type: "t5"
+
 main:
   pretrained: "Wikidepia/IndoT5-base"
   seed: 26092020
   mode: train
+  num_worker: 2
 
 loader:
+  mode: filter
   max_seq_length: 128
   seperator: "####"
   padding: max_length
