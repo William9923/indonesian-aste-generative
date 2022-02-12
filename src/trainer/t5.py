@@ -39,66 +39,62 @@ class T5Trainer:
         # define states...
         self.is_trained = False
 
+    def forward(self, batch):
+        lm_labels = batch["target_ids"]
+        lm_labels[lm_labels[:, :] == self.tokenizer.pad_token_id] = -100
+        return self.model(
+            input_ids=batch["source_ids"].to(self.device),
+            attention_mask=batch["source_mask"].to(self.device),
+            labels=lm_labels.to(self.device),
+            decoder_attention_mask=batch["target_mask"].to(self.device),
+        )
+
+    def training_step(self, loss):
+        self.optimizer.zero_grad()
+        loss.backward()
+        self.optimizer.step()
+        self.scheduler.step()
+
+    def validation_epoch_end(self):
+        with torch.no_grad():
+            val_loss_per_batch = []
+            for batch in self.val_loader:
+                lm_labels = batch["target_ids"]
+                lm_labels[lm_labels[:, :] == self.tokenizer.pad_token_id] = -100
+                outputs = self.model(
+                    input_ids=batch["source_ids"].to(self.device),
+                    attention_mask=batch["source_mask"].to(self.device),
+                    labels=lm_labels.to(self.device),
+                    decoder_attention_mask=batch["target_mask"].to(self.device),
+                )
+                loss, _ = outputs[:2]
+                val_loss_per_batch.append(loss.item())
+        return val_loss_per_batch
+
     def fit(self):
         self.model.train()
         torch.set_grad_enabled(True)
 
-        # -- [Init dummy variables] --
-        best_epoch, best_val_loss, best_train_loss = -1, 999, 999
+        best_val_loss = 999  # init dummy variable
 
         for epoch in range(self.epochs):
-            print(f"Current Epochs: {epoch+1}/{self.epochs}")
-
             train_loss, val_loss = [], []
+
             with tqdm(self.train_loader, unit="batch") as tepoch:
                 train_loss_per_batch = []
                 for batch in tepoch:
-                    lm_labels = batch["target_ids"]
-                    lm_labels[lm_labels[:, :] == self.tokenizer.pad_token_id] = -100
-                    outputs = self.model(
-                        input_ids=batch["source_ids"].to(self.device),
-                        attention_mask=batch["source_mask"].to(self.device),
-                        labels=lm_labels.to(self.device),
-                        decoder_attention_mask=batch["target_mask"].to(self.device),
-                    )
-
-                    # -- [Part : Backward Propagation] --
-                    loss, logits = outputs[:2]
-
-                    # -- end forward propagation --
-
-                    # -- training step --
-                    self.optimizer.zero_grad()
-                    loss.backward()
-                    self.optimizer.step()
-                    self.scheduler.step()
-                    # -- end training step --
-
+                    outputs = self.forward(batch)  # Forward Propagation
+                    loss, _ = outputs[:2]
+                    self.training_step(loss)  # Backward Propagation (per step...)
                     train_loss_per_batch.append(loss.item())
 
-                    # -- [Part : Logging Related Information] --
-                    lr = self.scheduler.get_last_lr()[-1]
-                    tepoch.set_description("Training")
-                    tepoch.set_postfix(loss=loss.item(), lr=lr)
+                    tepoch.set_description(f"Epochs: {epoch+1}/{self.epochs}")
+                    tepoch.set_postfix(
+                        loss=loss.item(), lr=self.scheduler.get_last_lr()[-1]
+                    )
 
-                # -- [Validation per epoch] --
-                # -- start validation epoch end --
-                with torch.no_grad():
-                    val_loss_per_batch = []
-                    for batch in self.val_loader:
-                        lm_labels = batch["target_ids"]
-                        lm_labels[lm_labels[:, :] == self.tokenizer.pad_token_id] = -100
-                        outputs = self.model(
-                            input_ids=batch["source_ids"].to(self.device),
-                            attention_mask=batch["source_mask"].to(self.device),
-                            labels=lm_labels.to(self.device),
-                            decoder_attention_mask=batch["target_mask"].to(self.device),
-                        )
-                        loss, _ = outputs[:2]
-                        val_loss_per_batch.append(loss.item())
-                # -- return validation epoch end...
+                val_loss_per_batch = self.validation_epoch_end()
 
-                # -- [Logging] --
                 epoch_train_loss = np.array(train_loss_per_batch).mean()
                 epoch_val_loss = np.array(val_loss_per_batch).mean()
 
@@ -108,54 +104,29 @@ class T5Trainer:
                     f"Avg training Loss : {epoch_train_loss} | Val Loss : {epoch_val_loss}"
                 )
 
-                # -- [Checkpoint] --
+                # -- Checkpoint --
                 if best_val_loss > epoch_val_loss:
-                    print("Removing Previous Best ...")
-
-                    try:
-                        path = os.path.join(
-                            self.ckpt_path, f"model-state-{best_epoch+1}.pt"
-                        )
-                        os.remove(path)
-                    except FileNotFoundError:
-                        print("File Not Found...")
-
-                    print("Saving Best Model...")
-                    path = os.path.join(self.ckpt_path, f"model-state-{epoch+1}.pt")
-                    torch.save(
-                        {
-                            "epoch": epoch,
-                            "model_state_dict": self.model.state_dict(),
-                            "optimizer_state_dict": self.optimizer.state_dict(),
-                            "loss": epoch_train_loss,
-                        },
-                        path,
-                    )
-
-                    # Renew data
-                    best_epoch = epoch
+                    self.save()
                     best_val_loss = epoch_val_loss
-                    best_train_loss = epoch_train_loss
 
-        # -- Logging best training status --
-        print("Best Training Params:")
-        print("---------------------")
-        print(f"Epoch           : {best_epoch+1}")
-        print(f"Training Loss   : {best_train_loss}")
-        print(f"Validation Loss : {best_val_loss}")
-        print(f"Batch Size      : {self.train_loader.batch_size}")
-        print(f"Ckpt Path       : {path}")
+        self.train_loss = train_loss
+        self.val_loss = val_loss
 
+        print("\n".join(self.__build_report(train_loss, val_loss)))  # Reporting
         self.is_trained = True
 
     def save(self):
         if not self.is_trained:
             print("Warning: Model not trained!")
             return
-        path = os.path.join(self.ckpt_path, f"model-state-last.pt")
+        path = os.path.join(self.folder_path, f"model-best.pt")
+        try:
+            os.remove(path)
+        except FileNotFoundError:
+            pass
         torch.save(
             {
-                "epoch": self.epoch,
+                "epoch": self.epochs,
                 "model_state_dict": self.model.state_dict(),
                 "optimizer_state_dict": self.optimizer.state_dict(),
             },
@@ -217,6 +188,37 @@ class T5Trainer:
 
     def __create_folder(self, prefix):
         self.folder_path = os.path.join(Path.MODEL, prefix)
-        self.ckpt_path = os.path.join(self.folder_path, Path.CHECKPOINT)
         os.makedirs(self.folder_path)
-        os.makedirs(self.ckpt_path)
+
+    def training_report(self):
+        if not self.is_trained:
+            print("Warning: Model not trained!")
+            return
+        return self.__build_report(self.train_loss, self.val_loss)
+
+    def __build_report(self, train_loss, val_loss):
+        assert len(train_loss) == len(val_loss)
+        report_accumulator = []
+        report_accumulator.append(
+            "----------------------------------------------------------------------"
+        )
+        report_accumulator.append(
+            "Epochs               Avg Training Loss     Avg Val Loss "
+        )
+        report_accumulator.append(
+            "======================================================================"
+        )
+
+        for i in range(len(train_loss)):
+            report_accumulator.append(
+                "%-20s %-21s %-20s"
+                % (
+                    str(i + 1) + " / " + str(len(train_loss)),  # Epoch
+                    train_loss[i],
+                    val_loss[i],
+                )
+            )
+            report_accumulator.append(
+                "----------------------------------------------------------------------"
+            )
+        return report_accumulator
