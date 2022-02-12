@@ -98,9 +98,6 @@ class T5Trainer:
 
                 train_loss.append(epoch_train_loss)
                 val_loss.append(epoch_val_loss)
-                print(
-                    f"Avg training Loss : {epoch_train_loss} | Val Loss : {epoch_val_loss}"
-                )
 
                 # -- Checkpoint --
                 if best_val_loss > epoch_val_loss:
@@ -129,7 +126,8 @@ class T5Trainer:
         )
 
     def load(self, path):
-        checkpoint = torch.load(path)
+        model_path = os.path.join(path, "model-best.pt")
+        checkpoint = torch.load(model_path)
         self.model.load_state_dict(checkpoint["model_state_dict"])
         self.optimizer.load_state_dict(checkpoint["optimizer_state_dict"])
 

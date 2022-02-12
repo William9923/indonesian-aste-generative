@@ -136,4 +136,5 @@ test.py
 *.pkl
 
 bin/
+reports/
 venv/

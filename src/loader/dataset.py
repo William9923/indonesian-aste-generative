@@ -61,6 +61,9 @@ class HotelDataset(Dataset):
             "target_mask": target_mask,
         }
 
+    def get_sents(self):
+        return self.sents 
+        
     def get_stats(self, name, idx=[]):
 
         usefilter = len(idx) > 0
