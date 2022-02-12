@@ -1,5 +1,4 @@
 from torch.utils.data import DataLoader
-from transformers import T5Tokenizer
 
 from src.loader.parser import parse
 from src.loader.dataset import HotelDataset
@@ -8,14 +7,10 @@ from src.constant import Path
 
 
 class Loader:
-    def __init__(self, configs):
+    def __init__(self, tokenizer, configs):
         self.configs = configs
-        self.tokenizer = None
+        self.tokenizer = tokenizer
         self.is_loaded = False
-
-        if self.configs["type"] == "t5":
-            model_name = self.configs.get("main").get("pretrained")
-            self.tokenizer = T5Tokenizer.from_pretrained(model_name)
 
         self.__load()
         self.is_loaded = True

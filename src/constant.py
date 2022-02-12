@@ -6,6 +6,7 @@ class Path:
     DATA = "data"
     PRETRAINED = "pretrained"
     MODEL = "bin"
+    CHECKPOINT = "ckpt"
 
     FILTERED = "filter"
     UNFILTERED = "unfilter"

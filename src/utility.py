@@ -4,6 +4,8 @@ import random
 import torch 
 import numpy as np
 
+from torch import cuda
+
 from src.constant import Path
 
 
@@ -65,3 +67,9 @@ def set_seed(seed):
     np.random.seed(seed)
     torch.manual_seed(seed)
     torch.cuda.manual_seed(seed)
+
+def get_device():
+    device = "cpu"
+    if cuda.is_available():
+        device = torch.device("cuda") # First GPU
+    return device
