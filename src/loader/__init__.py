@@ -72,9 +72,9 @@ class Loader:
         seperator = self.configs.get("loader").get("seperator")
         with open(train_path, "r", encoding="UTF-8") as train_file:
             train_sents, train_labels = parse(train_file, seperator)
-        with open(train_path, "r", encoding="UTF-8") as test_file:
+        with open(test_path, "r", encoding="UTF-8") as test_file:
             test_sents, test_labels = parse(test_file, seperator)
-        with open(train_path, "r", encoding="UTF-8") as val_file:
+        with open(val_path, "r", encoding="UTF-8") as val_file:
             val_sents, val_labels = parse(val_file, seperator)
 
         train_params = {

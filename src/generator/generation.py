@@ -14,7 +14,7 @@ class T5Generator:
         splitted_sents = [txt.split(" ") for txt in sents]
         max_length = self.configs.get("loader").get("max_seq_length")
         # --- [Tokenization] ---
-        batch = self.batch_encode_plus(
+        batch = self.tokenizer.batch_encode_plus(
             sents,
             max_length=max_length,
             padding="max_length",
@@ -23,7 +23,6 @@ class T5Generator:
         )
 
         # --- [Generating Triplets Opinion] ---
-
         self.model.eval()
         outs = self.model.generate(
             input_ids=batch["input_ids"].to(self.device),
