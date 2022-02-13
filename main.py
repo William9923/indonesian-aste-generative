@@ -44,10 +44,10 @@ if __name__ == "__main__":
     test_sents = test_dataset.get_sents()
 
     if mode == "train":
-        print("\n".join(train_dataset.get_stats()))
-        print("\n".join(val_dataset.get_stats()))
+        print("\n".join(train_dataset.get_stats("Training")))
+        print("\n".join(val_dataset.get_stats("Validation")))
     else:
-        print("\n".join(test_dataset.get_stats()))
+        print("\n".join(test_dataset.get_stats("Testing")))
 
     # 3. Training (skip if do-eval only)
     if mode == "train":
