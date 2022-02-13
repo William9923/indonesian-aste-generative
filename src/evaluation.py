@@ -173,7 +173,6 @@ class Evaluator:
                 eval_res["all_labels"][idx],
                 eval_res["all_preds"][idx],
                 eval_res["all_fixed_preds"][idx],
-                is_diff,
             )
             all_labels.append(new_label)
             all_preds.append(new_pred)
