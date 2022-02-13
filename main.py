@@ -9,7 +9,6 @@ from src.constant import Path
 from src.loader import Loader
 from src.trainer import T5Trainer
 from src.evaluation import Evaluator
-from src.generator import T5Generator
 
 if __name__ == "__main__":
 
@@ -81,7 +80,7 @@ if __name__ == "__main__":
     else:
         pprint(evaluator.evaluate(tokenizer, model, test_loader, test_sents))
         evaluator.export("test", prefix, tokenizer, model, test_loader, test_sents)
-    
+
     # 5. Inference / Generate ... -> only be used for demo only
     # sents = [
     #     "pelayanan ramah , kamar nyaman dan fasilitas lengkap . hanya airnya showernya kurang panas .",
