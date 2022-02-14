@@ -179,7 +179,7 @@ class HotelDataset(Dataset):
         for i in range(len(inputs)):
             input_item = " ".join(inputs[i])
             tokenized_input = self.tokenizer.batch_encode_plus(
-                [input_item],
+                [input_item], # TODO: could be optimized...
                 max_length=self.configs.get("loader").get("max_seq_length"),
                 padding=self.configs.get("loader").get("padding"),
                 truncation=self.configs.get("loader").get("truncation"),
