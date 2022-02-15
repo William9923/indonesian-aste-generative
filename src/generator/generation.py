@@ -17,13 +17,14 @@ class T5Generator:
         batch = self.tokenizer.batch_encode_plus(
             sents,
             max_length=max_length,
-            padding="max_length",
-            truncation=True,
+            padding=self.configs.get("loader").get("padding"),
+            truncation=self.configs.get("loader").get("truncation"),
             return_tensors="pt",
         )
 
         # --- [Generating Triplets Opinion] ---
         self.model.eval()
+        # Method: Greedy searchx
         outs = self.model.generate(
             input_ids=batch["input_ids"].to(self.device),
             attention_mask=batch["attention_mask"].to(self.device),
