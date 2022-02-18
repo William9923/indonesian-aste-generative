@@ -126,14 +126,14 @@ class T5Trainer:
         )
 
     def load(self, path):
+        device = get_device()
+
         model_path = os.path.join(path, "model-best.pt")
-        checkpoint = torch.load(model_path)
+        checkpoint = torch.load(model_path, map_location=device)
         self.model.load_state_dict(checkpoint["model_state_dict"])
         self.optimizer.load_state_dict(checkpoint["optimizer_state_dict"])
 
-        device = get_device()
         _ = self.model.to(device)
-
         self.is_trained = True
 
     def get_model(self):

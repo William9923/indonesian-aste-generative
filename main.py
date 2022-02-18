@@ -78,7 +78,6 @@ if __name__ == "__main__":
         evaluator.export("train", prefix, tokenizer, model, train_loader, train_sents)
         evaluator.export("val", prefix, tokenizer, model, val_loader, val_sents)
     else:
-        pprint(evaluator.evaluate(tokenizer, model, test_loader, test_sents))
         evaluator.export("test", prefix, tokenizer, model, test_loader, test_sents)
 
     # 5. Inference / Generate ... -> only be used for demo only
