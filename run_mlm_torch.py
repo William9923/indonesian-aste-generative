@@ -333,7 +333,7 @@ def process_datasets(model_args, data_args, training_args, tokenizer, expanded_i
     # cache the dataset, so we can load it directly for training
     torch.save(train_dataset, save_path+str(max_seq_length)+'train_data.pt') 
     torch.save(eval_dataset, save_path+str(max_seq_length)+'eval_data.pt')
-    return train_dataset, eval_dataset, test_dataset
+    return train_dataset, eval_dataset
     
     
 def create_tokenizer(model_args):
@@ -676,7 +676,7 @@ def main():
         eval_dataset = torch.load(data_args.valid_file_path)
         print('loading done')    
     elif data_args.dataset_name is not None or data_args.train_file is not None: 
-        train_dataset, eval_dataset, test_dataset = process_datasets(model_args, 
+        train_dataset, eval_dataset = process_datasets(model_args, 
                                                        data_args, 
                                                        training_args, 
                                                        tokenizer, 
