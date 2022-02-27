@@ -7,6 +7,7 @@ import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 
+import datasets
 from datasets import load_dataset
 
 from typing import Dict, List, Optional
