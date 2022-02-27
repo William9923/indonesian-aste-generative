@@ -39,67 +39,67 @@ from transformers.trainer_utils import get_last_checkpoint
 
 logger = logging.getLogger(__name__)
 
-@dataclass
-class TrainingArguments:
-    output_dir: str = field(
-        metadata={"help": "The output directory where the model predictions and checkpoints will be written."},
-    )
-    overwrite_output_dir: bool = field(
-        default=False,
-        metadata={
-            "help": (
-                "Overwrite the content of the output directory. "
-                "Use this to continue training if output_dir points to a checkpoint directory."
-            )
-        },
-    )
-    skip_memory_metrics: bool = field(default=True, metadata={"help": "Skip memory Matrix"})
-    do_train: bool = field(default=False, metadata={"help": "Whether to run training."})
-    do_eval: bool = field(default=False, metadata={"help": "Whether to run eval on the dev set."})
-    per_device_train_batch_size: int = field(
-        default=8, metadata={"help": "Batch size per GPU/TPU core/CPU for training."}
-    )
-    per_device_eval_batch_size: int = field(
-        default=8, metadata={"help": "Batch size per GPU/TPU core/CPU for evaluation."}
-    )
-    learning_rate: float = field(default=5e-5, metadata={"help": "The initial learning rate for AdamW."})
-    weight_decay: float = field(default=0.0, metadata={"help": "Weight decay for AdamW if we apply some."})
-    adam_beta1: float = field(default=0.9, metadata={"help": "Beta1 for AdamW optimizer"})
-    adam_beta2: float = field(default=0.999, metadata={"help": "Beta2 for AdamW optimizer"})
-    adam_epsilon: float = field(default=1e-8, metadata={"help": "Epsilon for AdamW optimizer."})
-    adafactor: bool = field(default=False, metadata={"help": "Whether or not to replace AdamW by Adafactor."})
-    num_train_epochs: float = field(default=3.0, metadata={"help": "Total number of training epochs to perform."})
-    warmup_steps: int = field(default=0, metadata={"help": "Linear warmup over warmup_steps."})
-    logging_steps: int = field(default=500, metadata={"help": "Log every X updates steps."})
-    save_steps: int = field(default=500, metadata={"help": "Save checkpoint every X updates steps."})
-    eval_steps: int = field(default=None, metadata={"help": "Run an evaluation every X steps."})
-    seed: int = field(default=42, metadata={"help": "Random seed that will be set at the beginning of training."})
-    push_to_hub: bool = field(
-        default=False, metadata={"help": "Whether or not to upload the trained model to the model hub after training."}
-    )
-    hub_model_id: str = field(
-        default=None, metadata={"help": "The name of the repository to keep in sync with the local `output_dir`."}
-    )
-    hub_token: str = field(default=None, metadata={"help": "The token to use to push to the Model Hub."})
+# @dataclass
+# class TrainingArguments:
+#     output_dir: str = field(
+#         metadata={"help": "The output directory where the model predictions and checkpoints will be written."},
+#     )
+#     overwrite_output_dir: bool = field(
+#         default=False,
+#         metadata={
+#             "help": (
+#                 "Overwrite the content of the output directory. "
+#                 "Use this to continue training if output_dir points to a checkpoint directory."
+#             )
+#         },
+#     )
+#     skip_memory_metrics: bool = field(default=True, metadata={"help": "Skip memory Matrix"})
+#     do_train: bool = field(default=False, metadata={"help": "Whether to run training."})
+#     do_eval: bool = field(default=False, metadata={"help": "Whether to run eval on the dev set."})
+#     per_device_train_batch_size: int = field(
+#         default=8, metadata={"help": "Batch size per GPU/TPU core/CPU for training."}
+#     )
+#     per_device_eval_batch_size: int = field(
+#         default=8, metadata={"help": "Batch size per GPU/TPU core/CPU for evaluation."}
+#     )
+#     learning_rate: float = field(default=5e-5, metadata={"help": "The initial learning rate for AdamW."})
+#     weight_decay: float = field(default=0.0, metadata={"help": "Weight decay for AdamW if we apply some."})
+#     adam_beta1: float = field(default=0.9, metadata={"help": "Beta1 for AdamW optimizer"})
+#     adam_beta2: float = field(default=0.999, metadata={"help": "Beta2 for AdamW optimizer"})
+#     adam_epsilon: float = field(default=1e-8, metadata={"help": "Epsilon for AdamW optimizer."})
+#     adafactor: bool = field(default=False, metadata={"help": "Whether or not to replace AdamW by Adafactor."})
+#     num_train_epochs: float = field(default=3.0, metadata={"help": "Total number of training epochs to perform."})
+#     warmup_steps: int = field(default=0, metadata={"help": "Linear warmup over warmup_steps."})
+#     logging_steps: int = field(default=500, metadata={"help": "Log every X updates steps."})
+#     save_steps: int = field(default=500, metadata={"help": "Save checkpoint every X updates steps."})
+#     eval_steps: int = field(default=None, metadata={"help": "Run an evaluation every X steps."})
+#     seed: int = field(default=42, metadata={"help": "Random seed that will be set at the beginning of training."})
+#     push_to_hub: bool = field(
+#         default=False, metadata={"help": "Whether or not to upload the trained model to the model hub after training."}
+#     )
+#     hub_model_id: str = field(
+#         default=None, metadata={"help": "The name of the repository to keep in sync with the local `output_dir`."}
+#     )
+#     hub_token: str = field(default=None, metadata={"help": "The token to use to push to the Model Hub."})
 
-    def __post_init__(self):
-        if self.output_dir is not None:
-            self.output_dir = os.path.expanduser(self.output_dir)
+#     def __post_init__(self):
+#         if self.output_dir is not None:
+#             self.output_dir = os.path.expanduser(self.output_dir)
 
-    def to_dict(self):
-        """
-        Serializes this instance while replace `Enum` by their values (for JSON serialization support). It obfuscates
-        the token values by removing their value.
-        """
-        d = asdict(self)
-        for k, v in d.items():
-            if isinstance(v, Enum):
-                d[k] = v.value
-            if isinstance(v, list) and len(v) > 0 and isinstance(v[0], Enum):
-                d[k] = [x.value for x in v]
-            if k.endswith("_token"):
-                d[k] = f"<{k.upper()}>"
-        return d
+#     def to_dict(self):
+#         """
+#         Serializes this instance while replace `Enum` by their values (for JSON serialization support). It obfuscates
+#         the token values by removing their value.
+#         """
+#         d = asdict(self)
+#         for k, v in d.items():
+#             if isinstance(v, Enum):
+#                 d[k] = v.value
+#             if isinstance(v, list) and len(v) > 0 and isinstance(v[0], Enum):
+#                 d[k] = [x.value for x in v]
+#             if k.endswith("_token"):
+#                 d[k] = f"<{k.upper()}>"
+#         return d
 
 @dataclass
 class ModelArguments:
@@ -613,7 +613,10 @@ def main():
         datefmt="[%X]",
     )
     # Log on each process the small summary:
-    logger = logging.getLogger(__name__)
+    log_level = training_args.get_process_log_level()
+    logger.setLevel(log_level)
+    datasets.utils.logging.set_verbosity(log_level)
+    transformers.utils.logging.set_verbosity(log_level)
     transformers.utils.logging.enable_default_handler()
     transformers.utils.logging.enable_explicit_format()
     # Set the verbosity to info of the Transformers logger (on main process only):
