@@ -277,15 +277,14 @@ def process_datasets(model_args, data_args, training_args, tokenizer, expanded_i
     def tokenize_function(examples):
         return tokenizer(examples[text_column_name], return_attention_mask=False)
 
-    with training_args.main_process_first(desc="dataset map tokenization"):
-        tokenized_datasets = raw_datasets.map(
-            tokenize_function,
-            batched=True,
-            num_proc=data_args.preprocessing_num_workers,
-            remove_columns=column_names,
-            load_from_cache_file=not data_args.overwrite_cache,
-            desc="Running tokenizer on every text in dataset",
-        )
+    tokenized_datasets = raw_datasets.map(
+        tokenize_function,
+        batched=True,
+        num_proc=data_args.preprocessing_num_workers,
+        remove_columns=column_names,
+        load_from_cache_file=not data_args.overwrite_cache,
+        desc="Running tokenizer on every text in dataset",
+    )
 
     # Main data processing function that will concatenate all texts from our dataset and generate chunks of
     # expanded_inputs_length.
@@ -311,14 +310,13 @@ def process_datasets(model_args, data_args, training_args, tokenizer, expanded_i
         # To speed up this part, we use multiprocessing. See the documentation of the map method for more information:
         # https://huggingface.co/docs/datasets/package_reference/main_classes.html#datasets.Dataset.map
 
-    with training_args.main_process_first(desc="grouping texts together"):
-        tokenized_datasets = tokenized_datasets.map(
-            group_texts,
-            batched=True,
-            num_proc=data_args.preprocessing_num_workers,
-            load_from_cache_file=not data_args.overwrite_cache,
-            desc=f"Grouping texts in chunks of {max_seq_length}",
-        )
+    tokenized_datasets = tokenized_datasets.map(
+        group_texts,
+        batched=True,
+        num_proc=data_args.preprocessing_num_workers,
+        load_from_cache_file=not data_args.overwrite_cache,
+        desc=f"Grouping texts in chunks of {max_seq_length}",
+    )
 
     if training_args.do_train:
         if "train" not in tokenized_datasets:
