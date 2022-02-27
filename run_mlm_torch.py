@@ -53,6 +53,7 @@ class TrainingArguments:
             )
         },
     )
+    skip_memory_metrics: bool = field(default=True, metadata={"help": "Skip memory Matrix"})
     do_train: bool = field(default=False, metadata={"help": "Whether to run training."})
     do_eval: bool = field(default=False, metadata={"help": "Whether to run eval on the dev set."})
     per_device_train_batch_size: int = field(
