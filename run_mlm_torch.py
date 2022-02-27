@@ -564,7 +564,8 @@ def create_model(model_args, tokenizer):
     if model_args.model_name_or_path:
         print('................  model T5 from pretrained ...........................')
         model = T5ForConditionalGeneration.from_pretrained(
-            model_args.model_name_or_path, config=config)
+            model_args.model_name_or_path
+        )
     else:
         print('.........................  T5 from scratch   ............................')
         model = T5ForConditionalGeneration(config)
