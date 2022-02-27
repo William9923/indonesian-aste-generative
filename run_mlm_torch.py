@@ -329,11 +329,6 @@ def process_datasets(model_args, data_args, training_args, tokenizer, expanded_i
         if "validation" not in tokenized_datasets:
             raise ValueError("--do_eval requires a validation dataset")
         eval_dataset = tokenized_datasets["validation"]
-
-    if training_args.do_predict:
-        if "test" not in tokenized_datasets:
-            raise ValueError("--do_predict requires a test dataset")
-        test_dataset = tokenized_datasets["test"]
         
     # cache the dataset, so we can load it directly for training
     torch.save(train_dataset, save_path+str(max_seq_length)+'train_data.pt') 
@@ -770,44 +765,44 @@ def main():
     print('******************* Eval Done **********************')
     
     # 13: testing
-    if training_args.do_predict:
-        logger.info("******************************** Testing ************************************")
+    # if training_args.do_predict:
+    #     logger.info("******************************** Testing ************************************")
 
-        test_results = trainer.predict(test_dataset,metric_key_prefix="test")
+    #     test_results = trainer.predict(test_dataset,metric_key_prefix="test")
 
-        try:
-            print('calc perplexity .. ')
-            perplexity = math.exp(test_results[2]["test_loss"])
-        except OverflowError:
-            perplexity = float("inf")
-        metrics["test_perplexity"] = perplexity
-        test_results_metrics = test_results[2]
-        print('test perplexity:  ', type(test_results_metrics))
-        metrics.update(test_results_metrics)
+    #     try:
+    #         print('calc perplexity .. ')
+    #         perplexity = math.exp(test_results[2]["test_loss"])
+    #     except OverflowError:
+    #         perplexity = float("inf")
+    #     metrics["test_perplexity"] = perplexity
+    #     test_results_metrics = test_results[2]
+    #     print('test perplexity:  ', type(test_results_metrics))
+    #     metrics.update(test_results_metrics)
 
 
-        trainer.log_metrics("test", test_results_metrics)
-        trainer.save_metrics("test", test_results_metrics)
+    #     trainer.log_metrics("test", test_results_metrics)
+    #     trainer.save_metrics("test", test_results_metrics)
 
-    kwargs = {"finetuned_from": model_args.model_name_or_path, "tasks": "fill-mask"}
-    if data_args.dataset_name is not None:
-        kwargs["dataset_tags"] = data_args.dataset_name
-        if data_args.dataset_config_name is not None:
-            kwargs["dataset_args"] = data_args.dataset_config_name
-            kwargs["dataset"] = f"{data_args.dataset_name} {data_args.dataset_config_name}"
-        else:
-            kwargs["dataset"] = data_args.dataset_name
+    # kwargs = {"finetuned_from": model_args.model_name_or_path, "tasks": "fill-mask"}
+    # if data_args.dataset_name is not None:
+    #     kwargs["dataset_tags"] = data_args.dataset_name
+    #     if data_args.dataset_config_name is not None:
+    #         kwargs["dataset_args"] = data_args.dataset_config_name
+    #         kwargs["dataset"] = f"{data_args.dataset_name} {data_args.dataset_config_name}"
+    #     else:
+    #         kwargs["dataset"] = data_args.dataset_name
 
-    if training_args.push_to_hub:
-        trainer.push_to_hub(**kwargs)
-    else:
-        trainer.create_model_card(**kwargs)
-    input_ids = tokenizer('The <extra_id_0> walks in <extra_id_1> park', return_tensors='pt').input_ids.cuda()
-    labels = tokenizer('<extra_id_0> cute dog <extra_id_1> the <extra_id_2>', return_tensors='pt').input_ids.cuda()
-    # the forward function automatically creates the correct decoder_input_ids
-    output = model(input_ids=input_ids, labels=labels)
-    print('output:  ', tokenizer.decode(torch.argmax(output['logits'][0],1)))
-    print('******************* Test Done **********************')
+    # if training_args.push_to_hub:
+    #     trainer.push_to_hub(**kwargs)
+    # else:
+    #     trainer.create_model_card(**kwargs)
+    # input_ids = tokenizer('The <extra_id_0> walks in <extra_id_1> park', return_tensors='pt').input_ids.cuda()
+    # labels = tokenizer('<extra_id_0> cute dog <extra_id_1> the <extra_id_2>', return_tensors='pt').input_ids.cuda()
+    # # the forward function automatically creates the correct decoder_input_ids
+    # output = model(input_ids=input_ids, labels=labels)
+    # print('output:  ', tokenizer.decode(torch.argmax(output['logits'][0],1)))
+    # print('******************* Test Done **********************')
 
 if __name__ == "__main__":
     main()
