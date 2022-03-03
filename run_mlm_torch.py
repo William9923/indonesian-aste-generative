@@ -40,68 +40,6 @@ from transformers.trainer_utils import get_last_checkpoint
 
 logger = logging.getLogger(__name__)
 
-# @dataclass
-# class TrainingArguments:
-#     output_dir: str = field(
-#         metadata={"help": "The output directory where the model predictions and checkpoints will be written."},
-#     )
-#     overwrite_output_dir: bool = field(
-#         default=False,
-#         metadata={
-#             "help": (
-#                 "Overwrite the content of the output directory. "
-#                 "Use this to continue training if output_dir points to a checkpoint directory."
-#             )
-#         },
-#     )
-#     skip_memory_metrics: bool = field(default=True, metadata={"help": "Skip memory Matrix"})
-#     do_train: bool = field(default=False, metadata={"help": "Whether to run training."})
-#     do_eval: bool = field(default=False, metadata={"help": "Whether to run eval on the dev set."})
-#     per_device_train_batch_size: int = field(
-#         default=8, metadata={"help": "Batch size per GPU/TPU core/CPU for training."}
-#     )
-#     per_device_eval_batch_size: int = field(
-#         default=8, metadata={"help": "Batch size per GPU/TPU core/CPU for evaluation."}
-#     )
-#     learning_rate: float = field(default=5e-5, metadata={"help": "The initial learning rate for AdamW."})
-#     weight_decay: float = field(default=0.0, metadata={"help": "Weight decay for AdamW if we apply some."})
-#     adam_beta1: float = field(default=0.9, metadata={"help": "Beta1 for AdamW optimizer"})
-#     adam_beta2: float = field(default=0.999, metadata={"help": "Beta2 for AdamW optimizer"})
-#     adam_epsilon: float = field(default=1e-8, metadata={"help": "Epsilon for AdamW optimizer."})
-#     adafactor: bool = field(default=False, metadata={"help": "Whether or not to replace AdamW by Adafactor."})
-#     num_train_epochs: float = field(default=3.0, metadata={"help": "Total number of training epochs to perform."})
-#     warmup_steps: int = field(default=0, metadata={"help": "Linear warmup over warmup_steps."})
-#     logging_steps: int = field(default=500, metadata={"help": "Log every X updates steps."})
-#     save_steps: int = field(default=500, metadata={"help": "Save checkpoint every X updates steps."})
-#     eval_steps: int = field(default=None, metadata={"help": "Run an evaluation every X steps."})
-#     seed: int = field(default=42, metadata={"help": "Random seed that will be set at the beginning of training."})
-#     push_to_hub: bool = field(
-#         default=False, metadata={"help": "Whether or not to upload the trained model to the model hub after training."}
-#     )
-#     hub_model_id: str = field(
-#         default=None, metadata={"help": "The name of the repository to keep in sync with the local `output_dir`."}
-#     )
-#     hub_token: str = field(default=None, metadata={"help": "The token to use to push to the Model Hub."})
-
-#     def __post_init__(self):
-#         if self.output_dir is not None:
-#             self.output_dir = os.path.expanduser(self.output_dir)
-
-#     def to_dict(self):
-#         """
-#         Serializes this instance while replace `Enum` by their values (for JSON serialization support). It obfuscates
-#         the token values by removing their value.
-#         """
-#         d = asdict(self)
-#         for k, v in d.items():
-#             if isinstance(v, Enum):
-#                 d[k] = v.value
-#             if isinstance(v, list) and len(v) > 0 and isinstance(v[0], Enum):
-#                 d[k] = [x.value for x in v]
-#             if k.endswith("_token"):
-#                 d[k] = f"<{k.upper()}>"
-#         return d
-
 @dataclass
 class ModelArguments:
     """
@@ -225,6 +163,7 @@ def process_datasets(model_args, data_args, training_args, tokenizer, expanded_i
                 cache_dir=model_args.cache_dir,
             )
     else:
+        # Notes: for TA, will use this options (as we load data from our dataset...)
         data_files = {}
         if data_args.train_file is not None:
             data_files["train"] = data_args.train_file
@@ -250,7 +189,6 @@ def process_datasets(model_args, data_args, training_args, tokenizer, expanded_i
                 cache_dir=model_args.cache_dir,
             )
 
-
     # Preprocessing the datasets.
     # First we tokenize all the texts.
     if training_args.do_train:
@@ -264,7 +202,7 @@ def process_datasets(model_args, data_args, training_args, tokenizer, expanded_i
         if max_seq_length > 512:
             logger.warning(
                 f"The tokenizer picked seems to have a very large `model_max_length` ({tokenizer.model_max_length}). "
-                "Picking 1024 instead. You can change that default value by passing --max_seq_length xxx."
+                "Picking 512 instead. You can change that default value by passing --max_seq_length xxx."
             )
             max_seq_length = 512
     else:
@@ -324,14 +262,13 @@ def process_datasets(model_args, data_args, training_args, tokenizer, expanded_i
         if "train" not in tokenized_datasets:
             raise ValueError("--do_train requires a train dataset")
         train_dataset = tokenized_datasets["train"]
-#         if data_args.max_train_samples is not None:
-#             train_dataset = train_dataset.select(range(data_args.max_train_samples))
 
     if training_args.do_eval:
         if "validation" not in tokenized_datasets:
             raise ValueError("--do_eval requires a validation dataset")
         eval_dataset = tokenized_datasets["validation"]
         
+    # TODO: check if needed...
     # cache the dataset, so we can load it directly for training
     torch.save(train_dataset, save_path+str(max_seq_length)+'train_data.pt') 
     torch.save(eval_dataset, save_path+str(max_seq_length)+'eval_data.pt')
@@ -347,6 +284,7 @@ def create_tokenizer(model_args):
         print(tokenizer)
         print('****************************************')
         return tokenizer
+    # Notes: For TA, we will use this options...
     elif model_args.model_name_or_path:
         tokenizer = T5Tokenizer.from_pretrained(
             model_args.model_name_or_path, cache_dir=model_args.cache_dir, use_fast=model_args.use_fast_tokenizer
@@ -643,9 +581,6 @@ def main():
                 "the `--output_dir` or add `--overwrite_output_dir` to train from scratch."
             )
 
-
-
-
     #6:  create  tokenizer.
     tokenizer = create_tokenizer(model_args)    
     if data_args.max_seq_length is None:
@@ -709,12 +644,12 @@ def main():
     )
     # 11:  initialize the trainer
     trainer = Trainer(
-    model=model,
-    args=training_args,
-    train_dataset=train_dataset if training_args.do_train else None,
-    eval_dataset=eval_dataset if training_args.do_eval else None,
-    tokenizer=tokenizer,
-    data_collator=data_collator,
+        model=model,
+        args=training_args,
+        train_dataset=train_dataset if training_args.do_train else None,
+        eval_dataset=eval_dataset if training_args.do_eval else None,
+        tokenizer=tokenizer,
+        data_collator=data_collator,
     #         compute_metrics=compute_metrics,
     )
 
@@ -728,12 +663,6 @@ def main():
         train_result = trainer.train(resume_from_checkpoint=checkpoint)
         trainer.save_model()  # Saves the tokenizer too for easy upload
         metrics = train_result.metrics
-
-#         max_train_samples = (
-#             data_args.max_train_samples if data_args.max_train_samples is not None else len(train_dataset)
-#         )
-#         metrics["train_samples"] = min(max_train_samples, len(train_dataset))
-
         trainer.log_metrics("train", metrics)
         trainer.save_metrics("train", metrics)
         trainer.save_state()
@@ -746,7 +675,6 @@ def main():
     # 13: Evaluation
     if training_args.do_eval:
         logger.info("*** Evaluate ***")
-
         metrics = trainer.evaluate()
 
 #         max_eval_samples = data_args.max_eval_samples if data_args.max_eval_samples is not None else len(eval_dataset)
@@ -769,46 +697,6 @@ def main():
     output = model(input_ids=input_ids, labels=labels)
     print('output:  ', tokenizer.decode(torch.argmax(output['logits'][0],1)))
     print('******************* Eval Done **********************')
-    
-    # 13: testing
-    # if training_args.do_predict:
-    #     logger.info("******************************** Testing ************************************")
-
-    #     test_results = trainer.predict(test_dataset,metric_key_prefix="test")
-
-    #     try:
-    #         print('calc perplexity .. ')
-    #         perplexity = math.exp(test_results[2]["test_loss"])
-    #     except OverflowError:
-    #         perplexity = float("inf")
-    #     metrics["test_perplexity"] = perplexity
-    #     test_results_metrics = test_results[2]
-    #     print('test perplexity:  ', type(test_results_metrics))
-    #     metrics.update(test_results_metrics)
-
-
-    #     trainer.log_metrics("test", test_results_metrics)
-    #     trainer.save_metrics("test", test_results_metrics)
-
-    # kwargs = {"finetuned_from": model_args.model_name_or_path, "tasks": "fill-mask"}
-    # if data_args.dataset_name is not None:
-    #     kwargs["dataset_tags"] = data_args.dataset_name
-    #     if data_args.dataset_config_name is not None:
-    #         kwargs["dataset_args"] = data_args.dataset_config_name
-    #         kwargs["dataset"] = f"{data_args.dataset_name} {data_args.dataset_config_name}"
-    #     else:
-    #         kwargs["dataset"] = data_args.dataset_name
-
-    # if training_args.push_to_hub:
-    #     trainer.push_to_hub(**kwargs)
-    # else:
-    #     trainer.create_model_card(**kwargs)
-    # input_ids = tokenizer('The <extra_id_0> walks in <extra_id_1> park', return_tensors='pt').input_ids.cuda()
-    # labels = tokenizer('<extra_id_0> cute dog <extra_id_1> the <extra_id_2>', return_tensors='pt').input_ids.cuda()
-    # # the forward function automatically creates the correct decoder_input_ids
-    # output = model(input_ids=input_ids, labels=labels)
-    # print('output:  ', tokenizer.decode(torch.argmax(output['logits'][0],1)))
-    # print('******************* Test Done **********************')
 
 if __name__ == "__main__":
     main()
