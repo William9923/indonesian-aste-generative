@@ -115,6 +115,8 @@ if __name__ == "__main__":
         "kamarnya bersih dan rapi . saya kebetulan dapat yang di lantai dua .",
     ]
 
-    generator: IGenerator = generator_config_names.get(type)(tokenizer, model, postprocessor,configs)
+    generator: IGenerator = generator_config_names.get(type)(
+        tokenizer, model, postprocessor, configs
+    )
     res = generator.generate(sents, fix=True)
     pprint(res)

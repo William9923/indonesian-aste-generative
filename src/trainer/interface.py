@@ -1,14 +1,7 @@
-# Trainer Interface for fine-tuning pretrain model, can be used for other pre-trained model types...
-# Current Implementation: T5Trainer
-# Trainer Interface:
-# - fit
-# - save
-# - load
-# - training_report
-# - get_model
-from typing import Tuple, List, Any
+from typing import List
 from transformers.generation_utils import GenerationMixin
 
+# Trainer Interface for fine-tuning pretrain model, can be used for other pre-trained model types...
 
 class ITrainer:
     def fit(self):
