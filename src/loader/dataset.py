@@ -1,13 +1,14 @@
 from torch.utils.data import Dataset
 from copy import deepcopy
 import numpy as np
+from loader.interface import IDataset
 
 from src.utility import extract
 
 senttag2word = {"POS": "positif", "NEG": "negatif", "NEU": "netral"}
 
 
-class HotelDataset(Dataset):
+class HotelDataset(Dataset, IDataset):
     """
     Construct PyTorch dataset object for Indonesian Hotel Review Text Dataset
     sents, labels, paradigm, tokenizer, max_length=128
@@ -62,113 +63,76 @@ class HotelDataset(Dataset):
         }
 
     def get_sents(self):
-        return self.sents 
-        
+        return self.sents
+
     def get_stats(self, name, idx=[]):
 
         usefilter = len(idx) > 0
 
         stats_accumulator = []
         stats_accumulator.append("\nDataset: " + name)
-        stats_accumulator.append("--------------------------------------------------------")
-        stats_accumulator.append("Details                          Value                     ")
-        stats_accumulator.append("========================================================")
-        
         stats_accumulator.append(
-            "%-32s %-12s"
-            % (
-                "Total Instance",
-                len(self.sents)
-            )
+            "--------------------------------------------------------"
         )
+        stats_accumulator.append(
+            "Details                          Value                     "
+        )
+        stats_accumulator.append(
+            "========================================================"
+        )
+
+        stats_accumulator.append("%-32s %-12s" % ("Total Instance", len(self.sents)))
         targets = deepcopy(self.extracted_labels)
         if usefilter:
             targets = [datum for i, datum in enumerate(targets) if i in idx]
 
         triplets_count = np.array([len(extract(triplets)) for triplets in targets])
         stats_accumulator.append(
-            "%-32s %-12s"
-            % (
-                "Total Triplet Instance",
-                triplets_count.sum()
-            )
+            "%-32s %-12s" % ("Total Triplet Instance", triplets_count.sum())
         )
         stats_accumulator.append(
-            "%-32s %-12s"
-            % (
-                "Triplet avg (per review)",
-                triplets_count.mean()
-            )
+            "%-32s %-12s" % ("Triplet avg (per review)", triplets_count.mean())
         )
         stats_accumulator.append(
-            "%-32s %-12s"
-            % (
-                "Triplet min (per review)",
-                triplets_count.min()
-            )
+            "%-32s %-12s" % ("Triplet min (per review)", triplets_count.min())
         )
         stats_accumulator.append(
-            "%-32s %-12s"
-            % (
-                "Triplet max (per review)",
-                triplets_count.max()
-            )
+            "%-32s %-12s" % ("Triplet max (per review)", triplets_count.max())
         )
 
         sents = deepcopy(self.sents)
         if usefilter:
             sents = [datum for i, datum in enumerate(sents) if i in idx]
-        
+
         sequence_count = np.array([len(sent) for sent in sents])
         stats_accumulator.append(
-            "%-32s %-12s"
-            % (
-                "Sequence length max",
-                sequence_count.max()
-            )
+            "%-32s %-12s" % ("Sequence length max", sequence_count.max())
         )
         stats_accumulator.append(
-            "%-32s %-12s"
-            % (
-                "Sequence length min",
-                sequence_count.min()
-            )
+            "%-32s %-12s" % ("Sequence length min", sequence_count.min())
         )
         stats_accumulator.append(
-            "%-32s %-12s"
-            % (
-                "Sequence length avg",
-                sequence_count.mean()
-            )
+            "%-32s %-12s" % ("Sequence length avg", sequence_count.mean())
         )
 
         def count_unique_words(sents):
             sents = set(sents)
             return len(sents)
+
         sequence_unique_count = np.array([count_unique_words(sent) for sent in sents])
         stats_accumulator.append(
-            "%-32s %-12s"
-            % (
-                "Unique sequence length max",
-                sequence_unique_count.max()
-            )
+            "%-32s %-12s" % ("Unique sequence length max", sequence_unique_count.max())
         )
         stats_accumulator.append(
-            "%-32s %-12s"
-            % (
-                "Unique sequence length min",
-                sequence_unique_count.min()
-            )
+            "%-32s %-12s" % ("Unique sequence length min", sequence_unique_count.min())
         )
         stats_accumulator.append(
-            "%-32s %-12s"
-            % (
-                "Unique sequence length avg",
-                sequence_unique_count.mean()
-            )
+            "%-32s %-12s" % ("Unique sequence length avg", sequence_unique_count.mean())
         )
 
-        stats_accumulator.append("--------------------------------------------------------")
+        stats_accumulator.append(
+            "--------------------------------------------------------"
+        )
         return stats_accumulator
 
     def __build(self):
@@ -179,7 +143,7 @@ class HotelDataset(Dataset):
         for i in range(len(inputs)):
             input_item = " ".join(inputs[i])
             tokenized_input = self.tokenizer.batch_encode_plus(
-                [input_item], # TODO: could be optimized...
+                [input_item],  # TODO: could be optimized...
                 max_length=self.configs.get("loader").get("max_seq_length"),
                 padding=self.configs.get("loader").get("padding"),
                 truncation=self.configs.get("loader").get("truncation"),
@@ -197,8 +161,6 @@ class HotelDataset(Dataset):
 
             self.inputs.append(tokenized_input)
             self.targets.append(tokenized_target)
-
-    
 
 
 def generate_extraction_style_target(sents_e, labels):
