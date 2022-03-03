@@ -70,7 +70,7 @@ if __name__ == "__main__":
         print("\n".join(test_dataset.get_stats("Testing")))
 
     # 3. Training (skip if do-test only)
-    trainer_fn = trainer_config_maps.get(mode)
+    trainer_fn = trainer_config_maps.get(model_type)
     if mode == "train":
         trainer: ITrainer = trainer_fn(
             tokenizer=tokenizer,
@@ -115,7 +115,7 @@ if __name__ == "__main__":
         "kamarnya bersih dan rapi . saya kebetulan dapat yang di lantai dua .",
     ]
 
-    generator: IGenerator = generator_config_names.get(type)(
+    generator: IGenerator = generator_config_names.get(model_type)(
         tokenizer, model, postprocessor, configs
     )
     res = generator.generate(sents, fix=True)

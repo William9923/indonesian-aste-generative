@@ -50,6 +50,6 @@ class T5Generator(Generator):
             all_preds = []
             for out in outputs:
                 all_preds.append(extract(out))
-            outputs = self.postprocessor.fix_preds(all_preds, splitted_sents)
+            outputs = self.postprocessor.check_and_fix_preds(all_preds, splitted_sents)
 
         return outputs
