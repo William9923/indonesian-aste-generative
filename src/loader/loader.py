@@ -1,5 +1,5 @@
 from torch.utils.data import DataLoader
-from loader.interface import ILoader
+from src.loader.interface import ILoader
 
 from src.loader.parser import parse
 from src.loader.dataset import HotelDataset
