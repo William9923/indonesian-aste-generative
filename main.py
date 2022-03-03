@@ -4,16 +4,17 @@ from pprint import pprint
 from transformers import T5Tokenizer
 
 from args import init_args
-from src.postprocess.interface import IPostprocess
-from src.generator.interface import IGenerator
-from src.postprocess.editdistance import EditDistancePostProcessor
-from src.postprocess.embedding import EmbeddingDistancePostProcessor
-from src.loader.interface import ILoader
+from loader.loader import HotelLoader
+from src.postprocess import (
+    IPostprocess,
+    EditDistancePostProcessor,
+    EmbeddingDistancePostProcessor,
+)
+from src.loader import ILoader
 from src.utility import get_config, set_seed
 from src.constant import Path, ModelType, PostprocessType, ProcessType
-from src.loader import Loader
-from src.trainer import T5Trainer
-from src.generator import T5Generator
+from src.trainer import ITrainer, T5Trainer
+from src.generator import IGenerator, T5Generator
 from src.evaluation import Evaluator
 
 # == Dependencies Maps (Factory) ==
@@ -52,7 +53,7 @@ if __name__ == "__main__":
     tokenizer = tokenizer_config_names.get(model_type).from_pretrained(model_name)
 
     # 2. Preparing Dataset ...
-    loader: ILoader = Loader(tokenizer, configs)
+    loader: ILoader = HotelLoader(tokenizer, configs)
 
     train_loader, val_loader = loader.get_train_loader(), loader.get_val_loader()
     train_dataset, val_dataset = loader.get_train_dataset(), loader.get_val_dataset()
@@ -72,7 +73,7 @@ if __name__ == "__main__":
     # 3. Training (skip if do-test only)
     trainer_fn = trainer_config_maps.get(mode)
     if mode == "train":
-        trainer = trainer_fn(
+        trainer: ITrainer = trainer_fn(
             tokenizer=tokenizer,
             train_loader=train_loader,
             val_loader=val_loader,
@@ -82,7 +83,7 @@ if __name__ == "__main__":
         trainer.fit()
         trainer.save()
 
-    load_trainer = trainer_fn(
+    load_trainer: ITrainer = trainer_fn(
         tokenizer=tokenizer,
         train_loader=train_loader,
         val_loader=val_loader,
