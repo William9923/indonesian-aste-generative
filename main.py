@@ -4,13 +4,12 @@ from pprint import pprint
 from transformers import T5Tokenizer
 
 from args import init_args
-from loader.loader import HotelLoader
 from src.postprocess import (
     IPostprocess,
     EditDistancePostProcessor,
     EmbeddingDistancePostProcessor,
 )
-from src.loader import ILoader
+from src.loader import ILoader, HotelLoader, IDataset
 from src.utility import get_config, set_seed
 from src.constant import Path, ModelType, PostprocessType, ProcessType
 from src.trainer import ITrainer, T5Trainer
