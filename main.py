@@ -5,7 +5,7 @@ from black import Mode
 from transformers import T5Tokenizer
 
 from args import init_args
-from loader.interface import ILoader
+from src.loader.interface import ILoader
 from src.utility import get_config, set_seed
 from src.constant import Path, ModelType, ProcessType
 from src.loader import Loader
