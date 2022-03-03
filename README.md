@@ -1,6 +1,16 @@
 # Generative Aspect Sentiment Triplet Extraction 
 
-Timeline:
+### TODO:
+- [ ] Add semantic similarity measure for postprocessing
+- [ ] Experimentation
+- [ ] Improve demo application by adding cache to prevent load everytime the apps is changed...
+
+
+### Experiment Table 
+-
+
+
+### Timeline:
 ```mermaid
 gantt
     title Timeline Tugas Akhir 2

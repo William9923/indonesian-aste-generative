@@ -94,8 +94,11 @@ if __name__ == "__main__":
     load_trainer.load(saved_path)
     model = load_trainer.get_model()
 
+    postprocessor_type = configs.get("normalization").get("mode")
+    postprocessor: IPostprocess = postprocess_config_names.get(postprocessor_type)()
+
     # 4. Evaluation ...
-    evaluator = Evaluator(configs)
+    evaluator = Evaluator(postprocessor, configs)
     if mode == ProcessType.DoTrain:
         evaluator.export("train", prefix, tokenizer, model, train_loader, train_sents)
         evaluator.export("val", prefix, tokenizer, model, val_loader, val_sents)
@@ -103,8 +106,6 @@ if __name__ == "__main__":
         evaluator.export("test", prefix, tokenizer, model, test_loader, test_sents)
 
     # 5. Inference / Generate ... -> only be used for demo only
-    postprocessor_type = configs.get("normalization").get("mode")
-    postprocessor: IPostprocess = postprocess_config_names.get(postprocessor_type)()
 
     sents = [
         "pelayanan ramah , kamar nyaman dan fasilitas lengkap . hanya airnya showernya kurang panas .",
