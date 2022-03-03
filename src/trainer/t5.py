@@ -1,19 +1,24 @@
 import os
 
+from typing import List
+
 from transformers import (
     T5ForConditionalGeneration,
     get_linear_schedule_with_warmup,
     AdamW,
 )
+from transformers.generation_utils import GenerationMixin
+
 import torch
 from tqdm import tqdm
 import numpy as np
 
 from src.utility import get_device
 from src.constant import Path
+from src.trainer.interface import ITrainer
 
 
-class T5Trainer:
+class T5Trainer(ITrainer):
     def __init__(self, tokenizer, train_loader, val_loader, prefix, configs):
         self.device = get_device()
         self.configs = configs
@@ -111,6 +116,7 @@ class T5Trainer:
         self.is_trained = True
 
     def save(self):
+        # TODO: make better file renaming...
         path = os.path.join(self.folder_path, f"model-best.pt")
         try:
             os.remove(path)
@@ -125,7 +131,7 @@ class T5Trainer:
             path,
         )
 
-    def load(self, path):
+    def load(self, path:str):
         device = get_device()
 
         model_path = os.path.join(path, "model-best.pt")
@@ -136,7 +142,7 @@ class T5Trainer:
         _ = self.model.to(device)
         self.is_trained = True
 
-    def get_model(self):
+    def get_model(self) -> GenerationMixin:
         return self.model
 
     def __configure_optimizer(self):
@@ -183,7 +189,7 @@ class T5Trainer:
         self.folder_path = os.path.join(Path.MODEL, prefix)
         os.makedirs(self.folder_path, exist_ok=True)
 
-    def training_report(self):
+    def training_report(self) -> List[str]:
         if not self.is_trained:
             print("Warning: Model not trained!")
             return

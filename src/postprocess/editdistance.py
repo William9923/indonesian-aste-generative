@@ -1,9 +1,12 @@
 import editdistance
+from typing import Tuple, List
 
-sentiment_word_list = ["positif", "negatif", "netral"]
-class EditDistancePostProcessor:
+from src.postprocess.interface import IPostprocess, sentiment_word_list
+
+
+class EditDistancePostProcessor(IPostprocess):
     # == Levenshtein distance normalization strategy ==
-    def recover_term(self, original_term, sent):
+    def recover_term(self, original_term: str, sent: List[str]) -> str:
         words = original_term.split(" ")
         new_words = []
         for word in words:
@@ -16,7 +19,9 @@ class EditDistancePostProcessor:
         return new_term
 
     # == Generalize strategy ==
-    def fix_preds(self, all_pairs, sents):
+    def check_and_fix_preds(
+        self, all_pairs: List[List[Tuple[str, str, str]]], sents: List[List[str]]
+    ) -> List[List[Tuple[str, str, str]]]:
         all_new_pairs = []
 
         for i, pairs in enumerate(all_pairs):

@@ -25,7 +25,7 @@ trainer:
   warm_up_step: 0
 
 generator:
-  num_beams: 5
+  num_beams: 2
 
 normalization:
   mode: "edit-distance"

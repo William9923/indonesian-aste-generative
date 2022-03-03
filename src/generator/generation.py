@@ -1,7 +1,10 @@
+from typing import List
+
+from src.generator.interface import IGenerator
 from src.utility import get_device, extract
 
 
-class Generator:
+class Generator(IGenerator):
     def __init__(self, tokenizer, model, postprocessor, configs):
         self.device = get_device()
         self.model = model
@@ -9,15 +12,12 @@ class Generator:
         self.postprocessor = postprocessor
         self.configs = configs
 
-    def generate(self, sents, fix=False):
-        pass
-
 
 class T5Generator(Generator):
     def __init__(self, tokenizer, model, postprocessor, configs):
         super().__init__(tokenizer, model, postprocessor, configs)
 
-    def generate(self, sents, fix=False):
+    def generate(self, sents: List[str], fix:bool=False) -> List[str]:
 
         # --- [Preprocessing] ---
         splitted_sents = [txt.split(" ") for txt in sents]
@@ -34,11 +34,12 @@ class T5Generator(Generator):
 
         # --- [Generating Triplets Opinion] ---
         self.model.eval()
-        # Method: Greedy searchx
         outs = self.model.generate(
             input_ids=batch["input_ids"].to(self.device),
             attention_mask=batch["attention_mask"].to(self.device),
             max_length=max_length,
+            num_beams=self.configs.get("generator").get("num_beams"),
+            early_stopping=True,
         )
 
         # --- [Decoding] ---

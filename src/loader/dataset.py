@@ -1,7 +1,7 @@
 from torch.utils.data import Dataset
 from copy import deepcopy
 import numpy as np
-from loader.interface import IDataset
+from src.loader.interface import IDataset
 
 from src.utility import extract
 
