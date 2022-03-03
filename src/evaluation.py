@@ -2,9 +2,9 @@ import os
 
 import pandas as pd
 from tqdm import tqdm
+from src.postprocess import IPostprocess
 
 from src.utility import extract, get_device
-from src.generator import fix_preds
 from src.constant import Path
 
 # == Metrics ==
@@ -37,7 +37,7 @@ def score(pred, gold):
 
 
 # == Evaluation ==
-def evaluate(pred_seqs, gold_seqs, sents):
+def evaluate(pred_seqs, gold_seqs, postprocessor: IPostprocess, sents):
     assert len(pred_seqs) == len(gold_seqs)
     num_samples = len(gold_seqs)
 
@@ -52,15 +52,16 @@ def evaluate(pred_seqs, gold_seqs, sents):
 
     raw_scores = score(all_preds, all_labels)
 
-    all_fixed_preds = fix_preds(all_preds, sents)
+    all_fixed_preds = postprocessor.check_and_fix_preds(all_preds, sents)
     fixed_scores = score(all_fixed_preds, all_labels)
 
     return raw_scores, fixed_scores, all_labels, all_preds, all_fixed_preds
 
 
 class Evaluator:
-    def __init__(self, configs):
+    def __init__(self, postprocessor, configs):
         self.configs = configs
+        self.postprocessor: IPostprocess = postprocessor
         self.device = get_device()
 
     def evaluate(self, tokenizer, model, loader, sents):
@@ -86,7 +87,7 @@ class Evaluator:
                 targets.extend(target)
 
             raw_scores, fixed_scores, all_labels, all_preds, all_fixed_preds = evaluate(
-                outputs, targets, sents
+                outputs, targets, self.postprocessor, sents
             )
 
         return {
@@ -96,13 +97,14 @@ class Evaluator:
             "all_preds": all_preds,
             "all_fixed_preds": all_fixed_preds,
         }
-        
 
     def export(self, type, prefix, tokenizer, model, loader, sents):
         path = os.path.join(Path.MODEL, prefix, type)
         os.makedirs(path, exist_ok=True)
 
-        df, raw_score, fixed_score = self.evaluation_summary_result(tokenizer, model, loader, sents)
+        df, raw_score, fixed_score = self.evaluation_summary_result(
+            tokenizer, model, loader, sents
+        )
 
         exploded_cols = [
             "idx",
