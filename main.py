@@ -1,7 +1,8 @@
 import os
 from pprint import pprint
+from turtle import pos
 
-from transformers import T5Tokenizer
+from transformers import T5ForConditionalGeneration, T5Tokenizer
 
 from args import init_args
 from src.postprocess import (
@@ -96,6 +97,9 @@ if __name__ == "__main__":
 
     postprocessor_type = configs.get("normalization").get("mode")
     postprocessor: IPostprocess = postprocess_config_names.get(postprocessor_type)()
+
+    if isinstance(postprocessor, EmbeddingDistancePostProcessor) and isinstance(model, T5ForConditionalGeneration) :
+        postprocessor.set_embedding(tokenizer, model.get_input_embeddings())
 
     # 4. Evaluation ...
     evaluator = Evaluator(postprocessor, configs)
