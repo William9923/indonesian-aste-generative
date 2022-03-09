@@ -17,7 +17,7 @@ class EmbeddingDistancePostProcessor(IPostprocess):
         for word in words:
             cosine_sim = []
             for token in sent:
-                cosine_sim.append(self.get_cosine_similarity.eval(word, token))
+                cosine_sim.append(self.get_cosine_similarity(word, token))
             smallest_idx = cosine_sim.index(max(cosine_sim))
             new_words.append(sent[smallest_idx])
         new_term = " ".join(new_words)
