@@ -3,12 +3,14 @@ from typing import List, Tuple
 from torch.nn.functional import cosine_similarity
 
 from src.postprocess.interface import IPostprocess
+from src.utility import get_device
 
 class EmbeddingDistancePostProcessor(IPostprocess):
     
     def set_embedding(self, tokenizer, embedding):
         self.embedding = embedding
         self.tokenizer = tokenizer
+        self.device = get_device()
 
     # == Cosine Similarity normalization strategy ==
     def recover_term(self, original_term: str, sent: List[str]) -> str:
@@ -24,8 +26,8 @@ class EmbeddingDistancePostProcessor(IPostprocess):
         return new_term
 
     def get_cosine_similarity(self, word1, word2):
-        token_id1 = self.tokenizer.encode(word1, return_tensors='pt')
-        token_id2 = self.tokenizer.encode(word2, return_tensors='pt')
+        token_id1 = self.tokenizer.encode(word1, return_tensors='pt').to(self.device)
+        token_id2 = self.tokenizer.encode(word2, return_tensors='pt').to(self.device)
 
         em1 = self.embedding(token_id1).mean(axis=1)
         em2 = self.embedding(token_id2).mean(axis=1)

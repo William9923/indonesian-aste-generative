@@ -72,7 +72,7 @@ if __name__ == "__main__":
 
     # 3. Training (skip if do-test only)
     trainer_fn = trainer_config_maps.get(model_type)
-    if mode == "train":
+    if mode == ProcessType.DoTrain:
         trainer: ITrainer = trainer_fn(
             tokenizer=tokenizer,
             train_loader=train_loader,
