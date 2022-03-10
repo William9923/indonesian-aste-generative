@@ -23,6 +23,7 @@ trainer:
   adam_epsilon: 1.0E-8
   weight_decay: 0
   warm_up_step: 0
+  use_checkpoint: False
 
 generator:
   num_beams: 1

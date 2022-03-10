@@ -1,7 +1,7 @@
 type: "t5"
 
 main:
-  pretrained: "../posttraining/checkpoint-10990"
+  pretrained: "Wikidepia/IndoT5-base"
   seed: 26092020
   mode: train
   num_worker: 2
@@ -23,6 +23,8 @@ trainer:
   adam_epsilon: 1.0E-8
   weight_decay: 0
   warm_up_step: 0
+  checkpoint_path: "../posttraining/checkpoint-10990"
+  use_checkpoint: True
 
 generator:
   num_beams: 1

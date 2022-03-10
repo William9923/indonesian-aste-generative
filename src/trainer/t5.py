@@ -27,6 +27,11 @@ class T5Trainer(ITrainer):
         self.tokenizer = tokenizer
 
         model_name = self.configs.get("main").get("pretrained")
+        
+        use_checkpoint = self.configs.get("trainer").get("use_checkpoint")
+        if use_checkpoint:
+            model_name = self.configs.get("trainer").get("checkpoint_path")
+
         self.model = T5ForConditionalGeneration.from_pretrained(model_name)
         _ = self.model.to(self.device)
 
@@ -116,7 +121,6 @@ class T5Trainer(ITrainer):
         self.is_trained = True
 
     def save(self):
-        # TODO: make better file renaming...
         path = os.path.join(self.folder_path, f"model-best.pt")
         try:
             os.remove(path)
