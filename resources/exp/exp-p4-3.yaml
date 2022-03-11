@@ -17,7 +17,7 @@ trainer:
   n_gpu: 0
   batch_size: 8
   eval_batch_size: 8
-  learning_rate: 1.0E-5
+  learning_rate: 5.0E-4
   epochs: 10
   gradient_accumulation_steps: 1
   adam_epsilon: 1.0E-8
