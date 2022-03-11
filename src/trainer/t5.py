@@ -6,6 +6,7 @@ from transformers import (
     T5ForConditionalGeneration,
     get_linear_schedule_with_warmup,
     AdamW,
+    Adafactor
 )
 from transformers.generation_utils import GenerationMixin
 
@@ -14,7 +15,7 @@ from tqdm import tqdm
 import numpy as np
 
 from src.utility import get_device
-from src.constant import Path
+from src.constant import OptimizerType, Path
 from src.trainer.interface import ITrainer
 
 
@@ -176,9 +177,15 @@ class T5Trainer(ITrainer):
             },
         ]
 
-        self.optimizer = AdamW(
-            optimizer_grouped_parameters, lr=self.learning_rate, eps=self.eps
-        )
+        optimizer_type = self.configs.get("trainer").get("optimizer")
+        if optimizer_type and optimizer_type == OptimizerType.ADAFACTOR:
+            self.optimizer = Adafactor(
+                optimizer_grouped_parameters, lr=self.learning_rate, eps=self.eps
+            )
+        else:
+            self.optimizer = AdamW(
+                optimizer_grouped_parameters, lr=self.learning_rate, eps=self.eps
+            )
 
         t_total = (
             (len(self.train_loader.dataset) // (self.batch_size))

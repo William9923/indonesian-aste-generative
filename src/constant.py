@@ -19,6 +19,10 @@ class PostprocessType:
     EDITDISTANCE = "edit-distance"
     EMBEDDING = "embedding"
 
+class OptimizerType:
+    ADAMW = "adamw"
+    ADAFACTOR = "adafactor"
+
 
 class Path:
     RESOURCES = "resources"
