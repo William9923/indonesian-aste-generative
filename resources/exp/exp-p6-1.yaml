@@ -21,11 +21,10 @@ trainer:
   epochs: 10
   gradient_accumulation_steps: 1
   adam_epsilon: 1.0E-8
-  weight_decay: 0
-  warm_up_step: 200
+  weight_decay: 0.3
+  warm_up_step: 0
   checkpoint_path: "../../input/t5-posttraining/posttraining/checkpoint-10990"
   use_checkpoint: True
-  optimizer: "adafactor"
 
 generator:
   num_beams: 3

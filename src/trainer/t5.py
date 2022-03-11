@@ -180,7 +180,7 @@ class T5Trainer(ITrainer):
         optimizer_type = self.configs.get("trainer").get("optimizer")
         if optimizer_type and optimizer_type == OptimizerType.ADAFACTOR:
             self.optimizer = Adafactor(
-                optimizer_grouped_parameters, relative_step=False, lr=self.learning_rate, eps=self.eps
+                optimizer_grouped_parameters, scale_parameter=False, relative_step=False, warmup_init=False, lr=self.learning_rate, eps=self.eps
             )
         else:
             self.optimizer = AdamW(
