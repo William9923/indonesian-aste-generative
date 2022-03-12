@@ -93,15 +93,15 @@ if __name__ == "__main__":
     test_sents = test_dataset.get_sents()
 
     # Show dataset statistics...
-    if mode == ProcessType.DoTrain:
+    if do_train:
         print("\n".join(train_dataset.get_stats("Training")))
-        print("\n".join(val_dataset.get_stats("Validation")))
-    else:
+    print("\n".join(val_dataset.get_stats("Validation")))
+    if do_test:
         print("\n".join(test_dataset.get_stats("Testing")))
 
     # 3. Training (skip if do-test only)
     trainer_fn = trainer_config_maps.get(model_type)
-    if mode == ProcessType.DoTrain:
+    if do_train:
         trainer: ITrainer = trainer_fn(
             tokenizer=tokenizer,
             train_loader=train_loader,

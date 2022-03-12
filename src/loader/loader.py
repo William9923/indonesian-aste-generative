@@ -62,12 +62,11 @@ class HotelLoader(ILoader):
 
         if mode == DatasetType.FILTERED:
             train_path = Path.TRAIN_FILTERED_PATH
-            test_path = Path.TEST_FILTERED_PATH
-            val_path = Path.VAL_FILTERED_PATH
         else:
             train_path = Path.TRAIN_UNFILTERED_PATH
-            test_path = Path.TEST_UNFILTERED_PATH
-            val_path = Path.VAL_UNFILTERED_PATH
+            
+        test_path = Path.TEST_UNFILTERED_PATH
+        val_path = Path.VAL_UNFILTERED_PATH
 
         seperator = self.configs.get("loader").get("seperator")
         with open(train_path, "r", encoding="UTF-8") as train_file:
