@@ -69,7 +69,7 @@ if __name__ == "__main__":
     do_train = args.do_train
     do_test = args.do_test
 
-    config_path = "resources/t5-config.yaml"
+    # config_path = "resources/t5-config.yaml"
     configs = get_config(config_path)
     set_seed(configs["main"]["seed"])
 
