@@ -1,4 +1,5 @@
 import os
+import csv
 from pprint import pprint
 
 from transformers import T5ForConditionalGeneration, T5Tokenizer
@@ -32,6 +33,31 @@ postprocess_config_names = {
 def is_valid_type(type: str) -> bool:
     return type in [ModelType.T5Model]  # TODO: adjust based on experiment scenario...
 
+def print_csv(path):
+    with open(path, 'r') as f:
+        csv_reader = csv.reader(f, delimiter=',')
+        for i, row in enumerate(csv_reader):
+            if i == 0:
+                print(f'Columns: {", ".join(row)}')
+            else:
+                print(f'\t{row[0]} | {row[1]} | {row[2]}.')
+
+def load_result(prefix):
+    train_path = os.path.join("bin", prefix, "train", "score.csv")
+    val_path = os.path.join("bin", prefix, "val", "score.csv")
+    test_path = os.path.join("bin", prefix, "test", "score.csv")
+
+    if os.path.isfile(train_path):
+        print("Train:")
+        print_csv(train_path)
+
+    if os.path.isfile(val_path):
+        print("Validation:")
+        print_csv(val_path)
+
+    if os.path.isfile(test_path):
+        print("Test:")
+        print_csv(test_path)
 
 if __name__ == "__main__":
 
@@ -111,9 +137,9 @@ if __name__ == "__main__":
     if do_test:
         evaluator.export("test", prefix, tokenizer, model, test_loader, test_sents)
     evaluator.export("val", prefix, tokenizer, model, val_loader, val_sents)
+    load_result(prefix)
 
     # 5. Inference / Generate ... -> only be used for demo only
-
     sents = [
         "pelayanan ramah , kamar nyaman dan fasilitas lengkap . hanya airnya showernya kurang panas .",
         "tidak terlalu jauh dari pusat kota .",
@@ -128,3 +154,6 @@ if __name__ == "__main__":
     )
     res = generator.generate(sents, fix=True)
     pprint(res)
+
+
+    
