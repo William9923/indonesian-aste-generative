@@ -59,7 +59,7 @@ class HotelLoader(ILoader):
             raise ValueError("config not initialized")
 
         mode = self.configs.get("loader").get("mode")
-
+        print(mode)
         if mode == DatasetType.FILTERED:
             train_path = Path.TRAIN_FILTERED_PATH
         else:
@@ -70,6 +70,7 @@ class HotelLoader(ILoader):
 
         seperator = self.configs.get("loader").get("seperator")
         with open(train_path, "r", encoding="UTF-8") as train_file:
+            print(train_path)
             train_sents, train_labels = parse(train_file, seperator)
         with open(test_path, "r", encoding="UTF-8") as test_file:
             test_sents, test_labels = parse(test_file, seperator)
