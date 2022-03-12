@@ -1,6 +1,5 @@
 import os
 from pprint import pprint
-from turtle import pos
 
 from transformers import T5ForConditionalGeneration, T5Tokenizer
 
@@ -10,7 +9,7 @@ from src.postprocess import (
     EditDistancePostProcessor,
     EmbeddingDistancePostProcessor,
 )
-from src.loader import ILoader, HotelLoader, IDataset
+from src.loader import ILoader, HotelLoader
 from src.utility import get_config, set_seed
 from src.constant import Path, ModelType, PostprocessType, ProcessType
 from src.trainer import ITrainer, T5Trainer
@@ -38,9 +37,13 @@ if __name__ == "__main__":
 
     # 1. Initialize scripts argument + setup + dependencies
     args = init_args()
+    print(args)
     config_path = args.config
     prefix = args.prefix
-    # config_path = "resources/t5-config.yaml"
+    do_train = args.do_train
+    do_test = args.do_test
+
+    config_path = "resources/t5-config.yaml"
     configs = get_config(config_path)
     set_seed(configs["main"]["seed"])
 
@@ -103,11 +106,11 @@ if __name__ == "__main__":
 
     # 4. Evaluation ...
     evaluator = Evaluator(postprocessor, configs)
-    if mode == ProcessType.DoTrain:
-        evaluator.export("train", prefix, tokenizer, model, train_loader, train_sents)
-        evaluator.export("val", prefix, tokenizer, model, val_loader, val_sents)
-    else:
+    if do_train:
+        evaluator.export("train", prefix, tokenizer, model, train_loader, train_sents)    
+    if do_test:
         evaluator.export("test", prefix, tokenizer, model, test_loader, test_sents)
+    evaluator.export("val", prefix, tokenizer, model, val_loader, val_sents)
 
     # 5. Inference / Generate ... -> only be used for demo only
 
