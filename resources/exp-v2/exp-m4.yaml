@@ -28,4 +28,4 @@ generator:
   num_beams: 1
 
 normalization:
-  mode: "edit-distance"
+  mode: "embedding"
