@@ -1,0 +1,1001 @@
+idx,sents,labels
+1,"['pelayanan', 'sudah', 'bagus', ',', 'tempat', 'juga', 'bagus', ',', 'akan', 'lebih', 'bagus', 'lagi', 'jika', 'tempat', 'untuk', 'mencharger', 'hp', 'di', 'tambah', '.', 'terimakasih', '.']","[([0], [2], 'POS'), ([4], [6], 'POS')]"
+2,"['sangat', 'murah', 'dan', 'nyaman', '.']",[]
+3,"['room', 'nya', 'luas', 'dan', 'ac', 'nya', 'ducting', ',', 'kece', 'banget', 'apalagi', 'dapat', 'diskon', '50', 'dari', 'airy', '.', 'hanya', 'kurang', 'adalah', 'kunci', 'pintu', 'yang', 'susah', 'sekali', 'seperti', 'sudah', 'rusak', 'dan', 'model', 'lama', '.', 'sarapan', 'enak', ',', 'tetapi', 'beberapa', 'masakan', 'seperti', 'sudah', 'dipanaskan', 'berkaliberkali', '.', 'tv', 'indovision', ',', 'untuk', 'harga', 'diskon', ',', 'room', 'ini', 'baik', 'sekali', '.']","[([0, 1], [2], 'POS'), ([4, 5], [6], 'POS'), ([32], [33], 'POS'), ([50], [52, 53], 'POS')]"
+4,"['kamar', 'sangat', 'mengecewakan', '.', 'pintu', 'lemari', 'rusak', '.', 'toilet', 'kamar', 'mandi', 'keran', 'tidak', 'berfungsi', 'dengan', 'baik', '.']","[([0], [1, 2], 'NEG'), ([4, 5], [6], 'NEG'), ([8, 9, 10, 11], [12, 13, 14, 15], 'NEG')]"
+5,"['puas', 'sangat', 'mwembantu', '.']",[]
+6,"['suka', 'kamar', 'tidak', 'bau', 'rokok', '.', 'ada', 'air', 'minum', 'panas', 'di', 'luar', '.', 'lokasi', 'strategis', '.', 'tetapi', 'tidak', 'dapat', 'snack', 'seperti', 'airy', 'room', 'di', 'tempat', 'lain', '.']","[([1], [2, 3, 4], 'POS'), ([13], [14], 'POS'), ([19], [17, 18], 'NEG')]"
+7,"['kamar', 'rapi', 'dan', 'luas', '.', 'bersih', '.', 'nyaman', '.', 'cuma', 'wc', 'tergenang', 'dan', 'lap', 'kaki', 'tidak', 'ada', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([0], [5], 'POS'), ([0], [7], 'POS'), ([10], [11], 'NEG'), ([13, 14], [15, 16], 'NEG')]"
+8,"['cukup', 'memuaskan', 'pelayanannya', '.', 'bersih', 'dan', 'nyaman', '.', 'sarapannya', 'juga', 'enak', '.']","[([2], [0, 1], 'POS'), ([8], [10], 'POS')]"
+9,"['kalau', 'bisa', 'lift', 'nya', 'dong', 'he', ',', 'untuk', 'yang', 'lain', 'terbaik', 'deh', '!']","[([8, 9], [10], 'POS')]"
+10,"['baik', 'tetapi', 'tidak', 'sesuai', 'yang', 'diharapkan', 'kamar', 'hanya', 'satu', 'bed', 'akhirnya', 'tambah', '.']",[]
+11,"['pelayanan', 'baik', ',', 'kondisi', 'kamar', 'juga', 'baik', ',', 'suasana', 'hotel', 'baik', '.', 'hanya', 'saja', 'fasilitas', 'di', 'kamar', 'masih', 'kurang', '.', 'shower', 'tidak', 'ada', 'kondisi', 'panas', 'dan', 'dingin', '.', 'selebihnya', 'baik', '.', 'harga', 'juga', 'terjangkau', '.']","[([0], [1], 'POS'), ([4], [6], 'POS'), ([8], [10], 'POS'), ([14], [17, 18], 'NEG'), ([28], [29], 'POS'), ([31], [33], 'POS')]"
+12,"['kamar', 'nya', 'bersih', ',', 'penjaga', 'nya', 'ramah', 'minus', '1', 'kalau', 'dapat', 'kamar', 'di', 'atas', 'pojok', 'sebelah', 'kanan', 'ac', 'nya', 'tidak', 'dingin', ',', 'dingin', 'nya', 'kalau', 'lagi', 'malam', 'saja', ',', 'selebihnya', 'puas', ',', 'terimakasih', '.']","[([0, 1], [2], 'POS'), ([4, 5], [6], 'POS'), ([17, 18], [19, 20], 'NEG'), ([29], [30], 'POS')]"
+13,"['hotelnya', 'bagus', 'bersih', 'nyaman', '.']","[([0], [1], 'POS'), ([0], [2], 'POS'), ([0], [3], 'POS')]"
+14,"['semua', 'fasilitas', 'berfungsi', 'baik', 'staff', 'ramah', 'dan', 'ramah', '.']","[([1], [2], 'POS'), ([1], [3], 'POS'), ([4], [5], 'POS')]"
+15,"['biasa', 'saja', 'sempit', 'tidak', 'seperti', 'yang', 'saya', 'pikir', 'kantan', 'lumayan', 'lau', 'buat', 'istirahat', 'tidak', 'berisik', '.']",[]
+16,"['fasilitas', 'kotor', ',', 'ac', 'tidak', 'dingin', ',', 'pintu', 'kamar', 'mandi', 'tidak', 'bisa', 'di', 'tutup', ',', 'kulkas', 'tidak', 'bisa', 'di', 'gunakan', ',', 'seprai', '.']","[([0], [1], 'NEG'), ([3], [4, 5], 'NEG'), ([7, 8, 9], [10, 11, 12, 13], 'NEG'), ([15], [16, 17, 18, 19], 'NEG')]"
+17,"['deposit', 'lumayan', 'memberatkan', '.']","[([0], [1, 2], 'NEG')]"
+18,"['kamar', 'mandinya', 'agak', 'kotor', ',', 'makanannya', 'juga', 'agak', 'mengecewakan', '.', 'sarapan', 'pagi', 'baru', 'jam', '8', 'tetapi', 'semua', 'sudah', 'habis', '.']","[([0, 1], [2, 3], 'NEG'), ([5], [7, 8], 'NEG')]"
+19,"['kamar', 'bersih', ',', 'ac', 'dingin', ',', 'air', 'panas', 'untuk', 'shower', 'lancar', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([6, 7], [10], 'POS')]"
+20,"['kamarnya', 'sempit', 'sekali', ',', 'mau', 'ke', 'kamar', 'mandi', 'jalannya', 'harus', 'miring', ',', 'karena', 'posisi', 'pintunya', 'persis', 'disebelah', 'tempat', 'tidur', '.']","[([0], [1, 2], 'POS')]"
+21,"['kamar', 'nya', 'bersih', ',', 'dekat', 'banget', 'dengan', 'bandara', '.']","[([0, 1], [2], 'POS')]"
+22,"['over', 'all', 'oke', 'semua', ',', 'cuma', 'taman', 'depan', 'kalau', 'bisa', 'dibikin', 'rapi', 'rumput', 'biar', 'kesannya', 'indah', 'tidak', 'singup', '.']","[([0, 1], [2], 'POS')]"
+23,"['menu', 'breakfast', 'kurang', 'lengkap', '.']","[([0, 1], [2, 3], 'NEG')]"
+24,"['kamar', 'kurang', 'bersih', ',', 'terutama', 'kamar', 'mandi', '.']","[([0], [1, 2], 'NEG')]"
+25,"['water', 'heaternya', 'tidak', 'berfungsi', '.']","[([0, 1], [2, 3], 'NEG')]"
+26,"['biasa', 'saja', '.', 'tidak', 'sesuai', 'gambar', 'nya', '.', 'ruangan', 'gelap', ',', 'penerangan', 'nya', 'kurang', '.']","[([8], [9], 'NEG'), ([11, 12], [13], 'NEG')]"
+27,"['lokasi', 'yang', 'alami', 'berada', 'di', 'lereng', 'bukit', '.', 'memberikan', 'nuansa', 'alam', 'yang', 'sangat', 'indah', '.']",[]
+28,"['kamar', 'bersih', ',', 'wangi', ',', 'jadi', 'bayar', '80000', 'karena', 'pakai', 'voucer', '100000', '.']","[([0], [1], 'POS'), ([0], [3], 'POS')]"
+29,"['karena', 'bangunannya', 'bersih', 'dan', 'tempat', 'parkir', 'cukup', 'bagus', 'sayang', 'tidak', 'tersedia', 'breakfast', '.']","[([1], [2], 'POS'), ([4, 5], [6, 7], 'POS'), ([11], [9, 10], 'NEG')]"
+30,"['pelayanan', 'nya', 'ramah', 'banget', 'cuy', '.', 'kamar', 'oke', ',', 'sesuai', 'harga', ',', 'ac', 'dingin', ',', 'wifi', 'kencang', ',', 'kamar', 'mandi', 'dalam', '.', 'rekomen', 'banget', '!']","[([0, 1], [2, 3], 'POS'), ([6], [7], 'POS'), ([6], [9], 'POS'), ([12], [13], 'POS'), ([15], [16], 'POS')]"
+31,"['lampu', 'kamar', 'kurang', 'terang', '.']","[([0, 1], [2, 3], 'NEG')]"
+32,"['kamar', 'bersih', ',', 'suasana', 'nyaman', 'dan', 'tenang', ',', 'oke', 'buat', 'liburan', 'bareng', 'keluarga', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([3], [6], 'POS')]"
+33,"['kecewa', 'tidak', 'ada', 'air', 'panas', 'atau', 'hot', 'shower', 'yang', 'dijanjikan', 'airyrooms', ',', 'tidak', 'bisa', 'mandi', 'malam', '.', 'tidak', 'ada', 'pemberitahuan', 'atau', 'permintaan', 'maaf', 'sebelumnya', 'baik', 'dari', 'resepsionis', 'maupun', 'housekeeping', 'bahwa', 'water', 'heater', 'sedang', 'rusak', '.', 'skor', 'buruk', 'deh', '.', 'kecewa', '.']","[([3, 4], [1, 2], 'NEG'), ([6, 7], [1, 2], 'NEG')]"
+34,"['memuaskan', 'pokoknya', '.']",[]
+35,"['saya', 'pesan', '2', 'room', ',', 'room', 'pertama', 'tidak', 'ada', 'masalah', ',', 'saat', 'room', 'kedua', 'bau', 'pengap', 'udaranya', '.', 'setelah', 'ditelusuri', 'ternyata', 'ada', 'bocoran', 'instalasi', 'ac', 'yang', 'membuat', 'lembab', 'tembok', 'kamar', 'dan', 'bau', 'tidak', 'sedap', '.', 'akhirnya', 'saya', 'minta', 'ganti', 'kamar', ',', 'diperbolehkan', 'ganti', 'kamar', 'tetapi', 'bbrapa', 'fasilitas', 'yang', 'diberikan', 'airy', 'tidak', 'diberikan', '(', 'mungkin', 'karena', 'panik', 'dan', 'secara', 'mendadak', 'saya', 'ngotot', 'untuk', 'pindah', 'kamar', 'atau', 'minta', 'refund', 'saja', ')', '.']","[([16], [14, 15], 'NEG'), ([28, 29], [27], 'NEG')]"
+36,"['pelayanan', 'memuaskan', '.', 'cuma', 'bantal', 'airy', 'kotor', 'seperti', 'tidak', 'di', 'cuci', '.', 'dan', 'tempat', 'penyimpanan', 'bantal', 'biru', 'airy', 'kotor', '.']","[([0], [1], 'POS'), ([4, 5], [6], 'NEG'), ([13, 14, 15, 16, 17], [18], 'NEG')]"
+37,"['resepsionis', 'kurang', 'ramah', '.']","[([0], [1, 2], 'NEG')]"
+38,"['bersih', ',', 'nyaman', 'dan', 'stafnya', 'ramah', '.']","[([4], [5], 'POS')]"
+39,"['sebenarnya', 'kamar', 'baik', 'tetapi', 'kurang', 'profesional', ',', 'di', 'kasih', 'tahu', 'sarapan', 'nasi', 'goreng', ',', 'minta', 'di', 'antar', 'jam', '8.30', 'ehh', 'datang', 'jam', '9', 'itu', 'pun', 'di', 'telepon', 'dulu', 'dan', 'yang', 'datang', 'bahkan', 'mie', 'muah', 'telor', '.', 'hm', '.']","[([1], [2], 'POS')]"
+40,"['bersih', 'dan', 'rapi', '.']",[]
+41,"['kalau', 'segi', 'kenyamanan', 'agak', 'kurang', 'karena', 'ac', 'kurang', 'dingin', 'dan', 'tolong', 'kamar', 'mandi', 'setiap', 'kamar', 'rajin', 'di', 'bersihkan', 'karena', 'kemarin', 'saya', 'menginap', 'ada', 'semacam', 'cacing', 'hitam', 'di', 'lantai', 'bawah', '(', 'kamar', '202', ')', '.', 'pelayanannya', 'sangat', 'bagus', 'masnya', 'ramah', ',', 'disini', 'disediakan', 'handuk', '.']","[([2], [3, 4], 'NEG'), ([6], [7, 8], 'NEG'), ([34], [35, 36], 'POS'), ([37], [38], 'POS'), ([42], [41], 'POS')]"
+42,"['ac', 'tidak', 'dingin', 'dan', 'pintu', 'kamar', 'mandi', 'bocor', 'tetapi', 'overall', 'bagus', 'esp', '.', 'makanannya', '.', 'dekat', 'dari', 'tempat', 'makan', 'di', 'luar', 'hotel', 'dan', 'supermarket', '.']","[([0], [1, 2], 'NEG'), ([4, 5, 6], [7], 'NEG'), ([9], [10], 'POS'), ([13], [10], 'POS')]"
+43,"['wifi', 'nya', 'kencang', 'serta', 'pelayanan', 'yang', 'ramah', '.']","[([0, 1], [2], 'POS'), ([4], [6], 'POS')]"
+44,"['banyak', 'nyamuk', ',', 'uang', 'deposit', 'lebih', 'mahal', 'dibandingkan', 'harga', 'kamarnya', ',', 'ktp', 'juga', 'di', 'tahan', 'selama', 'stay', 'sangat', 'tidak', 'rekomen', 'untuk', 'menginap', 'di', 'sini', '.']",[]
+45,"['kamar', 'bagus', '.', 'cma', 'wifi', 'jelek', '.', 'terus', 'tidak', 'ada', 'tempat', 'sampah', 'lagi', '.', 'dan', 'yang', 'jaga', 'orngnya', 'kurang', 'loyal', '.', 'sama', 'pelayanan', 'kepada', 'tamu', 'kurang', 'bagus', 'terlalu', 'cuek', '.']","[([0], [1], 'POS'), ([4], [5], 'NEG'), ([10, 11], [8, 9], 'NEG'), ([15, 16], [18, 19], 'NEG'), ([22], [25, 26], 'NEG'), ([22], [27, 28], 'NEG')]"
+46,"['kamar', 'tidak', 'di', 'desain', 'seperti', 'digambar', ',', 'seprai', 'dan', 'selimut', 'kusam', 'bernoda', 'tidak', 'nyaman', 'dilihat', ',', 'snack', 'dan', 'alat', 'mandi', 'tidak', 'ada', 'saat', 'tamu', 'datang', ',', 'resepsionis', 'nya', 'tidak', 'ramah', '.']","[([0], [1, 2, 3, 4, 5], 'NEG'), ([7], [10], 'NEG'), ([7], [11], 'NEG'), ([7], [12, 13, 14], 'NEG'), ([9], [10], 'NEG'), ([9], [11], 'NEG'), ([9], [12, 13, 14], 'NEG'), ([16], [20, 21], 'NEG'), ([18, 19], [20, 21], 'NEG'), ([26, 27], [28, 29], 'NEG')]"
+47,"['hotelnya', 'kurang', 'penerangan', ',', 'seperti', 'horor', 'dan', 'angker', '.', 'tetapi', 'pelayanannya', 'memuaskan', '.']","[([0], [1, 2], 'NEG'), ([0], [5], 'NEG'), ([0], [7], 'NEG'), ([10], [11], 'POS')]"
+48,"['sebenarnya', 'saat', 'saya', 'masuk', 'dan', 'lihat', 'kondisinya', ',', 'saya', 'merasa', 'cukup', 'puas', 'jika', 'disesuaikan', 'dengan', 'harganya', '.', 'yang', 'membuat', 'saya', 'kecewa', 'adalah', ',', 'penjaganya', 'tidak', 'ada', 'di', 'tempat', '(', 'sedang', 'pergi', ')', 'dan', 'perlengkapan', 'mandi', 'juga', 'tidak', 'tersedia', ',', 'khususnya', 'handuk', ',', 'saya', 'dapat', 'bekas', 'orang', 'pakai', ',', 'kemungkinan', 'kamar', 'yang', 'saya', 'pakai', 'belum', 'sempat', 'dibersihkan', 'oleh', 'penjaganya', 'sebelum', 'dia', 'pergi', '.', 'terimakasih', '.']","[([23], [24, 25], 'NEG'), ([33, 34], [36, 37], 'NEG'), ([40], [36, 37], 'NEG')]"
+49,"['kamar', 'nyaman', ',', 'sarapannya', 'cukup', 'enak', ',', 'tenang', '.']","[([0], [1], 'POS'), ([3], [4, 5], 'POS')]"
+50,"['menginap', 'disini', 'nyaman', 'banget', '.']",[]
+51,"['lebih', 'bersih', 'lagi', ',', 'karena', 'kbersihannya', 'agak', 'kurang', '.']","[([5], [6, 7], 'NEG')]"
+52,"['harga', 'terjangkau', 'tempat', 'strategis', ',', 'ketika', 'dapat', 'kamar', 'bau', 'asap', 'rokok', 'dan', 'pintu', 'kamar', 'mandi', 'rusak', '.']","[([0], [1], 'POS'), ([2], [3], 'POS'), ([7], [8, 9, 10], 'NEG'), ([12, 13, 14], [15], 'NEG')]"
+53,"['amat', 'sangat', 'mengecewakan', 'sekali', '.']",[]
+54,"['lumayan', '.', 'tetapi', 'kebersihanya', 'masih', 'kurang', '.', 'selimut', 'dan', 'bantal', 'nya', 'kuning', '.', 'harap', 'ditingkat', 'kan', 'lagi', '.', 'kebersihan', 'nya', '.']","[([3], [5], 'NEG'), ([7], [11], 'NEG'), ([9, 10], [11], 'NEG'), ([18, 19], [14, 15, 16], 'NEG')]"
+55,"['bagus', '.', 'tetapi', 'tidak', 'ada', 'sinyal', 'di', 'dalam', 'kamar', '.', 'wifi', 'juga', 'tidak', 'sampai', '.', 'tetapi', 'nyaman', '.', 'pelayanan', 'cukup', '.']","[([10], [12, 13], 'NEG'), ([18], [19], 'POS')]"
+56,"['nyaman', ',', 'dan', 'stafnya', 'ramahramah', '.', 'terimakasih', '.']","[([3], [4], 'POS')]"
+57,"['2', '.', 'sandal', 'hotel', 'tidak', 'ada', '.']","[([2, 3], [4, 5], 'NEG')]"
+58,"['kebersihan', 'kurang', '.', 'kamar', 'mandi', 'kamar', 'pun', 'keran', 'westafer', 'tidak', 'menyala', '.', 'harap', 'diperbaiki', 'lagi', 'fasilitasnya', ',', 'terimakasih', '.']","[([0], [1], 'NEG'), ([7, 8], [9, 10], 'NEG'), ([15], [13, 14], 'NEG')]"
+59,"['bersih', 'tempatnya', 'nyaman', 'tempatnya', 'pelayanan', 'baik', '.']","[([1], [0], 'POS'), ([3], [2], 'POS'), ([4], [5], 'POS')]"
+60,"['bangunan', 'baru', 'yang', 'luas', 'dan', 'bersih', '.']","[([0], [3], 'POS'), ([0], [5], 'POS')]"
+61,"['tidak', 'sesuai', 'request', ',', 'minta', 'bad', 'yang', 'large', 'tidak', 'dikasih', '.']",[]
+62,"['kamar', 'lumayan', 'bersih', 'dan', 'ac', 'dingin', '.', 'cuma', 'di', 'bagian', 'pintu', 'kamar', 'mandi', 'agak', 'lecet', 'jadi', 'susah', 'mau', 'bukanya', '.', 'satu', 'lagi', 'dinding', 'perlu', 'di', 'cat', 'ulang', 'karena', 'ada', 'noda', 'yang', 'menempel', '.', 'tetapi', 'secara', 'keseluruhan', 'cukup', 'nyaman', 'dan', 'lokasi', 'cukup', 'tenang', '.']","[([0], [1, 2], 'POS'), ([4], [5], 'POS'), ([10, 11, 12], [13, 14], 'NEG'), ([34, 35], [36, 37], 'POS'), ([39], [40, 41], 'POS')]"
+63,"['awal', 'wifi', 'bagus', ',', 'hari', 'ke', '2', 'wifi', 'nya', 'mati', '.', 'keseluruhanya', 'oke', '.']","[([1], [2], 'POS'), ([7, 8], [9], 'NEG'), ([11], [12], 'POS')]"
+64,"['kamar', 'bersih', ',', 'fasilitas', 'lengkap', ',', 'sarapan', 'enak', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([6], [7], 'POS')]"
+65,"['baik', 'saja', 'apalagi', 'saya', 'dipindahkan', 'ke', 'kamar', 'terbaik', 'mereka', 'setelah', 'ada', 'kejadian', 'mistis', ':', 'di', '.']",[]
+66,"['tempatnya', 'nyaman', 'dan', 'aksesnya', 'mudah', 'di', 'temukan', 'orangnya', 'ramah', '""', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([7], [8], 'POS')]"
+67,"['beberapa', 'laci', 'di', 'meja', 'tv', 'dan', 'meja', 'rias', 'banyak', 'rambut', '.', 'mungkin', 'rambut', 'pengunjung', 'sebelumnya', '.', 'overall', 'rapi', 'dan', 'bersih', '.', 'dapat', 'free', 'snacks', ',', 'free', 'aliran', 'water', ',', 'dan', 'toiletris', '.', 'tetapi', 'sayangnya', ',', 'penjaganya', 'kurang', 'informatif', '.', 'misalnya', ',', 'ada', 'dapur', 'umum', 'tetapi', 'tidak', 'ada', 'informasi', 'lebih', 'detail', 'apakah', 'bisa', 'digunakan', 'oleh', 'tamu', 'yang', 'menginap', 'atau', 'tidak', '.']","[([1], [8, 9], 'NEG'), ([16], [17], 'POS'), ([16], [19], 'POS'), ([22, 23], [21], 'POS'), ([30], [21], 'POS'), ([35], [36, 37], 'NEG')]"
+68,"['hotelnya', 'bagus', ',', 'cuma', 'wifinya', 'lemah', ',', 'pintu', 'kamar', 'mandi', 'juga', 'ada', 'yang', 'rusak', ',', 'sabun', 'dan', 'sikat', 'gigi', 'juga', 'kadangkadang', 'ada', 'kadangkadang', 'tidak', 'ada', '.']","[([0], [1], 'POS'), ([4], [5], 'NEG'), ([7, 8, 9], [13], 'NEG')]"
+69,"['breakfast', 'nya', 'enak', '.', 'ada', 'restoran', 'dilokasi', 'hotel', '.']","[([0, 1], [2], 'POS')]"
+70,"['kamar', 'kotor', ',', 'saat', 'datang', 'di', 'kamarnya', 'ada', 'noda', 'berwarna', 'cokelat', 'terus', 'di', 'bantalnya', 'ada', 'noda', 'bercak', 'hitam', ',', 'kotor', 'sangat', 'seperti', 'tidak', 'di', 'cuci', 'cuma', 'di', 'balik', ',', 'sewaktu', 'mau', 'check', '-', 'out', 'dituduh', 'mengotori', 'selimutnya', 'yang', 'padahal', 'dari', 'waktu', 'datang', 'sudah', 'ada', ',', 'dan', 'deposit', 'mau', 'diambil', ',', 'jadi', 'kalau', 'kalian', 'datang', 'ada', 'noda', 'ataupun', 'kotoran', 'dikamar', 'langsung', 'keluhan', 'saja', ',', 'karena', 'nanti', 'kalian', 'dituduh', 'yang', 'mengotori', 'kamar', 'itu', 'dan', 'deposit', 'akan', 'diambil', ',', 'check', '-', 'in', 'baru', 'bisa', 'jam', '2', ',', 'sarapan', 'cuma', 'nasi', 'goreng', 'pakai', 'telur', ',', 'kamar', 'mandi', 'bau', 'dan', 'saluran', 'air', 'di', 'bawahnya', 'kotor', 'sangat', 'seperti', 'ada', 'rambut', 'rambutnya', ',', 'tidak', 'akan', 'lagi', 'menginap', 'di', 'hotel', 'itu', '.']","[([0], [1], 'NEG'), ([13], [19, 20], 'NEG'), ([91, 92], [93], 'NEG'), ([95, 96], [99, 100], 'NEG')]"
+71,"['tidak', 'ada', 'aqua', '.', 'tidak', 'ada', 'toiletries', '.']","[([2], [0, 1], 'NEG'), ([6], [4, 5], 'NEG')]"
+72,"['baik', '.', 'kamarnya', 'nyaman', 'dan', 'bersih', '.']","[([2], [3], 'POS'), ([2], [5], 'POS')]"
+73,"['kita', 'hanya', 'butuh', 'transit', 'istirahat', '.', 'hanya', 'keran', 'showernya', 'harus', 'di', 'benarkan', '.']",[]
+74,"['kamar', 'bersih', 'dan', 'nyaman', ',', 'lokasi', 'strategis', 'mau', 'kemana', 'saja', 'gampang', 'dan', 'mudah', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([5], [6], 'POS')]"
+75,"['bersih', ',', 'rapi', ',', 'aman', ',', 'ramah', 'dan', 'recommended', 'banget', '.']",[]
+76,"['memuaskan', '.', 'sangat', 'mewah', '.']",[]
+77,"['saya', 'tidak', 'jadi', 'bermalam', '.']",[]
+78,"['baik', 'fasilitas', 'nya', 'oke', '.', 'namun', 'seprai', 'nya', 'kotor', 'dan', 'gatal', '.', 'its', 'oke', 'recomended', 'tetapi', 'seprai', 'nya', '.', 'tamu', 'berganti', 'seprai', 'nya', 'di', 'cuci', 'juga', '.']","[([1, 2], [0], 'POS'), ([1, 2], [3], 'POS'), ([6, 7], [8], 'NEG'), ([6, 7], [10], 'NEG')]"
+79,"['kamar', 'bersih', '.', 'ac', 'kurang', 'dingin', '.']","[([0], [1], 'POS'), ([3], [4, 5], 'NEG')]"
+80,"['harga', 'murah', 'fasilitas', 'nyaman', ',', 'pelayanan', 'lumayan', '.']","[([0], [1], 'POS'), ([2], [3], 'POS'), ([5], [6], 'POS')]"
+81,"['kamar', ',', 'fasilitas', 'memadai', 'sesuai', 'harga', '.']","[([0], [3], 'POS'), ([2], [3], 'POS')]"
+82,"['tidak', 'ada', 'jaringan', 'di', 'kamar/wifi', ',', 'telepon', 'pun', 'rusak', 'jadi', 'tidak', 'bisa', 'pesan', 'makan', 'dibawah', '.', 'tetapi', 'resepsionis', 'nya', 'oke', ',', 'cepat', 'dan', 'ramah', '.']","[([2], [0, 1], 'NEG'), ([6], [8], 'NEG'), ([17, 18], [19], 'POS'), ([17, 18], [21], 'POS'), ([17, 18], [23], 'POS')]"
+83,"['lokasi', 'strategis', ',', 'pelayanannya', 'ramah', ',', 'kamar', 'dibersihkan', 'setiap', 'hari', '(', 'seharusnya', 'ada', 'approval', 'dulu', ')', ',', 'snack', 'selalu', 'di', 'refill', 'setiap', 'harinya', '.']","[([0], [1], 'POS'), ([3], [4], 'POS')]"
+84,"['lumayan', 'untuk', 'ukuran', 'backpacker', '.']",[]
+85,"['tempatnya', 'nyaman', 'bersih', '.']","[([0], [1], 'POS'), ([0], [2], 'POS')]"
+86,"['banyak', 'nyamuk', 'dan', 'kecoak', '.', 'lantainya', 'juga', 'kotor', 'banget', '!']","[([5], [7, 8], 'NEG')]"
+87,"['nyaman', 'banget', '.']",[]
+88,"['pelayanan', 'cukup', 'ramah', 'dan', 'cepat', 'responnya', '.']","[([0], [1, 2], 'POS'), ([5], [4], 'POS')]"
+89,"['lokasi', 'mudah', 'dijangkau', '.', 'banyak', 'makanan', 'harga', 'murah', 'yang', 'enak', 'di', 'sekitarnya', '.']","[([0], [1, 2], 'POS')]"
+90,"['kamarnya', 'bersih', ',', 'nyaman', ',', 'kasurnya', 'besar', ',', 'wifi', 'nya', 'kencang', ',', 'alhamdulillah', 'bisa', 'late', 'cek', 'in', 'di', 'subuh', 'hari', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([5], [6], 'POS'), ([8, 9], [10], 'POS')]"
+91,"['belum', 'di', 'sheeting', 'kamarnya', ',', 'biasanya', 'setiap', 'kali', 'saya', 'check', 'in', 'menggunakan', 'airy', 'rooms', '.', 'kamar', 'sudah', 'di', 'sheeting', 'terlebih', 'dahulu', '(', 'atribut', 'airy', ')', 'seperti', 'bantal', ',', 'makanan', ',', 'alat', 'mandi', '.', 'itu', 'belum', 'disediakan', 'oleh', 'pihak', 'hotel', '.']","[([3], [0, 1, 2], 'NEG')]"
+92,"['tempatnya', 'bersih', '.', 'pelayanannya', 'ramah', 'sekali', 'tempat', 'strategis', 'pokoknya', 'saya', 'suka', '.']","[([0], [1], 'POS'), ([3], [4, 5], 'POS'), ([6], [7], 'POS')]"
+93,"['pelayanan', 'mantap', ',', 'tetapi', 'di', 'kamar', 'yang', 'saya', 'inap', 'air', 'panasnya', 'tidak', 'jalan', '.', 'mohon', 'di', 'perbaiki', '.', 'terima', 'kasih', '.']","[([0], [1], 'POS'), ([9, 10], [11, 12], 'NEG')]"
+94,"['sarapan', 'enak', ',', 'lokasi', 'strategis', ',', 'untuk', 'shower', 'supaya', 'debit', 'airnya', 'ditingkatkan', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([7], [11], 'NEG')]"
+95,"['tempatnya', 'bersih', 'dan', 'nyaman', '.', 'staf', 'nya', 'ramah', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([5, 6], [7], 'POS')]"
+96,"['bagus', ',', 'bersih', '.', 'puas', 'pokoknya', 'tetapi', 'ada', 'pesaing', 'dengan', 'harga', 'lebih', 'ramah', 'kantong', '.', 'hhee', '.']",[]
+97,"['nyaman', 'dan', 'bersih', '.']",[]
+98,"['sangat', 'tidak', 'memuaskan', '!', 'kamar', 'penuh', 'nyamuk', ',', 'minta', 'obat', 'nyamuk', 'semprot', 'saja', 'tidak', 'ada', '.']","[([4], [5, 6], 'NEG')]"
+99,"['breakfast', 'enak', '.']","[([0], [1], 'POS')]"
+100,"['wifi', 'tidak', 'hidup', 'nya', '.']","[([0], [1, 2], 'NEG')]"
+101,"['lokasi', 'oke', '.', 'dekat', 'dengan', 'pusat', 'kota', '.']","[([0], [1], 'POS')]"
+102,"['menu', 'sarapan', 'nya', 'banyak', 'dan', 'enak', 'tetapi', 'sayang', ',', 'saya', 'dapat', 'nya', 'kamar', '222', 'gedung', 'lama', 'sarang', 'nyamuk', 'banyak', 'banget', 'nyamuk', 'di', 'kamar', 'oleh', 'untuk', 'untuk', 'untuk', '.', 'garagara', 'masuk', 'lewat', 'bawah', 'pintu', '.']","[([0, 1, 2], [3], 'POS'), ([0, 1, 2], [5], 'POS')]"
+103,"['tempat', 'sampah', 'kamar', 'mandi', 'tolong', 'di', 'perbaiki', 'atau', 'diganti', 'baru', '.', 'kasur', 'nya', 'juga', 'menurut', 'saya', 'sudah', 'tidak', 'layak', 'pakai', '.']","[([0, 1, 2, 3], [4, 5, 6], 'NEG'), ([11, 12], [17, 18], 'NEG')]"
+104,"['kamarnya', 'kecil', 'banget', '.']","[([0], [1, 2], 'NEG')]"
+105,"['murah', 'meriah', 'ada', 'kolam', 'renang', 'nya', '.']","[([3, 4, 5], [2], 'POS')]"
+106,"['tempatnya', 'strategis', ',', 'kamarnya', 'sangat', 'bagus', '.']","[([0], [1], 'POS'), ([3], [4, 5], 'POS')]"
+107,"['staf', 'ramah', ',', 'tetapi', 'pelayanannya', 'banyak', 'kurang', 'seperti', 'selimut', 'dan', 'kasur', 'yang', 'tidak', 'diganti', ',', 'lupa', 'ksh', 'handuk', 'dan', 'keset', 'di', 'hari', 'pertama', ',', 'tidak', 'ada', 'snack', '4', 'hari', 'berturutberturut', '.']","[([0], [1], 'POS'), ([4], [5, 6], 'NEG'), ([8], [12, 13], 'NEG'), ([10], [12, 13], 'NEG'), ([26], [24, 25], 'NEG')]"
+108,"['1', '.', 'kamarnya', 'bagus', 'nyaman', ',', 'dan', 'kamar', 'mandi', 'bersih', '.', 'cuma', 'untuk', 'kasurnya', 'perlu', 'diganti', 'karena', 'sudah', 'tinggal', 'pernya', 'saja', '.']","[([2], [3], 'POS'), ([2], [4], 'POS'), ([7, 8], [9], 'POS'), ([13], [14, 15], 'NEG')]"
+109,"['hotel', 'ternyaman', 'pilihan', 'saya', '.', 'dekat', 'dengan', 'kampung', 'jodipan', '.']","[([0], [1], 'POS')]"
+110,"['murah', 'meriah', 'pelayannannya', 'tampan', '.', 'kamarnya', 'mantap', 'luar', 'binasa', '.']","[([2], [3], 'POS'), ([5], [6], 'POS')]"
+111,"['pegawai', 'yang', 'ramah', 'tempat', 'yang', 'sangat', 'nyaman', 'untuk', 'beristirahat', 'dan', 'lelahnya', 'aktifitas', '.']","[([0], [2], 'POS'), ([3], [5, 6], 'POS')]"
+112,"['semula', 'kamar', 'nyaman', 'dan', 'bersih', ',', 'tetapi', 'ketika', 'hujan', 'ada', 'rembesan', 'air', 'yang', 'cukup', 'banyak', 'masuk', 'dalam', 'kamar', '.']","[([1], [2], 'POS'), ([1], [4], 'POS')]"
+113,"['nyaman', 'tetapi', 'lantai', 'terasa', 'lembab', 'dan', 'basah', '.']","[([2], [4], 'NEG'), ([2], [6], 'NEG')]"
+114,"['cukup', 'bagus', 'buat', 'yang', 'backpackeran', '.', 'buat', 'keluarga', 'tidak', 'cocok', 'karena', 'bersebelahan', 'dengan', 'club', 'karaoke', '.']",[]
+115,"['sebaiknya', 'kamar', 'di', 'lantai', '1', 'dan', '2', 'karena', 'tidak', 'adanya', 'lift', '.', 'terima', 'kasih', '.']",[]
+116,"['manajemen', 'yang', 'sangat', 'buruk', ',', 'sudah', 'terbit', 'voucher', 'hotel', ',', 'tetapi', 'sampai', 'disana', 'bahkan', 'kamar', 'full', '.']","[([0], [2, 3], 'NEG')]"
+117,"['bersih', 'dan', 'nyaman', 'harga', 'terjangkau', '.']","[([3], [4], 'POS')]"
+118,"['kamar', 'oke', 'tetapi', 'sudah', 'terlihat', 'kurang', 'perawatan', '.']","[([0], [1], 'POS'), ([0], [5, 6], 'NEG')]"
+119,"['saya', 'pesan', '2', 'room', ',', 'room', 'pertama', 'tidak', 'ada', 'masalah', ',', 'saat', 'room', 'kedua', 'bau', 'pengap', 'udaranya', '.', 'setelah', 'ditelus', '.']","[([12], [14, 15], 'NEG')]"
+120,"['pelayanan', 'bagus', '.']","[([0], [1], 'POS')]"
+121,"['jangan', 'menginap', 'disini', 'deh', '.', 'lebih', 'baik', 'cari', 'hotel', 'lain', '.', 'kelas', 'deluxe', 'tetapi', 'seperti', 'ekonomi', 'sempit', 'sekali', ',', 'wc', 'bau', ',', 'colokkan', 'listrik', 'tidak', 'ada', '.', 'mau', 'charger', 'hp', 'tidak', 'bisa', '.', 'nghabiskan', 'uang', 'saja', '.', 'sangat', 'kecewa', '.']","[([19], [20], 'NEG'), ([22, 23], [24, 25], 'NEG')]"
+122,"['kamar', 'lampu', 'redup', ',', 'selimut', 'sangat', 'tipis', ',', 'tidak', 'ada', 'meja', 'di', 'kamar', '312', ',', 'air', 'hangat', 'panas', 'tidak', 'nyala', '.', 'sangat', 'tidak', 'recommended', '.', 'terima', 'kasih', '.']","[([0, 1], [2], 'NEG'), ([4], [5, 6], 'NEG'), ([10], [8, 9], 'NEG'), ([15, 16, 17], [18, 19], 'NEG')]"
+123,"['suasana', 'kamar', 'yang', 'perlu', 'direfresh', 'dan', 'agak', 'sempit', 'ukuran', 'kamar', '.']","[([0, 1], [3, 4], 'NEG'), ([9], [6, 7], 'NEG')]"
+124,"['cukup', 'baik', 'sih', ',', 'hanya', 'pas', 'datang', 'nya', 'ajh', 'kurang', 'menyenangkan', 'sapaan', 'nya', 'selebih', 'nya', 'cukup', 'baik', '.']","[([11, 12], [9, 10], 'NEG'), ([13, 14], [15, 16], 'POS')]"
+125,"['pelayanan', 'ramah', ',', 'nyaman', 'dan', 'aman', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([0], [5], 'POS')]"
+126,"['ibu', 'made', 'sebagai', 'pemilik', 'sangat', 'membantu', 'dalam', 'pekayanan', '.']","[([3], [4, 5], 'POS')]"
+127,"['tempat', 'nya', 'enk', 'dan', 'mudah', 'mencari', 'makan', '.', 'good', 'lah', 'buat', 'tempat', 'nya', '.']","[([0, 1], [2], 'POS'), ([0, 1], [4, 5, 6], 'POS'), ([0, 1], [8], 'POS')]"
+128,"['bersih', ',', 'enak', 'dan', 'dekat', 'dengan', 'pusat', 'kota', '.']",[]
+129,"['handuk', 'kumal', 'kamar', 'mandi', 'kurang', 'bersih', 'tisu', 'di', 'kamar', 'tidak', 'ada', '.']","[([0], [1], 'NEG'), ([2, 3], [4, 5], 'NEG'), ([6], [9, 10], 'NEG')]"
+130,"['air', 'nya', 'yang', 'keluar', 'dari', 'shower', 'kecil', 'sekali', 'dan', 'air', 'panasnya', 'panas', 'sekali', 'tidak', 'bisa', 'di', 'buat', 'mandi', '.']","[([0], [6, 7], 'NEG'), ([9, 10], [11, 12], 'NEG')]"
+131,"['ac', 'kurang', 'dingin', ',', 'mungkin', 'karena', 'sudah', 'tua', 'kalibya', '.', 'efeknya', 'kamar', 'menjadi', 'bau', 'tidak', 'sedap', '.', 'selebihnya', 'sih', 'oke', '.']","[([0], [1, 2], 'NEG'), ([11], [13, 14, 15], 'NEG'), ([17], [19], 'POS')]"
+132,"['ac', 'tidak', 'dingin', ',', '(', 'bocor', ')', '.', 'hentikan', 'kontak', 'tidak', 'ada', 'arus', 'listrik', ',', 'sehingga', 'tidak', 'bisa', 'mengecas', 'hp', '.', 'jika', 'malam', 'terdengar', 'suara', 'tikus', 'berlari', 'di', 'atas', 'plafon', 'kamar', '.', 'handuk', 'hanya', 'tersedia', '1', '.']","[([0], [1, 2], 'NEG'), ([32], [33, 34, 35], 'NEG')]"
+133,"['puas', 'sama', 'kamarnya', '.', 'pelayanannya', 'biasa', 'saja', '.']","[([2], [0], 'POS'), ([4], [5, 6], 'NEG')]"
+134,"['perlu', 'diperharikan', 'lagi', 'pelayanannya', '.']","[([3], [0, 1, 2], 'NEG')]"
+135,"['secara', 'keseluruhan', 'sangat', 'memuaskan', '.']","[([0, 1], [2, 3], 'POS')]"
+136,"['tempat', 'yang', 'nyaman', ',', 'dekat', 'sekali', 'dengan', 'masjid', '.']","[([0], [2], 'POS')]"
+137,"['buat', 'bobok', 'tidak', 'bangunbangun', ',', 'mager', 'di', 'kamar', 'dengan', '7kenyamanan', '.']",[]
+138,"['pelayanan', 'sangat', 'baik', '.']","[([0], [1, 2], 'POS')]"
+139,"['air', 'mati', 'dari', 'pagi', 'smp', 'sore', ',', 'petugas', 'masuk', 'tanpa', 'ketuk', 'pintu', 'lebih', 'dulu', '.']","[([0], [1], 'NEG')]"
+140,"['terlalu', 'berdebu', 'dan', 'kurang', 'menarik', '.']",[]
+141,"['bersih', 'dan', 'lengkap', 'dengan', 'shower', 'air', 'panas', ',', 'snack', 'lengkap', 'seperti', 'foto', 'ada', 'sajadah', ',', 'ada', 'ruang', 'jemur', 'private', '.']","[([8], [9], 'POS')]"
+142,"['kamar', 'sangat', 'bersih', 'nyaman', '.', 'pelayanan', 'ramah', '.', 'islamii', 'banget', '.']","[([0], [1, 2, 3], 'POS'), ([5], [6], 'POS')]"
+143,"['sangat', 'strategis', 'tempat', 'lokasinya', '.', 'tetapi', 'untuk', 'acnya', 'kurang', 'dingin', 'di', 'kamar', '202', '.']","[([3], [0, 1], 'POS'), ([7], [8, 9], 'NEG')]"
+144,"['kamar', 'bersih', ',', 'rapi', ',', 'wifi', 'nya', 'kencang', 'dan', 'pelayanan', 'yang', 'ramah', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([5, 6], [7], 'POS'), ([9], [11], 'POS')]"
+145,"['bagus', 'dan', 'strategis', '.', 'dekat', 'pusat', 'rekreasi', 'warga', 'banjarmasin', '.']",[]
+146,"['kamar', 'bersih', ',', 'kamar', 'mandi', 'bersih', '.']","[([0], [1], 'POS'), ([3, 4], [5], 'POS')]"
+147,"['kmr', 'yang', 'di', 'sedia', 'kan', 'tidak', 'ada', 'fasilitas', 'airy', '.']","[([7, 8], [5, 6], 'NEG')]"
+148,"['bagus', ',', 'wifinya', 'kencang', 'banget', ',', 'pemanas', 'airnya', 'kalau', 'pagi', 'gajadi', 'apa', 'iya', '.']","[([2], [3, 4], 'POS')]"
+149,"['pelayanannya', 'sangat', 'baik', 'dan', 'memuaskan', '.']","[([0], [1, 2], 'POS'), ([0], [4], 'POS')]"
+150,"['seketika', 'sampai', 'kami', 'langsung', 'bertemu', 'dengan', 'pemilik', 'tempat', 'ini', '.', 'sikapnya', 'menyambut', 'dengan', 'tidak', 'ram', '.']","[([10], [13, 14], 'NEG')]"
+151,"['kemarin', 'dapat', 'harga', 'pakai', 'kupon', 'cuma', '200000', '.']",[]
+152,"['luas', 'kamar', 'tertera', '20', 'mm', 'kenyataannya', 'tidak', 'sampai', ',', 'dan', 'ac', 'kurang', 'dingin', ',', 'subuh', 'kebangun', 'karena', 'gerah', '.']","[([10], [11, 12], 'NEG')]"
+153,"['cuma', 'air', 'kurang', 'lancar', 'dan', 'ac', 'kurang', 'dingin', '.']","[([1], [2, 3], 'NEG'), ([5], [6, 7], 'NEG')]"
+154,"['lumayan', 'depan', 'kolam', 'renang', ',', 'ac', 'dingin', ',', '.']","[([5], [6], 'POS')]"
+155,"['kamar', 'bersih', 'sesuai', 'dengan', 'deskripsi', '.']","[([0], [1], 'POS')]"
+156,"['pengalaman', 'yang', 'menyenangkan', '.', 'kamar', 'nyaman', 'rapi', ',', 'petugas', 'ramah', '.', 'tetapi', 'kurang', 'telepon', 'dan', 'fasilitas', 'tempat', 'makan', '.', 'jadi', 'tidak', 'perlu', 'keluar', 'kamar', '.']","[([4], [5], 'POS'), ([4], [6], 'POS'), ([8], [9], 'POS'), ([13], [12], 'NEG'), ([15, 16, 17], [12], 'NEG')]"
+157,"['check', 'in', 'check', 'out', 'mudah', '.', 'air', 'hangat', 'ada', 'meski', 'tidak', 'begitu', 'lancar', '.', 'ada', 'dispenser', 'di', 'setiap', 'lantai', '.', 'parkir', 'luas', '.', 'kamar', 'tidak', 'seluas', 'seperti', 'gambar', '.', 'ada', 'meja', '.', 'tidak', 'ada', 'lemari', '.', 'saluran', 'tv', 'tidak', 'begitu', 'jelas', '.', 'lift', 'dalam', 'perbaikan', '.', 'kamar', 'mandi', 'perlu', 'ditingkatkan', 'kebersihannya', '.']","[([0, 1], [4], 'POS'), ([2, 3], [4], 'POS'), ([6, 7], [8], 'POS'), ([6, 7], [10, 11, 12], 'NEG'), ([15], [14], 'POS'), ([20], [21], 'POS'), ([23], [24, 25, 26, 27], 'NEG'), ([30], [29], 'POS'), ([34], [32, 33], 'NEG'), ([36, 37], [38, 39, 40], 'NEG'), ([50], [48, 49], 'NEG')]"
+158,"['harga', 'terjangkau', ',', 'pelayanan', 'baik', ',', 'dan', 'fasilitas', 'oke', 'punya', '.', 'bahkan', 'ditambah', 'snack', 'untuk', 'cemilan', '.', 'mantap', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([7], [8], 'POS')]"
+159,"['semua', 'oke', ',', 'kecuali', 'pagihari', ',', 'shower', 'tidak', 'keluar', 'air', ',', 'tidak', 'bisa', 'mandi', ',', 'sampai', 'cek', 'out', 'jam', '10', ',', 'tidak', 'mandi', 'deh', '.']","[([0], [1], 'POS'), ([6], [7, 8], 'NEG')]"
+160,"['tidak', 'berubah', 'sama', 'sekali', '.', 'pelayanannya', 'juga', 'sama', 'baiknya', 'saat', 'saya', 'pertama', 'kali', 'menginap', '.']",[]
+161,"['kolam', 'renang', 'berasa', 'punya', 'sendiri', '.']",[]
+162,"['pelayanan', 'ramah', 'sekali', ',', 'namun', 'gang', 'jalan', 'masuk', 'terlalu', 'kecil', '.', 'untuk', 'kamar', 'nya', 'sendiri', 'ac', 'nya', 'kurang', 'dingin', ',', 'banyak', 'nyamuk', '.']","[([0], [1, 2], 'POS'), ([15, 16], [17, 18], 'NEG')]"
+163,"['untuk', 'inap', 'yang', 'kemarin', 'tempat', 'tidur', 'kurang', 'bersih', '.']","[([4, 5], [6, 7], 'NEG')]"
+164,"['kamar', 'mandi', '.', 'lantai', ',', 'dinding', '.', 'perlu', 'di', 'benahi', '.', 'nyaman', '.']","[([0, 1], [7, 8, 9], 'NEG'), ([3], [7, 8, 9], 'NEG'), ([5], [7, 8, 9], 'NEG')]"
+165,"['bagus', 'kamarnya', ',', 'pelayanan', 'juga', 'bagus', ',', 'kekurangannya', 'channel', 'tv', 'kabel', 'sedikit', '.']","[([1], [0], 'POS'), ([3], [5], 'POS'), ([8, 9, 10], [11], 'NEG')]"
+166,"['refreshing', 'yang', 'dekat', 'bersama', 'keluarga', 'membawa', 'dua', 'anak', 'buat', 'kami', 'bahagia', '.', 'kamar', 'yang', 'lumayan', 'bersih', ',', 'tempat', 'tidur', 'muat', 'bera', ',', 'dapat', 'snack', ',', 'wifi', 'bagus', '.', 'dan', 'kolam', 'renang', 'yang', 'bagus', 'yang', 'sepi', 'karena', 'pas', 'puasa', '.', 'jadi', 'leluasaa', '.', 'tertawa', '.', 'dan', 'saya', 'merekomendasikan', 'juga', 'ke', 'temanteman', 'lain', '.']","[([12], [14, 15], 'POS'), ([23], [22], 'POS'), ([25], [26], 'POS'), ([29, 30], [32], 'POS')]"
+167,"['breakfastnya', 'kurang', 'enak', ',', 'perlu', 'diperbaiki', '.']","[([0], [1, 2], 'NEG')]"
+168,"['lumayan', 'bagus', ',', 'tempat', 'dkat', 'dengan', 'malioboro', '.', 'harga', 'hemat', '.']","[([8], [9], 'POS')]"
+169,"['untuk', 'harga', 'ekonomis', ',', 'pelayanan', 'oke', 'dan', 'lokasi', 'lumayan', 'oke', '.']","[([1], [2], 'POS'), ([4], [5], 'POS'), ([7], [8, 9], 'POS')]"
+170,"['lokasi', 'untuk', 'sampai', 'kesana', 'belum', 'update', 'dengan', 'tempat', 'yang', 'baru', ',', 'jadi', 'harus', 'berputarberputar', 'dulu', ',', 'tempat', 'sih', 'oke', 'dan', 'staf', 'nya', 'juga', 'ramahramah', '.']","[([16], [18], 'POS'), ([20, 21], [23], 'POS')]"
+171,"['cukup', 'nyaman', ',', 'kualitas', 'air', 'dan', 'wifi', 'bagus', '.']","[([3, 4], [7], 'POS'), ([6], [7], 'POS')]"
+172,"['traveller', 'harus', 'coba', '.', 'pasti', 'jatuh', 'cinta', '.']",[]
+173,"['memuaskan', 'walau', 'air', 'saluran', 'kamar', 'mandinya', 'sama', 'kipas', 'kamar', 'mandinya', 'rusak', '.']","[([2, 3, 4, 5], [10], 'NEG'), ([7, 8, 9], [10], 'NEG')]"
+174,"['bagus', 'dan', 'bersih', ',', 'wifi', 'kencang', '.']","[([4], [5], 'POS')]"
+175,"['seprai', ',', 'sarung', 'bantal', ',', 'handuk', 'sudah', 'perlu', 'diganti', '.', 'shower', 'juga', 'harus', 'diperbaiki', '.']","[([0], [7, 8], 'NEG'), ([2, 3], [7, 8], 'NEG'), ([5], [7, 8], 'NEG'), ([10], [12, 13], 'NEG')]"
+176,"['tidak', 'menginap', 'disini', '.']",[]
+177,"['mantap', '.', 'bersih', ',', 'air', 'panas', 'lancar', 'siang', 'malam', '.']","[([4, 5], [6], 'POS')]"
+178,"['bagus', 'tetapi', 'agak', 'sempit', '.']",[]
+179,"['kamarnya', 'bersih', ',', 'bagus', ',', 'fasilitas', 'lengkap', ',', 'pelayanannya', 'lumayan', 'baik', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([5], [6], 'POS'), ([8], [9, 10], 'POS')]"
+180,"['terima', 'kasih', 'untuk', 'fasilitasnya', ',', 'menyenangkan', ':', ')', '.']",[]
+181,"['kelebihannya', 'pada', 'kamar', 'airy', 'ini', ',', 'dalam', 'kamar', 'telah', 'disediakan', 'snack', 'box', ',', 'ada', 'extra', '2', 'bantal', 'kecil', 'airy', ',', 'sabun', ',', 'sampo', ',', 'sikat', 'gigi', 'dan', 'pasta', 'gigi', 'sudah', ""ter'set"", 'rapi', '.', 'topdeh', '.', 'tetapi', 'ada', 'minusnya', ',', 'yaitu', 'tidak', 'ada', 'handuk', ',', 'entah', 'lupa', 'atau', 'memang', 'tidak', 'disediakan', '.']","[([16], [30, 31], 'POS'), ([20], [30, 31], 'POS'), ([22], [30, 31], 'POS'), ([24, 25], [30, 31], 'POS'), ([27, 28], [30, 31], 'POS'), ([42], [40, 41], 'NEG')]"
+182,"['extra', 'bednya', 'yang', 'kurang', ',', 'terlalu', 'soft', 'saat', 'ditiduri', 'kasurnya', '.']","[([9], [6], 'NEG')]"
+183,"['sangat', 'baik', 'pelayanannya', '.', 'mantap', '.']","[([2], [0, 1], 'POS')]"
+184,"['mantaap', ',', 'wifi', 'kencang', '.']","[([2], [3], 'POS')]"
+185,"['lampu', 'mati', ',', 'air', 'shower', 'untuk', 'mandi', 'tidak', 'mengalir', 'samasekali', '.']","[([0], [1], 'NEG'), ([3, 4], [7, 8, 9], 'NEG')]"
+186,"['kenyamanan', 'kamar', 'tidak', 'sesuai', 'dengan', 'ekspektasi', 'dari', 'foto', '.']","[([0, 1], [2, 3], 'NEG')]"
+187,"['nyaman', ',', 'ramah', 'dan', 'terjangkau', ',', 'tidak', 'terlalu', 'dekat', 'pusat', 'kota', 'jadi', 'udaranya', 'masih', 'bersih', 'dan', 'sejuk', '.']","[([12], [14], 'POS'), ([12], [16], 'POS')]"
+188,"['bagus', ',', 'tidak', 'ramai', '.', 'tidak', 'terlalu', 'jauh', 'dari', 'pizza', 'hut', ',', 'kfc', ',', 'dan', 'mcd', '.', 'bersih', '.', 'kolamnya', 'bagus', '.']","[([19], [20], 'POS')]"
+189,"['enak', ',', 'nyaman', ',', 'pemandangannya', 'juga', 'bagus', '.', 'hanya', 'listriknya', 'sering', 'mati', '.']","[([4], [6], 'POS'), ([9], [10, 11], 'NEG')]"
+190,"['saya', 'sangat', 'suka', 'dengan', 'lingkungannya', 'yang', 'nyaman', ',', 'kamarnya', 'yang', 'bersih', ',', 'dan', 'shower', 'di', 'kamar', 'mandi', 'yang', 'kencang', '.', 'jadi', 'untuk', 'kamar', 'tidak', 'ada', 'masalah', '.', 'namun', 'untuk', 'pegawai', 'resepsionisnya', 'kurang', 'ramah', 'pada', 'tamu', ',', 'sangat', 'jarang', 'sekali', 'tersenyum', 'dan', 'justru', 'terkesan', 'tidak', 'bersahabat', '.', 'jadi', 'saya', 'memberikan', '""', 'kurang', 'baik', '""', 'untuk', 'attitude', 'pegawainya', '.']","[([4], [6], 'POS'), ([8], [10], 'POS'), ([13], [18], 'POS'), ([29, 30], [31, 32], 'NEG'), ([29, 30], [43, 44], 'NEG'), ([54, 55], [50, 51], 'NEG')]"
+191,"['nyaman', 'buat', 'istirahat', 'saking', 'enaknya', 'pas', 'pagi', 'kelewat', 'breakfast', '.']",[]
+192,"['over', 'all', 'bagus', '.']","[([0, 1], [2], 'POS')]"
+193,"['fasilitas', 'tv', 'yang', 'kurang', 'baik', 'ditambah', 'resepsionis', 'yang', 'kurang', 'baik', 'masa', 'saya', 'ketiduran', 'sampai', 'ketika', 'waktu', 'check', 'out', 'nya', 'ditelepon', 'terus', 'ke', 'kamar', '.']","[([0, 1], [3, 4], 'NEG'), ([6], [8, 9], 'NEG')]"
+194,"['check', 'in', 'cepat', ',', 'kamar', 'nyamann', ',', 'ruangan', 'recomended', 'untuk', 'hanya', 'stay', 'sejenak', '.']","[([0, 1], [2], 'POS'), ([4], [5], 'POS'), ([7], [8], 'POS')]"
+195,"['nyaman', ',', 'ac', 'dingin', ',', 'cuma', 'pelayanan', 'nya', 'harus', 'sopan', 'sama', 'tamu', ',', 'kalau', 'tamu', 'belum', 'pernah', 'kesitu', 'jelas', 'tid', '.']","[([2], [3], 'POS'), ([6, 7], [8, 9], 'POS')]"
+196,"['kamarnya', 'luas', 'sih', '.', 'tetapi', 'ac', 'kurang', 'dingin', 'dan', 'penerangan', 'kamar', 'kurang', '.', 'mgkin', 'sebaiknya', 'watt', 'lampu', 'pakai', 'yang', 'lebih', 'besar', '.']","[([0], [1], 'POS'), ([5], [6, 7], 'NEG'), ([9, 10], [11], 'NEG')]"
+197,"['yang', 'berkesan', 'adalah', 'pihak', 'hotel', 'berkenan', 'memberikan', 'makan', 'sahur', '(', 'sebagai', 'ganti', 'sarapan', ')', 'waktu', 'saya', 'menginap', 'di', 'sini', 'pada', 'bulan', 'ramadhan', '.', 'yang', 'perlu', 'diperbaiki', 'sekiranya', 'handuk', 'perlu', 'diganti', ',', 'plafon', 'perlu', 'dicat', 'ulang', 'agar', 'bersih', '(', 'ada', 'plak', 'hitam', ')', 'dan', 'mungkin', 'kamar', 'perlu', 'diperiksa', 'ulang', '(', 'sepertinya', 'ada', 'air', 'ac', 'yang', 'bocor', 'menetes', 'di', 'kamar', '.', 'selebihnya', 'baik', '.']","[([27], [28, 29], 'NEG'), ([51, 52], [54], 'NEG'), ([59], [60], 'POS')]"
+198,"['bagus', ',', 'bersih', ',', 'harganya', 'terjangkau', '.']","[([4], [5], 'POS')]"
+199,"['ruangan', 'di', 'atas', 'lebih', 'bagus', ',', 'kali', 'kedua', 'menginap', 'disini', 'lebih', 'berkesan', 'dan', 'lebih', 'bersih', ',', 'ac', 'dingin', 'dan', 'toiletriesnya', 'lengkap', '.']","[([0], [4], 'POS'), ([16], [17], 'POS'), ([19], [20], 'POS')]"
+200,"['pelayanan', 'ramah', 'dan', 'menu', 'sarapannya', 'lumayan', 'untuk', 'harga', 'segitu', '.']","[([0], [1], 'POS'), ([3, 4], [5], 'POS')]"
+201,"['fasilitasxa', 'oke', 'lah', '.', 'jauh', 'dari', 'supermarket', 'dan', 'tempat', 'makan', '.']","[([0], [1], 'POS')]"
+202,"['kamar', 'bersih', '.', 'ac', 'dingin', 'banget', '.', 'wifi', 'kencang', '.']","[([0], [1], 'POS'), ([3], [4, 5], 'POS'), ([7], [8], 'POS')]"
+203,"['bagus', 'banget', 'jk', 'kita', 'bandingkan', 'dengan', 'harga', 'yang', 'kita', 'dapatkan', '.', 'tidak', 'akan', 'nyesal', 'deh', '.']",[]
+204,"['tidak', 'seperti', 'digambar', '.']",[]
+205,"['plastik', 'bed', 'dilepas', 'biar', 'tidak', 'bunyi', '.']",[]
+206,"['ini', 'sudah', 'ke', '7', 'kalinya', 'inap', 'di', 'airy', 'grand', 'trk', 'mulawarman', '21', ',', 'kamar', 'luas', ',', 'bersih', ',', 'menu', 'sarapan', 'beragam', ',', 'cuma', 'wifi', 'lambat', 'kadang', 'hilanghilang', 'terus', 'cover', 'closet', 'lepas', ',', 'tolong', 'segera', 'di', 'ganti', '/', 'diperbaiki', ',', 'demi', 'kenyaman', 'tamu', ',', 'kepala', 'sekolah', '.']","[([13], [14], 'POS'), ([13], [16], 'POS'), ([18, 19], [20], 'POS'), ([23], [24], 'NEG'), ([28, 29], [30], 'NEG')]"
+207,"['hotel', 'susah', 'dicari', ',', 'alamatnya', 'tidak', 'sesuai', 'dengan', 'gmap', 'pelayannya', 'tidak', 'ada', ',', 'gerbang', 'terkunci', ',', 'sudah', 'di', 'belbel', 'tidak', 'keluar', 'juga', 'menunggu', 'di', 'luar', 'lebih', 'sejam', ',', 'sya', 'cari', 'hotel', 'lain', '.']","[([0], [1, 2], 'NEG'), ([4], [5, 6], 'NEG'), ([9], [10, 11], 'NEG')]"
+208,"['listik', 'mati', 'tiba', 'tiba', ',', 'harusnya', 'di', 'cek', 'dulu', 'dong', 'sebelum', 'ada', 'yang', 'mau', 'check', 'in', '.', 'masa', 'harus', 'menunggu', 'di', 'isi', 'dulu', '.']","[([0], [1], 'NEG')]"
+209,"['hotel', 'langganan', 'kami', 'kalau', 'mampir', 'ke', 'semarang', '.']",[]
+210,"['lokasi', 'strategis', ',', 'pelayanan', 'ramah', ',', 'kamar', 'bersih', 'dan', 'fasilitas', 'lengkap', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([6], [7], 'POS'), ([9], [10], 'POS')]"
+211,"['hanya', 'sayang', 'lokasinya', 'di', 'dalam', 'komplek', '.', 'overall', ',', ""it's"", 'oke', '.']","[([7], [10], 'POS')]"
+212,"['kamar', 'banyak', 'semut', 'dan', 'kecoak', '.']","[([0], [1, 2], 'NEG'), ([0], [4], 'NEG')]"
+213,"['tempat', 'yang', 'bagus', ',', 'aman', ',', 'dan', 'nyaman', ',', 'penuh', 'dengan', 'kekeluargaan', ',', 'ok', '.']","[([0], [2], 'POS'), ([0], [4], 'POS'), ([0], [7], 'POS')]"
+214,"['kamar', 'luas', ',', 'harga', 'ekonomis', 'dan', 'lokasi', 'strategis', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([6], [7], 'POS')]"
+215,"['terbaikk', 'saran', 'aku', 'sih', 'di', 'sini', 'kalau', 'butuh', 'penginapan', '.']",[]
+216,"['tempat', 'luas', ',', 'strategis', ',', 'pelayanan', 'bagus', ',', 'bersih', 'dan', 'nyaman', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([5], [6], 'POS')]"
+217,"['masih', 'ada', 'rambutrambut', 'di', 'seprai', 'kasur', ',', 'dan', 'seprai', 'kasur', 'tidak', 'bersih', 'terdapat', 'nodanoda', '.']","[([4, 5], [1, 2], 'NEG'), ([8, 9], [10, 11], 'NEG')]"
+218,"['overall', 'bagus', '.', 'cuma', 'kamar', 'mandi', 'tetlalu', 'sempit', '.', 'dan', 'garasi', 'mobilnya', 'rebutan', '.']","[([0], [1], 'POS'), ([4, 5], [6, 7], 'NEG')]"
+219,"['kamar', 'cukupan', ',', 'pemandangan', 'pantai', ',', 'type', 'bangunan', 'khas', 'bali', '.']","[([0], [1], 'POS')]"
+220,"['kurang', 'baik', 'fasilitasnya', '.', 'saya', 'kehilangan', 'kacamata', '.']","[([2], [0, 1], 'NEG')]"
+221,"['kasur', 'nya', 'kurang', 'nyaman', 'selebihnya', 'baik', 'sekali', '.']","[([0, 1], [2, 3], 'NEG'), ([4], [5, 6], 'POS')]"
+222,"['mengecewakan', '.', 'air', 'panas', 'cuma', 'bisa', 'sebentar', 'saja', '.', 'setelah', 'itu', 'tidak', 'bisa', '.', 'gelap', ',', 'pencahayaan', 'kurang', '.']","[([2, 3], [4, 5, 6], 'NEG'), ([16], [17], 'NEG')]"
+223,"['bau', ',', 'kamar', 'mandi', 'kotor', ',', 'tidak', 'ada', 'hot', 'shower', ',', 'untung', 'tidak', 'pesan', 'yang', 'superior', '.', 'kapok', '.', 'pokonya', 'kamarnya', 'bau', 'tidak', 'enak', ',', 'kotor', 'tidak', 'terawat', '.']","[([2, 3], [4], 'NEG'), ([8, 9], [6, 7], 'NEG'), ([19, 20], [21, 22, 23], 'NEG'), ([19, 20], [25], 'NEG'), ([19, 20], [26, 27], 'NEG')]"
+224,"['kamarnya', 'bersih', 'pelayanannya', 'ramah', '.']","[([0], [1], 'POS'), ([2], [3], 'POS')]"
+225,"['nyaman', 'banget', '!', 'kamarnya', 'selalu', 'wangi', 'dan', 'pelayanannya', 'juga', 'bagus', 'serta', 'ramah', 'banget', '.']","[([3], [4, 5], 'POS'), ([7], [9], 'POS'), ([7], [11, 12], 'POS')]"
+226,"['terbaik', ',', 'bersih', ',', 'nyaman', ',', 'lengkap', 'dengan', 'camilan', 'dan', 'toiletries', 'nya', '.']","[([8], [6], 'POS'), ([10, 11], [6], 'POS')]"
+227,"['ac', 'nya', 'mati', 'mati', 'terus', 'jadi', 'mengganggu', 'waktu', 'istrahatnya', '.']","[([0, 1], [2], 'NEG')]"
+228,"['kotor', 'sekali', '.']",[]
+229,"['nyaman', 'dan', 'bersih', '.']",[]
+230,"['kamarnya', 'bersih', ',', 'sesuai', 'di', 'foto', ',', 'stafnya', 'juga', 'ramah', ',', 'next', 'time', 'inap', 'disini', 'lagi', '.']","[([0], [1], 'POS'), ([7], [9], 'POS')]"
+231,"['kamarnya', 'rapi', 'dan', 'lumayan', 'bersih', 'yang', 'paling', 'memuaskan', 'pelayanan', 'ramah', 'handuk', 'bersih', 'dan', 'wangi', 'dengan', 'catatan', 'beberapa', 'bantal', 'sudah', 'terlihat', 'agak', 'kotor', 'dan', 'ada', 'yang', 'agak', 'bau', 'sisanya', 'sangat', 'murah', 'dan', 'terjangkau', 'sangat', 'recomended', 'bagi', 'orang', 'yang', 'budgetnya', 'terbatas', '.']","[([0], [1], 'POS'), ([0], [3, 4], 'POS'), ([8], [9], 'POS'), ([10], [11], 'POS'), ([10], [13], 'POS'), ([17], [20, 21], 'NEG'), ([17], [25, 26], 'NEG'), ([27], [28, 29], 'POS'), ([27], [31], 'POS')]"
+232,"['pelayanan', 'yang', 'baik', ',', 'ramah', 'serta', 'kondisi', 'kamar', 'yang', 'bersih', '.']","[([0], [2], 'POS'), ([0], [4], 'POS'), ([7], [9], 'POS')]"
+233,"['sangat', 'kecewa', 'kami', 'sudah', 'lelah', 'mencari', ',', 'akhirnya', 'kami', 'cari', 'hotel', 'lain', '!']",[]
+234,"['sesuai', 'dengan', 'budget', '.', 'yang', 'perlu', 'diperhatikan', 'banyak', 'nyamuk', 'di', 'kamar', '.', 'perlu', 'bawa', 'semprot', 'nyamuk', 'sendiri', '.']","[([10], [7, 8], 'NEG')]"
+235,"['bau', 'toilet', 'dan', 'hotel', 'kurang', 'rapi', '.']","[([1], [0], 'NEG'), ([3], [4, 5], 'NEG')]"
+236,"['lumayan', '.', 'tetapi', 'kamar', 'mandi', 'agak', 'menggenang', '.', 'lama', 'durutnya', '.']","[([3, 4], [5, 6], 'NEG')]"
+237,"['bagus', ',', 'bersih', ',', 'banyakin', 'celokan', 'kalau', 'begitu', 'tertawa', '.']",[]
+238,"['kapan', 'diadain', 'lagi', 'di', 'airy', '.']",[]
+239,"['air', 'panas', 'kamar', 'mandi', 'cuma', 'bisa', 'buat', '5', 'menit', ',', 'sabun', 'dan', 'sampo', 'di', 'kamar', 'mandi', 'habis', '(', 'tidak', 'direfill', ')', '.', 'channel', 'tv', 'gambarnya', 'banyak', 'semut', 'semua', '.']","[([10], [16], 'NEG'), ([12], [16], 'NEG'), ([22, 23, 24], [25, 26], 'NEG')]"
+240,"['kamar', 'sesuai', 'foto', 'bagus', 'nyaman', 'tetapi', 'sayang', 'shower', 'mandi', 'nya', 'tidak', 'bisa', 'pakai', 'air', 'dingin', 'terlalu', 'panas', 'mungkin', 'rusak', 'selebih', 'nya', 'sangat', 'bagus', 'ok', 'deh', '.']","[([0], [1, 2], 'POS'), ([0], [3], 'POS'), ([0], [4], 'POS'), ([7, 8, 9], [10, 11, 12], 'NEG'), ([7, 8, 9], [15, 16], 'NEG'), ([7, 8, 9], [18], 'NEG'), ([13, 14], [10, 11, 12], 'NEG'), ([19, 20], [21, 22], 'POS')]"
+241,"['dekat', 'ke', 'malioboro', '.', 'resepsionis', 'selalu', 'siap', '.', 'luar', 'biasa', '.']","[([4], [5, 6], 'POS')]"
+242,"['kamar', 'terlalu', 'kecil', 'dan', 'tidak', 'sesuai', 'gambar', ',', 'air', 'kecil', '.']","[([0], [1, 2], 'NEG'), ([0], [4, 5, 6], 'NEG'), ([8], [9], 'NEG')]"
+243,"['kamar', 'bersih', ',', 'air', 'panas', 'lancar', ',', 'ac', 'mantap', ',', 'breakfast', 'oke', '.', 'cuma', 'colokan', 'dekat', 'tempat', 'tidur', 'tidak', 'bisa', '.']","[([0], [1], 'POS'), ([3, 4], [5], 'POS'), ([7], [8], 'POS'), ([10], [11], 'POS'), ([14], [18, 19], 'NEG')]"
+244,"['kamar', 'bau', 'rokok', ',', 'snack', 'dan', 'pelengkap', 'dari', 'airy', 'rooms', 'tidak', 'ada', '.']","[([0], [1, 2], 'NEG'), ([4], [10, 11], 'NEG'), ([6], [10, 11], 'NEG')]"
+245,"['seram', ',', 'kamar', 'lantai', '2', 'malam', 'hari', 'ada', 'yang', 'mengetuk', 'jendela', '.']",[]
+246,"['pelayanan', 'ramah', 'dan', 'kamar', 'bersih', ',', 'selalu', 'airy', 'jadi', 'pilihan', 'saya', '.']","[([0], [1], 'POS'), ([3], [4], 'POS')]"
+247,"['untuk', 'kesekian', 'kalinya', 'selalu', 'ada', 'plus', 'minus', '.', 'yang', 'saya', 'dapatkan', 'di', 'airy', 'rooms', 'slipi', 'yakni', 'air', 'conditioner', '(', 'ac', ')', 'yang', 'lambat', '.', 'jadi', 'harus', 'menunggu', 'berjam', 'jam', 'untuk', 'ruangan', 'lebih', 'dingin', '.', 'over', 'all', ',', 'tampak', 'kamar', 'sesuai', 'dengan', 'yang', 'di', 'foto', '.', 'complimentary', 'snack', 'juga', 'ada', '.', 'semoga', 'airy', 'tidak', 'dibedadibedakan', 'dengan', 'kamar', 'yang', 'lain', '.', 'terimakasih', 'airy', '.']","[([16, 17], [22], 'NEG')]"
+248,"['ac', 'tidak', 'panas', ',', 'dinding', 'kamar', 'ada', 'rembesan', 'bocor', 'air', 'jadi', 'kamar', 'lembab', 'dan', 'penerangannya', 'kamar', 'tidak', 'terang', 'tetapi', 'remang', 'remang', '.']","[([0], [1, 2], 'NEG'), ([4, 5], [8], 'NEG'), ([11], [12], 'NEG'), ([14, 15], [16, 17], 'NEG'), ([14, 15], [19, 20], 'NEG')]"
+249,"['tidak', 'sesuai', 'ekspektasi', ',', 'kamar', 'sempit', ',', 'pintu', 'kamar', 'mandi', 'rusak', ',', 'cek', 'in', 'menunggu', 'terlalu', 'lama', ',', 'malam', 'suara', 'berisik', 'dari', 'atap', 'kamar', ',', 'tidak', 'nyaman', '.']","[([4], [5], 'NEG'), ([7, 8, 9], [10], 'NEG'), ([12, 13], [15, 16], 'NEG')]"
+250,"['nyaman', ',', 'privasi', ',', 'bersih', ',', 'dan', 'bagus', 'sleep', '.']",[]
+251,"['kebersijan', 'kamar', 'mandi', 'perlu', 'di', 'tingkatkan', '.']","[([0, 1, 2], [3, 4, 5], 'NEG')]"
+252,"['baik', 'dan', 'puas', 'tetapi', 'masih', 'ada', 'kekurangannya', 'waktu', 'saya', 'boking', 'airy', 'rooms', 'saya', 'pilih', '1', 'bad', 'tetapi', 'ketika', 'saya', 'cek', 'in', 'yang', 'di', 'kasih', '2', 'bad', '.', 'mohon', 'di', 'tingkatkan', 'lagi', '.', 'terima', 'kasih', 'airy', 'rooma', '.']",[]
+253,"['kamar', 'bersih', ',', 'ac', 'dingin', ',', 'tetapi', 'sarung', 'bantal', '+', 'seprai', 'tidak', 'bersih', ',', 'masih', 'ada', 'noda', ',', 'jadi', 'kurang', 'nyaman', ',', 'minta', 'yang', 'baru', 'tetap', 'masih', 'ada', 'nodanya', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([7, 8], [11, 12], 'NEG'), ([10], [11, 12], 'NEG')]"
+254,"['shower', 'nya', 'tidak', 'hidup', ',', 'untuk', 'fasilitas', 'lainnya', 'oke', 'banget', 'sesuai', 'harga', '.']","[([0, 1], [2, 3], 'NEG'), ([6, 7], [8, 9], 'POS')]"
+255,"['tempat', 'nyaman', 'dan', 'tidak', 'bising', 'tetapi', 'menu', 'sarapannya', 'kurang', 'menggugah', 'selera', '.']","[([0], [1], 'POS'), ([0], [3, 4], 'POS'), ([6, 7], [8, 9, 10], 'NEG')]"
+256,"['satu', 'gedung', '3', 'nama', 'hotel', '(', 'lively', ',', 'my', 'studio', ',', 'dan', 'airy', ')', '.']",[]
+257,"['kamar', 'ac', 'tidak', 'dingin', 'air', 'mandinya', 'kecil', '.']","[([1], [2, 3], 'NEG'), ([4, 5], [6], 'NEG')]"
+258,"['banyak', 'kecoak', 'dan', 'deposit', 'kamar', 'tidak', 'sesuai', 'dengan', 'harga', 'kamar', 'dan', 'fasilitas', '.']","[([3, 4], [5, 6], 'NEG')]"
+259,"['tower', 'di', 'kamar', '1131', 'lain', 'lantai', 'dan', 'peralatan', 'kotor', '.']","[([7], [8], 'NEG')]"
+260,"['check', 'in', 'tengah', 'malam', 'tetapi', 'pelayanan', 'tetap', 'oke', '.']","[([5], [6, 7], 'POS')]"
+261,"['puas', 'dengan', 'kondisi', 'guest', 'house', ',', 'nyaman', ',', 'rapi', ',', 'bersih', '.', 'biarpun', 'bangunan', 'dan', 'perabotan', 'lama', 'buat', 'betah', '.']","[([2, 3, 4], [0], 'POS'), ([2, 3, 4], [6], 'POS'), ([2, 3, 4], [8], 'POS'), ([2, 3, 4], [10], 'POS')]"
+262,"['pelayanan', 'sangat', 'baik', '.']","[([0], [1, 2], 'POS')]"
+263,"['kamar', 'bersih', ',', 'ac', 'dingin', ',', 'shower', 'semprotannya', 'kencang', ',', 'parkir', 'di', 'dalam', 'jadi', 'aman', ',', 'tempat', 'strategis', 'di', 'tengah', 'sampangan', ',', 'jalan', 'kaki', 'cari', 'masem', 'gampang', ',', 'salah', 'satu', 'kamar', 'airy', 'terbaik', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([6, 7], [8], 'POS'), ([10], [14], 'POS'), ([16], [17], 'POS'), ([30, 31], [32], 'POS')]"
+264,"['viewnya', 'itu', 'buat', 'nyaman', 'lama', 'disini', '.', 'dekat', 'kemana', 'mana', 'juga', '.', 'recomended', '!']","[([0], [3], 'POS')]"
+265,"['nyaman', 'dan', 'fasilitas', 'lumayan', 'lengkap', '.', 'hanya', 'kebersihannya', 'tidak', 'di', 'lakukan', 'setiap', 'hari', 'berhubung', 'saya', 'menginap', 'lebih', 'dari', '1', 'malam', 'jadi', 'agak', 'risih', 'dengan', 'lantai', 'yang', 'tidak', 'di', 'bersihkan', '.', 'untuk', 'air', 'mineral', 'hanya', 'diberikan', 'saat', 'check', 'in', 'dan', 'untuk', 'snacknya', 'tidak', 'ada', '.']","[([2], [3, 4], 'POS'), ([40], [41, 42], 'NEG')]"
+266,"['dekat', 'ke', 'pusat', 'kota', ',', 'kamar', 'bersih', ',', 'agak', 'sempit', 'tetapi', 'oke', 'lah', '.']","[([5], [6], 'POS'), ([5], [8, 9], 'NEG'), ([5], [11], 'POS')]"
+267,"['bagus', 'fasilitasnya', ',', 'recommended', 'deh', '.']","[([1], [0], 'POS')]"
+268,"['bagus', ',', 'suka', 'bangt', '.', 'tempat', 'bersih', ',', 'pelayanan', 'bagus', '.']","[([5], [6], 'POS'), ([8], [9], 'POS')]"
+269,"['cukup', 'baik', '.']",[]
+270,"['toilet', 'air', 'semprotnya', 'macet', ',', 'tombol', 'washing', 'buat', 'kloset', 'airnya', 'pelan', '.', 'resepsionis', 'tidak', '24', 'jam', '.', 'beda', 'dengan', 'keterangan', 'di', 'penawaran', '.']","[([0, 1, 2], [3], 'NEG'), ([12], [13, 14, 15], 'NEG')]"
+271,"['lokasi', 'dekat', 'sekali', 'jatimpark', '2', '.', 'kamar', 'bersih', ',', 'staf', 'ramah', ',', 'kasurnya', 'besar', 'dan', 'harga', 'relatif', 'murah', 'untuk', 'penginapan', 'di', 'batu', '.']","[([6], [7], 'POS'), ([9], [10], 'POS'), ([12], [13], 'POS'), ([15], [17], 'POS')]"
+272,"['sangat', 'nyaman', ',', 'kamar', 'bersih', ',', 'layanan', '24', 'jam', ',', 'pelayanan', 'ramah', 'tetapi', 'hanya', 'lokasi', 'saja', 'yang', 'terlalu', 'sepi', 'dikarenakan', 'di', 'dalam', 'perkomplekan', '.', 'cari', 'warung', 'susah', '.', 'harus', 'keluar', 'jauh', 'dulu', '.']","[([3], [4], 'POS'), ([10], [11], 'POS')]"
+273,"['semuanya', 'sangat', 'baik', '.']","[([0], [1, 2], 'POS')]"
+274,"['memuaskan', 'dan', 'pelayanan', 'hotelnya', 'bagus', '.']","[([2, 3], [4], 'POS')]"
+275,"['kamar', 'kurang', 'bersih', ',', 'handuk', 'nya', 'kotor', 'dan', 'kamar', 'mandi', 'juga', 'kotor', 'tidak', 'disikat', '.']","[([0], [1, 2], 'NEG'), ([4, 5], [6], 'NEG'), ([8, 9], [11], 'NEG'), ([8, 9], [12, 13], 'NEG')]"
+276,"['puas', 'banget', ',', 'overall', 'bagus', ',', 'betah', 'tinggal', 'di', 'sini', ',', 'next', 'pasti', 'datang', 'lagi', ',', 'terimakasih', 'airy', '.']","[([3], [4], 'POS')]"
+277,"['air', 'minum', 'kurang', '.']","[([0, 1], [2], 'NEG')]"
+278,"['kamar', 'ada', 'jendela', 'iya', 'bangun', 'pagi', 'bisa', 'hirup', 'udara', 'segar', ',', 'harga', 'murah', 'pelayan', 'ramah', 'bangun', 'pagi', 'dapat', '.']","[([11], [12], 'POS'), ([13], [14], 'POS')]"
+279,"['nyaman', ',', 'bersih', ',', 'harga', 'murah', '.']","[([4], [5], 'POS')]"
+280,"['aksesnya', 'enak', ',', 'kamar', 'rapi', ',', 'bersih', ',', 'dan', 'lega', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([3], [6], 'POS'), ([3], [9], 'POS')]"
+281,"['sangat', 'memuaskan', '.', 'akhir', 'pekan', 'sering', 'full', 'booked', '.']",[]
+282,"['tidak', 'ada', 'selimut', ',', 'tidak', 'ada', 'handuk', '.']","[([2], [0, 1], 'NEG'), ([6], [4, 5], 'NEG')]"
+283,"['semuanya', 'bagus', '.']","[([0], [1], 'POS')]"
+284,"['tempat', 'sangat', 'kotor', ',', 'kamar', 'nya', 'tidak', 'nyaman', 'bau', '.']","[([0], [1, 2], 'NEG'), ([4, 5], [6, 7], 'NEG'), ([4, 5], [8], 'NEG')]"
+285,"['puri', 'ratu', 'babarsari', 'sangat', 'bagus', ',', 'tempat', 'nyaman', '.', 'untuk', 'perbaikan', 'ke', 'depan', ',', 'mohon', 'disediakan', 'hanger', 'di', 'lemari', '.', 'selebihnya', 'sudah', 'oke', 'semua', '.']","[([6], [7], 'POS'), ([20], [22], 'POS')]"
+286,"['nyaman', 'dan', 'paling', 'penting', 'bersih', '.']",[]
+287,"['kamar', 'nyaman', ',', 'bersih', ',', 'aman', '.', 'pelayanan', 'sangat', 'baik', 'dan', 'ramah', '.', 'minus', 'hanya', 'ac', 'lama', 'dinginnya', '.', 'all', 'perfect', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([0], [5], 'POS'), ([7], [8, 9], 'POS'), ([7], [11], 'POS'), ([15], [16, 17], 'NEG'), ([19], [20], 'POS')]"
+288,"['suasana', 'nyaman', '.', 'hotel', 'sesuai', 'budget', '.', 'lokasi', 'sangat', 'stategis', 'di', 'pusat', 'legian', '.', 'kamar', 'mandi', 'oke', '.', 'kebersihan', 'kamar', 'dan', 'seprai', 'kurang', 'banget', '.', 'perlengkapan', 'mandi', 'dari', 'airy', 'sepertinya', 'bekas', '.', 'terutama', 'sikat', 'gigi', 'nya', '.']","[([0], [1], 'POS'), ([3], [4, 5], 'POS'), ([7], [8, 9], 'POS'), ([14, 15], [16], 'POS'), ([18, 19], [22, 23], 'NEG'), ([21], [22, 23], 'NEG'), ([25, 26], [30], 'NEG')]"
+289,"['untuk', 'harga', 'yang', 'kami', 'dapat', '200', 'ribu', 'pada', 'hari', 'pasca', 'lebaran', 'sangat', 'memuaskan', ',', 'kamar', 'bersih', ',', 'rapi', ',', 'kolam', 'renang', 'dan', 'vie', 'bagus', 'hanya', 'kami', 'tidak', 'dapat', 'snack', 'dan', 'alat', 'mandi', 'dalam', 'dompet', 'airy', 'seperti', 'biasa', '.']","[([14], [15], 'POS'), ([14], [17], 'POS'), ([19, 20], [23], 'POS'), ([22], [23], 'POS'), ([28], [26, 27], 'NEG'), ([30, 31], [26, 27], 'NEG')]"
+290,"['lokasi', 'strategis', ',', 'fasilitas', 'banyak', '.']","[([0], [1], 'POS'), ([3], [4], 'POS')]"
+291,"['badan', 'gatalgatal', 'habis', 'menginap', 'disini', '.', 'kamar', 'tidak', 'sesuai', 'gambar', '.']","[([6], [7, 8, 9], 'NEG')]"
+292,"['kaca', 'kamar', 'mandi', 'kotor', '.']","[([0, 1, 2], [3], 'NEG')]"
+293,"['tampilan', 'gambar', 'dengan', 'kenyataan', 'berbeda', 'seperti', 'bumi', 'dan', 'langit', '.', 'kamar', 'mandi', 'keran', 'saluran', 'air', 'buntu', 'dan', 'kakak', '.']","[([10, 11, 12, 13, 14], [15], 'NEG')]"
+294,"['lokasi', 'hotel', 'seram', 'banyak', 'preman', ',', 'air', 'asin', ',', 'kasur', 'busa', 'bukan', 'springbed', ',', 'kamar', 'bau', 'apek', ',', 'tidak', 'sediakan', 'perlengkapan', 'mandi', 'tidak', 'seperti', 'hotel', 'airyroom', 'yang', 'pernah', 'saya', 'sepesan', 'di', 'tempat', 'lain', '.']","[([0, 1], [2], 'NEG'), ([0, 1], [3, 4], 'NEG'), ([6], [7], 'NEG'), ([14], [15, 16], 'NEG'), ([20, 21], [18, 19], 'NEG')]"
+295,"['kamarnya', 'dibelakang', 'rumah', 'makan', '.', 'bau', 'asap', 'serta', 'bau', 'bumbu', 'dapur', ',', 'pengap', ',', 'harus', 'naik', 'trun', 'tangga', ',', 'jar', '.']",[]
+296,"['kamar', 'sangat', 'nyaman', 'dan', 'bersih', 'sarapan', 'oke', 'banget', '.']","[([0], [1, 2], 'POS'), ([0], [4], 'POS'), ([5], [6, 7], 'POS')]"
+297,"['kamar', 'bersih', '.', 'tertata', 'rapi', '.']","[([0], [1], 'POS')]"
+298,"['pelayanan', 'ramah', ',', 'kamar', 'bersih', '.', 'makanan', 'kantinnya', 'juga', 'enak', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([6, 7], [9], 'POS')]"
+299,"['awalnya', 'lantai', '3', 'tetapi', 'katanya', 'penuh', '.', 'padahal', 'sudah', 'dibayar', 'dan', 'sudah', 'konfirmasi', 'kedatangan', '.']",[]
+300,"['saran', 'saya', 'mengingat', 'lokasi', 'hotel', 'ada', 'baiknya', 'disediakan', 'sarapan', 'dan', 'variasi', 'makanan', 'lainnya', 'di', 'hotel', 'untuk', 'memudahkan', 'pengunjung', '.', 'dan', 'kalau', 'bisa', 'ada', 'tv', 'kabelnya', '.']",[]
+301,"['kamar', 'bersih', ',', 'ac', 'dingin', ',', 'air', 'panas', ',', 'pelayanan', 'lumayan', ',', 'cuma', 'resepsionis', 'kalau', 'malam', 'tidak', 'ada', '(', 'tidak', '24', 'jam', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([9], [10], 'POS'), ([13], [16, 17], 'NEG'), ([13], [19, 20, 21], 'NEG')]"
+302,"['servis', 'oke', '.']","[([0], [1], 'POS')]"
+303,"['kamar', 'bau', ',', 'tisu', 'meja', 'tidak', 'ada', ',', 'tisu', 'toilet', 'tidak', 'ada', ',', 'seprai', 'kasurnya', 'kotor', '.', 'permintaan', 'khusus', 'tamu', 'tidak', 'terpenuhi', 'dan', 'bahkan', 'memberikan', 'charge', '.']","[([0], [1], 'NEG'), ([3, 4], [5, 6], 'NEG'), ([8, 9], [10, 11], 'NEG'), ([13, 14], [15], 'NEG')]"
+304,"['pengaturan', 'lampunya', 'kurang', 'bagus', ',', 'karena', 'menggangu', 'mata', 'pada', 'saat', 'tidur', '.']","[([0, 1], [2, 3], 'NEG')]"
+305,"['lumayan', 'ayem', ',', 'sayang', 'acnya', 'banyak', 'yang', 'rusak', 'jadi', 'kurang', 'dingin', '.']","[([4], [7], 'NEG'), ([4], [9, 10], 'NEG')]"
+306,"['akses', 'ke', 'jalan', 'utama', 'dekat', '.', 'ada', 'kolam', 'renang', 'juga', '.', 'dan', 'yang', 'butuh', 'tempat', 'sunyi', ',', 'tempat', 'ini', 'sangat', 'pas', '.']","[([17], [19, 20], 'POS')]"
+307,"['jelek', '.']",[]
+308,"['saya', 'tidak', 'jadi', 'menginap', 'disini', '.']",[]
+309,"['yang', 'lain', 'sudah', 'oke', ',', 'tetapi', 'sayangnya', 'wifi', 'di', 'kamar', 'lantai', '6', 'saat', 'saya', 'menginap', 'lagi', 'tidak', 'bisa', 'terhubung', '.']","[([0, 1], [3], 'POS'), ([7], [16, 17, 18], 'NEG')]"
+310,"['makanan', 'kurang', 'memuaskan', 'dan', 'wifi', 'susah', 'terhubung', '.']","[([0], [1, 2], 'NEG'), ([4], [5, 6], 'NEG')]"
+311,"['kamar', 'mandi', 'lembab', ',', 'exhaust/vacuum', 'di', 'kamar', 'mandi', 'tidak', 'berfungsi', 'sehingga', 'handuk', 'dan', 'kain', 'lainnya', 'berbau', 'apek', '.', 'pelayanan', 'ramah', 'sarapannya', 'tidak', 'enak', 'kebersihan', 'kamar', 'kurang', 'baik', 'dengan', 'reputasi', 'dan', 'room', 'rate', 'sekian', ',', 'menurut', 'saya', 'mengecewakan', '.']","[([0, 1], [2], 'NEG'), ([4], [8, 9], 'NEG'), ([11], [15, 16], 'NEG'), ([13, 14], [15, 16], 'NEG'), ([18], [19], 'POS'), ([20], [21, 22], 'NEG'), ([23, 24], [25, 26], 'NEG')]"
+312,"['biasanya', 'aku', 'dapat', 'snack', 'di', 'room', 'ini', 'tidak', 'sama', 'sekali', 'ac', 'nya', 'bau', 'cuka', '(', 'tidak', 'tahu', 'seperti', 'cuka', 'tetapi', 'aneh', 'banget', '.']","[([10, 11], [12, 13], 'NEG')]"
+313,"['untuk', 'pelayanan', 'dan', 'breakfastnya', 'oke', 'untuk', 'parkir', 'agak', 'penuh', ',', 'perlu', 'dipikirkan', 'solusinya', '.']","[([1], [4], 'POS'), ([3], [4], 'POS'), ([6], [7, 8], 'NEG')]"
+314,"['sejauh', 'ini', 'tempat', 'oke', 'dan', 'pelayanan', 'yang', 'oke', 'juga', '.', 'kalau', 'boleh', 'saran', 'sediakan', 'tisu', 'di', 'setiap', 'room', 'nya', '.', 'lain', 'itu', 'semua', 'oke', '.', 'terimakasih', 'airy', '.']","[([2], [3], 'POS'), ([5], [7], 'POS'), ([20, 21], [23], 'POS')]"
+315,"['nyaman', ',', 'enak', 'dan', 'menyenangkan', '.']",[]
+316,"['kamarnya', 'kurang', 'nyaman', ',', 'kurang', 'bersih', '.']","[([0], [1, 2], 'NEG'), ([0], [4, 5], 'NEG')]"
+317,"['bagus', 'dan', 'bersih', '.']",[]
+318,"['kamarnya', 'bau', ',', 'kamar', 'mandinya', 'jorok', ',', 'dinding', 'dan', 'asbes', 'nya', 'jamuran', ',', 'tv', 'nya', 'semut', 'semua', ',', 'kamar', 'juga', 'berlubang', ',', 'pintu', 'kamar', 'agak', 'susah', 'di', 'tutup', '.']","[([0], [1], 'NEG'), ([3, 4], [5], 'NEG'), ([7], [11], 'NEG'), ([9, 10], [11], 'NEG'), ([13, 14], [15], 'NEG'), ([18], [20], 'NEG'), ([22, 23], [24, 25, 26, 27], 'NEG')]"
+319,"['parkiran', 'nya', 'kurang', 'safety', '.']","[([0, 1], [2, 3], 'NEG')]"
+320,"['saya', 'selalu', 'puas', 'dengan', 'pelayanan', 'airy', 'mutiara', 'bekasi', '.']",[]
+321,"['bersih', ',', 'rapi', 'dan', 'nyaman', 'dan', 'terjangkau', '.']",[]
+322,"['kamarnya', 'bersih', ',', 'pelayanan', 'cukup', 'oke', ',', 'ada', 'cemilan', 'gratisnya', 'di', 'kamar', 'lumayan', 'banyak', ',', 'terima', 'kasih', 'breakfastnya', 'bervariasi', '.', 'makanannya', 'enak', 'apalagi', 'restonya', 'berada', 'di', 'rooftop', '4', 'floor', '.', 'jadi', 'sarapan', 'bisa', 'langsung', 'lihat', 'pemandangan', 'laut', 'yang', 'bagus', 'dan', 'sunrise', 'pagi', 'ini', 'itu', 'keren', 'dan', 'indah', 'banget', 'kelihatan', 'sekali', 'dari', 'rooftopnya', ',', 'beruntung', 'pas', 'kesana', 'cuacanya', 'lagi', 'cerah', 'banget', ',', 'terima', 'kasih', 'airy', 'untuk', 'pelayanannya', 'cukup', 'mengesankan', '.']","[([0], [1], 'POS'), ([3], [4, 5], 'POS'), ([8, 9], [7], 'POS'), ([17], [18], 'POS'), ([20], [21], 'POS'), ([65], [66, 67], 'POS')]"
+323,"['diberi', 'airy', 'pack', 'sudah', 'jam', '12', 'siang', 'lewat', '.', 'not', 'recommended', '.']",[]
+324,"['air', 'panas', 'tidak', 'berfungsi', ',', 'kebersihan', 'kamar', 'kurang', '.']","[([0, 1], [2, 3], 'NEG'), ([5, 6], [7], 'NEG')]"
+325,"['suasana', 'tenang', 'dan', 'nyaman', '.']","[([0], [1], 'POS'), ([0], [3], 'POS')]"
+326,"['bersih', ',', 'nyaman', 'dan', 'strategis', 'dan', 'yang', 'paling', 'penting', 'ekonomis', 'buat', 'backpackers', '.']",[]
+327,"['bagus', 'bersih', 'dengan', 'harga', '200ribuan', '.']",[]
+328,"['lumayan', '.', 'hanya', 'saja', 'kalau', 'malam', 'air', 'kurang', 'kencang', 'dan', 'air', 'panasnya', 'tidak', 'terasa', '.']","[([6], [7, 8], 'NEG'), ([10, 11], [12, 13], 'NEG')]"
+329,"['hotelnya', 'bersih', ',', 'tidak', 'ada', 'bau', 'sedikitpun', ',', 'interior', 'kamarnya', 'modern', ',', 'kami', 'betah', ',', 'dan', 'pelayanannya', 'juga', 'memuaskan', '.']","[([0], [1], 'POS'), ([0], [3, 4, 5], 'POS'), ([8, 9], [10], 'POS'), ([16], [18], 'POS')]"
+330,"['tempat', 'cukup', 'nyaman', ',', 'untuk', 'fasilitas', 'lebih', 'di', 'perhatikan', 'lagi', '.']","[([0], [1, 2], 'POS'), ([5], [6, 7, 8, 9], 'NEG')]"
+331,"['pelayanan', 'ramah', 'dan', 'membantu', ',', 'kamar', 'bersih', 'dan', 'nyaman', ',', 'makanannya', 'juga', 'enak', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([5], [6], 'POS'), ([5], [8], 'POS'), ([10], [12], 'POS')]"
+332,"['seprai', 'banyak', 'noda', ',', 'ac', 'tidak', 'dingin', ',', 'resepsionis', 'pagi', 'sangat', 'tidak', 'sopan', '.']","[([0], [1, 2], 'NEG'), ([4], [5, 6], 'NEG'), ([8, 9], [10, 11, 12], 'NEG')]"
+333,"['tulisannya', 'dapat', 'sarapan', ',', 'ternyata', 'gadapet', '.', 'saya', 'dpet', 'kamar', 'pling', 'pojok', 'yang', 'dipisah', 'sendiri', 'kotor', 'jorok', 'berdebu', '.']","[([2], [5], 'NEG'), ([9], [15], 'NEG'), ([9], [16], 'NEG'), ([9], [17], 'NEG')]"
+334,"['baik', 'bagus', 'nyaman', '.']",[]
+335,"['kamar', 'nya', 'bagus', ',', 'tetapi', 'tidak', 'ada', 'room', 'pelayanan', 'nya', '.', 'cuma', 'jangan', 'khawatir', 'karena', 'depan', 'hotel', 'banyak', 'banget', 'yang', 'jual', 'makanan', '.']","[([0, 1], [2], 'POS'), ([7, 8, 9], [5, 6], 'NEG')]"
+336,"['host', 'nya', 'sangat', 'ramah', ',', 'welcome', 'sekali', 'dengan', 'tamu', 'seperti', 'teman', 'jadi', 'membuat', 'suasana', 'tambah', 'nyaman', 'menginap', 'disini', '.']","[([0, 1], [2, 3], 'POS')]"
+337,"['memang', 'sangat', 'murah', 'menurut', 'saya', '.', 'hanya', 'sayang', 'tidak', 'bersih', ',', 'khususnya', 'di', 'kamar', 'mandi', '.', 'sepertinya', 'berbulan', 'bulan', 'tidak', 'dibersihkan', ',', 'hanya', 'disiram', 'siram', 'saja', '.']","[([13, 14], [8, 9], 'NEG')]"
+338,"['selalu', 'menginap', 'disini', 'kalau', 'ke', 'sby', '.']",[]
+339,"['bangunan', 'kos', '-', 'kosan', ',', 'kamar', 'bersih', ',', 'kamar', 'mandi', 'kotor', '.', 'suasana', 'sepi', 'enak', 'buat', 'istirahat', '.', 'kesulitan', 'mau', '.']","[([5], [6], 'POS'), ([8, 9], [10], 'NEG'), ([12], [13], 'POS'), ([12], [14], 'POS')]"
+340,"['cuma', 'di', 'sayang', 'kan', 'air', 'nya', 'sangat', 'bau', ""'"", '.']","[([4, 5], [6, 7], 'NEG')]"
+341,"['sangat', 'dekat', 'dengan', 'bandara', 'bersih', ',', 'harga', 'terjangkau', '.']","[([6], [7], 'POS')]"
+342,"['internet', 'mati', 'handuk', 'bau', '.']","[([0], [1], 'NEG'), ([2], [3], 'NEG')]"
+343,"['tempatnya', 'rapi', 'dan', 'bersih', '.', 'cuma', 'hanya', 'dikasih', 'handuk', 'satu', 'buat', '2org', '.', 'pasta', 'gigi', 'satu', 'dan', 'sabun', 'juga', 'satu', '.']","[([0], [1], 'POS'), ([0], [3], 'POS')]"
+344,"['kamar', 'bersih', 'dan', 'nyaman', ',', 'pada', 'saat', 'check', 'in', 'agak', 'lama', 'karena', 'kamar', 'masih', 'belum', 'selesai', 'di', 'bersihkan', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([7, 8], [9, 10], 'NEG')]"
+345,"['pelayanan', 'ramah', ',', 'tetapi', 'tirai', 'kamar', 'mandi', 'dan', 'selimut', 'kurang', 'bersih', '.']","[([0], [1], 'POS'), ([4, 5, 6], [9, 10], 'NEG'), ([8], [9, 10], 'NEG')]"
+346,"['di', 'bed', 'nya', 'ada', 'kain', 'biru', 'yang', 'saya', 'pun', 'bingung', 'gunanya', 'apa', 'complaint', 'cepat', 'sehingga', 'bisa', 'lgsung', 'ganti', 'kamar.tks', '.']",[]
+347,"['ac', 'kurang', 'dingin', '.', 'tetapi', 'overall', 'oke', ',', 'akan', 'stay', 'disini', 'lagi', '.']","[([0], [1, 2], 'NEG'), ([5], [6], 'POS')]"
+348,"['bagus', 'bersih', 'wangi', '.', 'ada', 'laundry', 'yang', 'tengah', 'malam', 'pun', 'dilayani', ',', 'saya', 'taruh', 'jam', '12', 'malam', ',', '7pagi', 'sudah', 'selesai', '.']",[]
+349,"['yang', 'berkesan', ':', 'tempat', 'tdr', 'nyaman', ',', 'ada', 'snack', '.']","[([3, 4], [5], 'POS'), ([8], [7], 'POS')]"
+350,"['hotelnya', 'bersih', ',', 'nyaman', ',', 'pelayanan', 'bagus', ',', 'pokoknya', 'puas', 'deh', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([5], [6], 'POS'), ([5], [9], 'POS')]"
+351,"['saya', 'tidak', 'jadi', 'menginap', '.']",[]
+352,"['lumayan', 'dengan', 'harga', 'segitu', 'di', 'balikpapan', '.']",[]
+353,"['bersih', 'banget', 'hotelnya', '.', 'kidsfriendly', '.', 'staf', 'very', 'helpfull', '.', 'instagramable', 'banget', '.', 'saya', 'pasti', 'kembali', 'lagi', '.']","[([2], [0, 1], 'POS'), ([6], [7, 8], 'POS'), ([6], [10], 'POS')]"
+354,"['tidak', 'nyangka', 'kalau', 'hotelnya', 'sangat', 'bersih', '.', 'bagus', '.', 'nyaman', '.', 'depan', 'sudah', 'super', 'indo', '.']","[([3], [4, 5], 'POS'), ([3], [7], 'POS'), ([3], [9], 'POS')]"
+355,"['kamar', 'kotor', ',', 'kamar', 'mandi', 'rusak', ',', 'tidak', 'ada', 'air', 'panas', ',', 'kamar', 'mandi', 'juga', 'kotor', ',', 'lampu', 'redup', ',', 'akses', 'naik', 'menggunakan', 'tangga', 'dan', 'banyak', 'barang', 'barang', 'gudang', 'berserakan', '.']","[([0], [1], 'NEG'), ([3, 4], [5], 'NEG'), ([9, 10], [7, 8], 'NEG'), ([12, 13], [15], 'NEG'), ([17], [18], 'NEG')]"
+356,"['bagus', 'pelayanannya', '.']","[([1], [0], 'POS')]"
+357,"['harga', 'yang', 'dibayar', 'sesuai', 'dengan', 'yang', 'didapat', '.', 'kebersihan', 'lumayan', '.', 'pelayanan', 'ramah', ',', 'baik', '.', 'perlu', 'diperbaiki', 'saluran', 'tv', 'yang', 'kurang', 'bagus', ',', 'wifi', 'putus', 'saat', 'malam', '.']","[([0], [3], 'POS'), ([8], [9], 'POS'), ([11], [12], 'POS'), ([11], [14], 'POS'), ([18, 19], [16, 17], 'NEG'), ([18, 19], [21, 22], 'NEG'), ([24], [25], 'NEG')]"
+358,"['semua', 'baik', '.', 'lokasi', 'pelayanan', 'dan', 'kamar', 'baik', 'semua', 'cocok', 'untuk', 'semua', 'kalangan', 'dan', 'semua', 'keperluan', '.']","[([0], [1], 'POS'), ([3], [7], 'POS'), ([4], [7], 'POS'), ([6], [7], 'POS')]"
+359,"['bersih', 'dan', 'nyaman', '.']",[]
+360,"['lokasi', 'strategis', 'antara', 'tanggerang', 'jakarta', ',', 'pelayanan', 'resepsionis', 'sangat', 'ramah', '.']","[([0], [1], 'POS'), ([6, 7], [8, 9], 'POS')]"
+361,"['our', 'best', 'honeymoon', '.', 'thnx', 'to', 'taman', 'sari', '.']",[]
+362,"['bagus', ',', 'kamarnya', 'luas', 'dan', 'lumayan', 'nyaman', '.']","[([2], [3], 'POS'), ([2], [5, 6], 'POS')]"
+363,"['rapi', 'dan', 'bersih', '.', 'good', '.']",[]
+364,"['satuan', 'pengamanan', 'yang', 'tidak', 'ramah', '.', 'tidak', 'ada', 'solusi', 'baik', 'ketika', 'check', 'in', 'sehingga', 'tidak', 'jadi', 'menginap', 'di', 'room', 'tersebut', '!']","[([0, 1], [3, 4], 'NEG')]"
+365,"['kecewa', 'sama', 'pelayanannya', ',', 'di', 'aplikasi', 'jam', 'check', 'in', 'jam', '2', 'tetapi', 'pas', 'sampai', 'sana', 'jam', '2', 'belum', 'bisa', 'check', 'in', 'dengan', 'alasan', 'tertentu', 'masih', 'ada', 'lagi', 'kamarnya', 'yang', 'kotor', 'seprai', 'yang', 'seperti', 'belum', 'dicuci', ',', 'lantai', 'kamar', 'yang', 'ada', 'ceceran', 'air', 'pas', 'pertama', 'kali', 'masuk', 'terus', 'yang', 'parahnya', 'sama', 'sekali', 'tidak', 'ada', 'peralatan', 'mandi', 'sama', 'sekali', 'seperti', 'handuk', 'pasta', 'gigi', 'sabun', 'dan', 'lainlain', 'harga', 'murah', 'tetapi', 'mengecewakan', '.']","[([2], [0], 'NEG'), ([27], [29], 'NEG'), ([30], [33, 34], 'NEG'), ([53, 54], [51, 52], 'NEG'), ([58], [65], 'POS'), ([58], [67], 'NEG'), ([59, 60], [65], 'POS'), ([59, 60], [67], 'NEG'), ([61], [65], 'POS'), ([61], [67], 'NEG'), ([63], [65], 'POS'), ([63], [67], 'NEG'), ([64], [65], 'POS'), ([64], [67], 'NEG')]"
+366,"['overall', 'sudah', 'baik', ',', 'hanya', 'perlu', 'sedikit', 'perawatan', 'gedung', 'agar', 'terlihat', 'menarik', 'dan', 'tidak', 'kusam', '.']","[([0], [2], 'POS'), ([8], [5, 6, 7], 'NEG')]"
+367,"['waktu', 'cek', 'in', 'jam', '2', 'siang', 'tetapi', 'saya', 'tiba', 'dihotel', 'jam', '9', 'pagi', 'saya', 'tidak', 'diperbolehkan', 'masuk', 'kamar', 'kare', '.']",[]
+368,"['lumayan', 'bersih', ',', 'tetapi', 'ada', 'kecoak', 'keluar', ',', 'tolong', 'di', 'monitoring', 'terus', 'untuk', 'kebersihan', '.', 'recomended', 'untuk', 'backpacker', '.']",[]
+369,"['pelayanannya', 'bagus', '.']","[([0], [1], 'POS')]"
+370,"['seram', '.']",[]
+371,"['nyaman', 'dan', 'tenang', '.']",[]
+372,"['lobi', 'hotel', 'bau', 'gorengan', ',', 'panas', ',', 'kitchen', 'ada', 'di', 'front', 'office', ',', 'baru', 'lihat', 'ada', 'kitchen', 'kecil', 'di', 'fo', '.', 'lift', 'mati', ',', 'kamar', 'ada', 'cecunguk', 'di', 'bantal', 'sangat', 'menjijikan', '.', 'saya', 'minta', 'cancel', 'dan', 'refund', 'order', 'saya', '2', 'malam', 'disini', '.']","[([0, 1], [2, 3], 'NEG'), ([0, 1], [5], 'NEG'), ([21], [22], 'NEG'), ([24], [25, 26], 'NEG')]"
+373,"['cukup', 'memuaskan', 'menginap', 'di', 'airy', 'room', '.', 'terima', 'kasih', 'banyak', 'airy', 'room', '.']",[]
+374,"['bagus', ',', 'rapi', ',', 'bersih', ',', 'nyaman', '.']",[]
+375,"['handuknya', 'cuma', 'satu', ',', 'sementara', 'kami', 'berdua', '.']","[([0], [1, 2], 'NEG')]"
+376,"['pegawai', 'sering', 'tidak', 'ada', 'di', 'tempat', '.', 'kolam', 'renang', 'kotor', '.']","[([0], [1, 2, 3], 'NEG'), ([7, 8], [9], 'NEG')]"
+377,"['kamar', 'sempitt', '.']","[([0], [1], 'NEG')]"
+378,"['kamar', 'rapi', ""'"", 'cuma', 'air', 'nya', 'kecil', 'sama', 'ac', 'nya', 'kurang', 'dingin', '.']","[([0], [1], 'POS'), ([4, 5], [6], 'NEG'), ([8, 9], [10, 11], 'NEG')]"
+379,"['wifi', 'kurang', 'baik', '.']","[([0], [1, 2], 'NEG')]"
+380,"['nyaman', 'dan', 'bersih', 'tetapi', 'sayang', 'gaada', 'keset', 'kamar', 'mandi', 'dan', 'handuk', 'hanya', 'tersedia', '1', '.']","[([6, 7, 8], [5], 'NEG'), ([10], [11, 12, 13], 'NEG')]"
+381,"['seprai', 'kotor', ',', 'lantai', 'kamar', 'kotor', ',', 'kamar', 'bau', 'rokok', '.']","[([0], [1], 'NEG'), ([3, 4], [5], 'NEG'), ([7], [8, 9], 'NEG')]"
+382,"['properti', 'masih', 'perlu', 'banyak', 'pembenahan', '.']","[([0], [2, 3, 4], 'NEG')]"
+383,"['kamar', 'cukup', 'besar', ',', 'suasana', 'tenang', ',', 'akses', 'mudah', '.']","[([0], [1, 2], 'POS'), ([4], [5], 'POS'), ([7], [8], 'POS')]"
+384,"['sudah', 'sering', 'kesana', '.', 'semua', 'nya', 'oke', '.', 'cuma', 'ketika', 'terakhir', 'menginap', ',', 'pendingin', 'ruangan', '308', 'tidak', 'dingin', '.']","[([4, 5], [6], 'POS'), ([13, 14], [16, 17], 'NEG')]"
+385,"['tempat', 'tidur', 'nyaman', ',', 'kamar', 'mandi', 'oke', '.']","[([0, 1], [2], 'POS'), ([4, 5], [6], 'POS')]"
+386,"['kamar', 'bersih', ',', 'rapi', ',', 'semuanya', 'enak', ',', 'parkiran', 'enak', ',', 'tempat', 'tidur', 'nyaman', ',', 'ac', 'dingin', ',', 'air', 'hangat', 'lancar', ',', 'tv', 'besar', 'tetapi', 'kekurangannya', 'cuma', 'di', 'handuk', 'dan', 'selimut', 'belum', 'disediakan', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([5], [6], 'POS'), ([8], [9], 'POS'), ([11, 12], [13], 'POS'), ([15], [16], 'POS'), ([18, 19], [20], 'POS'), ([22], [23], 'POS'), ([28], [31, 32], 'NEG'), ([30], [31, 32], 'NEG')]"
+387,"['masuk', 'gang', 'nya', 'kotor', ',', 'jorok', ',', 'kamar', 'nya', 'sempit', ',', 'kamar', 'mandi', 'kotor', ',', 'ac', 'nya', 'lama', 'banget', 'dingin', 'nya', ',', 'mengecewakan', ',', 'tidak', 'seperti', 'ygdi', 'tampilkan', 'di', 'foto', '.']","[([1, 2], [3], 'NEG'), ([1, 2], [5], 'NEG'), ([7, 8], [9], 'NEG'), ([11, 12], [13], 'NEG'), ([15, 16], [17, 18, 19], 'NEG')]"
+388,"['bagus', 'untuk', 'kamarnya', 'dan', 'funiturenya', 'apik', 'namun', 'recepsionistnya', 'kurang', 'ramah', '.']","[([2], [0], 'POS'), ([4], [5], 'POS'), ([7], [8, 9], 'NEG')]"
+389,"['sebanding', 'dengan', 'harga', 'lah', ',', 'cukup', 'memuaskan', '.']",[]
+390,"['lumayan', 'sama', 'budget', 'nya', '.']",[]
+391,"['kamar', 'bau', 'dan', 'kotor', ',', 'toilet', 'bau', ',', 'after', 'menginap', 'disini', 'saya', 'kena', 'penyakit', 'kulit', '(', 'ruam', 'kulit', 'dan', 'gatalgatal', ')', '.']","[([0], [1], 'NEG'), ([0], [3], 'NEG'), ([5], [6], 'NEG')]"
+392,"['wifi', 'tidak', 'sampai', 'kamar', '.']","[([0], [1, 2], 'NEG')]"
+393,"['hotel', 'airy', 'yang', 'sangat', 'recomended', '!', 'bersih', ',', 'rapi', 'nyaman', 'dan', 'murah', '.']","[([0, 1], [3, 4], 'POS'), ([0, 1], [6], 'POS'), ([0, 1], [8], 'POS'), ([0, 1], [9], 'POS'), ([0, 1], [11], 'POS')]"
+394,"['sangat', 'sangat', 'memuaskan', '.', 'terimakasih', 'airy', 'syariah', 'teluk', 'bayur', 'gatot', 'subroto', 'berau', '.']",[]
+395,"['sarapan', 'sederhana', 'tetapi', 'rasa', 'juara', '.']","[([0], [1], 'POS'), ([3], [4], 'POS')]"
+396,"['kamar', 'bersih', ',', 'pelayan', 'prima', '.']","[([0], [1], 'POS'), ([3], [4], 'POS')]"
+397,"['sarapan', 'paginya', 'yang', 'agak', 'terbatas', ',', 'sisanya', 'oke', '.']","[([0, 1], [3, 4], 'NEG'), ([6], [7], 'POS')]"
+398,"['kue', 'untuk', 'breakfastnya', 'enak', ',', '.', 'kurang', 'berkesan', 'karena', 'pegawainya', 'kurang', 'senyum', ',', '.', 'pas', 'datang', 'engak', 'jelas', 'lihat', 'pintu', 'masuk', 'hotelnya', ',', '.', 'di', 'ketuk', '""', 'pintunya', 'lah', ',', '.', 'eh', 'petugasnya', 'datang', 'memberikan', 'tahu', 'nya', 'dengan', 'nada', 'agak', 'galak', '.']","[([0], [3], 'POS'), ([9], [10, 11], 'NEG')]"
+399,"['bersih', 'nyaman', '.', 'saya', 'menginap', 'lebih', 'dari', 'dua', 'malam', '.', 'apakah', 'snack', 'dan', 'minum', 'hanya', 'diberikan', 'hari', 'pertama', 'check', 'in', '?', 'padahal', 'kan', 'bayarnya', 'sama', 'harga', '.']",[]
+400,"['pelayanan', 'yang', 'kurang', 'baik', 'perlu', 'ditingkatkan', '.']","[([0], [2, 3], 'NEG'), ([0], [4, 5], 'NEG')]"
+401,"['hotelnya', 'lumayan', 'bersih', 'dan', 'pelayanannya', 'lumayan', 'bagus', '.', 'cuma', 'kemarin', 'pas', 'saya', 'inap', 'listriknya', 'sering', 'mati', '.', 'mgkin', 'harus', 'di', 'benahi', 'sama', 'pihak', 'perusahaan', 'listrik', 'negara', 'nya', '.', 'untuk', 'selebihnya', 'oke', 'sudah', '.']","[([0], [1, 2], 'POS'), ([4], [5, 6], 'POS'), ([13], [14, 15], 'NEG'), ([29], [30], 'POS')]"
+402,"['tingkatkan', 'pelayanan', 'di', 'bidang', 'kebersihan', 'kamar', '.']","[([1, 2, 3, 4, 5], [0], 'NEG')]"
+403,"['pelayanan', 'baik', ',', 'cuma', 'cs', 'sering', 'tidak', 'ditempat', '.', 'kamar', 'bersih', '.', 'top', '.']","[([0], [1], 'POS'), ([4], [5, 6, 7], 'NEG'), ([9], [10], 'POS')]"
+404,"['tempatnya', 'sesuai', 'dengan', 'foto', ',', 'bersih', ',', 'nyaman', 'dan', 'disediakan', 'kopi', 'dan', 'teh', 'tetapi', 'harus', 'buat', 'sendiri', 'iya', '.']","[([0], [1], 'POS'), ([0], [5], 'POS'), ([0], [7], 'POS')]"
+405,"['tempat', 'tdr', 'kurang', 'nyaman', '.']","[([0, 1], [2, 3], 'NEG')]"
+406,"['air', 'licin', '.', 'kamar', 'sempit', 'tidak', 'sesuai', 'foto', '.']","[([0], [1], 'NEG'), ([3], [4], 'NEG'), ([3], [5, 6, 7], 'NEG')]"
+407,"['kamarnya', 'baik', '.', 'pelayanan', 'baik', '.', 'meski', 'check', 'in', 'terlambat', 'tetap', 'dibukakan', 'pintu', '.']","[([0], [1], 'POS'), ([3], [4], 'POS')]"
+408,"['bersih', ',', 'nyaman', ',', 'sesuai', 'permintaan', ',', 'tetapi', 'tidak', 'ada', 'almari', 'es', 'nyaa', '.']","[([10, 11, 12], [8, 9], 'NEG')]"
+409,"['kalau', 'bisa', 'adain', 'sarapan', '.']",[]
+410,"['baik', 'jaringan', 'internet', 'perlu', 'ditingkatkan', ',', 'lampu', 'kamar', 'mandi', 'dan', 'ruangan', 'perlu', 'ditingkatkan', ',', 'air', 'minum', 'dalam', 'kamar', 'sebaiknya', 'ukuran', '1', ',', '5', 'liter', ',', 'sarung', 'bantal', 'perlu', 'diganti', 'karena', 'sudah', 'bercak', 'kuning', '.']","[([1, 2], [3, 4], 'NEG'), ([6, 7, 8], [11, 12], 'NEG'), ([10], [11, 12], 'NEG'), ([25, 26], [31, 32], 'NEG')]"
+411,"['sayang', 'parkirannya', 'kecil', 'hanya', 'muat', '5', '6', 'mobil', 'saja', '.']","[([1], [2], 'NEG')]"
+412,"['acnya', 'juga', 'dingin', 'tetapi', 'karena', 'kota', 'malang', 'saat', 'malam', 'dingin', 'jadi', 'ac', 'tidak', 'dinyalakan', ',', 'baru', 'dinyalakan', 'saat', 'siang', 'hari', '.']","[([0], [2], 'POS')]"
+413,"['saya', 'sampai', 'di', 'lokasi', 'pukul', '24.00', 'karena', 'penerbangan', 'malam', '.', 'sekuriti', 'atau', 'penjaga', 'malam', 'yang', 'standby', 'tidak', 'ada', '.']","[([10], [16, 17], 'NEG'), ([12, 13], [16, 17], 'NEG')]"
+414,"['kamar', 'mandi', 'sempit', 'dan', 'ala', 'kadarnya', '.']","[([0, 1], [2], 'NEG'), ([0, 1], [4, 5], 'NEG')]"
+415,"['baik', ',', 'sayang', 'acnya', 'tolong', 'diperbaiki', 'iya', '.']","[([3], [4, 5], 'NEG')]"
+416,"['bed', 'cover', 'kotor', 'seperti', 'telah', 'dipakai', 'dan', 'banyak', 'pasir', 'debu', '.']","[([0, 1], [2], 'NEG'), ([0, 1], [7, 8, 9], 'NEG')]"
+417,"['kamar', 'mandinya', 'bau', ',', 'dan', 'lubang', 'saluran', 'air', 'tersumbat', 'dan', 'penuh', 'rambut', 'sampai', 'harus', 'saya', 'yang', 'membersihkan', '.', 'kurang', 'meja', 'kecil', 'disamping', 'tempat', 'tidur', '.', 'kamar', 'agak', 'kecil', ',', 'tetapi', 'sangat', 'nyaman', '.']","[([0, 1], [2], 'NEG'), ([5, 6, 7], [8], 'NEG'), ([5, 6, 7], [10, 11], 'NEG'), ([25], [26, 27], 'NEG'), ([25], [30, 31], 'NEG')]"
+418,"['lokasi', 'nya', 'tidak', 'bagus', 'dan', 'suasana', 'sekitar', 'gelap', '.', 'parkir', 'mobil', 'sulit', 'dan', 'kamar', 'yang', 'sempit', '.', 'semoga', 'bisa', 'lebih', 'baik', 'lagi', 'ke', 'depan', '.']","[([0, 1], [2, 3], 'NEG'), ([5, 6], [7], 'NEG'), ([9, 10], [11], 'NEG'), ([13], [15], 'NEG')]"
+419,"['kamar', 'bersih', 'tetapi', 'pelayanannya', 'kurang', ',', 'lama', 'saat', 'cek', 'in', 'kamar', 'baru', 'di', 'siapkan', 'padahal', 'sudah', 'sampai', 'saat', 'malam', '.']","[([0], [1], 'POS'), ([3], [4], 'NEG'), ([8, 9], [6], 'NEG')]"
+420,"['1', '.', 'lampu', 'kamar', 'terlalu', 'redup', '2', '.', 'lampu', 'di', 'kamar', 'mandi', 'salah', 'satunya', 'mati', '3', '.', 'tidak', 'ada', 'peralatan', 'mandi', '4', '.', 'ac', 'tidak', 'berfungsi', 'normal', '(', 'tidak', 'berasa', 'ac', '-', 'nya', 'walau', 'sudah', 'di', 'kecilkan', ')', '5', '.', 'air', 'panasnya', 'kadang', 'bisa', 'di', 'gunakan', 'dan', 'kadang', 'tidak', '.']","[([2, 3], [4, 5], 'NEG'), ([19, 20], [17, 18], 'NEG'), ([23], [24, 25, 26], 'NEG'), ([40, 41], [42, 43], 'NEG')]"
+421,"['kamarnya', 'bersih', ',', 'nyaman', 'bangt', 'dan', 'harganya', 'bersahabatt', 'suka', 'banget', 'dehh', '.']","[([0], [1], 'POS'), ([0], [3, 4], 'POS'), ([6], [7], 'POS'), ([6], [8, 9], 'POS')]"
+422,"['memang', 'sudah', 'agak', 'tua', '.', 'kolam', 'renang', 'kotor', ',', 'kamar', 'mandi', 'ada', 'beberapa', 'kecoaknya', ':', '(', '.']","[([5, 6], [7], 'NEG'), ([9, 10], [11, 12, 13], 'NEG')]"
+423,"['tidak', 'ribet', ',', 'puas', 'dan', 'selalu', 'berinovasi', 'buat', 'kenyamanan', 'konsumen', '.']",[]
+424,"['air', 'panas', 'tidak', 'jalan', ',', 'kamar', 'mandi', 'bau', 'rokok', ',', 'penerangan', 'kurang', '.']","[([0, 1], [2, 3], 'NEG'), ([5, 6], [7, 8], 'NEG'), ([10], [11], 'NEG')]"
+425,"['hotel', 'masih', 'baru', ',', 'nyaman', 'deh', '.', 'yang', 'mau', 'diskon', 'idriook', ',', 'bisa', 'klik', ':', 'http', ':', 'bit.ly', 'airy', 'rooms', '.']","[([0], [4], 'POS')]"
+426,"['berssih', '.', 'putih', '.', 'tetapi', 'agak', 'masuk', 'lokasi', 'nya', '.', 'di', 'perumahan', '.']",[]
+427,"['pelayanan', 'bagus', '.', 'terimakasih', 'airy', '!']","[([0], [1], 'POS')]"
+428,"['pelayanan', 'resepsionis', 'kurang', '.', 'selebihnya', 'oke', '.']","[([0, 1], [2], 'NEG'), ([4], [5], 'POS')]"
+429,"['keren', 'tempat', 'nya', 'mantaps', 'dan', 'servicenya', 'oke', 'thank', 'resident', '12', 'dan', 'airy', '.']","[([1, 2], [3], 'POS'), ([5], [6], 'POS')]"
+430,"['resepsionis', 'yang', 'kurang', 'ramah', ',', 'dan', 'bantal', 'yang', 'ada', 'tulisan', 'airynya', 'kotor', 'banget', '.']","[([0], [2, 3], 'NEG'), ([6], [11, 12], 'NEG')]"
+431,"['kamar', 'bagus', 'dan', 'bersih', 'tetapi', 'kurang', 'besar', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([0], [5, 6], 'NEG')]"
+432,"['bersih', ',', 'rekomendasi', 'banget', 'buat', 'yang', 'mau', 'liburan', 'di', 'lembang', '.']",[]
+433,"['yahh', 'standartlah', ',', 'tidak', 'bisa', 'bawa', 'lebih', 'dari', '2', 'orang', ',', 'kena', 'charge', 'lagi', 'sebabnya', ',', '.']",[]
+434,"['resepsionis', 'nya', 'perlu', 'di', 'training', 'customer', 'handling', 'lagi', '.', 'resepsionis', 'terlalu', 'tidak', 'ramah', '.', 'staf', 'yang', 'lain', 'kindly', 'dan', 'bagus', '.']","[([0, 1], [2, 3, 4, 5, 6, 7], 'NEG'), ([9], [10, 11, 12], 'NEG'), ([14], [17], 'POS'), ([14], [19], 'POS')]"
+435,"['kamar', 'bagus', ',', 'bersih', ',', 'wifi', 'lancar', ',', 'cuma', 'siaran', 'tv', 'yang', 'tidak', 'ada', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([5], [6], 'POS'), ([9, 10], [12, 13], 'NEG')]"
+436,"['mantap', '.', 'scurity', 'baik', 'dan', 'ramah', '.']","[([2], [3], 'POS'), ([2], [5], 'POS')]"
+437,"['toilet', 'kurang', 'bersih', 'dan', 'bagus', '.', 'kamarnya', 'pun', 'agak', 'bau', 'dan', 'pengap', '.']","[([0], [1, 2, 3, 4], 'NEG'), ([6], [8, 9], 'NEG'), ([6], [11], 'NEG')]"
+438,"['tahun', '2017', 'saya', 'pernah', 'menginap', 'disini', '.', 'tetapi', 'terakhir', 'saya', 'kesini', 'sudah', 'jadi', 'mengecewakan', '.']",[]
+439,"['pelayanan', 'baik', 'tetapi', 'maaf', 'kondisi', 'kamar', 'dan', 'pengaturan', 'parkir', 'mohon', 'diperbaiki', '.']","[([0], [1], 'POS'), ([4, 5], [10], 'NEG'), ([8], [10], 'NEG')]"
+440,"['staf', 'tidak', 'ramah', '.', 'kamar', 'mandi', 'tidak', 'ada', 'selang', 'ceboknya', ',', 'kalau', 'ada', 'tisu', 'sih', 'tidak', 'masalah', 'tetapi', 'ini', 'tidak', 'ada', 'sama', 'sekali', '.', 'keluhan', 'ke', 'resepsionisnya', 'cuma', 'di', 'cuekin', '.', 'terpaksa', 'baru', '10', 'menit', 'check', 'in', 'terpaksa', 'saya', 'check', 'out', '.']","[([0], [1, 2], 'NEG'), ([4, 5], [6, 7, 8, 9], 'NEG'), ([13], [19, 20], 'NEG')]"
+441,"['kamar', 'pas', ',', 'tetapi', 'nyaman', '.', 'tv', 'tidak', 'berfungsi', '.', 'hanya', 'pelayanan', 'kurang', 'ramah', '.']","[([0], [1], 'POS'), ([0], [4], 'POS'), ([6], [7, 8], 'NEG'), ([11], [12, 13], 'NEG')]"
+442,"['tempatnya', 'nyaman', ',', 'bersih', ',', 'recomended', 'lah', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([0], [5], 'POS')]"
+443,"['semua', 'lengkap', '.']","[([0], [1], 'POS')]"
+444,"['tempat', 'nyaman', '.']","[([0], [1], 'POS')]"
+445,"['good', 'lokasi', '.', 'keramahan', 'resepsionis', 'yang', 'kurang', '.']","[([1], [0], 'POS'), ([3, 4], [6], 'NEG')]"
+446,"['kelas', 'bisnisnya', 'sangat', 'kurang', 'greget', '.']","[([0, 1], [2, 3, 4], 'NEG')]"
+447,"['pelajaran', 'di', 'perbagus', '.']",[]
+448,"['kamarnya', 'bagus', '.', 'tidak', 'murahan', '.']","[([0], [1], 'POS'), ([0], [3, 4], 'POS')]"
+449,"['tidak', 'ada', 'lokasi', 'parkir', ',', 'kasur', 'keras', '.']","[([2, 3], [0, 1], 'NEG'), ([5], [6], 'NEG')]"
+450,"['hotel', 'bersih', 'dan', 'nyaman', '.', 'pelayanan', 'juga', 'ramah', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([5], [7], 'POS')]"
+451,"['berisik', 'sekali', 'karena', 'suara', 'riuh', 'jalan', 'raya', 'terdengar', 'jelas', 'di', 'dalam', 'kamar', ',', 'tidak', 'tenang', ',', 'susah', 'untuk', 'tidur', '.']",[]
+452,"['menyenangkan', '.', 'lokasi', 'agak', 'sulit', 'dijangkau', 'tanpa', 'waze', '.']","[([2], [3, 4, 5], 'NEG')]"
+453,"['sangat', 'menyenangkan', 'para', 'petugas', 'sangat', 'ramah', '.']","[([2, 3], [4, 5], 'POS')]"
+454,"['interior', 'bagus', 'dan', 'nyaman', '.']","[([0], [1], 'POS'), ([0], [3], 'POS')]"
+455,"['tenang', 'dan', 'sepi', '.']",[]
+456,"['tenang', '.', 'kebersihan', 'harap', 'dtingkatkan', '.']","[([2], [3, 4], 'NEG')]"
+457,"['staf', 'kurang', 'ramah', ',', 'sarung', 'bantal', 'kotor', ',', 'pintu', 'kamar', 'mandi', 'rusak', '.']","[([0], [1, 2], 'NEG'), ([4, 5], [6], 'NEG'), ([8, 9, 10], [11], 'NEG')]"
+458,"['kecewa', 'karena', 'ternyata', 'ditempatkan', 'di', 'smoking', 'room', '.']",[]
+459,"['shower', 'air', 'panas', 'tersedia', '.']","[([0, 1, 2], [3], 'POS')]"
+460,"['over', 'all', 'oke', ',', 'kurang', 'pewangi', 'saja', 'kamarnya', ',', 'anakanak', 'betah', 'karena', 'puas', 'lihat', 'kereta', '.']","[([0, 1], [2], 'POS'), ([7], [4, 5], 'NEG')]"
+461,"['kamar', 'oke', ',', 'bersih', ',', 'rapi', 'dan', 'fasilitas', 'oke', '.', 'hanya', 'ac', 'yang', 'tidak', 'bisa', 'dingin', ',', 'walaupun', 'sudah', 'di', 'setting', 'suhu', 'rendah', 'dan', 'fan', 'jetfan', '.', 'mohon', 'diperbaiki', '.', 'overall', 'oke', '.', 'terima', 'kasih', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([0], [5], 'POS'), ([7], [8], 'POS'), ([11], [13, 14, 15], 'NEG'), ([30], [31], 'POS')]"
+462,"['bersih', '.', 'rrapi', 'tetapi', 'pelayanan', 'kurang', '.']","[([4], [5], 'NEG')]"
+463,"['tempatnya', 'bersih', ',', 'pelayanannya', 'ramah', ',', 'speed', 'wi', 'fii', 'cepat', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([6, 7, 8], [9], 'POS')]"
+464,"['tidak', 'ada', 'amenities', ',', 'pelayanan', 'kurang', 'baik', '.']","[([2], [0, 1], 'NEG'), ([4], [5, 6], 'NEG')]"
+465,"['dalam', 'kamar', 'mandi', 'ada', 'kecoak', ',', 'tolong', 'diperhatikan', 'dan', 'lbih', 'di', 'jaga', 'lagi', 'kebersihannya', ',', 'selebihnya', 'sangat', 'baik', '.']","[([1, 2], [3, 4], 'NEG'), ([13], [6, 7], 'NEG'), ([15], [16, 17], 'POS')]"
+466,"['pelayanan', 'dan', 'tempatnya', 'bagus', ',', 'hanya', 'saja', 'bed', 'covernya', 'yang', 'sudah', 'mulai', 'kurang', 'bersih', 'karena', 'sudah', 'tidak', 'berwarna', 'putih', 'cerah', 'lagi', 'ada', 'bercak', 'hitam', '.', 'mngkin', 'bisa', 'ada', 'pembaharuan', 'atau', 'pencucian', 'bed', 'covernya', 'yang', 'bersih', 'lagi', '.']","[([2], [3], 'POS'), ([7, 8], [12, 13], 'NEG')]"
+467,"['pelayanan', 'sangat', 'baik', ',', 'kamar', 'bersih', ',', 'tetapi', 'tidak', 'ada', 'sarapan', '.']","[([0], [1, 2], 'POS'), ([4], [5], 'POS'), ([10], [8, 9], 'NEG')]"
+468,"['so', 'far', 'good', ',', 'cuma', 'ruangan', 'agak', 'gelap', 'dan', 'ac', 'nya', 'tidak', 'begitu', 'dingin', '.']","[([5], [6, 7], 'NEG'), ([9, 10], [11, 12, 13], 'NEG')]"
+469,"['tempatnya', 'nyaman', ',', 'bersih', ',', 'ramah', '.', 'tentu', 'saja', 'harga', 'terhangkau', 'murah', 'meriah', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([0], [5], 'POS'), ([9], [10], 'POS'), ([9], [11, 12], 'POS')]"
+470,"['parkiran', 'jauh', '.', 'kolam', 'renang', 'depan', 'kamar', 'yi2', 'bau', ',', 'kotor', '.', 'baru', 'mau', 'masuk', 'kamar', ',', 'sampah', 'berserakan', 'di', 'depan', 'pintu', '.', 'masuk', 'kamar', ',', 'lantai', 'licin', ',', 'karena', 'ngepelnya', 'kebanyakan', 'sabun', 'mungkin', '.', 'tidak', 'ada', 'sandal', 'hotel', 'lagi', '.', 'kamar', 'mandi', 'showernya', 'patah', 'juga', '.']","[([0], [1], 'NEG'), ([3, 4], [8], 'NEG'), ([3, 4], [10], 'NEG'), ([26], [27], 'NEG'), ([37, 38], [35, 36], 'NEG'), ([41, 42, 43], [44], 'NEG')]"
+471,"['yang', 'buat', 'heran', 'saya', ',', 'pasti', 'sebelum', 'tamu', 'masuk', 'kamar', 'sudah', 'dibereskan', 'dan', 'dibersihkan', ',', 'apalagi', 'kalau', 'pakai', 'airy', 'ada', 'bennefit', 'lebih', 'yang', 'dirapikan', 'dahulu', 'di', 'kamar', 'sbelum', 'pengunjung', 'masuk', '.', 'masa', 'bau', 'pengak', 'seperti', 'begitu', 'tidak', 'terasa', '?', 'bau', 'nya', 'nyengat', 'banget', ',', 'sampai', 'buat', 'pusing', 'kepala', '.', 'ditambah', 'tidak', 'ada', 'ventilasi', 'udara', 'di', 'kamarnya', '.', 'sehingga', 'sangat', 'wajar', 'jika', 'saat', 'awal', 'diingatkan', 'oleh', 'petugas', 'bahwa', 'kamar', 'no', 'smoking', 'area', ',', 'sirkulasi', 'udara', 'mengandalkan', 'ac', ',', 'tetapi', 'jadi', 'parah', 'saat', 'ada', 'bau', 'pengap', 'seperti', 'yang', 'saya', 'alami', 'diatas', '.']","[([39, 40], [41, 42], 'NEG'), ([52, 53], [50, 51], 'NEG')]"
+472,"['kamar', 'bersih', '.', 'cuma', 'biasanya', 'dapat', 'snack', 'tetapi', 'kok', 'ini', 'tidak', 'ada', 'iya', '.', 'tidak', 'ada', 'lift', 'jadi', 'lumayan', 'lah', 'naik', 'turun', 'lantai', '3', 'pakai', 'tangga', '.']","[([0], [1], 'NEG'), ([6], [10, 11], 'NEG'), ([16], [14, 15], 'NEG')]"
+473,"['lokasi', 'strategis', ',', 'pelayanan', 'baik', ',', 'ac', 'dingin', ',', 'kamar', 'cukup', 'luas', 'namun', 'kamar', 'kotor', 'dan', 'kamar', 'mandi', 'bau', '.', 'sarapan', 'hanya', 'nasi', 'goreng', 'dan', 'telor', 'ceplok', 'tidak', 'ada', 'roti', 'tawar', '.', 'bangunan', 'seperti', 'kurang', 'terawat', 'dan', 'terkesan', 'kuno', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([6], [7], 'POS'), ([9], [10, 11], 'POS'), ([13], [14], 'NEG'), ([16, 17], [18], 'NEG'), ([32], [34, 35], 'NEG')]"
+474,"['kamarnya', 'bersih', ',', 'karyawannya', 'ramah', ',', 'cafenya', 'bagus', ',', 'enak', 'buat', 'tempat', 'kumpulkumpul', ',', 'akses', 'ke', 'hotel', 'mudah', ',', 'tempat', 'strategis', 'di', 'pusat', 'kota', ',', 'dekat', 'dengan', 'tempat', 'wisata', ',', 'harga', 'bersahabat', ',', 'sangat', 'recommended', '!']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([6], [7], 'POS'), ([14], [17], 'POS'), ([19], [20], 'POS'), ([30], [31], 'POS')]"
+475,"['dekat', 'pusat', 'kota', '.', 'fasilitas', 'bagus', '.']","[([4], [5], 'POS')]"
+476,"['cukup', 'memuaskan', '.']",[]
+477,"['tempatnya', 'nyaman', '.']","[([0], [1], 'POS')]"
+478,"['kebersihan', 'baik', 'dan', 'pelayanan', 'bagus', '.']","[([0], [1], 'POS'), ([3], [4], 'POS')]"
+479,"['mohon', 'bisa', 'lebih', 'teliti', 'terhadap', 'barang', 'yang', 'tertinggal', '.']",[]
+480,"['fasilitas', 'dan', 'pelayanan', 'memuaskan', '.']","[([0], [3], 'POS'), ([2], [3], 'POS')]"
+481,"['ac', '-', 'nya', 'sudah', 'tidak', 'layak', 'lagi', ',', 'ruangan', 'kamar', 'kurang', 'penerangan', '.', 'selain', 'itu', 'sudah', 'ckup', 'baik', '.']","[([0, 1, 2], [4, 5], 'NEG'), ([8, 9], [10, 11], 'NEG'), ([13, 14], [16, 17], 'POS')]"
+482,"['kamarnya', 'bersih', 'dan', 'nyaman', ',', 'pegawainya', 'juga', 'rajin', 'senyum', '.', 'pokoknya', 'puas', 'menginap', 'di', 'hotel', 'istanaku', '.', 'jempol', '3', 'deh', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([5], [7, 8], 'POS')]"
+483,"['pelayanan', 'mengesankan', '.']","[([0], [1], 'POS')]"
+484,"['oke', '.', 'kami', 'nantikan', 'pelayanan', 'dan', 'diskon', 'terbaik', 'dari', 'airy', 'buat', 'selanjutnya', '.', 'maturnuwun', '.']",[]
+485,"['kalau', 'budget', ',', 'agak', 'berisik', ',', 'kurangnya', 'peredam', 'ruangan', 'di', 'kamar', ',', 'sehingga', 'suara', 'dari', 'luar', 'kamar', 'terdengar', 'sehingga', 'ke', 'dalam', '.']",[]
+486,"['bersih', ',', 'kamar', 'luas', ',', 'ac', 'dingin', ',', 'sangat', 'puas', '.']","[([2], [3], 'POS'), ([5], [6], 'POS')]"
+487,"['sangat', 'memuaskan', ',', 'bersih', 'dan', 'luas', '.']",[]
+488,"['tempatnya', 'bagus', ',', 'worthed', ',', 'hanya', 'saja', 'kalau', 'malam', 'nyamuknya', 'banyak', '.']","[([0], [1], 'POS'), ([0], [3], 'POS')]"
+489,"['kamar', 'luas', '.', 'bersih', '.', 'kamar', 'mandi', 'mantap', '.', 'air', 'panas', 'ngalirnya', 'deras', '.', 'ac', 'dingin', '.', 'perlengkapan', 'mandi', 'lengkap', '.', 'melebihi', 'ekspektasi', 'harga', '.', 'kalau', 'ke', 'malang', 'lagi', 'pasti', 'kesini', 'lagi', '.', 'yang', 'sayang', 'cuma', '1', ',', 'lemari', 'lembab', 'bnya', 'jamurnya', '.', 'sarapan', '.', 'sesuai', 'harga', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([5, 6], [7], 'POS'), ([9, 10, 11], [12], 'POS'), ([14], [15], 'POS'), ([17, 18], [19], 'POS'), ([38], [39], 'NEG'), ([43], [45], 'POS')]"
+490,"['listrik', 'kadang', 'tidak', 'kuat', 'sering', 'nyeglek', '.']","[([0], [1, 2, 3], 'NEG'), ([0], [4, 5], 'NEG')]"
+491,"['kemarin', 'bisa', 'numpang', 'cetak', 'tiket', 'asian', 'games', '.', 'terima', 'kasih', '.']",[]
+492,"['pelayanan', 'dari', 'pihak', 'hotel', 'memuaskan', ',', 'kamar', 'tidur', 'dan', 'kamar', 'mandi', 'bersih', '.', 'shower', 'air', 'panas', 'berfungsi', '.']","[([0], [4], 'POS'), ([6, 7], [11], 'POS'), ([9, 10], [11], 'POS'), ([13, 14, 15], [16], 'POS')]"
+493,"['banyak', 'semut', 'di', 'kasur', 'nya', ',', 'wifi', 'tidak', 'bisa', 'karena', 'belum', 'dibayar', ',', 'dan', 'token', 'listrik', 'bunyi', 'karena', 'token', 'habis', '.']","[([3, 4], [0, 1], 'NEG'), ([6], [7, 8], 'NEG')]"
+494,"['tidak', 'ada', 'internet', 'di', 'dalam', 'kamar', 'sedangkan', 'kita', 'datang', 'dalam', 'rangka', 'ada', 'kerja', ',', 'jadi', 'tolong', 'pastikan', 'fasilitasnya', 'benar', 'benar', 'ada', '.']","[([2], [0, 1], 'NEG')]"
+495,"['stafnya', 'baik', '.', 'rekomendasi', 'buat', 'yang', 'punya', 'dana', 'sedikit', 'tetapi', 'ingin', 'kenyamanan', 'seperti', 'hotel', '.', 'akan', 'pesan', 'lagi', 'kalau', 'berobat', 'lagi', 'ke', 'rspad', 'gatot', 'subroto', 'dekat', 'banget', 'naik', 'gocar', 'cuma', '12000', '.']","[([0], [1], 'POS')]"
+496,"['saat', 'lampu', 'mati', ',', 'pihak', 'hotel', 'tidak', 'menyediakan', 'genset', 'buat', 'cadangan', '.', 'dan', 'dua', 'kali', 'hotel', 'mati', 'lampu', ',', 'serta', 'waktu', 'nya', 'lumayan', 'lama', '.']",[]
+497,"['pelayanan', 'hotel', 'buruk', ',', 'ac', 'kamar', 'tidak', 'dingin', ',', 'hotel', 'tidak', 'ada', 'cctv', 'sehingga', 'pas', 'saya', 'mau', 'cekout', 'motor', 'saya', 'sudah', 'lecetlecet', 'rusak', '.', 'ditanya', 'bahkan', 'tidak', 'ada', 'yang', 'mengaku', ',', 'menurut', 'pegawainya', 'motor', 'saya', 'sempat', 'jatuh', '.', 'saran', 'saya', 'perbanyak', 'cctv', '.', 'kalau', 'seperti', 'begini', 'siapa', 'yang', 'mau', 'tanggung', 'jawab', '?']","[([0, 1], [2], 'NEG'), ([4, 5], [6, 7], 'NEG'), ([12], [10, 11], 'NEG')]"
+498,"['refeption', 'kurang', 'bersahabat', '.']","[([0], [1, 2], 'NEG')]"
+499,"['alhamdulillah', 'dengn', 'puas', 'pelayanan', 'disini', ',', 'nanti', 'kalau', 'ada', 'kesepatan', 'bisa', 'kembali', 'lagi', 'inap', 'disini', '.']","[([3], [2], 'POS')]"
+500,"['bagus', 'kamar', 'bersih', 'rekomen', 'lah', '.']","[([1], [0], 'POS'), ([1], [2], 'POS')]"
+501,"['kamarnya', 'sempit', 'sekali', 'susah', 'untuk', 'sholat', '.', 'tetapi', 'bersih', 'dan', 'tenang', '.', 'overall', 'baik', '.']","[([0], [1, 2], 'NEG'), ([12], [13], 'POS')]"
+502,"['sangat', 'sangat', 'mengecewakan', 'sekali', '.', 'air', 'tidak', 'ada', '.', 'namun', 'lokasi', 'sangat', 'stategis', ',', 'sekat', 'stasiun', ',', 'makan', '.']","[([5], [6, 7], 'NEG'), ([10], [11, 12], 'POS')]"
+503,"['dekat', 'banget', 'sama', 'jatim', 'park', '2', 'dan', 'jatim', 'park', 'lainnya', '.']",[]
+504,"['kamar', 'rapi', 'dan', 'bersih', '.']","[([0], [1], 'POS'), ([0], [3], 'POS')]"
+505,"['menu', 'break', 'fast', 'cuma', 'dapat', 'nasi', 'putih', 'dan', 'air', 'putih', 'saja', 'yang', 'ada', 'jika', 'ke', 'resto', 'lewat', 'jam', '8.00', '.']",[]
+506,"['mungkin', 'foto', 'kondisi', 'dan', 'fasilitas', 'kamar', 'perlu', 'di', 'update', 'karena', 'saat', 'saya', 'pesan', 'standar', 'room', 'double', 'tampak', 'bath', 'tube', 'pada', 'gambar', 'di', 'aplikasi', '.', 'sedangakan', 'kenyataannya', 'saya', 'diberikan', 'kamar', 'no', '1', 'dan', 'tidak', 'tersedia', 'bath', 'tube', '.']","[([34, 35], [32, 33], 'NEG')]"
+507,"['saya', 'menginap', 'di', 'sini', 'dalam', 'perjalanan', 'saya', 'dari', 'balikpapan', 'menuju', 'kalimantan', 'utara', 'dari', 'luar', ',', 'hotel', 'terlihat', 'bagus', 'dan', 'mewah', ',', 'demikian', 'juga', 'ketika', 'masuk', 'ke', 'dalam', 'ada', 'lift', '.', 'kamar', 'juga', 'cukup', 'luas', 'dan', 'nyaman', '.', 'kebersihan', 'juga', 'cukup', 'baik', '.', 'wifi', '.', 'kebetulan', 'pada', 'waktu', 'kami', 'menginap', 'tidak', 'terlalu', 'baik', 'air', 'panas', 'juga', 'kurang', 'stabil', ',', 'kadang', 'menjadi', 'panas', 'sekali', ',', 'kadang', 'dingin', '.', 'breakfast', 'juga', 'cukup', 'baik', '.']","[([15], [17], 'POS'), ([15], [19], 'POS'), ([30], [32, 33], 'POS'), ([30], [35], 'POS'), ([37], [39, 40], 'POS'), ([42], [49, 50, 51], 'NEG'), ([52, 53], [55, 56], 'NEG'), ([66], [68, 69], 'POS')]"
+508,"['staf', 'ramah', ',', 'kamar', 'bersih', 'dan', 'rapi', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([3], [6], 'POS')]"
+509,"['bersih', '.', 'rapi', '.', 'nyaman', '.', 'tempat', 'strategis', '.', 'sayangnya', 'air', 'hangatnya', 'mati', '.', 'tetapi', 'over', 'all', 'pelayanan', 'nya', '.']","[([6], [7], 'POS'), ([10, 11], [12], 'NEG')]"
+510,"['air', 'panas', 'tidak', 'ada', '.']","[([0, 1], [2, 3], 'NEG')]"
+511,"['sangat', 'nyaman', ':', ')', '.']",[]
+512,"['tv', 'nya', 'oke', 'tetapi', 'gambar', 'nya', 'banyak', 'semuanya', ',', 'shower', 'nya', 'tidak', 'berfungsi', 'normal', 'tetapi', 'masih', 'bisa', 'keluar', 'air', 'dingin', 'saja', '.', 'kebersihan', 'standartnya', 'saja', '.', 'perabotan', 'furniture', 'terkesan', 'old', 'tidak', 'terawat', '.']","[([0, 1], [2], 'POS'), ([9, 10], [11, 12, 13], 'NEG'), ([22], [23], 'NEG'), ([26], [30, 31], 'NEG')]"
+513,"['pertahankan', '.', 'check', 'in', 'agak', 'lama', 'sudah', 'menunggu', 'sampai', '2.15', 'tetapi', 'belum', 'bisa', 'masuk', '.']","[([2, 3], [4, 5], 'NEG')]"
+514,"['dekat', 'dengan', 'alfamart', '.']",[]
+515,"['saya', 'datang', 'bersama', 'suami', 'dan', '3', 'anak', 'kecil', 'saya', '.']",[]
+516,"['bagus', '.', 'pelayanan', 'ramah', '.']","[([2], [3], 'POS')]"
+517,"['pesanan', 'ini', 'dibatalkan', '.']",[]
+518,"['pelayanan', 'bagus', ',', 'harga', 'terjangkau', ',', 'fasilitas', 'pas', '!']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([6], [7], 'POS')]"
+519,"['baik', '.', 'cuma', 'akses', 'parkir', 'saja', 'perlu', 'diperbesar', '.']","[([3, 4], [6, 7], 'NEG')]"
+520,"['harga', 'affordable', '.', 'worth', 'it', 'pokonya', '.', 'lokasi', 'strategis', '.']","[([0], [1], 'POS'), ([7], [8], 'POS')]"
+521,"['bisa', 'untuk', 'pilihan', 'jika', 'ke', 'semarang', 'lagi', '.']",[]
+522,"['overall', 'bagus', '.', 'cuma', 'kasur', 'dobel', 'bednya', ',', 'kasur', 'twin', 'di', 'dempetin', '.']","[([0], [1], 'POS')]"
+523,"['bagus', '.', 'pelayan', 'nya', 'ramah', '.', 'recomended', 'sesuai', 'harga', '.']","[([2, 3], [4], 'POS')]"
+524,"['kamar', 'dan', 'kamar', 'mandi', 'lumayan', 'bersih', 'tetapi', 'bangunan', 'terkesan', 'kuno', '.', 'kolam', 'renang', 'top', '.']","[([0], [4, 5], 'POS'), ([2, 3], [4, 5], 'POS'), ([7], [8, 9], 'NEG'), ([11, 12], [13], 'POS')]"
+525,"['kamar', 'bagus', 'dan', 'rapi', '.', 'hanya', 'kurang', 'wangi', 'saja', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([0], [6, 7], 'NEG')]"
+526,"['staf', 'ramah', ',', 'nyaman', ',', 'kamar', 'cukup', 'bersih', ',', 'hanya', 'saja', 'toiletnya', 'bunyi', 'terus', 'setiap', 'habis', 'diflush', '.']","[([0], [1], 'POS'), ([5], [6, 7], 'POS'), ([11], [12], 'NEG')]"
+527,"['kamarnya', 'standar', 'dengan', 'harga', 'yang', 'murah', 'meriah', '.', 'jadi', 'bagus', 'untuk', 'backpacker', 'iya', '.', 'ditambah', 'bagi', 'yang', 'mau', 'ke', 'nusa', 'lembongan', 'atau', 'nusa', 'penida', 'tinggal', 'jalan', 'ke', 'tempat', 'tiketnya', '.']","[([0], [1], 'POS'), ([3], [5, 6], 'POS')]"
+528,"['kamar', 'sederhana', ',', 'ranjang', 'dan', 'furniture', 'baik', 'cuma', 'kamar', 'mandi', 'bau', '.']","[([0], [1], 'POS'), ([3], [6], 'POS'), ([5], [6], 'POS'), ([8, 9], [10], 'NEG')]"
+529,"['tempatnya', 'pelosok', 'susah', 'di', 'cari', '.']","[([0], [2, 3, 4], 'NEG')]"
+530,"['baik', ',', 'sesuai', 'harga', 'sudah', 'dapat', 'breakfast', 'juga', '.']","[([6], [5], 'POS')]"
+531,"['kemahalan', '.', 'hotel', 'sepi', 'banget', 'seperti', 'kuburan', '.']","[([2], [3, 4], 'NEG')]"
+532,"['sangat', 'baik', ',', 'akan', 'menginap', 'lagi', 'disini', '.']",[]
+533,"['fasilitas', 'tidak', 'sesuai', 'tidak', 'ada', 'air', 'panas', '.']","[([0], [1, 2], 'NEG'), ([5, 6], [3, 4], 'NEG')]"
+534,"['ramah', '.', 'bersih', '.', 'jos', 'lah', 'pokoknya', '.']",[]
+535,"['kamar', 'bersih', 'dengan', 'harga', 'yang', 'murah', '.']","[([0], [1], 'POS'), ([3], [5], 'POS')]"
+536,"['pelayanan', 'kurang', 'baik', ',', 'saya', 'dapat', 'kamar', 'mandi', 'yang', 'susah', 'di', 'tutup', 'perlu', 'di', 'berbaiki', ',', 'dan', 'kasur', 'nya', 'perlu', 'di', 'perbaiki', 'supaya', 'lebih', 'nyaman', '.']","[([0], [1, 2], 'NEG'), ([6, 7], [9, 10, 11], 'NEG'), ([17, 18], [19, 20, 21], 'NEG')]"
+537,"['kolam', 'renang', 'paling', 'oke', '.', 'bersih', 'tetapi', 'dalam', ',', 'bawa', 'pelampung', 'untuk', 'anak', 'kecil', '.']","[([0, 1], [3], 'POS'), ([0, 1], [5], 'POS')]"
+538,"[""pelayanan'ya"", 'kurang', 'ramah', ',', 'fasilitas', 'kamar', 'mandi', 'tidak', 'lengkap', '.']","[([0], [1, 2], 'NEG'), ([4, 5, 6], [7, 8], 'NEG')]"
+539,"['kamar', 'sempit', 'banget', '.']","[([0], [1, 2], 'NEG')]"
+540,"['sempat', 'ada', 'kerusakan', 'air', 'keran', 'yv', 'tibatiba', 'lagi', 'mandi', 'berubah', 'jadi', 'hitam', '.', 'tetapi', 'langsung', 'ditanggapi', 'dan', 'direspon', 'dengan', 'cepat', ',', 'makanan', 'harganya', 'masuk', 'di', 'kantong', 'porsinya', 'banyak', 'banget', ',', 'top', 'pokoknya', '!']","[([3, 4], [0, 1, 2], 'NEG'), ([26], [27, 28], 'POS')]"
+541,"['pelayanan', 'ramah', 'kamar', 'bersih', 'nyaman', '.']","[([0], [1], 'POS'), ([2], [3], 'POS'), ([2], [4], 'POS')]"
+542,"['keren', ',', 'kamar', 'luas', 'dan', 'nyaman', ',', 'thank', 'you', 'airy', '.']","[([2], [3], 'POS'), ([2], [5], 'POS')]"
+543,"['kamar', 'sesuai', 'sama', 'harga', ',', 'tidak', 'nyesal', 'pokoknya', '.']","[([0], [1], 'POS')]"
+544,"['puas', 'dengan', 'fasilitas', 'dan', 'pelayanannya', '.', 'pasti', 'selalu', 'pilih', 'hotel', 'ini', '.']","[([2], [0], 'POS'), ([4], [0], 'POS')]"
+545,"['ruangannya', 'nyaman', 'dan', 'memanjakan', 'sudah', 'sistem', 'toilet', 'kering', ',', 'bersih', 'dan', 'rapi', 'terimakasih', 'mampang', 'residence', '.']","[([0], [1], 'POS')]"
+546,"['bersih', 'dan', 'fasilitas', 'oke', 'tetapi', 'sayang', 'tidak', 'ada', 'pemandangan', 'dan', 'harus', 'beli', 'voucher', 'parkir', 'terpisah', '.']","[([2], [3], 'POS'), ([8], [6, 7], 'NEG')]"
+547,"['fasilitas', 'cukup', 'lengkap', ',', 'kondisi', 'kamar', 'juga', 'bagus', '.']","[([0], [1, 2], 'POS'), ([5], [7], 'POS')]"
+548,"['hotelnya', 'nyaman', ',', 'stategis', 'buat', 'kemana', 'mana', ',', 'pelayanan', 'kamar', 'baik', ',', 'untuk', 'accesoris', 'airy', 'nya', 'belum', 'semua', 'karena', 'masih', 'ada', 'yang', 'dari', 'hotel', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([8, 9], [10], 'POS')]"
+549,"['kamar', 'yang', 'diberikan', 'beda', 'pada', 'foto', '.']","[([0], [3], 'NEG')]"
+550,"['kamar', 'dan', 'fasilitas', 'lain', 'tidak', 'sesuai', 'dengan', 'apa', 'yang', 'terlihat', 'di', 'traveloka', '.']","[([0], [4, 5], 'NEG'), ([2, 3], [4, 5], 'NEG')]"
+551,"['tempat', 'strategis', 'dekat', 'dengan', 'alun', 'alun', ',', 'nyaman', ',', 'bersih', '.']","[([0], [1], 'POS')]"
+552,"['airnya', 'asin', '.', 'selebih', 'nya', 'oke', 'sih', '.']","[([0], [1], 'NEG'), ([3, 4], [5], 'NEG')]"
+553,"['ini', 'bentuknya', 'kost', 'an', 'putri', '.', 'cukup', 'nyaman', 'kalau', 'hanya', 'untuk', 'istirahat', '.', 'tetapi', 'kalau', 'bawa', 'bayi', 'batita', 'kurang', 'pas', 'karena', 'takut', 'mengganggu', 'penghuni', 'kost', '.']",[]
+554,"['hotel', 'bintang', 'tiga', '.']",[]
+555,"['agak', 'kotor', 'sekarang', 'yah', ',', 'banyak', 'yang', 'rusak', 'dan', 'tidak', 'dibetulkan', '.', 'tetapi', 'overall', 'oke', 'lah', '.', 'air', 'panas', 'langsung', 'keluar', ',', 'tetapi', 'ketika', 'malam', 'airnya', 'panasnya', 'tidak', 'ada', '.']","[([13], [14], 'POS'), ([25, 26], [27, 28], 'NEG')]"
+556,"['bagus', 'full', 'privasi', 'ada', 'snacknya', '.']","[([4], [3], 'POS')]"
+557,"['bagus', ',', 'sarapan', 'enak', ',', 'pelayanan', 'oke', 'wajar', '.']","[([2], [3], 'POS'), ([5], [6], 'POS')]"
+558,"['kebersihan', 'kamar', 'ditingkatkan', '.']","[([0, 1], [2], 'NEG')]"
+559,"['kamarnya', 'agak', 'kotor', ',', 'banyak', 'debu', 'dan', 'kotoran', '.']","[([0], [1, 2], 'NEG')]"
+560,"['kebersihan', 'kurang', ',', 'sarapannya', 'juga', 'kurang', 'baik', ',', 'ken', 'cuma', 'satu', 'macam', ',', 'tempat', 'tidurnya', 'kurang', 'nyaman', ',', 'alat', 'tidur', 'seperti', 'bantal', 'kurang', '.']","[([0], [1], 'NEG'), ([3], [5, 6], 'NEG'), ([13, 14], [15, 16], 'NEG'), ([18, 19], [22], 'NEG')]"
+561,"['kurang', 'memuaskan', 'dan', 'harus', 'lebih', 'ditingkatkan', '.']",[]
+562,"['tambahkan', 'keset', 'untuk', 'kamar', 'mandi', ',', 'dan', 'juga', 'acnya', 'kurang', 'dingin', '.']","[([8], [9, 10], 'NEG')]"
+563,"['staf', 'ramah', 'dan', 'memberikan', 'informasi', 'mengenai', 'ruangan', 'dan', 'beranda', 'yang', 'terdapat', 'di', 'hotel', 'dengan', 'jelas', '.']","[([0], [1], 'POS')]"
+564,"['ruangan', 'lega', ',', 'bersih', ',', 'suasana', 'nyaman', ',', 'pelayanan', 'cepat', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([5], [6], 'POS'), ([8], [9], 'POS')]"
+565,"['kondisi', 'kamar', 'mandi', 'kurang', 'bagus', 'serta', 'airnya', 'agak', 'lengket', '.', 'mungkin', 'karena', 'bangunan', 'lama', '.', 'mohon', 'ditingkatkan', 'lagi', 'kebersihan', 'kamarnya', '.', 'selebihnya', 'oke', '.', 'terima', 'kasih', '.']","[([1, 2], [3, 4], 'NEG'), ([6], [7, 8], 'NEG'), ([18, 19], [15, 16, 17], 'NEG'), ([21], [22], 'POS')]"
+566,"['kamar', 'yang', 'nyaman', ',', 'fasilitas', 'nya', 'baik', 'semua', ',', 'ditambah', 'ketersediaan', 'wifi', 'dengan', 'kualitas', 'yang', 'baik', 'juga', '.', 'namun', ',', 'ada', 'satu', 'hal', 'yang', 'perlu', 'diperbaiki', 'yaitu', 'ukuran', 'handuk', 'yang', 'terlalu', 'kecil', '.', 'sebaiknya', 'sediakan', 'handuk', 'yang', 'berukuran', 'sedang', '.']","[([0], [2], 'POS'), ([4, 5], [6], 'POS'), ([11], [15], 'POS'), ([28], [30, 31], 'NEG')]"
+567,"['air', 'panas', 'susah', '.', 'sedikit', 'banget', '.', 'cuma', '5', 'menit', 'habis', 'langsung', '.', 'room', 'oke', 'sih', '.']","[([0, 1], [2], 'NEG'), ([13], [14], 'POS')]"
+568,"['terima', 'kasih', 'airy', 'room', '.', 'terima', 'kasih', 'arimbi', 'pejaten', '.']",[]
+569,"['parkir', ',', 'perlu', 'selimut', 'dan', 'handuk', 'kalau', 'bisa', '.']",[]
+570,"['tempat', 'nya', 'nyaman', 'dan', 'murah', '.', 'jadi', 'tidak', 'nyesal', 'deh', 'menginap', 'di', 'sini', '.', 'terimakasih', 'airy', 'syariah', 'csb', '.']","[([0, 1], [2], 'POS'), ([0, 1], [4], 'POS')]"
+571,"['kamar', 'luas', 'dekat', 'stasiun', 'balapan', '.']","[([0], [1], 'POS')]"
+572,"['sesuai', 'ekspektasi', ',', 'dengan', 'harga', 'yang', 'terjangkau', 'kamar', 'bersih', '.', 'semua', 'worth', 'it', '.']","[([4], [6], 'POS'), ([7], [8], 'POS'), ([10], [11, 12], 'POS')]"
+573,"['bersih', 'dan', 'nyaman', '.', 'tetapi', 'tidak', 'bisa', 'keluar', 'larut', 'malam', ',', 'karena', 'pintu', 'dikunci', '.']",[]
+574,"['kamar', 'sangat', 'bersih', ',', 'makanan', 'enak', ',', 'sangat', 'islami', 'dengan', 'disediakan', 'sajadah', 'dan', 'quran', 'di', 'kamar', ',', 'juga', 'mushola', 'yang', 'nyaman', 'serta', 'selalu', 'berjamaah', '.']","[([0], [1, 2], 'POS'), ([4], [5], 'POS')]"
+575,"['tamu', 'saya', 'mngatakan', 'tidak', 'memuaskan', 'akan', 'pelayanan', 'kamarnya', ',', 'diberikan', 'kamar', 'yang', 'tidak', 'bisa', 'terkunci', 'dari', 'luar', 'sehingga', 'jika', 'keluar', 'mencari', 'makan', 'harus', 'membawa', 'bawa', 'ranselx', 'naik', 'turun', 'kelantai', '3', '.', 'ketika', 'keluhan', 'minta', 'pindah', 'kamar', 'tidak', 'diladeni', 'alias', 'dicueki', 'padahal', 'sudah', '3x', 'tamu', 'saya', 'menginap', 'disini', '.']","[([6, 7], [3, 4], 'NEG')]"
+576,"['pulang', 'pagi', 'saja', 'masih', 'ada', 'orang', 'yang', 'jaga', 'keren', 'sudah', 'ini', '.']",[]
+577,"['kamar', 'nyaman', ',', 'bersih', ',', 'pelayanan', 'memuaskan', ',', 'sarapan', 'enak', 'dan', 'lokasi', 'strategis', '.', 'sangat', 'recommended', 'untuk', 'kenyamanan', 'maksimalis', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([5], [6], 'POS'), ([8], [9], 'POS'), ([11], [12], 'POS'), ([17], [18], 'POS')]"
+578,"['hotel', 'bersih', ',', 'tidak', 'mengecewakan', ',', 'memuaskan', '.']","[([0], [1], 'POS'), ([0], [3, 4], 'POS'), ([0], [6], 'POS')]"
+579,"['fasilitas', 'sesuai', 'harga', ',', 'rekomended', 'untuk', 'yang', 'backpacker', '.']","[([0], [1], 'POS')]"
+580,"['overall', ""it's"", 'oke', '.', 'hanya', 'kamarnya', 'saja', 'yang', 'agak', 'sempit', ',', 'tidak', 'ada', 'viewnya', '.']","[([0], [2], 'POS'), ([5], [8, 9], 'NEG'), ([13], [11, 12], 'NEG')]"
+581,"['cozy', 'banget', 'tempatnya', '.']","[([2], [0, 1], 'POS')]"
+582,"['enak', '.', 'tetapi', 'sayang', 'hentikan', 'kontak', 'tinggi', 'jadi', 'tidak', 'bisa', 'buat', 'charger', 'hp', '.']",[]
+583,"['sya', 'sangat', 'suka', '.', 'jauh', 'dari', 'expektasi', 'sya', '.', 'thaks', 'airy', '.', 'next', 'harus', 'ada', 'kamar', 'di', 'daerah', 'papua', 'juga', 'iya', '.']",[]
+584,"['keerreen', 'abiis', '.', 'nyaman', 'deh', 'pokoknya', '.']",[]
+585,"['tv', 'kabel', 'tersedia', 'banyak', 'sekali', 'chanel', 'dan', 'kualitas', 'gambar', 'baik', '.']","[([0, 1], [2], 'POS'), ([0, 1], [3, 4], 'POS'), ([7, 8], [9], 'POS')]"
+586,"['terimakasih', 'airy', ',', 'pelayanan', 'bagus', ',', 'fasilitas', 'juga', 'bagus', '.']","[([3], [4], 'POS'), ([6], [8], 'POS')]"
+587,"['tempatnya', 'bagus', ',', 'sayang', 'lantai', 'atas', 'bocor', 'jalan', 'menuju', 'kamarnya', 'jadi', 'banjir', '.']","[([0], [1], 'POS')]"
+588,"['tempat', 'yang', 'nyaman', 'dan', 'pelayanan', 'yang', 'memuaskan', '.']","[([0], [2], 'POS'), ([4], [6], 'POS')]"
+589,"['nyaman', ',', 'mudah', 'dijangkau', ',', 'pelayanan', 'memuaskan', '.']","[([5], [6], 'POS')]"
+590,"['sangat', 'dekat', 'ke', 'bandara', '.', 'dan', 'sangat', 'mudah', '.', 'ke', 'bandara', '.', 'dan', 'tidak', 'mahal', '.', 'terimakasih', '.', 'airy', '.', ',', 'kalau', 'pulkam', 'pasti', 'inap', 'deh', '.']",[]
+591,"['kamarnya', 'kotor', 'berdebu', 'banyak', 'nyamuk', 'toilet', 'rusak', 'pelayannya', 'ramah', 'baik', '.']","[([0], [1, 2], 'NEG'), ([0], [3, 4], 'NEG'), ([5], [6], 'NEG'), ([7], [8], 'POS'), ([7], [9], 'POS')]"
+592,"['toilet', 'bau', 'mungkin', 'masalah', 'pada', 'saluran', 'pembuangan', '.', 'seprai', 'dan', 'selimut', 'kotor', '.', 'minta', 'diganti', 'tetapi', 'tidak', 'ada', 'hk', 'malam', '.', 'dibatu', 'resepsionis', 'untuk', 'memasakkan', 'lapisan', '.', 'pagi', 'pagi', 'kaki', 'dna', 'tangan', 'gatal', 'gatal', 'bentol', 'bentol', '.', 'sepertinya', 'tungau', '.', 'not', 'recommended', '.']","[([0], [1], 'NEG'), ([8], [11], 'NEG'), ([10], [11], 'NEG')]"
+593,"['kasur', 'empuk', 'overall', 'oke', 'semua', '.', 'saran', 'saya', 'tv', 'nya', 'dari', 'tab', '.']","[([0], [1], 'POS'), ([2], [3], 'POS')]"
+594,"['sarung', 'bantal', 'kotor', 'pada', 'saat', 'pertama', 'masuk', ',', 'tetapi', 'dapat', 'diganti', '.', 'dan', 'bantal', 'kuga', 'terasa', 'lembab', '.']","[([0, 1], [2], 'NEG'), ([13], [16], 'NEG')]"
+595,"['lumayan', 'tetapi', 'tidak', 'kedap', 'suara', '.']",[]
+596,"['kurang', 'puas', 'sama', 'pelayanan', ',', 'harus', 'deposit', ',', 'ribet', '.']","[([3], [0, 1], 'NEG')]"
+597,"['kamar', 'bersih', 'dan', 'pemandangan', 'sekitar', 'bagus', '.']","[([0], [1], 'POS'), ([3], [4, 5], 'POS')]"
+598,"['bagus', ',', 'rapi', 'dapat', 'snack', 'lagi', '.']","[([4], [3], 'POS')]"
+599,"['lampu', 'kamar', 'dan', 'wc', 'remangremang', '.', 'spring', 'bed', 'lembab', '.', 'wc', 'banyak', 'semut', '.', 'ac', 'nya', 'juga', 'tidak', 'dingin', '.', 'jalan', 'menuju', 'hotel', 'juga', 'rumit', 'dan', 'sempit', 'sekali', '.', 'padahal', 'di', 'foto', 'bagus', '.', 'sangat', 'kecewa', '.']","[([0, 1, 2, 3], [4], 'NEG'), ([6, 7], [8], 'NEG'), ([10], [11, 12], 'NEG'), ([14, 15], [17, 18], 'NEG')]"
+600,"['hotel', 'bagus', ',', 'kenyamanan', 'oke', ',', 'pelayanan', 'kurang', 'memuaskan', ',', 'fasilitas', 'agak', 'kurang', '.', 'keran', 'bocor', 'dan', 'sarapan', 'pagi', 'tidak', 'terlambat', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([6], [7, 8], 'NEG'), ([10], [11, 12], 'NEG'), ([14], [15], 'NEG'), ([17, 18], [19, 20], 'POS')]"
+601,"['bersih', ',', 'nyaman', 'dan', 'pemiliknya', 'ramah', '.']","[([4], [5], 'POS')]"
+602,"['untuk', 'harga', 'dibawah', '200.000', 'kamar', 'ini', 'terlampau', 'bagus', '!', 'tetapi', 'untuk', 'kedepannya', 'mohon', 'diperbaiki', 'cat', 'dinding', 'di', 'sudut', 'kamar', 'ada', 'yang', 'terkelupas', '.']","[([14, 15], [12, 13], 'NEG')]"
+603,"['pelayanan', 'ramah', ',', 'lokasi', 'tenang', 'nyaman', ',', 'free', 'breakfast', '.', 'terimakasih', 'airy', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([3], [5], 'POS')]"
+604,"['kamar', 'bersih', 'dan', 'rapi', ',', 'lebih', 'baik', 'kalau', 'ditambah', 'tempat', 'sampah', 'dimasingdimasing', 'kamar', 'lebih', 'worth', '.']","[([0], [1], 'POS'), ([0], [3], 'POS')]"
+605,"['lingkungan', ',', 'fasilitas', ',', 'pemandangan', 'sangat', 'memuaskan', '.', 'mungkin', 'kekurangannya', 'cuma', 'tempatnya', 'sepi', 'saja', 'kali', 'iya', '.']","[([0], [5, 6], 'POS'), ([2], [5, 6], 'POS'), ([4], [5, 6], 'POS'), ([11], [12], 'NEG')]"
+606,"['ruangan', 'kamar', 'sangat', 'bersih', '.', 'staf', 'hotel', 'juga', 'sangat', 'ramah', 'dan', 'membantu', '.', 'top', 'recommended', '.']","[([0, 1], [2, 3], 'POS'), ([5, 6], [8, 9], 'POS'), ([5, 6], [11], 'POS')]"
+607,"['air', 'kamar', 'mandi', 'kurang', 'baik', ',', 'agak', 'berbau', '.', 'terimakasih', ',', '.']","[([0, 1, 2], [3, 4], 'NEG'), ([0, 1, 2], [6, 7], 'NEG')]"
+608,"['resepsioninya', 'ramah', ',', 'baik', ',', 'murah', 'senyum', 'dan', 'helpfull', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([0], [5, 6], 'POS'), ([0], [8], 'POS')]"
+609,"['kamar', 'lumayan', ',', 'sesuai', 'harga', '.', 'lingkungan', 'ramai', ',', 'mau', 'cari', 'makan', 'atau', 'belanja', 'kebutuhan', 'harian', 'mudah', '.']","[([0], [1], 'POS'), ([6], [7], 'POS')]"
+610,"['sign', 'board', 'harus', 'di', 'pasang', 'di', 'tempat', 'yang', 'mudah', 'terlihat', 'dan', 'lampunya', 'harus', 'hidup', 'sebagai', 'pointer', 'arah', 'tujuan', '.']",[]
+611,"['kamar', 'bagus', 'bersih', ',', 'rekomendasi', 'banget', 'lah', 'dengan', 'harga', 'segitu', '.', 'kolam', 'berenangnya', 'bersih', '.', 'terimakasih', 'airy', 'room', '.']","[([0], [1], 'POS'), ([0], [2], 'POS'), ([11, 12], [13], 'POS')]"
+612,"['bagus', ',', 'bersih', 'cuma', 'kamar', 'mandinya', 'terlalu', 'sempit', '.']","[([4, 5], [6, 7], 'NEG')]"
+613,"['kamar', 'nya', 'bersih', ',', 'pelayanannya', 'sopan', ',', 'pemandangan', 'nya', 'bagus', '.']","[([0, 1], [2], 'POS'), ([4], [5], 'POS'), ([7, 8], [9], 'POS')]"
+614,"['penginapannya', 'menyenangkan', '.', 'cuma', 'nama', 'hotelnya', 'agak', 'susah', 'di', 'cari', 'padahal', 'sebelah', 'jalan', '.', 'di', 'situ', 'dan', '.']","[([0], [1], 'POS')]"
+615,"['pelayanan', 'baik', 'tetapi', 'kalau', 'mau', 'kemanakemana', 'susah', 'karena', 'grab', 'gaboleh', 'masuk', 'kedaerah', 'tersebut', '.']","[([0], [1], 'POS')]"
+616,"['bersih', '.']",[]
+617,"['tempatnya', 'bersih', 'dan', 'kamar', 'tidak', 'banyak', '.', 'waktu', 'itu', 'bahkan', 'dikasi', 'kamar', 'besar', 'walaupun', 'booking', 'yang', 'single', '.']","[([0], [1], 'POS'), ([3], [4, 5], 'NEG')]"
+618,"['oke', 'lah', ',', 'cuma', 'hospitality', 'nya', 'perlu', 'diupayakan', 'sedikit', '.']","[([4, 5], [6, 7, 8], 'NEG')]"
+619,"['selimut', 'banyak', '.', 'bersih', '.', 'rekomed', '.']","[([0], [1], 'POS'), ([0], [3], 'POS')]"
+620,"['bersih', ',', 'fasilitas', 'oke', ',', 'strategis', ',', 'sangat', 'ekonomis', '.']","[([2], [3], 'POS')]"
+621,"['sangat', 'baik', '.', 'hanya', 'sayang', 'tidak', 'disediakan', 'handun', '.']","[([7], [5, 6], 'NEG')]"
+622,"['sangat', 'memuaskan', '.', 'guest', 'house', 'layak', 'nya', 'hotel', '3', '.', 'recomended', '.', 'akan', 'kembali', 'lagi', '.']",[]
+623,"['tolong', 'seprai', 'bekas', 'mens', 'wanita', 'harap', 'di', 'ganti', '!']","[([1], [2, 3, 4, 5, 6, 7], 'NEG')]"
+624,"['kamar', 'bersih', 'dan', 'nyaman', '.', 'pelayanan', 'bagus', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([5], [6], 'POS')]"
+625,"['tempat', 'bersih', 'dan', 'terawat', 'baik', ',', 'pelayanan', 'memuaskan', 'dan', 'sangat', 'membantu', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([0], [4], 'POS'), ([6], [7], 'POS'), ([6], [9, 10], 'POS')]"
+626,"['minusnya', 'jalan', 'masuk', 'ke', 'hotel', 'agak', 'sempit', ',', 'tetapi', 'mobil', 'bisa', 'masuk', '.']",[]
+627,"['kamar', '219', 'kecepatan', 'koneksi', 'wifinya', 'buruk', '.', 'harus', 'didepan', 'pintu', 'baru', 'bagus', '.']","[([2, 3, 4], [5], 'NEG')]"
+628,"['bersih', ',', 'yang', 'jaga', 'juga', 'ramah', '.', 'cuma', 'entah', 'mengapa', 'suka', 'kedengeran', 'suara', 'ribut', 'di', 'lantai', '2', '.', 'tetapi', ',', 'overall', 'good', '.', 'nagih', 'deh', 'menginap', 'disini', 'he', '.']","[([2, 3], [5], 'POS'), ([20], [21], 'POS')]"
+629,"['kamarnya', 'bersih', '.']","[([0], [1], 'POS')]"
+630,"['pelayanan', 'memuaskan', ',', 'kamar', 'juga', 'nyaman', ',', 'cuma', 'gedungnya', 'tidak', 'terlalu', 'terlihat', ',', 'sempat', 'bingung', 'nyarinya', ',', 'tetapi', 'sangat', 'nyaman', 'untuk', 'beristirahat', 'terimakasih', '.']","[([0], [1], 'POS'), ([3], [5], 'POS'), ([8], [9, 10, 11], 'NEG')]"
+631,"['oke', '.', 'air', 'panas', 'nya', 'tidak', 'berfungsi', '.']","[([2, 3, 4], [5, 6], 'NEG')]"
+632,"['perlu', 'ketersediaan', 'sandal', 'dalam', 'kamar', '.']",[]
+633,"['semuanya', 'memuaskan', 'hanya', 'saja', 'ac', 'kamar', '203', 'tidak', 'dingin', 'dan', 'kamar', 'mandinya', 'sedikit', 'berbau', '.']","[([0], [1], 'POS'), ([4, 5], [7, 8], 'NEG'), ([10, 11], [12, 13], 'NEG')]"
+634,"['kali', 'ke', 'dua', 'kesini', ',', 'tiap', 'ke', 'solo', 'bakal', 'balik', 'inap', 'disini', '.']",[]
+635,"['sangat', 'buruk', '!', 'saya', 'datang', 'kesana', 'malam', 'hari', 'mala', 'seperti', 'pengemis', 'tidak', 'dibukakan', 'pintu', '.', 'di', 'telepon', 'pihaknya', 'mala', 'tidak', '.']",[]
+636,"['gedung', 'nya', 'lama', '.', 'sehingga', 'kurang', 'memang', 'harga', 'berbicara', 'sih', '.']",[]
+637,"['wastafel', 'macet', '.']","[([0], [1], 'NEG')]"
+638,"['lingkungan', 'cukup', 'tenang', 'namun', 'akses', 'mobil', 'agak', 'terbatas', '.', 'kamar', 'bersih', 'dan', 'dingin', '.', 'di', 'siang', 'hari', 'tanpa', 'ac', 'pun', 'dingin', '.']","[([0], [1, 2], 'POS'), ([4, 5], [6, 7], 'NEG'), ([9], [10], 'POS'), ([9], [12], 'POS')]"
+639,"['itu', 'costumer', 'pelayanan', 'yang', 'badannya', 'gemuk', 'tidak', 'ada', 'ramah', 'ramahnya', ',', 'ajari', 'cara', 'ramah', 'ke', 'konsumen', '.', 'ajari', 'bagaimana', 'caranya', 'murah', 'senyum', '!']","[([1, 2], [6, 7, 8, 9], 'NEG')]"
+640,"['bagus', 'nyaman', ',', 'tetapi', 'shower', 'mandi', 'kurang', 'bagus', ',', 'air', 'shower', 'kurang', 'deras', '.']","[([4, 5], [6, 7], 'NEG'), ([9, 10], [11, 12], 'NEG')]"
+641,"['memuaskan', '.', 'nyaman', 'dan', 'enak', '.']",[]
+642,"['kamarnya', 'kurang', 'bersih', ',', 'sarapan', 'biasa', 'saja', '.']","[([0], [1, 2], 'NEG'), ([4], [5, 6], 'NEG')]"
+643,"['tidak', 'sama', 'yang', 'digambar', 'ruangan', 'nya', ""'"", 'yang', 'jaga', 'malam', 'nya', 'agak', 'judes', 'padahal', 'ke', 'depan', 'saja', 'beli', 'nasi', 'dia', 'tanya', 'nya', 'nada', 'tinggi', '.']","[([4, 5], [0, 1, 2, 3], 'NEG'), ([7, 8], [11, 12], 'NEG')]"
+644,"['lokasi', 'tidak', 'bising', 'tetapi', 'dekat', 'ke', 'pasteur', '.', 'ke', 'bandung', 'indah', 'plaza', 'naik', 'gojek', 'cuma', '5k', '.']","[([0], [1, 2], 'POS')]"
+645,"['tv', 'rusak', ',', 'tidak', 'bersih', ',', 'handuk', 'kurang', 'sedap', 'wangi', 'nya', '.']","[([0], [1], 'NEG'), ([0], [3, 4], 'NEG'), ([6], [7, 8], 'NEG')]"
+646,"['ac', '-', 'nya', 'tidak', 'berfungsi', ',', 'ac', 'kemungkinan', 'bocor', ',', 'panas', 'banget', '.', 'air', 'dilantai', '4', 'kadang', '-', 'kadang', 'tidak', 'naik', ',', 'airnya', 'loyo', '.']","[([0, 1, 2], [3, 4], 'NEG'), ([6], [8], 'NEG'), ([6], [10, 11], 'NEG'), ([22], [23], 'NEG')]"
+647,"['untuk', 'koneksi', 'wifi', 'lebih', 'di', 'tingkatkan', 'lagi', '.']","[([2], [3, 4, 5, 6], 'NEG')]"
+648,"['suka', '.', 'bersih', '.', 'cuma', 'pertama', 'nya', 'bingung', 'cari', 'alamat', 'nya', 'karena', 'tidak', 'ada', 'di', 'grab', 'dan', 'gojek', '.']",[]
+649,"['tempatnya', 'cukup', 'strategis', 'mudah', 'ditemukan', ',', 'untuk', 'kebersihan', 'dan', 'kenyamanan', 'secara', 'keseluruhan', 'juga', 'cukup', 'bersih', 'dan', 'nyaman', '.']","[([0], [1, 2], 'POS'), ([0], [3, 4], 'POS'), ([7], [13, 14], 'POS'), ([9], [16], 'POS')]"
+650,"['not', 'recommended', ',', 'kamar', 'lembab', 'pengap', ',', 'kamar', 'mandi', 'kotor', ',', 'shower', 'rusak', ',', 'mati', 'lampu', 'tidak', 'ada', 'genset', ',', 'staf', 'kurang', 'ramah', '.']","[([3], [4], 'NEG'), ([3], [5], 'NEG'), ([7, 8], [9], 'NEG'), ([11], [12], 'NEG'), ([18], [16, 17], 'NEG'), ([20], [21, 22], 'NEG')]"
+651,"['showernya', 'kurang', 'cepat', 'airnya', 'dan', 'chanel', 'tvnya', 'ditambahin', '.']","[([3], [1, 2], 'NEG'), ([5, 6], [7], 'POS')]"
+652,"['kamarnya', 'nyaman', 'baget', '.', 'tempatnya', 'juga', 'strategis', '.']","[([0], [1], 'POS'), ([4], [6], 'POS')]"
+653,"['bersih', 'pelayan', 'ramah', 'dan', 'lngkungan', 'bersahabat', '.']","[([1], [2], 'POS'), ([4], [5], 'POS')]"
+654,"['mengecewakan', 'iya', 'harusnya', '2', 'hari', 'disana', 'tetapi', 'sehari', 'saya', 'langsung', 'pergi', '.']",[]
+655,"['showernya', 'rusak', 'tidak', 'bisa', 'mengeluarkan', 'air', 'dengan', 'baik', '.', 'kasurnya', 'cukup', 'nyaman', 'tetapi', 'bantal', 'terlalu', 'tipis', 'dan', 'kurang', 'nyaman', '.', 'ac', 'kurang', 'dingin', '.', 'terimakasih', 'airy', '.']","[([0], [1], 'NEG'), ([5], [2, 3, 4], 'NEG'), ([9], [10, 11], 'POS'), ([13], [14, 15], 'NEG'), ([13], [17, 18], 'NEG'), ([20], [21, 22], 'NEG')]"
+656,"['buruk', '.', 'kasur', 'ada', 'bekas', 'sperma', 'seprai', 'juga', 'air', 'bau', 'karat', 'kasur', 'pernya', 'juga', 'rusak', 'sabun', 'habis', 'pasword', 'wifi', 'tidak', 'tahu', '.']","[([2], [3, 4, 5], 'NEG'), ([6], [3, 4, 5], 'NEG'), ([8], [9, 10], 'NEG'), ([11, 12], [14], 'NEG'), ([15], [16], 'NEG'), ([17, 18], [19, 20], 'NEG')]"
+657,"['oke', '.', 'dekat', 'atm', ',', 'minimarket', ',', 'tempat', 'makan', ',', 'jalan', 'raya', ',', 'ancol', '.', 'untuk', 'harga', 'under', '200', 'ribu', '.']",[]
+658,"['suasana', 'nyaman', 'lokasi', 'sangat', 'bersih', 'petugas', 'ramah', 'pingin', 'datang', 'lagi', '.']","[([0], [1], 'POS'), ([2], [3, 4], 'POS'), ([5], [6], 'POS')]"
+659,"['selalu', 'kesini', 'kalau', 'ke', 'kendari', '.', 'tingkatkan', 'lagi', 'agar', 'bisa', 'bersaing', 'dengan', 'papan', 'atas', '.']",[]
+660,"['pelayanan', 'sangat', 'baik', '.', 'tetapi', 'kasurnya', 'keras', '.', 'badanku', 'pegelpegel', '.', 'maap', 'iya', 'demi', 'kemajuan', 'dan', 'kebaikan', 'ke', 'depan', '.', 'sukses', 'terus', '.']","[([0], [1, 2], 'POS'), ([5], [6], 'NEG')]"
+661,"['nyaman', 'bersih', '.']",[]
+662,"['suasana', 'kamar', 'tidak', 'seperti', 'airy', 'room', 'biasanya', '.', 'remote', 'tv', 'tidak', 'bisa', 'digunakan', 'dan', 'terlalu', 'sepi', '.', 'tetapi', ',', 'pelayanan', 'cukup', 'oke', '.']","[([8, 9], [10, 11, 12], 'NEG'), ([19], [20, 21], 'POS')]"
+663,"['sangat', 'mengecewakan', 'sekali', ',', 'kamar', 'dan', 'fasilitas', 'tidak', 'sesuai', 'dengan', 'foto', 'yang', 'tercantum', 'pada', 'penawaran', 'di', '.']","[([4], [7, 8], 'NEG'), ([6], [7, 8], 'NEG')]"
+664,"['sangat', 'bagus', ',', 'lokasi', 'strategi', 'dan', 'bersih', ',', 'pasti', 'akan', 'menginap', 'disini', 'lagi', '.']","[([3], [4], 'POS'), ([3], [6], 'POS')]"
+665,"['air', 'kamar', 'mandi', 'nya', 'agak', 'kuning', 'dan', 'berbau', ',', ""d'kmar"", 'tidur', 'nya', 'juga', 'seperti', 'bau', 'tai', 'kucing', '.']","[([0, 1, 2, 3], [4, 5], 'NEG'), ([0, 1, 2, 3], [7], 'NEG'), ([9, 10], [14, 15, 16], 'NEG')]"
+666,"['kamar', 'luas', ',', 'tetapi', 'sayang', 'bangunan', 'memang', 'agak', 'lawas', '.', 'overall', 'good', '.']","[([0], [1], 'POS'), ([5], [7, 8], 'NEG'), ([10], [11], 'POS')]"
+667,"['kebersihan', 'kamar', 'oke', '.', 'kebersihan', 'kamar', 'mandi', 'juga', 'oke', '.', 'next', 'time', 'menginap', 'lagi', 'di', 'winner', 'premier', '.']","[([0, 1], [2], 'POS'), ([4, 5, 6], [8], 'POS')]"
+668,"['mantap', ',', 'bersih', ',', 'harga', 'pas', 'untuk', 'backpacking', '.']","[([4], [5], 'POS')]"
+669,"['tempat', 'strategis', ',', 'pelayanan', 'baik', ',', 'fasilitas', 'cukup', 'baik', ',', 'kebersihan', 'masih', 'perlu', 'ditingkatkan', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([6], [7, 8], 'POS'), ([10], [12, 13], 'NEG')]"
+670,"['sabun', 'tangan', 'tidak', 'ada', '.', 'pelayanan', 'baik', '.']","[([0, 1], [2, 3], 'NEG'), ([5], [6], 'POS')]"
+671,"['tempat', 'strategis', ',', 'kamarnya', 'nyaman', ',', 'fasilitas', 'dan', 'pelayanannya', 'bagus', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([6], [9], 'POS'), ([8], [9], 'POS')]"
+672,"['sampah', 'ini', 'penginapan', '.', 'jangan', 'inap', 'disini', 'sudah', '.']","[([2], [0], 'NEG')]"
+673,"['seprai', 'nya', 'kotor', ',', 'tidak', 'ada', 'air', 'panas', ',', 'pelayanan', 'kurang', ',', 'kamar', 'kurang', 'bersih', '.']","[([0, 1], [2], 'NEG'), ([6, 7], [4, 5], 'NEG'), ([9], [10], 'NEG'), ([12], [13, 14], 'NEG')]"
+674,"['kamar', 'tidak', 'terawat', ',', 'kamar', 'mandi', 'kurang', 'bersih', '.']","[([0], [1, 2], 'NEG'), ([4, 5], [6, 7], 'NEG')]"
+675,"['nyaman', ',', 'strategis', ',', 'sarapan', 'cukup', 'dan', 'lumayan', '.']","[([4], [5], 'POS'), ([4], [7], 'POS')]"
+676,"['agak', 'kecewa', 'iya', 'tetapi', 'maklum', 'hotel', 'tua', 'tetapi', 'pelayanannya', 'jempol', '.']","[([8], [9], 'POS')]"
+677,"['kamarnya', 'cukup', 'luas', 'dan', 'nyaman', '.']","[([0], [1, 2], 'POS'), ([0], [4], 'POS')]"
+678,"['nyaman', 'buat', 'istirahat', 'menunggu', 'penerbangan', 'pagi', '.', 'gampang', 'mencari', 'travel', 'ke', 'bandara', '.']",[]
+679,"['bersih', 'dan', 'aman', '.', 'terimakasih', 'so', 'much', '.']",[]
+680,"['sesuai', 'dengan', 'kondisi', 'yang', 'ditawarkan', '.']",[]
+681,"['tidak', 'ada', 'sandalnya', '.', 'waktu', 'check', 'in', 'ketika', 'masuk', 'kamar', 'belum', 'di', 'set', 'airy', 'dan', 'belum', 'ada', 'snack', 'nya', '.', 'overall', ""it's"", 'oke', ',', 'dan', 'bagus', 'place', '.']","[([2], [0, 1], 'NEG'), ([20], [22], 'POS'), ([26], [25], 'POS')]"
+682,"['tempatnya', 'nyaman', 'dan', 'bersih', '.']","[([0], [1], 'POS'), ([0], [3], 'POS')]"
+683,"['di', 'tengah', 'pusat', 'keramaian', '.', 'staf', 'hotel', 'yang', 'ramah', 'sayang', 'kamarnya', 'kurang', 'bagus', ',', 'air', 'kurang', 'lancar', '.']","[([5, 6], [8], 'POS'), ([10], [11, 12], 'NEG'), ([14], [15, 16], 'NEG')]"
+684,"['kamar', 'bersih', 'nyaman', '.', 'ada', 'desain', 'gambar', 'di', 'dinding', 'yang', 'membuat', 'kesan', 'tersendiri', 'sayang', '.', 'tidak', 'ada', 'tempat', 'sampah', '.', 'sama', 'selimut', 'di', 'kamar', '.']","[([0], [1], 'POS'), ([0], [2], 'POS'), ([17, 18], [15, 16], 'NEG')]"
+685,"['tembok', 'tipis', ',', 'berisik', 'terdengar', 'suara', 'tetangga', '.']","[([0], [1], 'NEG')]"
+686,"['depet', 'nya', 'tidak', 'sama', 'he', 'mklum', 'lihat', 'nya', 'di', 'gambar', ',', 'agak', 'kecil', 'sedikit', '.', 'tetapi', 'tetap', 'oke', 'lah', 'gpp', 'untuk', 'kebrsihan', 'kamar', 'oke', 'pelayanan', 'ramah', 'di', 'sediakan', 'penyewaan', 'motor', 'juga', 'jadi', 'gampang', 'deh', 'kemana', '""', '.']","[([21, 22], [23], 'POS'), ([24], [25], 'POS')]"
+687,"['nyaman', ',', 'dekat', 'banget', 'dengan', 'gd', 'sate', 'bandung', 'indah', 'plaza', 'dan', 'lainlain', 'dengan', 'harga', 'trjgkau', 'aplgi', 'pakai', 'promo', ',', 'recomended', 'buat', 'yang', 'mau', 'liburan', 'di', 'kota', 'bandung', '.']",[]
+688,"['tempat', 'nyaman', 'cuma', 'di', 'ac', 'nya', 'saja', 'kurang', 'dingin', '.']","[([0], [1], 'POS'), ([4, 5], [7, 8], 'NEG')]"
+689,"['lokasi', 'dekat', 'dengan', 'bandara', ',', 'tempat', 'nyaman', ',', 'pelayanan', 'sangat', 'bagus', ',', 'fasilitasnya', 'memuaskan', '.']","[([5], [6], 'POS'), ([8], [9, 10], 'POS'), ([12], [13], 'POS')]"
+690,"['toiletnya', 'ada', 'kerusakan', ',', 'dan', 'tidak', 'ada', 'air', 'minum', 'seperti', 'di', 'aplikasi', '.']","[([0], [1, 2], 'NEG'), ([7, 8], [5, 6], 'NEG')]"
+691,"['kamar', 'cukup', 'bersih', ',', 'toilet', 'juga', 'tidak', 'berbau', '.']","[([0], [1, 2], 'POS'), ([4], [6, 7], 'POS')]"
+692,"['fasilitas', 'sudah', 'cukup', 'baik', 'untuk', 'budget', 'segitu', ',', 'resepsionis', 'ramah', ',', 'hanya', 'saja', 'kebersihan', 'seprai', 'kurang', 'dan', 'ruangan', 'tidak', 'wangi', '.']","[([0], [2, 3], 'POS'), ([8], [9], 'POS'), ([13, 14], [15], 'NEG'), ([17], [18, 19], 'NEG')]"
+693,"['diatas', 'ekspektasi', 'untuk', 'hotel', 'budget', '.']",[]
+694,"['tidak', 'di', 'kasih', 'sarapan', '.', 'padahal', 'di', 'aplikasi', 'ada', 'tertulis', 'sarapan', '.']","[([3], [0, 1, 2], 'NEG')]"
+695,"['kamar', 'bersih', ',', 'kualitas', 'linen', 'perlu', 'diperbaiki', '.']","[([0], [1], 'POS'), ([3, 4], [5, 6], 'NEG')]"
+696,"['pelayanan', 'baik', ',', 'tetapi', 'kamar', 'mandinya', 'sempit', '.']","[([0], [1], 'POS'), ([4, 5], [6], 'NEG')]"
+697,"['pelayanan', 'nya', 'ramah', '.', 'tempat', 'nya', 'pun', 'lumayan', 'nyaman', '.', 'harga', 'pun', 'sangat', 'terjangkau', '.']","[([0, 1], [2], 'POS'), ([4, 5], [7, 8], 'POS'), ([10], [12, 13], 'POS')]"
+698,"['sempurna', '.', 'fasilitas', 'lengkap', 'harga', 'bersahabat', '!', 'terimakasih', 'airy', ':', ')', '.']","[([2], [3], 'POS'), ([4], [5], 'POS')]"
+699,"['pelayanan', 'pegawai', 'kurang', 'ramah', ',', 'dan', 'suasana', 'terlalu', 'berisik', '.']","[([0, 1], [2, 3], 'NEG'), ([6], [7, 8], 'NEG')]"
+700,"['tolong', 'untuk', 'seprainya', 'gnti', ',', 'karena', 'banyak', 'lubnglubng', 'bekas', 'rokok', ',', 'dan', 'sediakn', 'kastok', 'baju', 'serta', 'petunjuk', 'arah', 'kiblatnya', '.']","[([2], [6, 7, 8, 9], 'NEG')]"
+701,"['bekasbekas', 'jaringan', 'labalaba', 'di', 'standing', 'shower', ',', 'ada', 'binatang', 'kecil', 'di', 'bawah', 'wastafel', 'dan', 'ada', 'kecoaknya', '.']",[]
+702,"['mantaap', '.']",[]
+703,"['kamar', 'mandinya', 'bau', ',', 'keran', 'berkarat', ',', 'banyak', 'sarang', 'labalaba', ',', 'tempat', 'tidur', 'kurang', 'bersih', ',', 'lokasi', 'penginapan', 'masuk', 'gang', 'sehingga', 'tidak', 'bisa', 'masuk', 'mobil', '.']","[([0, 1], [2], 'NEG'), ([4], [5], 'NEG'), ([11, 12], [13, 14], 'NEG')]"
+704,"['sarannya', 'semoga', 'bisa', 'di', 'cek', 'ulang', 'wastafel', 'kamar', 'nya', 'agak', 'lama', 'turun', 'airnya', 'dan', 'semoga', 'segera', 'selesai', 'renovasinya', ':', ')', '.']","[([6, 7, 8], [9, 10, 11], 'NEG')]"
+705,"['kamar', 'nyaman', '.', 'petugas', 'ramah', '.']","[([0], [1], 'POS'), ([3], [4], 'POS')]"
+706,"['nyaman', 'kamar', 'bersih', 'dan', 'luas', '.']","[([1], [2], 'POS')]"
+707,"['bersih', 'tetapi', 'tempatnya', 'biasa', 'saja', '.']","[([2], [3, 4], 'NEG')]"
+708,"['oke', 'cuma', 'air', 'wastafel', 'berwarna', 'keruh', 'mohon', 'diperbaiki', '.']","[([2, 3], [4, 5], 'NEG')]"
+709,"['puas', 'deh', 'pokonya', '.']",[]
+710,"['wifi', 'tidak', 'bisa', ',', 'hampir', '3', 'hari', 'dalam', 'masa', 'perbaikan', '.', 'kebersihan', 'tempat', 'tidur', 'kurang', ',', 'seprai', 'terlihat', 'kusam', 'dan', 'noda', 'kurang', 'bersih', '.']","[([0], [1, 2], 'NEG'), ([11, 12, 13], [14], 'NEG'), ([16], [18], 'NEG'), ([16], [21, 22], 'NEG')]"
+711,"['cukup', 'memuaskan', ',', 'walaupun', 'sempat', 'ada', 'kerusakan', 'di', 'keran', 'air', 'toilet', '.']",[]
+712,"['kamarnya', 'jorok', 'ada', 'kecoaknya', 'terus', 'lembab', '.']","[([0], [1], 'NEG'), ([0], [2, 3], 'NEG'), ([0], [5], 'NEG')]"
+713,"['mantap', 'untuk', 'harga', 'segitu', '.']",[]
+714,"['parah', '.', 'pesan', '2', 'kamar', ',', '1', 'kamarnya', 'tidak', 'ada', 'perlengkapan', 'airy', 'belum', 'di', 'siapkan', ',', 'karena', 'tidak', 'terdetect', 'kalau', 'pesan', '2', 'kamar', '.', 'kamar', 'bau', 'apek', '.', 'not', 'recomended', 'lah', '.']","[([10, 11], [8, 9], 'NEG'), ([24], [25, 26], 'NEG')]"
+715,"['tempatnya', 'ditengah', 'kota', '.', 'dekat', 'pusat', 'perbelanjaa', '.']",[]
+716,"['untuk', 'jet', 'washer', 'airnya', 'beraroma', 'iya', ',', 'kalau', 'bisa', 'dibenahi', 'supply', 'air', 'untuk', 'jet', 'washer', 'karena', 'sangat', 'menyengat', 'saat', 'di', 'gunakan', ',', 'agak', 'mengganggu', 'kenyamanan', 'dengan', 'aroma', 'yang', 'ditimbulkan', '.', 'untuk', 'yang', 'lain', 'saya', 'merasa', 'puas', '.', 'terima', 'kasih', '.']","[([1, 2, 3], [4], 'NEG'), ([11], [16, 17], 'NEG'), ([31, 32], [35], 'POS')]"
+717,"['tidak', 'jadi', 'inap', 'karena', 'ada', 'perubahan', 'jadwal', 'acara', 'di', 'batu', ',', 'malang', '.', 'moga', 'moga', 'saja', 'tempatnya', 'baik', '.']",[]
+718,"['ramah', 'orangnya', 'dan', 'oke', 'tempatnya', 'pokoknya', 'nyaman', '.']","[([1], [0], 'POS'), ([4], [3], 'POS'), ([4], [6], 'POS')]"
+719,"['ada', 'beberapa', 'fasilitas', 'yang', 'sudah', 'usang', 'bahkan', 'rusak', 'seperti', 'pintu', 'yang', 'sulit', 'dikunci', ',', 'salah', 'satu', 'keran', 'kamar', 'mandi', 'yang', 'tidak', 'bisa', 'digunakan', ',', 'limit', 'saluran', 'televisi', ',', 'tetapi', 'untuk', 'harga', 'cukup', 'terjangkau', 'dan', 'kebersihan', 'baik', '.']","[([2], [5], 'NEG'), ([2], [7], 'NEG'), ([16, 17, 18], [20, 21, 22], 'NEG'), ([30], [31, 32], 'POS'), ([34], [35], 'POS')]"
+720,"['pelayanan', 'oke', ',', 'makanan', 'enak', 'dan', 'murce', ',', 'tidak', 'trl', 'jauh', 'dari', 'pusat', 'kota', '.', 'cuma', 'dalam', 'kamar', 'tidak', 'ada', 'lemari', ',', 'meja', 'kursi', 'dan', 'tempat', 'sampahnya', '.', 'tetapi', 'setelah', 'rikwes', ',', 'tempat', 'sampahnya', 'di', 'kasih', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([3], [6], 'POS'), ([20], [18, 19], 'NEG'), ([22], [18, 19], 'NEG'), ([23], [18, 19], 'NEG'), ([25, 26], [18, 19], 'NEG')]"
+721,"['cukup', 'bersih', 'dan', 'nyaman', '.']",[]
+722,"['cons', ':', '1', '.', 'air', 'mati', ',', 'baru', 'keluar', 'pagi', ',', 'jadi', 'tidak', 'bisa', 'mandi', 'dan', 'cebok', '2', '.', 'sarang', 'nyamuk', '3', '.', 'dipan', 'bergoyang', 'profesional', ':', '1', '.', 'ruangan', 'lumayan', 'besar', '2', '.', 'dekat', 'kuliner', 'saran', 'semoga', 'bisa', 'ditingkatkan', 'lebih', 'baik', 'lagi', '.']","[([4], [5], 'NEG'), ([29], [30, 31], 'POS')]"
+723,"['nyaman', ',', 'bersih', ',', 'ada', 'snack', 'nya', '.']","[([5, 6], [4], 'POS')]"
+724,"['kamarnya', 'nyaman', ',', 'pegawainya', 'juga', 'ramah', 'banget', ',', 'suasana', 'juga', 'tenang', 'pas', 'banget', 'buat', 'yang', 'ingin', 'ke', 'bali', '.']","[([0], [1], 'POS'), ([3], [5, 6], 'POS'), ([8], [10], 'POS')]"
+725,"['tetapi', 'tidak', 'disediakan', 'air', 'mineral', 'di', 'dalam', 'kamar', '.']","[([3, 4], [1, 2], 'NEG')]"
+726,"['tidak', 'ada', 'layanan', 'untuk', 'menonton', 'televisi', '.', 'yang', 'lainnya', 'memuaskan', ',', 'oke', '.']","[([2, 3, 4, 5], [0, 1], 'NEG'), ([7, 8], [9], 'POS'), ([7, 8], [11], 'POS')]"
+727,"['pelayanan', 'resepsionis', 'cepat', '.']","[([0, 1], [2], 'POS')]"
+728,"['pelayanan', 'oke', 'ramah', ',', 'kebersihan', 'juga', 'oke', 'dan', 'harga', 'terjangkau', 'hanya', 'saja', 'tidak', 'ada', 'tisu', 'toilet', 'dan', 'keset', '.']","[([0], [1], 'POS'), ([0], [2], 'POS'), ([4], [6], 'POS'), ([8], [9], 'POS'), ([14, 15], [12, 13], 'NEG'), ([17], [12, 13], 'NEG')]"
+729,"['yang', 'dikasih', 'hanya', 'kamar', 'biasa', 'bukan', 'airy', 'room', ',', 'sudah', 'di', 'keluhan', 'tetapi', 'tidak', 'di', 'respons', '.']",[]
+730,"['ok', '.', 'cukup', 'luas', 'dan', 'lengkap', '.', '!']",[]
+731,"['bersih', '.', 'tidak', 'ada', 'air', 'hangat', 'iya', '.']","[([4, 5], [2, 3], 'NEG')]"
+732,"['kamar', 'tidak', 'sesuai', 'gambar', 'yang', 'di', 'foto', 'sangat', 'kecil', ',', 'acnya', 'bocor', ',', 'kamarnya', 'juga', 'ada', 'rembesan', 'air', 'dan', 'bocor', 'kamar', 'mandinya', 'kecil', 'dan', 'gelap', 'dan', 'tidak', 'ada', 'kesetnya', ',', 'sangat', 'mengecewakan', '.']","[([0], [1, 2, 3], 'NEG'), ([0], [7, 8], 'NEG'), ([10], [11], 'NEG'), ([13], [19], 'NEG'), ([20, 21], [22], 'NEG'), ([20, 21], [24], 'NEG'), ([28], [26, 27], 'NEG')]"
+733,"['tempatnya', 'nyaman', ',', 'cuma', 'channel', 'tv', 'nya', 'buram', 'tidak', 'jelas', 'jadi', 'tidak', 'ada', 'buat', 'hiburan', '.']","[([0], [1], 'POS'), ([4], [7], 'NEG')]"
+734,"['recomended', ',', 'bakal', 'inap', 'kesini', 'lagi', 'kalau', 'ke', 'bali', '.']",[]
+735,"['resepsionis', 'selalu', 'standby', ',', 'kamar', 'sesuai', 'harga', ',', 'kekurangannya', 'airnya', 'asin', 'dan', 'kebersihan', 'kamar', 'mandi', 'tolong', 'diperbaiki', '.']","[([0], [1, 2], 'POS'), ([4], [5], 'POS'), ([9], [10], 'NEG'), ([12, 13, 14], [15, 16], 'NEG')]"
+736,"['kamar', 'lumayan', 'bersih', ',', 'meski', 'ada', 'beberapa', 'berdebu', 'tetapi', 'masih', 'cukup', 'nyaman', '.', 'air', 'hangat', ',', 'ac', 'dingin', ',', 'wifi', 'cepat', ',', 'karyawan', 'sedikit', 'kurang', 'ramah', ',', 'menginap', 'beberapa', 'hari', ',', 'harusnya', 'setiap', 'hari', 'diganti', 'snack', 'atau', 'mnawarkan', 'handuk', 'baru', '.']","[([0], [1, 2], 'POS'), ([0], [7], 'NEG'), ([0], [10, 11], 'POS'), ([16], [17], 'POS'), ([19], [20], 'POS'), ([22], [23, 24, 25], 'NEG')]"
+737,"['secara', 'keseluruhan', 'sudah', 'sangat', 'baik', ',', 'kebersihan', 'juga', 'terjaga', 'namun', 'untuk', 'sarapan', 'masih', 'kurang', '.']","[([0, 1], [3, 4], 'POS'), ([6], [8], 'POS'), ([11], [13], 'NEG')]"
+738,"['bagus', '.', 'kurang', 'ramah', 'saja', 'petugas', 'nya', '.']","[([5, 6], [2, 3], 'NEG')]"
+739,"['good', ',', 'hanya', 'kurang', 'nyaman', 'di', 'alat', 'penyemprot', 'yang', 'ada', 'di', 'kamar', 'mandi', ',', 'selebihnya', ',', 'bagus', '.']","[([6, 7], [3, 4], 'NEG'), ([14], [16], 'POS')]"
+740,"['kamar', 'bersih', ',', 'luas', ',', 'nyaman', ',', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([0], [5], 'POS')]"
+741,"['good', 'banget', 'hotelnya', '.']","[([2], [0, 1], 'POS')]"
+742,"['mengecewakan', '.', 'snack', 'dan', 'air', 'mineral', 'dari', 'sponsor', 'airy', 'hanya', 'untuk', '1', 'customer', 'sedangkan', 'di', 'pemesanan', 'kamar', 'maksimal', '2', 'orang', '.', 'handuk', 'juga', 'hanya', '1', 'seharus', '2', 'sesuai', 'aturan', 'yang', 'tertera', 'di', 'aplikasi', '.', 'walaupun', 'guest', 'house', 'tetapi', 'pelayanannya', 'sangat', 'minimalis', '.', 'shower', 'air', 'panas', 'juga', 'tidak', 'berfungsi', '.', 'sebaiknya', 'di', 'hapus', 'dari', 'layanan', 'yang', 'tercantum', 'di', 'aplikasi', '.']","[([21], [23, 24], 'NEG'), ([38], [39, 40], 'NEG'), ([42, 43, 44], [46, 47], 'NEG')]"
+743,"['dapat', 'kamar', 'yang', 'bersih', ',', 'air', 'lancar', 'dan', 'pelayan', 'yang', 'ramah', '.']","[([1], [3], 'POS'), ([5], [6], 'POS'), ([8], [10], 'POS')]"
+744,"['pelayanan', 'ramah', ',', 'kamar', 'bersih', 'dan', 'nyaman', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([3], [6], 'POS')]"
+745,"['kebersihan', 'kurang', '.']","[([0], [1], 'NEG')]"
+746,"['seharusnya', 'diberi', 'keterangan', 'bahwa', 'airy', 'ini', 'airy', 'syariah', '.', 'terima', 'kasih', '.']",[]
+747,"['respons', 'receiptionist', 'pada', 'saat', 'pelatform', 'kamar', 'mandi', 'jatuh', 'sangat', 'bagus', ',', 'langsung', 'dicarikan', 'kamar', 'pengganti', ',', 'untuk', 'fasilitas', 'kamar', 'fll', 'termasuk', 'oke', ',', 'cuma', 'keadaan', 'hotel', ',', 'banyak', 'tempat', 'dan', 'pelatform', 'yang', 'lembab', '.']","[([0, 1], [8, 9], 'POS'), ([17, 18], [21], 'POS'), ([28], [27], 'POS'), ([30], [32], 'NEG')]"
+748,"['kopi', 'nya', 'mungkin', 'yang', 'perlu', 'diperbaiki', ',', 'kopinya', 'terlalu', 'encer', 'rasa', 'seperti', 'teh', ',', 'dan', 'sayurmya', 'mungkin', 'tambah', '1', 'menu', 'lagi', ',', 'yang', 'lainnya', 'sudah', 'oke', '.']","[([0, 1], [4, 5], 'NEG'), ([7], [8, 9], 'NEG'), ([22, 23], [25], 'POS')]"
+749,"['keamanan', 'nyaa', 'kurang', 'ramah', 'terlalu', 'kasaar', '.']","[([0, 1], [2, 3], 'NEG'), ([0, 1], [4, 5], 'NEG')]"
+750,"['tempat', 'bersih', 'dan', 'pelayanannya', 'sangat', 'baik', '.']","[([0], [1], 'POS'), ([3], [4, 5], 'POS')]"
+751,"['snack', 'nya', 'tidak', 'sesuai', 'menu', 'box', ',', 'tidak', 'ada', 'mie', 'instan', 'dan', 'susu', '.']","[([0, 1], [2, 3], 'NEG')]"
+752,"['nyaman', ',', 'bersih', 'enak', 'strategis', '.']",[]
+753,"['pelayanan', 'baik', ',', 'hanya', 'kamar', 'mandi', 'kurang', 'perawatan', 'dan', 'selimut', 'agak', 'kusam', '.']","[([0], [1], 'POS'), ([4, 5], [6, 7], 'NEG'), ([9], [10, 11], 'NEG')]"
+754,"['resepsionis', 'nya', 'baik', ',', 'kamar', 'dan', 'kamar', 'mandinya', 'bersih', '.']","[([0, 1], [2], 'POS'), ([4], [8], 'POS'), ([6, 7], [8], 'POS')]"
+755,"['lokasi', 'bagus', 'tetapi', 'kamarnya', 'kurang', 'bersih', '.']","[([0], [1], 'POS'), ([3], [4, 5], 'NEG')]"
+756,"['sangat', 'memuaskan', 'lah', 'menginap', 'disini', ',', 'dan', 'di', 'dalam', 'kota', 'lagi', '.', 'tidak', 'nyesal', 'sudah', 'hotel', 'nya', 'nyaman', 'pkok', 'nya', '.']","[([15, 16], [17], 'POS')]"
+757,"['nyaman', ',', 'rapi', ',', 'bagus', '.']",[]
+758,"['customer', 'pelayanan', 'kurang', 'bersahabat', '.']","[([0, 1], [2, 3], 'NEG')]"
+759,"['nyaman', ',', 'bersih', ',', 'terawat', '.']",[]
+760,"['tempat', 'nyaman', 'tenang', 'enak', 'buat', 'liburan', 'sama', 'keluarga', '.', 'recommended', 'banget', '.']","[([0], [1], 'POS'), ([0], [2], 'POS'), ([0], [3], 'POS')]"
+761,"['kamarnya', 'bersih', 'dan', 'bagus', ',', 'nyaman', 'deh', 'pokoknya', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([0], [5], 'POS')]"
+762,"['sangat', 'senang', 'bisa', 'berkunjung', ',', 'semuanya', 'te', 'o', 'pe', ',', 'recommended', '!']",[]
+763,"['minus', 'nya', 'ac', 'nya', 'lama', 'dingin', 'nya', '.']","[([2, 3], [4, 5], 'NEG')]"
+764,"['sangat', 'rekomendasi', 'dan', 'harga', 'sangat', 'terjangakau', '.']","[([3], [4, 5], 'POS')]"
+765,"['kamar', 'nya', 'bersih', 'wangi', 'luas', ',', 'klu', 'ke', 'batu', 'lagi', 'pasti', 'menginap', 'di', 'sini', '.']","[([0, 1], [2], 'POS'), ([0, 1], [3], 'POS'), ([0, 1], [4], 'POS')]"
+766,"['kamar', 'mandi', 'luas', 'tetapi', 'kamar', 'kondensasi', 'parah', 'untuk', 'awal', 'nya', ',', 'wifi', 'tidak', 'berfungsi', 'sama', 'sekali', 'dan', 'tidak', 'ada', 'signal', 'telepon', 'di', 'area', 'hotel', 'tetapi', 'the', 'rest', 'oke', '.']","[([0, 1], [2], 'POS'), ([11], [12, 13], 'NEG'), ([25, 26], [27], 'POS')]"
+767,"['untuk', 'yang', 'menginap', 'disini', 'dengan', 'kendaraan', 'pribadi', 'sangat', 'reccomended', ',', 'karena', 'lokasi', 'di', 'dalam', 'perumahan', '.', 'overall', 'bagus', 'dengan', 'harga', 'segitu', 'di', 'bogor', '.']","[([16], [17], 'POS')]"
+768,"['yang', 'saya', 'dapat', 'lebih', 'dari', 'harga', 'yang', 'saya', 'bayar', '.']",[]
+769,"['tidak', 'ada', 'handuk', 'sempat', 'listrik', 'pulsa', 'habis', '.']","[([2], [0, 1], 'NEG')]"
+770,"['fasilitas', 'lebih', 'di', 'tingkatkan', '.']","[([0], [1, 2, 3], 'NEG')]"
+771,"['tmptnya', 'bagus', 'bersih', 'oke', 'lah', 'cocok', 'untuk', 'treveler', '.']","[([0], [1], 'POS'), ([0], [2], 'POS'), ([0], [3], 'POS')]"
+772,"['fasilitas', 'oke', ',', 'hanya', 'agak', 'berisik', 'karena', 'area', 'sekitar', 'lokasi', 'sedang', 'ada', 'proyek', 'pembangunan', '.']","[([0], [1], 'POS')]"
+773,"['tempat', 'sangat', 'nyaman', 'dan', 'tenang', '.']","[([0], [1, 2], 'POS'), ([0], [4], 'POS')]"
+774,"['pintu', 'seperti', 'kurang', 'presisi', 'jadi', 'pada', 'waktu', 'di', 'tutup', 'masih', 'bisa', 'diintip', 'dari', 'selasela', 'pintu', 'dan', 'kurang', 'kedap', 'suara', '.']",[]
+775,"['mantap', 'airy', '.', 'saya', 'suka', 'voucher', 'dan', 'promo', '.', 'jaya', 'selalu', 'airy', '.']",[]
+776,"['sangat', 'baik', ',', 'saya', 'senang', 'berada', 'di', 'hotel', 'ini', 'karena', 'pelayanannya', 'sangat', 'baik', ',', 'kamar', 'hotel', 'selalu', 'rapi', 'dan', 'selalu', 'di', 'berikan', 'cemilan', '.']","[([10], [11, 12], 'POS'), ([14, 15], [16, 17], 'POS'), ([22], [19, 20, 21], 'POS')]"
+777,"['kurang', 'nyaman', '.', 'tibatiba', 'jam', '8', 'pagi', 'ada', 'room', 'pelayanan', 'tanpa', 'pemberitahuan', 'dan', 'asal', 'masuk', 'saja', '.', 'mengecewakan', '!']",[]
+778,"['keren', 'sekali', 'hotel', 'ini', '.']",[]
+779,"['semua', 'nya', 'oke', ',', 'kecuali', 'air', 'nya', 'kalau', 'bisa', 'dibesarin', 'lagi', 'soal', 'nya', 'kecil', 'banget', ':', ')', '.']","[([0, 1], [2], 'POS'), ([5, 6], [13, 14], 'NEG')]"
+780,"['mewah', 'banget', 'tempatnya', '.', 'sayang', 'tv', 'channel', 'nya', 'cuma', 'net', 'sama', 'fox', '.']","[([2], [0, 1], 'POS')]"
+781,"['cukup', 'memuaskan', 'untuk', 'sebuah', 'hotel', 'transit', '.']",[]
+782,"['pelayanan', 'ramah', '.', 'breakfast', 'enak', 'dan', 'banyak', 'pilihan', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([3], [6, 7], 'POS')]"
+783,"['secara', 'keseluruhan', 'memuaskan', 'dengan', 'harga', 'yang', 'ditawarkan', '.']","[([0, 1], [2], 'POS')]"
+784,"['lumayan', 'lah', 'dengan', 'hsrga', 'segitu', 'discount', 'dari', 'local', 'guade', 'dan', 'airy', '.']",[]
+785,"['keramahannya', 'kurang', ',', 'tidak', 'ada', 'tempat', 'sampah', ',', 'air', 'panas', 'tidak', 'ada', ',', 'wifinya', 'jelek', 'padahal', 'di', 'setiap', 'kamar', 'ada', 'wifi', 'dan', 'lampu', 'mati', 'satu', '.']","[([0], [1], 'NEG'), ([5, 6], [3, 4], 'NEG'), ([8, 9], [10, 11], 'NEG'), ([13], [14], 'NEG'), ([22], [23], 'NEG')]"
+786,"['untuk', 'ukuran', 'kamar', 'luas', '.', 'cuma', 'kamar', 'mandinya', 'perlu', 'di', 'renovasi', 'lagi', '.', 'sama', 'airnya', 'asin', 'banget', '.', 'secara', 'pelayanan', 'pas', 'lah', '.', 'untuk', 'kualitas', 'ketenangan', 'sipp', '!']","[([1, 2], [3], 'POS'), ([6, 7], [8, 9, 10, 11], 'NEG'), ([14], [15, 16], 'NEG'), ([18, 19], [20], 'POS'), ([24, 25], [26], 'POS')]"
+787,"['resepsionisnya', 'ramah', '.']","[([0], [1], 'POS')]"
+788,"['bagus', 'kamat', 'bersih', ',', 'kamar', 'mandi', 'bersih', 'nyaman', 'buat', 'inap', '.']","[([1], [2], 'POS'), ([4, 5], [6], 'POS')]"
+789,"['bau', 'toilet', 'menyengat', ',', 'sampai', 'tercium', 'saat', 'tidur', '.']","[([0, 1], [2], 'NEG')]"
+790,"['kamar', 'bagus', 'nyaman', 'hanya', 'pelayanan', 'yang', 'sedikit', 'kurang', 'memuaskan', '.']","[([0], [1], 'POS'), ([0], [2], 'POS'), ([4], [6, 7, 8], 'NEG')]"
+791,"['pemiliknya', 'sangat', 'ramah', '.', 'mungkin', 'cuma', 'parkiran', 'saja', 'yang', 'kurang', '.']","[([0], [1, 2], 'POS'), ([6], [9], 'NEG')]"
+792,"['sangat', 'memuaskan', '.', 'fasilitas', 'baik', ',', 'pelayanan', 'ramah', ',', 'breakfast', 'menarik', '(', 'tetapi', 'kurang', 'bervariasi', ')', '.']","[([3], [4], 'POS'), ([6], [7], 'POS'), ([9], [10], 'POS'), ([9], [13, 14], 'NEG')]"
+793,"['bersih', 'dan', 'rapi', 'hanya', 'saja', 'tidak', 'ada', 'lift', '.']","[([7], [5, 6], 'NEG')]"
+794,"['wangi', ',', 'bersih', ',', 'eksklusif', '.']",[]
+795,"['pelayanan', 'baik', '.', 'top', '.']","[([0], [1], 'POS'), ([0], [3], 'POS')]"
+796,"['jendelanya', 'tidak', 'bisa', 'di', 'tutup', 'dan', 'tidak', 'ada', 'air', 'panas', '.']","[([0], [1, 2, 3, 4], 'NEG'), ([8, 9], [6, 7], 'NEG')]"
+797,"['kamar', 'nya', 'menakutkn', '.', 'snacknya', 'deh', 'exp', '.']","[([0, 1], [2], 'NEG'), ([4], [6], 'NEG')]"
+798,"['wifi', 'kencang', ',', 'staf', 'ramah', ',', 'bersih', ',', 'lokasi', 'strategis', 'ac', 'dingin', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([3], [6], 'POS'), ([8], [9], 'POS'), ([10], [11], 'POS')]"
+799,"['kamar', 'kurang', 'bersih', ',', 'ada', 'tikus', 'didalam', 'kamar', 'sempat', 'gigit', 'jempol', 'kaki', 'saya', '.']","[([0], [1, 2], 'NEG')]"
+800,"['lokasi', 'hotelnya', 'strategis', ',', 'dekat', 'sama', 'tempattempat', 'makan', 'di', 'depok', 'dan', 'gampang', 'diakses', ',', 'hanya', 'saja', 'kamarnya', 'super', 'duper', 'sempity', 'sampai', 'untuk', 'buka', 'pintu', 'kamar', 'saja', 'susah', 'karena', 'mentok', 'tempat', 'tidur', '.', 'cuma', 'itu', 'sih', 'yang', 'buat', 'tidak', 'nyaman', ',', 'tetapi', 'pelaynannya', 'oke', '.']","[([0, 1], [2], 'POS'), ([16], [17, 18, 19], 'NEG'), ([41], [42], 'POS')]"
+801,"['kamar', 'cukup', 'bersih', ',', 'tetapi', 'banyak', 'nyamuk', 'dan', 'penerangan', 'sangat', 'kurang', '.']","[([0], [1, 2], 'POS'), ([0], [5, 6], 'NEG'), ([8], [9, 10], 'NEG')]"
+802,"['pelayanan', 'ramah', ',', 'ruangan', 'bersih', 'sangat', 'memuaskan', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([3], [5, 6], 'POS')]"
+803,"['pelayanan', 'ramah', ',', 'fasilitas', 'oke', ',', 'tetapi', 'tolong', 'uang', 'deposit', 'jangan', 'di', 'stapler', ',', 'buat', 'uang', 'saya', 'cepat', 'rusak', '.']","[([0], [1], 'POS'), ([3], [4], 'POS')]"
+804,"['sayang', 'sekali', 'tidak', 'ada', 'sarapan', 'apaapa', '.']","[([4], [2, 3], 'NEG')]"
+805,"['kamarnya', 'lucu', ',', 'tetapi', 'pelayanannya', 'kurang', 'memuaskan', '.', 'masih', '1', 'jam', 'dari', 'jam', '12', 'untuk', 'check', 'out', ',', 'tetapi', 'sudah', 'diteriaki', 'dari', 'luar', 'kamar', '.', '""', 'check', 'out', ',', 'check', 'out', '""', 'walaupun', 'mungkin', 'bukan', 'untuk', 'saya', ',', 'tetapi', 'saya', 'jadi', 'tidak', 'nyaman', 'dengan', 'perlakuan', 'seperti', 'itu', '.']","[([0], [1], 'POS'), ([4], [5, 6], 'NEG')]"
+806,"['pelayanannya', 'ramah', ',', 'yang', 'perlu', 'diperbaiki', 'tekanan', 'air', 'kamar', 'mandi', 'nya', 'kurang', 'besar', ',', 'tidak', 'ada', 'perlengkapan', 'seperti', 'tempat', 'sampah', ',', 'tisu', ',', 'dan', 'keset', ',', 'jadi', 'harap', 'disediakan', '.', 'terima', 'kasih', '.']","[([0], [1], 'POS'), ([6, 7, 8, 9, 10], [11, 12], 'NEG'), ([16], [14, 15], 'NEG')]"
+807,"['kamar', '306', 'pas', 'ada', 'tiang', 'penyangganya', 'di', 'dalam', 'kamar', ',', 'jadi', 'kurang', 'enak', '.', 'tidak', 'tersedia', 'teko', '.', 'layanan', 'ramah', ',', 'bersih', ',', 'tenang', '.']","[([0], [11, 12], 'NEG'), ([16], [14, 15], 'NEG'), ([18], [19], 'POS'), ([18], [21], 'POS'), ([18], [23], 'POS')]"
+808,"['kamar', 'dan', 'ruang', 'tamu', 'cukup', 'luas', ',', 'lokasi', 'sangat', 'strategis', 'hanya', 'kebersihan', 'yang', 'harus', 'di', 'tingkatkan', 'lagi', '.']","[([0], [4, 5], 'POS'), ([2, 3], [4, 5], 'POS'), ([7], [8, 9], 'POS'), ([11], [13, 14, 15, 16], 'NEG')]"
+809,"['kamar', 'tidak', 'sesuai', 'gambar', ',', 'tidak', 'bersih', '.']","[([0], [1, 2, 3], 'NEG'), ([0], [5, 6], 'NEG')]"
+810,"['bagus', 'tetapi', 'kamar', 'mandi', 'masih', 'kurang', 'oke', '.']","[([2, 3], [5, 6], 'NEG')]"
+811,"['lokasi', 'susah', 'di', 'cari', 'dari', 'jalan', 'utama', 'dan', 'jauh', 'dari', 'jalan', 'utama', '.', 'saya', 'menggunakan', 'promo', 'airy', '.', 'overall', 'good', 'tingkatkan', 'lagi', '.']","[([0], [1, 2, 3], 'NEG'), ([18], [19], 'POS')]"
+812,"['tempatnya', 'baik', ',', 'bersih', ',', 'dan', 'nyaman', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([0], [6], 'POS')]"
+813,"['tidak', 'mencantumkan', 'secara', 'langsung', 'nama', 'tempat', 'nya', ',', 'tidak', 'memberikan', 'handuk', 'dan', 'perlengkapan', 'mandi', '.']","[([10], [8, 9], 'NEG'), ([12, 13], [8, 9], 'NEG')]"
+814,"['channel', 'tv', 'nya', 'kurang', '.']","[([0, 1, 2], [3], 'NEG')]"
+815,"['resepsionis', 'tidak', 'ramah', ',', 'tidak', 'ada', 'senyum', '.', 'handuk', 'tidak', 'dikasih', ',', 'di', 'janji', 'kan', 'mau', 'diantar', ',', 'tetapi', 'sampa', 'check', 'out', ',', 'mana', 'handuk', 'nya', '?', 'water', 'heater', 'mati', ',', 'lantai', 'debuan', '.', 'hadeeuuhh', '.']","[([0], [1, 2], 'NEG'), ([8], [9, 10], 'NEG'), ([27, 28], [29], 'NEG'), ([31], [32], 'NEG')]"
+816,"['bersih', ',', 'cuma', 'saat', 'mencari', 'hotelnya', 'susah', ',', 'dikarenakan', 'tidak', 'adanya', '.']",[]
+817,"['maps', 'penunjukan', 'berbeda', '!', 'tolong', 'perbaiki', 'maps', 'lokasi', ',', 'datang', 'malam', 'malam', 'sesuai', 'maps', 'ternyata', 'maps', 'lokasi', 'tidak', 'sesuai', '!', 'dan', 'kita', 'salah', 'tempat', '!', 'menyusahkan', '!', 'oke', 'kalau', 'pagi', 'pagi', ',', 'lah', 'ini', 'malam', 'malam', 'jam', '11', '.']","[([16], [17, 18], 'NEG')]"
+818,"['shower', 'rusak', ',', 'penempatan', 'gantungan', 'baju', 'di', 'kamar', 'mandi', 'sebaiknya', 'jangan', 'di', 'samping', 'wc', ',', 'selimut', 'banyak', 'bekas', 'noda', '.', 'selebihnya', 'oke', 'lah', '.']","[([0], [1], 'NEG'), ([15], [16, 17, 18], 'NEG'), ([20], [21], 'POS')]"
+819,"['nyaman', 'dan', 'mudah', 'cari', 'makan', 'dan', 'oleholeh', '.']",[]
+820,"['tempat', 'lumayan', 'nyaman', '.', 'cuma', 'wcnya', 'agak', 'rusak', '.']","[([0], [1, 2], 'POS'), ([5], [6, 7], 'NEG')]"
+821,"['sangaat', 'sangaatt', 'recommended', '.']",[]
+822,"['kamarnya', 'bersih', ',', 'nyaman', ',', 'tetapi', 'ac', 'nya', 'tidak', 'terasa', 'dingin', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([6, 7], [8, 9, 10], 'NEG')]"
+823,"['kamar', 'bersih', 'dan', 'cukup', 'luas', ',', 'sarapan', 'enak', '.', 'mau', 'pinjam', 'piring', 'ke', 'restoran', 'disuruh', 'ambil', 'sendiri', 'ke', 'reply', '.']","[([0], [1], 'POS'), ([0], [3, 4], 'POS'), ([6], [7], 'POS')]"
+824,"['baik', 'dan', 'ramah', '.']",[]
+825,"['bersih', 'tetapi', 'lumayan', 'berisik', 'kalau', 'malam', '.']",[]
+826,"['keran', 'kamar', 'mandi', 'mati', ',', 'pintu', 'kamar', 'mandi', 'tidak', 'bisa', 'dikunci', ',', 'ac', 'panas', ',', 'no', 'wifi', ',', 'handuk', 'cuma', 'dikasih', '1', ',', 'padahal', 'tamu', 'nya', '2', '.']","[([0, 1, 2], [3], 'NEG'), ([5, 6, 7], [8, 9, 10], 'NEG'), ([12], [13], 'NEG'), ([16], [15], 'NEG'), ([18], [19, 20, 21], 'NEG')]"
+827,"['bagus', 'sih', 'cuma', 'capek', 'juga', 'kalau', 'bolak', 'balik', '3', 'lantai', ',', 'lebih', 'bagus', 'lagi', 'kalau', 'ada', 'di', 'lantai', '1', '.']",[]
+828,"['recomended', 'buat', 'para', 'backpaker', '.']",[]
+829,"['sangat', 'baik', '.', 'ada', 'snack', 'nya', '.', 'senang', 'ada', 'jendelanya', ',', 'jadi', 'bisa', 'buka', 'jendela', '.']","[([4, 5], [3], 'POS')]"
+830,"['jam', '10', 'malam', 'sampai', 'jam', '6', 'pagi', 'tidak', 'bisa', 'tidur', 'karena', 'suara', 'music', 'dari', 'lantai', 'atas', 'berdentum', 'keras', 'sekali', '.']",[]
+831,"['cocok', 'untuk', 'transit', ',', 'tetapi', 'harus', 'memperhatikan', 'jam', 'maksimal', 'check', 'in', '(', '23.00', ')', '.']",[]
+832,"['pelayanannya', 'baik', '.', 'tetapi', 'snack', 'nya', 'kok', 'tidak', 'ada', 'lagi', 'iya', '.', 'kemudian', 'bantalnya', 'bau', 'apek', '.', 'itu', 'saja', 'masukannya', '.']","[([0], [1], 'POS'), ([4, 5], [7, 8], 'NEG'), ([13], [14, 15], 'NEG')]"
+833,"['good', '.', 'lingkungan', 'strategis', 'dan', 'bersih', '.', 'pgn', 'kesini', 'lagi', '.']","[([2], [3], 'POS'), ([2], [5], 'POS')]"
+834,"['lumayan', ',', 'cuma', 'channel', 'tv', 'nya', 'banyak', 'yang', 'kabur', '.']","[([3, 4, 5], [6, 7, 8], 'NEG')]"
+835,"['dapat', 'snack', 'pula', '.', 'terimakasih', '.']","[([1], [0], 'POS')]"
+836,"['pelayanan', 'ramah', '.', 'lokasi', 'bagus', '.', 'kamar', 'mandi', 'tidak', 'ada', 'air', 'panas', '.', 'kamar', 'kurang', 'bersih', '.', 'terimakasih', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([10, 11], [8, 9], 'NEG'), ([13], [14, 15], 'NEG')]"
+837,"['kebetulan', 'dapat', 'kamar', 'm', 'dari', 'hari', 'pertama', 'kekurangannya', ',', 'untuk', 'kamar', 'ini', 'saja', ',', 'berisik', 'dengan', 'mesin', 'air', ',', 'tempat', 'sampahnya', 'tidak', 'ada', '.']","[([16, 17], [14], 'NEG'), ([19, 20], [21, 22], 'NEG')]"
+838,"['tempat', 'nya', 'rapi', ',', 'nyaman', ',', 'fasilitas', 'lengkap', 'dengan', 'harga', 'terjangkau', '.']","[([0, 1], [2], 'POS'), ([0, 1], [4], 'POS'), ([6], [7], 'POS'), ([9], [10], 'POS')]"
+839,"['untuk', 'sarapan', 'kurang', 'memuaskan', '.']","[([1], [2, 3], 'NEG')]"
+840,"['pelayanannya', 'ramah', ',', 'tmptnya', 'strategis', ',', 'tolong', 'pintunya', 'di', 'perbaiki', ',', 'kalau', 'mau', 'di', 'tutup', 'bunyi', 'berisik', '.']","[([0], [1], 'POS'), ([3], [4], 'POS')]"
+841,"['kamar', 'bersih', ',', 'rapi', ',', 'dan', 'bagus', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([0], [6], 'POS')]"
+842,"['fasilitas', 'lengkap', 'harga', 'bersahabat', '.']","[([0], [1], 'POS'), ([2], [3], 'POS')]"
+843,"['semuanya', 'baik', '.', 'tetapi', 'saran', 'saya', 'tolong', 'kamar', 'juga', 'di', 'bersihkan', 'setiap', 'hari', 'jika', 'menginap', 'lebih', 'dari', 'sehari', '.', 'pakai', 'tempat', 'sampah', 'tertutup', 'juga', '.']","[([0], [1], 'POS')]"
+844,"['kamar', 'nyaman', ',', 'tetapi', 'mesin', 'air', 'bunyi', 'terus', '.', 'kolam', 'renang', 'sebenarnya', 'bagus', 'tetapi', 'kotor', ',', 'airnya', 'tidak', 'jernih', '.']","[([0], [1], 'POS'), ([4, 5], [6], 'NEG'), ([9, 10], [12], 'POS'), ([9, 10], [14], 'NEG'), ([16], [17, 18], 'NEG')]"
+845,"['enak', 'nyaman', 'tempat', 'nya', ',', 'ramah', 'pelayanan', 'nya', ',', 'tetapi', 'untuk', 'seprai', 'dan', 'sarungsarung', 'bantal', 'nya', 'kurang', 'bersih', 'warna', 'nya', 'kusam', 'begitu', ',', 'itu', 'saja', 'deh', 'he', 'terimakasih', '.']","[([2, 3], [0], 'POS'), ([2, 3], [1], 'POS'), ([6, 7], [5], 'POS'), ([11], [16, 17], 'NEG'), ([13, 14, 15], [16, 17], 'NEG'), ([18, 19], [20, 21], 'NEG')]"
+846,"['acnya', 'kurang', 'dingin', '.']","[([0], [1, 2], 'NEG')]"
+847,"['kamar', 'yang', 'bersih', ',', 'cukup', 'memuaskan', 'untuk', 'traveler', '.']","[([0], [2], 'POS'), ([0], [4, 5], 'POS')]"
+848,"['good', '.', 'ada', 'paket', 'sarapan', 'juga', '.', 'overall', 'good', 'dan', 'best', '.', 'tetapi', 'harus', 'jelijeli', 'ngingetin', 'petugas', 'keb', '.']","[([3, 4], [2], 'POS'), ([7], [8], 'POS'), ([7], [10], 'POS')]"
+849,"['kamar', 'bersih', ',', 'ac', 'menyala', 'dengan', 'baik', ',', 'dan', 'kamar', 'mandi', 'tersedia', 'air', 'panas', 'juga', '.']","[([0], [1], 'POS'), ([3], [4, 5, 6], 'POS'), ([12, 13], [11], 'POS')]"
+850,"['kamar', 'sangat', 'besar', 'dan', 'bersih', '.']","[([0], [1, 2], 'POS'), ([0], [4], 'POS')]"
+851,"['sangat', 'kotor', ',', 'banyak', 'semut', ',', 'selimutnya', 'dan', 'handuknya', 'kecil', ',', 'cleaning', 'pelayanan', 'nya', 'tidak', 'mau', 'buang', 'sampah', 'padahal', 'saya', '2mlm', ',', 'dibiarkan', 'saja', 'nmpuk', ',', 'seprai', 'juga', 'tidak', 'jelas', 'diganti', '.', 'kalau', 'tidak', 'disuruh', 'bersihkan', 'kamar', 'tidak', 'dibersihkan', '.']","[([6], [9], 'NEG'), ([8], [9], 'NEG'), ([26], [28, 29, 30], 'NEG')]"
+852,"['bagus', '.', 'hanya', 'kurang', 'bersih', 'saja', '.', 'mungkin', 'masih', 'dalam', 'renovasi', '.', 'shower', 'nya', 'rusak', '.']","[([12, 13], [14], 'NEG')]"
+853,"['ini', 'repeat', 'yang', 'ke', '3', '.', 'dan', 'akan', 'ada', 'yang', 'ke', '4', ',', 'ke', '5', ',', 'dst.', '.']",[]
+854,"['kondisi', 'kamar', 'bagus', ',', 'bersih', ',', 'tenang', 'dan', 'nyaman', '.', 'hanya', 'saja', 'tidak', 'diberikan', 'akses', 'kunci', 'sehingga', 'harus', 'hubung', 'penjaganya', 'terlebih', 'dahulu', 'baru', 'bisa', 'masuk', '.', 'dan', 'lokasinya', 'kurang', 'strategis', 'karena', 'di', 'ujung', 'jalan', '.']","[([1], [2], 'POS'), ([1], [4], 'POS'), ([1], [6], 'POS'), ([1], [8], 'POS'), ([27], [28, 29], 'NEG')]"
+855,"['ramah', 'dan', 'nyaman', '.', 'tetapi', 'mengapa', 'listrik', 'seeing', 'mati', '?']","[([6], [7, 8], 'NEG')]"
+856,"['kamar', 'yang', 'terbaik', ',', 'semua', 'fasilitas', 'sesuai', 'yang', 'di', 'publikasikan', '.']","[([0], [2], 'POS'), ([5], [6], 'POS')]"
+857,"['air', 'asin', '.', 'channel', 'tv', 'hancur', 'gambarnya', 'admit', 'berantem', '.']","[([0], [1], 'NEG'), ([3, 4], [5, 6], 'NEG')]"
+858,"['unik', 'tempatnya', 'cuma', 'check', 'out', 'subuh', 'agak', 'lama', 'kembali', 'deposit', 'karena', 'resepsionisnya', 'tidur', 'he', '.']","[([1], [0], 'POS'), ([3, 4], [6, 7], 'NEG')]"
+859,"['kamar', 'sama', 'kamar', 'mandinya', 'bersih', ',', 'dan', 'pelayanannya', 'ramah', '.']","[([0], [4], 'POS'), ([2, 3], [4], 'POS'), ([7], [8], 'POS')]"
+860,"['baik', 'dan', 'bagus', 'pelayanannya', 'serta', 'ramah', 'terhadap', 'para', 'tamu', 'yang', 'menginap', '.']","[([3], [0], 'POS'), ([3], [2], 'POS'), ([3], [5], 'POS')]"
+861,"['kamar', 'tidak', 'sesuai', 'dengan', 'gambar', 'dan', 'sempit', 'tetapi', 'lumayan', 'nyaman', '.']","[([0], [1, 2, 3, 4], 'NEG'), ([0], [6], 'NEG'), ([0], [8, 9], 'POS')]"
+862,"['cukup', 'nyaman', 'kalau', 'hanya', 'untuk', 'istirahat', '.', 'tetapi', 'kalau', 'bawa', 'bayi', 'batita', 'kurang', 'pas', 'karena', 'takut', 'mengganggu', 'penghuni', 'kost', '.']",[]
+863,"['hotel', 'nyaman', '.', 'terimakasih', 'airy', '.']","[([0], [1], 'POS')]"
+864,"['nyaman', 'tetapi', 'kalau', 'yang', 'dilantai', 'dua', 'lelah', 'juga', 'turun', 'naiknya', '.']",[]
+865,"['tidak', 'jadi', 'menginap', 'karena', 'jauh', 'ke', 'lokasi', 'yang', 'saya', 'tuju', '.']",[]
+866,"['ac', 'remotenya', 'tidak', 'fungsi', '.']","[([0, 1], [2, 3], 'NEG')]"
+867,"['tempat', 'nyaman', 'bersih', 'dan', 'luas', ',', 'dengan', 'koneksi', 'wifi', 'yang', 'baik', '.']","[([0], [1], 'POS'), ([0], [2], 'POS'), ([0], [4], 'POS'), ([7, 8], [10], 'POS')]"
+868,"['pelayanannya', 'oke', '.']","[([0], [1], 'POS')]"
+869,"['kamar', 'terlalu', 'kecil', '.']","[([0], [1, 2], 'NEG')]"
+870,"['kamar', 'bersih', 'wangi', 'bagus', 'banget', 'pokoknya', '.']","[([0], [1], 'POS'), ([0], [2], 'POS'), ([0], [3, 4], 'POS')]"
+871,"['tempatnya', 'strategis', 'dan', 'nyaman', '.']","[([0], [1], 'POS'), ([0], [3], 'POS')]"
+872,"['shower', 'nya', 'rusak', '.']","[([0, 1], [2], 'NEG')]"
+873,"['semua', 'baik', 'cuma', 'kebersihan', 'di', 'tingkatkan', 'lagi', '.']","[([0], [1], 'POS'), ([3], [4, 5, 6], 'NEG')]"
+874,"['handuk', 'cuma', '1', ',', 'tidak', 'ada', 'baju', 'tdr', '.']","[([0], [1, 2], 'NEG'), ([6, 7], [4, 5], 'NEG')]"
+875,"['rapi', 'bersih', '.', 'tidak', 'perlu', 'ac', ',', 'karena', 'udara', 'bandung', 'sudah', 'sejuk', '.']",[]
+876,"['hotel', 'ini', 'sangat', 'bagus', 'dan', 'nyaman', 'untuk', 'backpacker', '.']","[([0], [2, 3], 'POS'), ([0], [5], 'POS')]"
+877,"['pas', 'kebetulan', 'waktu', 'inap', 'pas', 'lagi', 'acara', 'wisudaan', 'beberapa', 'universitas', 'jadi', 'full', 'terus', 'dan', 'yang', 'disayangkan', 'untuk', 'makan', 'pagi', 'pegawainya', 'belum', 'datang', 'jadi', 'kalau', 'yang', 'pagi', 'banget', 'tidak', 'makan', 'jdnya', '.']",[]
+878,"['pesanan', 'via', 'airy', 'tidak', 'sesuai', 'di', 'lapangan', ',', 'lama', 'dan', 'bertele', 'tele', '.', 'pelayanan', 'kurang', 'baik', ',', 'kamar', 'selalu', 'dibilang', 'penuh', 'padahal', 'banyak', 'yang', 'kosong', '.']","[([13], [14, 15], 'NEG')]"
+879,"['pelayanan', 'semua', 'bagus', ',', 'cuma', 'ac', 'nya', 'berisik', 'mohon', 'diperbaiki', '.']","[([0], [2], 'POS'), ([5, 6], [7], 'NEG'), ([5, 6], [8, 9], 'NEG')]"
+880,"['pelayanan', 'baik', ',', 'meski', 'tidak', 'ada', 'sarapan', 'pagi', 'tetapi', 'sebagai', 'gantinya', 'dapat', 'makanan', 'ringan', '(', 'snack', ')', 'dan', 'mair', 'mineral', 'gratis', 'setiap', 'paginya', '.']","[([0], [1], 'POS'), ([6, 7], [4, 5], 'NEG')]"
+881,"['airnya', 'terlalu', 'kecil', '.']","[([0], [1, 2], 'NEG')]"
+882,"['fasilitas', 'kamar', 'mandi', 'perlu', 'diperbaiki', '.']","[([0, 1, 2], [3, 4], 'NEG')]"
+883,"['7', 'fasilitas', 'airyrooms', 'ada', 'semua', ',', 'dan', 'yang', 'paling', 'penting', ',', 'kamar', 'mandi', 'super', 'bersih', '!', 'thank', 'you', 'airy', 'rooms', 'dan', 'rumah', 'rayna', ':', ')', '.']","[([11, 12], [13, 14], 'POS')]"
+884,"['air', 'panasnya', 'lama', 'banget', 'baru', 'bisa', 'panas', 'yang', 'di', 'kamar', '318', '.']","[([0, 1], [2, 3], 'NEG')]"
+885,"['harga', 'murah', ',', 'fasilitas', 'oke', '.']","[([0], [1], 'POS'), ([3], [4], 'POS')]"
+886,"['tidak', 'bisa', 'nonton', 'tv', 'karena', 'tidak', 'ada', 'signal', ',', 'seprai', 'sepertinya', 'belum', 'diganti', 'masih', 'ada', 'serpihan', 'debu', ',', 'tetapi', 'overall', 'cukup', 'memuaskan', 'apabila', 'kemalaman', 'di', 'daerah', 'setiabudi', '.']","[([3], [5, 6, 7], 'NEG'), ([9], [11, 12], 'NEG'), ([19], [20, 21], 'POS')]"
+887,"['kamarnya', 'nyaman', ',', 'hanya', 'saja', 'untuk', 'saklar', 'nya', 'kurang', 'banyak', 'dan', 'harus', 'berbagi', 'dengan', 'tv', '.', 'jadi', 'kalau', 'mau', 'ngecas', 'hp', ',', 'tidak', 'bisa', 'nonton', 'tv', '.']","[([0], [1], 'POS'), ([6, 7], [8, 9], 'NEG')]"
+888,"['kamarnya', 'besar', 'enak', '.', 'tetapi', 'kurang', 'bersih', 'kasurnya', '.', 'dan', 'kamar', 'mandi', 'bau', '.']","[([0], [1], 'POS'), ([0], [2], 'POS'), ([7], [5, 6], 'NEG'), ([10, 11], [12], 'NEG')]"
+889,"['mantap', '.', 'pelayanannya', 'bagus', '.']","[([2], [3], 'POS')]"
+890,"['bantal', 'nya', 'bau', '.']","[([0, 1], [2], 'NEG')]"
+891,"['pelayanan', 'cepat', '.']","[([0], [1], 'POS')]"
+892,"['bagus', 'sih', 'secara', 'keseluruhan', '.', 'mungkin', 'wifi', 'nya', 'yang', 'kurang', 'karena', 'belum', 'sampai', 'ke', 'kamar', 'dan', 'kemarin', 'mungkin', 'lagi', 'tidak', 'beruntung', 'dapat', 'kamarnya', 'yang', 'tv', 'nya', 'kurang', 'jernih', '.']","[([3], [0], 'POS'), ([6, 7], [9], 'NEG'), ([24, 25], [26, 27], 'NEG')]"
+893,"['kamar', 'nya', 'nyaman', '.', 'wangi', 'pula', '.', 'tetapi', 'pas', 'lihat', 'peralatan', 'mandi', 'tidak', 'toothbrush', 'nya', 'hehehhe', '.', 'kan', 'lucu', '.', 'gpp', 'lah', 'two', 'thumbs', 'up', '.', 'airy', '.']","[([0, 1], [2], 'POS'), ([0, 1], [4], 'POS')]"
+894,"['lokasi', 'sangat', 'strategis', ',', 'dekat', 'dengan', 'masjid', 'dan', 'pasar', '.', 'nyaman', 'dan', 'pelayanan', 'memuaskan', '.', 'tidak', 'menyesal', 'menginap', 'disini', 'dengan', 'harga', 'yang', 'bersahabat', 'dan', 'ramah', 'dikantong', '.']","[([0], [1, 2], 'POS'), ([12], [13], 'POS'), ([20], [22], 'POS'), ([20], [24], 'POS')]"
+895,"['kamarnya', 'bersih', ',', 'nyaman', ',', 'harga', 'terjangkau', '.', 'sayang', 'tidak', 'ada', 'wastafel', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([5], [6], 'POS'), ([11], [9, 10], 'NEG')]"
+896,"['gerbang', 'utama', 'susah', 'di', 'buka', '.']",[]
+897,"['pelayan', 'nya', 'ramah', 'sekali', '.', 'tetapi', 'lokasinya', 'tidak', 'begitu', 'jelas', '.']","[([0, 1], [2, 3], 'POS'), ([6], [7, 8, 9], 'NEG')]"
+898,"['saat', 'check', 'in', 'harus', 'ninggalin', 'uang', 'deposit', 'agak', 'ribet', 'jadi', 'nya', 'karena', 'biasa', 'nya', 'airy', 'tidak', 'ada', 'buat', 'deposit', 'ribet', 'karena', 'tidak', 'ada', 'pemberitaun', 'dari', 'pihak', 'airys', 'sebelum', 'nya', 'moga', 'kedepan', 'nya', 'lebih', 'baik', '.']",[]
+899,"['ac', 'kurang', 'dingin', ',', 'lantai', 'kamar', 'seperti', 'tidak', 'pernah', 'di', 'bersihkan', 'alias', 'kotor', 'tetapi', 'over', 'all', 'pelayanan', 'dan', 'penjaga', 'nya', 'ramah', 'dan', 'sopan', 'mohon', 'di', 'tingkatkan', 'lagi', 'kualitas', 'kamarnya', '.']","[([0], [1, 2], 'NEG'), ([4, 5], [12], 'NEG'), ([16], [20], 'POS'), ([16], [22], 'POS'), ([18, 19], [20], 'POS'), ([18, 19], [22], 'POS'), ([27, 28], [23, 24, 25, 26], 'NEG')]"
+900,"['nyaman', 'bagus', 'bangety', '.']",[]
+901,"['sudah', '2', 'kali', 'menginap', 'disana', 'dan', 'pelayanannya', 'memuaskan', '.']","[([6], [7], 'POS')]"
+902,"['joss', ',', 'nyaman', ',', 'mewah', '.']",[]
+903,"['fasilitas', 'lengkap', 'harga', 'hemat', '.']","[([0], [1], 'POS'), ([2], [3], 'POS')]"
+904,"['dapat', 'snack', ',', 'air', 'panas', 'berfungsi', '.', 'kamar', 'cukup', 'bersih', '.', 'terimakasih', 'airy', '.']","[([1], [0], 'POS'), ([3, 4], [5], 'POS'), ([7], [8, 9], 'POS')]"
+905,"['dapat', 'kamar', 'yang', 'jarang', 'di', 'huni', ',', 'kotor', 'dan', 'tidak', 'ada', 'fasilitas', 'lift', '.', 'huuft', '.']","[([1], [7], 'NEG'), ([11, 12], [9, 10], 'NEG')]"
+906,"['mengapa', 'harus', 'ditempatkan', 'di', 'lantai', '3', '?']",[]
+907,"['kamar', 'minimalis', 'namun', 'tetap', 'nyaman', '.']","[([0], [1], 'NEG'), ([0], [4], 'POS')]"
+908,"['hotel', 'bersih', '.', 'kasur', 'dan', 'kamar', 'mandi', 'bersih', '.']","[([0], [1], 'POS'), ([3], [7], 'POS'), ([5, 6], [7], 'POS')]"
+909,"['sudah', 'lah', 'iya', '.', 'harga', 'memang', 'selalu', 'sama', 'dengan', 'kualitas', '.']",[]
+910,"['alhamdulillah', '.', 'makanannya', 'enak', '.', 'pasti', 'bebas', 'rokok', '.', 'semoga', 'selalu', 'ber', 'syariah', '.']","[([2], [3], 'POS')]"
+911,"['satpamnya', 'ramah', ',', 'kamar', 'enak', ',', 'sayang', 'tidak', 'ada', 'gantungan', 'bajunya', '.', 'tidak', 'ada', 'pewangi', 'ruangan', 'over', 'all', 'oke', 'lah', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([9, 10], [7, 8], 'NEG'), ([14, 15], [12, 13], 'NEG'), ([16, 17], [18], 'POS')]"
+912,"['untuk', 'harga', 'begini', 'termasuk', 'mahal', ',', 'kualitasnya', 'dibawah', 'ekspetaksi', 'saya', ',', 'banyak', 'nyamuk', ',', 'sempit', '.', 'kalau', 'disuruh', 'balik', 'lagi', 'saya', 'rasa', 'tidak', 'deh', 'menginap', 'disini', '.']",[]
+913,"['orang', 'tua', 'saya', 'menginap', 'dan', 'deposit', 'dipotong', '100ribu', 'karena', 'dikatakan', '1', 'orang', 'tambahan', 'menginap', ',', 'pad', '.']",[]
+914,"['kamar', 'bersih', 'ac', 'dingin', 'pelayannya', 'ramah', 'tetapi', 'yang', 'kurang', 'air', 'panas', 'kurang', 'berfungsi', 'halaman', 'asri', '.']","[([0], [1], 'POS'), ([2], [3], 'POS'), ([4], [5], 'POS'), ([9, 10], [11, 12], 'NEG'), ([13], [14], 'POS')]"
+915,"['banyak', 'kucing', 'terus', 'suka', 'ngikutin', '.', 'over', 'all', 'good', '.', 'kucingnya', 'saja', 'dikeluarin', 'jangan', 'masuk', 'airy', 'nya', '.']","[([6, 7], [8], 'POS')]"
+916,"['selimut', 'nya', 'tipis', ',', 'seprai', 'dan', 'kainkain', 'nya', 'terlihat', 'buluk', ',', 'air', 'panas', 'nya', 'tidak', 'berfungsi', ':', '(', '.']","[([0, 1], [2], 'NEG'), ([4], [8, 9], 'NEG'), ([6, 7], [8, 9], 'NEG'), ([11, 12, 13], [14, 15], 'NEG')]"
+917,"['pinjam', 'sandal', 'harus', 'bayar', '10000', ',', 'pinjam', 'mangkok', 'dan', 'sendok', 'tidak', 'boleh', '.', 'sarung', 'bantal', 'kotor', ',', 'kasur', 'ju', '.']","[([13, 14], [15], 'NEG'), ([17], [15], 'NEG')]"
+918,"['oke', '.']",[]
+919,"['pelayanan', 'baik', ',', 'cuma', 'ac', 'kurang', 'dingin', 'sama', 'air', 'tidak', 'ada', 'air', 'panas', '.']","[([0], [1], 'POS'), ([4], [5, 6], 'NEG'), ([11, 12], [9, 10], 'NEG')]"
+920,"['lumayanlah', ',', 'tetapi', 'kamar', 'mandi', 'kurang', 'bersih', '.']","[([3, 4], [5, 6], 'NEG')]"
+921,"['bagus', ',', 'nyaman', 'dan', 'bersih', '.']",[]
+922,"['sering', 'mati', 'listrik', '.']","[([2], [0, 1], 'NEG')]"
+923,"['kamar', 'bersih', 'dan', 'nyaman', ',', 'lokasi', 'dekat', 'dengan', 'pantai', 'kuta', '.']","[([0], [1], 'POS'), ([0], [3], 'POS')]"
+924,"['tempat', 'nya', 'dekat', 'sama', 'pusat', 'kota', '.', 'hanya', 'sedikit', 'keluhan', 'di', 'area', 'kamar', 'mandi', ',', 'menyalakan', 'air', 'keran', 'bawah', 'bahkan', 'shower', 'nya', 'ikutan', 'nyala', 'juga', '.']",[]
+925,"['pelayanan', 'tidak', 'memuaskan', ',', 'makanan', 'habis', 'ketika', 'sahur', ',', 'kamar', '2', 'hari', 'tidak', 'dibersihkan', ',', 'resepsionis', 'tidak', 'sopan', 'dan', 'menjangkelkan', '.']","[([0], [1, 2], 'NEG'), ([9], [12, 13], 'NEG'), ([15], [16, 17], 'NEG'), ([15], [19], 'NEG')]"
+926,"['lantai', 'kamar', 'seperti', 'ada', 'lengketlengketnya', ',', 'mungkin', 'karena', 'belum', 'dipel', '.']","[([0, 1], [4], 'NEG')]"
+927,"['di', 'hari', 'pertama', 'check', 'in', 'perlengkapan', 'dari', 'airy', 'tidak', 'ada', ',', 'air', 'minum', 'sudah', 'ada', 'yang', 'minum', '(', 'bekas', ')', 'tetapi', 'setelah', 'menghubungi', 'cs', 'langsung', 'diatasi', '.', 'overall', 'baik', ',', 'hanya', 'minus', 'itu', 'saja', '.']","[([5], [8, 9], 'NEG'), ([27], [28], 'POS')]"
+928,"['handuk', 'cuma', '1', '.']","[([0], [1, 2], 'NEG')]"
+929,"['bagus', 'deh', 'buat', 'hotel', 'horton', 'pelayanan', 'mantap', 'resepsionis', 'menrima', 'dengan', 'baik', 'kamarnya', 'juga', 'bagus', 'bersih', 'overall', 'bagus', 'lah', 'terimakasih', 'buat', 'airyroom', 'dan', 'terutama', 'buat', 'horton', 'hotel', '.']","[([3], [0], 'POS'), ([5], [6], 'POS'), ([7], [8, 9, 10], 'POS'), ([11], [13], 'POS'), ([11], [14], 'POS'), ([15], [16], 'POS')]"
+930,"['bersih', 'dan', 'nyaman', 'inap', 'di', 'airy', '.']",[]
+931,"['bagus', 'cantik', 'kamarnya', 'pelayanan', 'bagus', '.']","[([2], [0], 'POS'), ([2], [1], 'POS'), ([3], [4], 'POS')]"
+932,"['kamar', 'nyaman', ',', 'harga', 'terjangkau', ',', 'bersih', ',', 'kamar', 'mandi', 'bersih', ',', 'nyaman', '.', 'cocoknya', 'memang', 'untuk', 'tempat', 'beristirahat', 'karrna', 'agak', 'jauh', 'dari', 'jalan', 'raya', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([8, 9], [10], 'POS'), ([8, 9], [12], 'POS')]"
+933,"['mengecewakan', 'menginap', 'disini', 'penjaganya', 'tidak', 'sopan', 'yang', 'siang', 'pas', 'mau', 'cek', 'out', '.']","[([3], [4, 5], 'NEG')]"
+934,"['handuk', 'tidak', 'ada', '.', 'keset', 'alas', 'kaki', 'tidak', 'ada', '.']","[([0], [1, 2], 'NEG'), ([4, 5, 6], [7, 8], 'NEG')]"
+935,"['kamar', 'oke', ',', 'pelayanan', 'oke', ',', 'sayangnya', 'kolam', 'renang', 'untuk', 'dewasa', 'saja', '.']","[([0], [1], 'POS'), ([3], [4], 'POS')]"
+936,"['susah', 'terhubung', 'wifi', 'di', 'lantai', '3', '.', 'petugas', 'hotel', 'ramah', '.']","[([2], [0, 1], 'POS'), ([7, 8], [9], 'POS')]"
+937,"['ac', 'nya', 'kurang', 'dingin', 'kayaknya', 'salah', 'penempatan', '.', 'lainya', 'cukup', 'memuaskan', '.']","[([0, 1], [2, 3], 'NEG'), ([8], [9, 10], 'POS')]"
+938,"['kamar', '109', '.', 'kamarnya', 'sebenarnya', 'lumayan', 'dan', 'lantai', 'cukup', 'bersih', ',', 'udara', 'cukup', 'wangi', '.', 'tetapi', 'kamar', 'mandi', 'sangat', 'bau', '.', 'bed', 'cover', 'kotor', ',', 'ada', 'bekas', 'jejak', 'sepatu', '.', 'seprai', 'banyak', 'noda', '.', 'bantal', 'tidak', 'nyaman', ',', 'lembap', '.', 'colokan', 'hanya', 'satu', '.', 'not', 'recommended', 'sama', 'sekali', '.']","[([3], [5], 'POS'), ([7], [8, 9], 'POS'), ([11], [12, 13], 'POS'), ([16, 17], [18, 19], 'NEG'), ([21, 22], [23], 'NEG'), ([30], [31, 32], 'NEG'), ([34], [35, 36], 'NEG'), ([40], [41, 42], 'NEG')]"
+939,"['penjaganya', 'ramah', '.', 'semuanya', 'sesuai', 'ekspetasi', 'tidak', 'ada', 'masalah', ',', 'cocok', 'banget', 'buat', 'tempat', 'peristirahatan', 'selama', 'liburan', 'buat', 'yang', 'budgetnya', 'pas', 'pasan', '.']","[([0], [1], 'POS'), ([3], [4], 'POS')]"
+940,"['menyenangkan', 'sekali', 'menginap', 'disini', ',', 'sesuai', 'dengan', 'yang', 'saya', 'harapkan', ',', 'salah', 'satu', 'pilihan', 'yang', 'tepat', 'untuk', 'menginap', 'di', 'ubud', ',', 'saya', 'pasti', 'akan', 'kesini', 'lagi', 'untuk', 'kedatangan', 'selanjutnya', '.', 'hanya', 'saja', 'wifi', 'nya', 'lambat', '.']","[([32, 33], [34], 'NEG')]"
+941,"['kamar', 'bersih', 'dan', 'rapi', ',', 'suasana', 'tenang', 'dan', 'nyaman', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([5], [6], 'POS'), ([5], [8], 'POS')]"
+942,"['bersih', 'dan', 'nyaman', 'cuma', 'agak', 'berisik', '.']",[]
+943,"['bersih', ',', 'nyaman', ',', 'cocok', 'untuk', 'istirahat', '.']",[]
+944,"['tempat', 'yang', 'nyaman', 'untuk', 'menginap', ',', 'lokasi', 'strategis', 'dengan', 'harga', 'terjangkau', '.']","[([0], [2], 'POS'), ([6], [7], 'POS'), ([9], [10], 'POS')]"
+945,"['nyaman', 'tetapi', 'kulkasnya', 'agak', 'bocor', '.']","[([2], [3, 4], 'NEG')]"
+946,"['dari', 'review', 'bagus', 'makanya', 'saya', 'pilih', '.', 'tetapi', 'saya', 'dapat', 'kamar', 'yang', 'berdebu', '.', 'banyak', 'sarang', 'laba', 'laba', '.', 'selimut', 'berdebu', '.', 'tidak', 'ada', 'tisu', '.', 'lantai', 'tidak', 'disapu', '.', 'pelayanan', 'ramah', 'dan', 'baik', '.', 'terima', 'kasih', '.', 'semoga', 'ada', 'peningkatan', '.']","[([10], [12], 'NEG'), ([10], [14, 15, 16, 17], 'NEG'), ([19], [20], 'NEG'), ([24], [22, 23], 'NEG'), ([26], [27, 28], 'NEG'), ([30], [31], 'POS'), ([30], [33], 'POS')]"
+947,"['secara', 'umum', 'untuk', 'didalam', 'kamar', 'cukup', 'baik', 'perlengkapan', 'oke', '.', 'yang', 'perlu', 'diperbaiki', 'plafon', 'ada', 'yang', 'berlubang', '.', 'tangga', 'perlu', 'dikasih', 'handrail', '.']","[([4], [5, 6], 'POS'), ([7], [8], 'POS'), ([13], [11, 12], 'NEG')]"
+948,"['cukup', 'baik', ',', 'pelayanan', 'ramah', ',', 'cuma', 'seprai', 'agak', 'kotor', 'dan', 'lantai', 'nya', 'sedikit', 'lengket', '.']","[([3], [4], 'POS'), ([7], [8, 9], 'NEG'), ([11, 12], [13, 14], 'NEG')]"
+949,"['pelayanan', 'sangat', 'ramah', ',', 'fasilitasnya', 'sangat', 'baik', '.', 'tidur', 'pun', 'nyaman', 'sekali', '.']","[([0], [1, 2], 'POS'), ([4], [5, 6], 'POS'), ([8], [10, 11], 'POS')]"
+950,"['kamar', 'terjangkau', ',', 'tersedia', 'snack', 'dan', 'makan', 'pagi', '.', 'hanya', 'saja', 'kamar', 'agak', 'bau', ',', 'sebaiknya', 'di', 'berikan', 'pewangi', 'kamar', '.']","[([0], [1], 'POS'), ([4], [3], 'POS'), ([6, 7], [3], 'POS'), ([11], [12, 13], 'NEG')]"
+951,"['kamarnya', 'enak', 'dan', 'pelayanannya', 'baik', '.']","[([0], [1], 'POS'), ([3], [4], 'POS')]"
+952,"['wifi', 'hanya', 'bisa', 'lewat', 'hp', 'disetting', 'manual', ',', 'penjaganya', 'tidak', 'ramah', ',', 'ruangannya', 'gelap', ',', 'tadinya', 'kalau', 'tidak', 'saya', 'minta', 'tidak', 'diberi', 'alat', 'mandi', 'dan', 'snackbites', '.', 'tidak', 'rekomen', '.']","[([8], [9, 10], 'NEG'), ([12], [13], 'NEG'), ([22, 23], [20, 21], 'NEG'), ([25], [20, 21], 'NEG')]"
+953,"['kamar', 'pengap', ',', 'kondisi', 'hotel', 'tidak', 'sesuai', 'dengan', 'foto', 'deskripsi', '.']","[([0], [1], 'NEG'), ([3, 4], [5, 6, 7, 8], 'NEG')]"
+954,"['kamar', 'nyaman', ',', 'pool', 'bersih', ',', 'pelayanannya', 'ramah', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([6], [7], 'POS')]"
+955,"['kolam', 'renang', 'nya', 'dimana', 'sih', '?']",[]
+956,"['harus', 'tambah', 'pelayanan', 'room', 'services', 'supaya', 'bisa', '24jam', 'lokasi', 'sangat', 'strategis', 'untuk', 'perjalanan', 'bisnis', '.']","[([8], [9, 10], 'POS')]"
+957,"['seprai', 'kusam', 'seperti', 'tidak', 'dicuci', 'berbulan', 'bulan', '.', 'kasur', 'juga', 'tidak', 'bersih', '.', 'channel', 'nya', 'kurang', 'bagus', '.', 'pelayanan', 'lumayan', 'baik', '.']","[([0], [1], 'NEG'), ([8], [10, 11], 'NEG'), ([13, 14], [15, 16], 'NEG'), ([18], [19, 20], 'POS')]"
+958,"['nyaman', ',', 'betah', ',', 'next', 'time', 'balik', 'lagi', '.']",[]
+959,"['pelayanan', 'yang', 'ramah', 'dan', 'baik', ',', 'kebersihan', 'yang', 'terjaga', '.']","[([0], [2], 'POS'), ([0], [4], 'POS'), ([6], [8], 'POS')]"
+960,"['kali', 'ini', ',', 'kurang', 'memuaskan', 'untuk', 'kamarnya', '.', 'pintu', 'kamar', 'susah', 'di', 'kunci', ',', 'untuk', 'seprai', 'kasur', 'masa', 'banyak', 'bolongbolong', '.']","[([6], [3, 4], 'NEG'), ([8, 9], [10, 11, 12], 'NEG'), ([15, 16], [18, 19], 'NEG')]"
+961,"['tempatnya', 'dekat', 'sama', 'bandara', '.', 'tidak', 'jauh', 'juga', 'kok', 'dari', 'kuta', '.', 'terus', 'disamping', 'hotelnya', 'banyak', 'yang', 'jualan', '.', 'supermarket', '.', 'enak', 'lah', '.', 'kebersihan', 'nya', 'bagus', '.', 'cuma', 'handuknya', 'saja', 'perlu', 'di', 'upgrade', '.', 'pelayanan', 'staf', 'nya', 'juga', 'baikbaik', '.', 'ramahramah', '.', 'cepat', 'responnya', 'saat', 'dimintain', 'tolong', '.', 'terima', 'kasih', 'iya', '.']","[([24, 25], [26], 'POS'), ([29], [31, 32, 33], 'NEG'), ([35, 36, 37], [39], 'POS'), ([35, 36, 37], [41], 'POS'), ([44], [43], 'POS')]"
+962,"['kawasan', 'elit', '.', 'bersih', 'dan', 'tenang', '.']",[]
+963,"['air', 'panasnya', 'kadang', 'mati', 'sendiri', 'tetapi', 'kamarnya', 'sangat', 'baik', '.']","[([0, 1], [2, 3], 'NEG'), ([6], [7, 8], 'POS')]"
+964,"['sangat', 'baik', '.']",[]
+965,"['kamar', 'di', 'hotel', 'ini', 'nyaman', 'dan', 'bersih', '.']","[([0], [4], 'POS'), ([0], [6], 'POS')]"
+966,"['kamar', 'luas', 'banget', ',', 'bisa', 'diisi', 'banyakan', 'tetap', 'nyaman', '.', 'kamar', 'mandi', 'mewah', 'luas', '.', 'rekomen', 'banget', '.', 'pasti', 'balik', 'lagi', 'kesini', '.']","[([0], [1, 2], 'POS'), ([10, 11], [12], 'POS'), ([10, 11], [13], 'POS')]"
+967,"['tidak', 'ada', 'handuk', 'harus', 'minta', 'ke', 'resepsionis', ',', 'ac', 'tidak', 'dingin', '.']","[([2], [0, 1], 'NEG'), ([8], [9, 10], 'NEG')]"
+968,"['cukup', 'nyaman', ',', 'bersih', ',', 'hanya', 'agak', 'jauh', 'dari', 'jalan', 'utama', '.']",[]
+969,"['proses', 'check', 'in', 'nya', 'lama', ',', 'padahal', 'sudah', 'mau', 'istirahat', '.']","[([0, 1, 2, 3], [4], 'NEG')]"
+970,"['cukup', 'baik', 'untuk', 'liburan', 'keluarga', '.']",[]
+971,"['biasa', 'saja', ',', 'tidak', 'terlalu', 'ramai', ',', 'pelayanannya', 'bagus', 'dan', 'ramah', '.']","[([7], [8], 'POS'), ([7], [10], 'POS')]"
+972,"['kamar', 'nya', 'lumayan', 'besar', 'dan', 'bersih', '.']","[([0, 1], [2, 3], 'POS'), ([0, 1], [5], 'POS')]"
+973,"['kamarnya', 'bagus', ',', 'pelayanan', 'ramah', '.', 'cuma', 'wifi', 'nya', 'mati', '(', 'rusak', ')', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([7, 8], [9], 'NEG'), ([7, 8], [11], 'NEG')]"
+974,"['lokasi', 'di', 'daerah', 'komplek', ',', '.', 'kalau', 'untu', 'kamar', 'yang', 'singel', 'room', 'itu', 'mmg', 'kecil', ',', 'area', 'untu', 'sholat', 'di', 'kamar', 'terbatas', ',', 'mungkin', 'kedepannya', 'bisa', 'diganti', 'seprainya', 'karena', 'ada', 'noda', 'yang', 'kurang', 'sedap', 'dipandang', ',', 'tetapi', 'secara', 'keseluruhan', 'untuk', 'yang', 'menginap', 'sehari', 'sangat', 'cocok', 'dengan', 'budget', 'minimal', '.']","[([27], [32, 33, 34], 'NEG')]"
+975,"['kotor', '.', 'seprai', 'banyak', 'nodanya', '.', 'handuk', 'juga', ',', 'keliatam', 'kamar', 'jarang', 'dibersihkan', '.', 'resepsionis', 'cuma', 'sendiri', '.', 'jadi', 'lama', 'kalau', 'minta', 'peralatan', 'mandi', '.', 'lantai', 'kotor', '.']","[([2], [3, 4], 'NEG'), ([6], [3, 4], 'NEG'), ([10], [11, 12], 'NEG'), ([14], [15, 16], 'NEG'), ([25], [26], 'NEG')]"
+976,"['kamarnya', 'nyaman', '.']","[([0], [1], 'POS')]"
+977,"['bersih', 'nyaman', 'tetapi', 'ac', 'kurang', 'dingin', '.']","[([3], [4, 5], 'NEG')]"
+978,"['kamar', 'nyaman', ',', 'lengkap', 'ada', 'tempat', 'jemuran', ',', 'overall', 'bagus', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([5, 6], [4], 'POS'), ([8], [9], 'POS')]"
+979,"['keseluruhan', 'kamar', 'baik', ',', 'kasur', 'nyaman', ',', 'kamar', 'mandi', 'juga', '.', 'cuma', 'masalah', 'sedikit', 'di', 'pintu', 'kamar', 'mandinya', 'yang', 'rusak', '.', 'jadi', 'kalau', 'tutup', 'rapat', ',', 'susah', 'buat', 'dibuka', 'dari', 'dalam', '.']","[([0, 1], [2], 'POS'), ([4], [5], 'POS'), ([7, 8], [5], 'POS'), ([15, 16, 17], [19], 'NEG')]"
+980,"['tidak', 'ada', 'tisu', ',', 'wifi', 'harus', 'diminta', 'dulu', ',', 'tengah', 'malam', 'kebangun', 'karena', 'token', 'listrik', 'kamar', 'habis', ',', 'dan', 'harus', 'di', 'beri', 'tahu', 'dulu', 'baru', 'nyadar', '.', 'tidak', 'ada', 'cermin', '.']","[([2], [0, 1], 'NEG'), ([4], [5, 6, 7], 'NEG'), ([29], [27, 28], 'NEG')]"
+981,"['ini', 'kali', 'kedua', 'menginap', 'di', 'airy', 'umbulharjo', 'babaran', '71', 'homestay', 'rasa', 'hotel', 'berbintang', '.', 'recomanded', 'banget', '.']",[]
+982,"['harga', 'ekonomis', 'tetapi', 'pelayanan', 'kamar', 'hotel', 'nya', 'tidak', 'mengecewakan', '.']","[([0], [1], 'POS'), ([3, 4, 5, 6], [7, 8], 'NEG')]"
+983,"['oke', '.', 'recomended', 'dengan', 'harga', 'yang', 'terjangkau', '.']","[([4], [6], 'POS')]"
+984,"['lengkap', 'dengan', 'harga', 'terjangkau', 'tetapi', 'kualitas', 'memuaskan', '.', 'terimakasih', 'iya', '.']","[([2], [3], 'POS'), ([5], [6], 'POS')]"
+985,"['good', ':', 'affordable', ',', 'sedikit', 'nyaman', 'bad', ':', 'well', ',', 'kamarnya', 'masih', 'bau', 'rokok', 'dan', 'lantai', 'lengket', '.']","[([10], [12, 13], 'NEG'), ([15], [16], 'NEG')]"
+986,"['kamar', 'mandi', 'sempit', '.']","[([0, 1], [2], 'NEG')]"
+987,"['kamarnya', 'nyaman', ',', 'pelayanan', 'oke', ',', 'lokasi', 'juga', 'strategis', ',', 'tetapi', 'sayang', ',', 'kamar', 'airy', 'di', 'paling', 'ujung', 'jauh', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([6], [8], 'POS')]"
+988,"['oke', 'untuk', 'kalau', 'budget', '.', 'kalau', 'bisa', 'sarapan', 'mulai', 'jam', '6', 'kesiangan', 'kalau', 'jam', '7', '.']",[]
+989,"['kamar', 'kurang', 'bersih', 'dan', 'ada', 'kecoak', ',', 'kamar', 'mandi', 'juga', 'kotor', 'dan', 'tidak', 'terawat', '.', 'tolong', 'diperbaiki', 'lagi', '.', 'terimakasih', '.']","[([0], [1, 2], 'NEG'), ([0], [4, 5], 'NEG'), ([7, 8], [10], 'NEG'), ([7, 8], [12, 13], 'NEG')]"
+990,"['semua', 'sih', 'bagus', ',', 'tetapi', 'kamarnya', 'banyak', 'banget', 'nyamuknya', 'dan', 'brisik', 'banget', 'suara', 'anak', 'kecil', 'menangis', 'melulu', 'baru', 'bisa', 'tdr', 'jam', '6', 'itu', 'pun', 'juga', 'karena', 'ada', 'bapakbapak', 'triak', 'baru', 'diem', 'itu', 'anak', 'kecil', 'sedangkan', 'harus', 'cek', 'out', 'sbelum', 'jam', '12', '.']","[([0], [2], 'POS'), ([5], [6, 7, 8], 'NEG')]"
+991,"['wifi', 'nya', 'agak', 'lambat', 'tetapi', 'kamar', 'dan', 'fasilitas', 'keren', 'kok', '.']","[([0, 1], [2, 3], 'NEG'), ([5], [8], 'POS'), ([7], [8], 'POS')]"
+992,"['kamar', 'bersih', 'dan', 'rapi', ',', 'hanya', 'saja', 'cukup', 'sempit', 'mungkin', 'karena', 'room', 'hanya', 'yang', 'standar', '.']","[([0], [1], 'POS'), ([0], [3], 'POS'), ([0], [7, 8], 'NEG')]"
+993,"['pelayanan', 'yang', 'ramah', ',', 'bersih', 'dan', 'nyaman', '.']","[([0], [2], 'POS'), ([0], [4], 'POS'), ([0], [6], 'POS')]"
+994,"['kamar', 'luas', 'dan', 'dekat', 'dengan', 'tempat', 'wisata', '.']","[([0], [1], 'POS')]"
+995,"['strategis', ',', 'dekat', 'jalan', 'raya', '.']",[]
+996,"['(', '-', ')', 'tempatnya', 'kurang', 'bersih', '.', 'tipetipe', 'penginapan', 'lama', '.', 'aku', 'personal', 'terus', 'terang', 'agak', 'seram', '.', 'tidak', 'sempat', 'sarapan', 'karena', 'baru', 'siap', 'jam', '7', ',', 'padahal', 'terlanjur', 'pergi', '.', '(', '+', ')', 'pegawainya', 'cukup', 'ramah', '.']","[([3], [4, 5], 'NEG'), ([34], [35, 36], 'POS')]"
+997,"['mantapp', ',', 'pelayanan', 'prima', '.']","[([2], [3], 'POS')]"
+998,"['hotel', 'lumayan', 'nyaman', 'sih', ',', 'tetapi', 'dikamar', 'saya', 'heater', 'nya', 'agak', 'lama', 'panasnya', '.', 'overall', 'murah', ',', 'nyaman', ',', 'dan', 'strategis', '.']","[([0], [1, 2], 'POS'), ([8, 9], [10, 11, 12], 'NEG'), ([14], [15], 'POS'), ([14], [17], 'POS'), ([14], [20], 'POS')]"
+999,"['tidak', 'ada', 'yang', 'bertulisan', 'airy', 'di', 'room', '107', ',', 'remote', 'tv', 'tidak', 'bisa', 'di', 'pakai', '(', 'rusak', ')', ',', 'remote', 'ac', 'tidak', 'ada', '(', 'hidupin', 'ac', 'manual', ')', ',', 'perlengkapan', 'kamar', 'mandi', 'hanya', 'ada', 'handuk', '.', 'kami', 'sangat', 'kecewa', 'yang', 'di', 'room', '107', 'room', '103', 'sangat', 'puas', 'perlengkapan', 'room', 'ada', 'semua', '.']","[([9, 10], [11, 12], 'NEG'), ([19, 20], [21, 22], 'NEG')]"
+1000,"['pelayanan', 'yang', 'baik', '.']","[([0], [2], 'POS')]"

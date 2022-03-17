@@ -23,6 +23,8 @@ trainer:
   adam_epsilon: 1.0E-8
   weight_decay: 0
   warm_up_step: 0
+  checkpoint_path: "../../input/t5-posttraining-v2/posttraining/checkpoint-21980"
+  use_checkpoint: True
 
 generator:
   num_beams: 1
