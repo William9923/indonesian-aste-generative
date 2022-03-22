@@ -82,6 +82,7 @@ if __name__ == "__main__":
     use_checkpoint = configs.get("trainer").get("use_checkpoint")
     if use_checkpoint:
         model_name = configs.get("trainer").get("checkpoint_path")
+    print(f"Tokenizer type: {model_name}")
     tokenizer = tokenizer_config_names.get(model_type).from_pretrained(model_name)
 
     # 2. Preparing Dataset ...
