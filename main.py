@@ -79,6 +79,9 @@ if __name__ == "__main__":
     if not is_valid_type(model_type):
         raise ValueError("Mode Not Available!")
     model_name = configs.get("main").get("pretrained")
+    use_checkpoint = configs.get("trainer").get("use_checkpoint")
+    if use_checkpoint:
+        model_name = configs.get("trainer").get("checkpoint_path")
     tokenizer = tokenizer_config_names.get(model_type).from_pretrained(model_name)
 
     # 2. Preparing Dataset ...

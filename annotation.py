@@ -13,7 +13,7 @@ def load(file, separator):
     idx = range(1, len(sents) + 1)
 
     return pd.DataFrame({
-        "idx": idx,
+        "idx": idx,        
         "sents": sents,
         "labels" : [str(label) for label in labels],
     })
