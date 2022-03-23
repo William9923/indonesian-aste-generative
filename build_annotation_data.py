@@ -32,7 +32,7 @@ def parse(file, separator):
 def combine(file, seperator, idx, annotated_labels):
     curr_sents, curr_labels = parse(file, seperator)
     for i in range(len(idx)):
-        curr_labels[idx[i]] = annotated_labels[i]
+        curr_labels[idx[i] - 1] = annotated_labels[i]
     return curr_sents, curr_labels 
 
 def write_annotated(sents, labels, target_path):
