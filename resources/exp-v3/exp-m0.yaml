@@ -7,7 +7,7 @@ main:
   num_worker: 2
 
 loader:
-  mode: annotation
+  mode: implicit
   max_seq_length: 128
   seperator: "####"
   padding: max_length
