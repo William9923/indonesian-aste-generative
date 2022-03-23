@@ -62,6 +62,8 @@ class HotelLoader(ILoader):
         print(mode)
         if mode == DatasetType.FILTERED:
             train_path = Path.TRAIN_FILTERED_PATH
+        elif mode == DatasetType.ANNOTATION:
+            train_path = Path.TRAIN_ANNOTATION_PATH
         else:
             train_path = Path.TRAIN_UNFILTERED_PATH
             

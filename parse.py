@@ -245,7 +245,7 @@ def write_parse_result(parsed_data, target_path):
 
 def write_parsed_batch(parsed_datas, filenames):
     """
-    Wrapper to save batch processed data (SemEval v2) triplet annotated data
+    Wrapper to save batch processed data (Sem v2) triplet annotated data
     """
     for filename, parsed_data in zip(filenames, parsed_datas):
         write_parse_result(parsed_data, filename)

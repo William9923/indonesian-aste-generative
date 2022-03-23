@@ -170,7 +170,10 @@ def generate_extraction_style_target(sents_e, labels):
         all_tri = []
         for tri in label:
             if len(tri[0]) == 1:
-                aspect = sents_e[i][tri[0][0]]
+                if tri[0][0] == -1: # implicit
+                    aspect = "hotel" 
+                else:
+                    aspect = sents_e[i][tri[0][0]]
             else:
                 start_idx, end_idx = tri[0][0], tri[0][-1]
                 aspect = " ".join(sents_e[i][start_idx : end_idx + 1])

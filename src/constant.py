@@ -13,6 +13,7 @@ class ProcessType:
 class DatasetType:
     FILTERED = "filter"
     UNFILTERED = "unfilter"
+    ANNOTATION = "implicit"
 
 
 class PostprocessType:
@@ -42,3 +43,7 @@ class Path:
     TRAIN_UNFILTERED_PATH = os.path.join(DATA, "processed", DatasetType.UNFILTERED, TRAIN)
     TEST_UNFILTERED_PATH = os.path.join(DATA, "processed", DatasetType.UNFILTERED, TEST)
     VAL_UNFILTERED_PATH = os.path.join(DATA, "processed", DatasetType.UNFILTERED, VAL)
+
+    TRAIN_ANNOTATION_PATH = os.path.join(DATA, "processed", DatasetType.ANNOTATION, TRAIN)
+    TEST_ANNOTATION_PATH = os.path.join(DATA, "processed", DatasetType.ANNOTATION, TEST)
+    VAL_ANNOTATION_PATH = os.path.join(DATA, "processed", DatasetType.ANNOTATION, VAL)
