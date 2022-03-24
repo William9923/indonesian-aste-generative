@@ -168,30 +168,25 @@ def generate_extraction_style_target(sents_e, labels):
     extracted_targets = []
  
     for i, label in enumerate(labels):
-     
         all_tri = []
         for tri in label:
-            try:
-                if len(tri[0]) == 1:
-                    if tri[0][0] == -1: # implicit
-                        aspect = "hotel" 
-                    else:
-                        aspect = sents_e[i][tri[0][0]]
+            if len(tri[0]) == 1:
+                if tri[0][0] == -1: # implicit
+                    aspect = "hotel" 
                 else:
-                    start_idx, end_idx = tri[0][0], tri[0][-1]
-                    aspect = " ".join(sents_e[i][start_idx : end_idx + 1])
-                if len(tri[1]) == 1:
-                    sentiment = sents_e[i][tri[1][0]]
-                else:
-                    start_idx, end_idx = tri[1][0], tri[1][-1]
-                    sentiment = " ".join(sents_e[i][start_idx : end_idx + 1])
-                polarity = senttag2word[tri[2]]
-                all_tri.append((aspect, sentiment, polarity))
-            
-            except:
-                print(i)
-                print(label)
-                print(tri)
-            label_strs = ["(" + ", ".join(l) + ")" for l in all_tri]
-            extracted_targets.append("; ".join(label_strs))
+                    aspect = sents_e[i][tri[0][0]]
+            else:
+                start_idx, end_idx = tri[0][0], tri[0][-1]
+                aspect = " ".join(sents_e[i][start_idx : end_idx + 1])
+            if len(tri[1]) == 1:
+                sentiment = sents_e[i][tri[1][0]]
+            else:
+                start_idx, end_idx = tri[1][0], tri[1][-1]
+                sentiment = " ".join(sents_e[i][start_idx : end_idx + 1])
+            polarity = senttag2word[tri[2]]
+            all_tri.append((aspect, sentiment, polarity))
+        label_strs = ["(" + ", ".join(l) + ")" for l in all_tri]
+        extracted_targets.append("; ".join(label_strs))
+    
+    assert len(sents_e) == len(labels) == len(extracted_targets)
     return extracted_targets

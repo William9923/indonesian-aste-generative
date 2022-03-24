@@ -1,4 +1,5 @@
 import os
+import random
 
 senttag2word = {"POS": "positif", "NEG": "negatif", "NEU": "netral"}
 
@@ -45,8 +46,8 @@ def generate_extraction_style_target(sents_e, labels):
                 print(label)
                 print(tri)
                 found = True
-            label_strs = ["(" + ", ".join(l) + ")" for l in all_tri]
-            extracted_targets.append("; ".join(label_strs))
+        label_strs = ["(" + ", ".join(l) + ")" for l in all_tri]
+        extracted_targets.append("; ".join(label_strs))
 
         if found:
             break
@@ -58,5 +59,18 @@ if __name__ == "__main__":
 
     print("Problematic...")
     targets = generate_extraction_style_target(sents, labels)
+    assert len(sents) == len(targets)
+
+    # View some example
+    memory = set()
+    print(targets[:5])
+
+    while len(memory) < 50:
+        idx = random.randint(0, len(targets))
+        memory.add(idx)
+    
+    for idx in memory:
+        print(f"Sentence: {' '.join(sents[idx])}")
+        print(f"Targets: {targets[idx]}")
 
     print("Done...")
