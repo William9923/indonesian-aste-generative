@@ -1,6 +1,7 @@
 import os
 import csv
 from pprint import pprint
+import time
 
 from transformers import T5ForConditionalGeneration, T5Tokenizer
 
@@ -137,10 +138,16 @@ if __name__ == "__main__":
     # 4. Evaluation ...
     evaluator = Evaluator(postprocessor, configs)
     if do_train:
+        train_time = time.time()
         evaluator.export("train", prefix, tokenizer, model, train_loader, train_sents)    
+        print("--- Train Generation: %s seconds ---" % (time.time() - train_time))
     if do_test:
+        test_time = time.time()
         evaluator.export("test", prefix, tokenizer, model, test_loader, test_sents)
+        print("--- Test Generation: %s seconds ---" % (time.time() - test_time))
+    eval_time = time.time()
     evaluator.export("val", prefix, tokenizer, model, val_loader, val_sents)
+    print("--- Eval Generation: %s seconds ---" % (time.time() - eval_time))
     load_result(prefix)
 
     # 5. Inference / Generate ... -> only be used for demo only
