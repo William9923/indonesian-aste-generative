@@ -54,7 +54,7 @@ def generate_extraction_style_target(sents_e, labels):
     return extracted_targets
 
 if __name__ == "__main__":
-    with open(os.path.join("data", "processed", "implicit", "train.txt"), 'r') as f:
+    with open(os.path.join("data", "processed", "implicit", "dev.txt"), 'r') as f:
         sents, labels = parse(f, "####")
 
     print("Problematic...")
