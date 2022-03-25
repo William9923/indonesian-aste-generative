@@ -1,7 +1,7 @@
 import editdistance
 from typing import List
 
-from src.postprocess.interface import IPostprocess, sentiment_word_list
+from src.postprocess.interface import IPostprocess
 
 class EditDistancePostProcessor(IPostprocess):
     # == Levenshtein distance normalization strategy ==

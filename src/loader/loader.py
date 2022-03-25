@@ -70,6 +70,10 @@ class HotelLoader(ILoader):
         test_path = Path.TEST_UNFILTERED_PATH
         val_path = Path.VAL_UNFILTERED_PATH
 
+        if mode == DatasetType.ANNOTATION:
+            test_path = Path.TEST_ANNOTATION_PATH
+            val_path = Path.VAL_ANNOTATION_PATH
+
         seperator = self.configs.get("loader").get("seperator")
         with open(train_path, "r", encoding="UTF-8") as train_file:
             train_sents, train_labels = parse(train_file, seperator)

@@ -3,6 +3,8 @@
 # Postprocess Interface:
 from typing import Tuple, List
 
+from src.constant import GENERAL_ASPECT
+
 sentiment_word_list = ["positif", "negatif", "netral"]
 
 
@@ -23,7 +25,7 @@ class IPostprocess:
                     at, ot, polarity = pair
 
                     # --- [Recovering aspect term] ---
-                    if at not in sents[i]:
+                    if at not in sents[i] and at != GENERAL_ASPECT:
                         new_at = self.recover_term(at, sents[i])
                     else:
                         new_at = at

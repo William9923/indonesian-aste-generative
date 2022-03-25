@@ -47,10 +47,10 @@ def write_annotated(sents, labels, target_path):
 
 
 if __name__ == "__main__":
-    idx, _, labels = load(os.path.join("data", "annotation", "val-annotated.csv"))
+    idx, _, labels = load(os.path.join("data", "annotation", "test-annotated.csv"))
     
-    with open(os.path.join("data", "processed", "unfilter", "dev.txt"), 'r') as f:
+    with open(os.path.join("data", "processed", "unfilter", "test.txt"), 'r') as f:
         sents, labels = combine(f, ANNOTATION_SEPERATOR, idx, labels)
 
-    write_annotated(sents, labels, os.path.join("data", "processed", "implicit", "dev.txt"))
+    write_annotated(sents, labels, os.path.join("data", "processed", "implicit", "test.txt"))
     

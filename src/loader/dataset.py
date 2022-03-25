@@ -2,6 +2,7 @@ from torch.utils.data import Dataset
 from copy import deepcopy
 import numpy as np
 from src.loader.interface import IDataset
+from src.constant import GENERAL_ASPECT
 
 from src.utility import extract
 
@@ -172,7 +173,7 @@ def generate_extraction_style_target(sents_e, labels):
         for tri in label:
             if len(tri[0]) == 1:
                 if tri[0][0] == -1: # implicit
-                    aspect = "hotel" 
+                    aspect = GENERAL_ASPECT 
                 else:
                     aspect = sents_e[i][tri[0][0]]
             else:
