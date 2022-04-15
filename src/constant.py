@@ -1,6 +1,6 @@
 import os
 
-GENERAL_ASPECT = "hotel"
+GENERAL_ASPECT = "general"
 
 class ModelType:
     T5Model = "t5"
