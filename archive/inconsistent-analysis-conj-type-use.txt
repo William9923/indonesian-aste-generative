@@ -1,0 +1,721 @@
+1 | oke banget , tetapi ac nya tidak bisa diatur suhu nya . | (ac nya, tidak bisa diatur, negative)
+2 | lokasi strategis harga terjangkau bangunan lama memang , tetapi dengan harga yang terjangkau dan lokasi tengah kota sangat worthy dan sudah 3x ini menginap di sini wifi kencang dapat sarapan pula , menu homey tetapi tasty keamanan 24jam ramahramah overall bagus . | (lokasi, strategis, positive); (harga, terjangkau, positive); (harga, terjangkau, positive); (wifi, kencang, positive); (sarapan, dapat, positive); (menu, homey, neutral); (menu, tasty, positive); (overall, bagus, positive)
+3 | begitu masuk pertama , kesan yang diterima adalah jorok . mohon maaf , ada kotoran ( eek ) masih melekat di bibir kloset . seperti tidak dibersihkan . kemudian semakin malam , banyak kecoak bermunculan , awalnya saya baca review dari app tetangga yang bilang banyak kecoak , saya tidak percaya . tetapi begitu mengalami sendiri , sangat horor , tidur jadi tidak nyenyak . | (bibir kloset, ada kotoran, negative)
+4 | lumayan bersih tetapi lantainya tidak rata karena kurang semen di bawah nya , jadi menyebabkan pecah " . | (lantainya, tidak rata, negative)
+5 | lokasi sangat dekat dengan jembatan amperantapi sayangnya sedikit masuk ke dalam lorong , tetapi recommended buat yang backpacker an . | 
+6 | cukup bagus . cuma banyak nyamuk beterbangan . | 
+7 | lumayan , yang kurang cuma chanel tv , snack , sama alat mandi nya saja . selebihnya bagus . | (chanel tv, kurang, negative); (snack, kurang, negative); (alat mandi nya, kurang, negative); (selebihnya, bagus, positive)
+8 | desainnya suka bali banget , makanan murah tetapi lumayan lama sampainya , dan wc nya agak seram sih dan kotor juga wc nya pasir di mana - mana . posisi nyaman sih tetapi hotelnya buat santaisantai di kursi depan . | (desainnya, suka, positive); (makanan, murah, positive); (makanan, lumayan lama sampainya, negative); (wc nya, agak seram, negative); (wc nya, kotor, negative); (posisi, nyaman, positive)
+9 | kamar sangat kotor kamar mandi kotor berdebu banyak banget baru 10 menit di kamar langsung pindah hotel . | (kamar, sangat kotor, negative); (kamar mandi, kotor berdebu, negative)
+10 | suka sekali . hotel tempat kami menginap pelayanan ramah , sangat tanggap . hotelnya luar biasa memuaskan . bersih bagus dan sungguh nyaman . pasti akan kembali menginap kalau kelombok lagi . pastinya dengan airy liburan kemana saja selalu memuaskan . terimakasih airy . | (hotel tempat, suka sekali, positive); (pelayanan, ramah, positive); (hotelnya, luar biasa memuaskan, positive); (hotelnya, bersih, positive); (hotelnya, bagus, positive); (hotelnya, sungguh nyaman, positive)
+11 | bangunan yang baru jadi pasti trasa nyaman . fasilitas juga ada pool yang cukup besar dan bersih . tetapi sayang lokasinya yang sedikit ke dalam , kalau cari makanan di malam hari agak susah . jadi harus pakai aplikasi atau pesan ke pihak pengelola hotelnya . | (pool, cukup besar, positive); (pool, bersih, positive)
+12 | tempat bersih , harga sesuai , sangat cocok untuk para traveler bacpacker , tempat nyaman , tenang . | (tempat, bersih, positive); (harga, sesuai, positive); (tempat, nyaman, positive); (tempat, tenang, positive)
+13 | ada harga ada rupa . mantapp sangat apalagi banyak promo nya . | 
+14 | sangat nyaman dan murah dan betah disana . | 
+15 | kmi sangat puass dan tidak menyesal , sesuai dengan ekspetasi yang kmi harapkan . | 
+16 | sangat kecewa , wc nya kotor banget , tidak layak pakai dan tv runyem , dan tidak ada makanan snack nya dan gaada paket sabun , samponya . | (wc nya, kotor banget, negative); (wc nya, tidak layak pakai, negative); (tv, runyem, negative); (makanan snack nya, tidak ada, negative); (paket sabun, gaada, negative); (samponya, gaada, negative)
+17 | sangat nyaman dan bagus . | 
+18 | kamar nyaman , bersih , dan karyawannya ramah " dan baik " . tetapi sayang tidak kedap suara jadi agak bising karena suara kendaraan kencang . tetapi rekomen banget deh . | (kamar, nyaman, positive); (kamar, bersih, positive); (karyawannya, ramah, positive); (karyawannya, baik, positive)
+19 | kamar nyaman , bersih , dan karyawannya ramah " dan baik " . tetapi sayang tidak kedap suara jadi agak bising karena suara kendaraan kencang . tetapi rekomen banget deh . | (kamar, nyaman, positive); (kamar, bersih, positive); (karyawannya, ramah, positive); (karyawannya, baik, positive)
+20 | nyaman banget . walau roomnya ada di atas . | 
+21 | lumayan . sesuai harga murah neriah . | (harga, murah, positive)
+22 | kamarnya bersih , nyaman , ac nya dingin , sarapannya juga enak . dan sangat rekomended untuk liburan . | (kamarnya, bersih, positive); (kamarnya, nyaman, positive); (ac nya, dingin, positive); (sarapannya, enak, positive)
+23 | cukup memuaskan , hanya tv yang agak mengecewakan . | (tv, agak mengecewakan, negative)
+24 | hotel lama , kunci keycard rusak dan pintu wc sehingga tidak bisa ditutup . tetapi pelayanan secara keseluruhan dari airy tetap memuaskan . terimakasih . | (hotel, lama, negative); (kunci keycard, rusak, negative); (pintu wc, rusak, negative); (pintu wc, tidak bisa ditutup, negative); (pelayanan secara keseluruhan, memuaskan, positive)
+25 | recomended buat refreshing dan sangat nyaman . | 
+26 | good , sangat nyaman . | 
+27 | lumayan nyaman cuma fasilitas nya kurang . | (fasilitas nya, kurang, negative)
+28 | recommended . untuk harga segitu , lumayan lah . | 
+29 | sangat puas dan menyenangkan . terima kasih ! | 
+30 | lumayan dan bersih , cuma handle pintu kamar mandinya tidak ada . | (handle pintu kamar mandinya, tidak ada, negative)
+31 | sudah cukup baik . | 
+32 | saya sangat sering menggunakan airy room , sehingga sudah tahu apa saja fasilitas yang biasanya ada . cemilan yang ada juga hanya setengah dari pada biasanya . | (cemilan, hanya setengah, negative)
+33 | lumayan , keseluruhan nyaman sayangnya , ada beberapa hal yang harus diperhatikan , kurangnya kebersihan pada kamar , ada bekas rexona di bawah kasur dari tamu awal , tetapi selebihnya luar biasa . nyaman , wifi cepat . pelayanan yang baik . terimakasih . rekomended buat backpacker yang bingung cari tempat untuk menginap , terimakasih airy . anda memang kece . | (keseluruhan, nyaman, positive); (kebersihan, kurangnya, negative); (selebihnya, luar biasa, positive); (selebihnya, nyaman, positive); (wifi, cepat, positive); (pelayanan, baik, positive)
+34 | lumayan . harga murmer . fasilitas standar hotel . untuk makanan agak kurang sih tetapi overall good . | (harga, murmer, positive); (fasilitas, standar, neutral); (makanan, agak kurang, negative); (overall, good, positive)
+35 | cukup bersih meski tanpa sarapan . wifi dan tv perlu pembenahan karena tidak jalan . | (sarapan, tanpa, negative); (wifi, perlu pembenahan, negative); (wifi, tidak jalan, negative); (tv, perlu pembenahan, negative); (tv, tidak jalan, negative)
+36 | lumayan , sayang kamar agak redup lampunya . | (lampunya, agak redup, negative)
+37 | kamar bau dari selokan kamar mandi , banyak nyamuknya , pagi air untuk mandi sangat kecil jadi harus menunggu agak siang untuk mandi . | (kamar, bau, negative); (kamar, banyak nyamuknya, negative); (air, sangat kecil, negative)
+38 | cukup hanya lift nya di perbaiki . karena sudah kelihatan sudah lama sekali . | (lift nya, di perbaiki, positive)
+39 | sangat di rekomendasikan untuk berlibur ke bali dengan modal sedikit . | 
+40 | aku puas banget dengan hotel pakai airy di bangka . aku pikir jenis dan standar hotelnya mirip seperti begitu . ternyata beda banget dengan hotel ini . 1 . hotel ini tiga tingkat tetapi tidak ada lift 2 . tidak ada petugas buat angkat koper 3 . tidak ada restorant . intinya tmp ini tidak pantes di sebut sebagai hotel . lebih pantas kalau disebut " kos kosan harian " . | (lift, tidak ada, negative); (petugas, tidak ada, negative); (restorant, tidak ada, negative)
+41 | lumayan . sayang ada 1 hari yang kamar tidak di bersihkan dan tidak dapat minuman , dikarenakan tidak adanya pegawai . | (kamar, tidak di bersihkan, negative); (minuman, tidak dapat, negative); (pegawai, tidak adanya, negative)
+42 | recommended banget buat backpacker . | 
+43 | tenang banget . iya lumayan lah . | 
+44 | tenang banget . iya lumayan lah . | 
+45 | lumayan . cuma bantal nya kalau bisa di jemur atau di cuci . niar tidak bau keringat . terimakasih . | (bantal, bau keringat, negative)
+46 | dalam informasi katanya ada air panasnya , ternyata tidak ada , airnya tetap dingin sudah dialirkan sampai 1 jam . | (air panasnya, tidak ada, negative)
+47 | sangat nyaman : ) . | 
+48 | murah , bersih , dan cukup nyaman . tetapi toiletnya masih harus diperbaiki . | (toiletnya, harus diperbaiki, positive)
+49 | sangat puas . | 
+50 | sungguh sangat memberikan keutamaan bagi tamu nya tingkatkan terus sop nya dan saya sangat puas menginap di sini . | 
+51 | you get what you paid . harga total untuk 3 kamar 1 malam cuma 324000 ( pakai promo airy ) dan di daerah kemang ! lokasi oke , dekat kemang . kamar lumayan besar tetapi agak tidak sesuai foto . karena bangunannya rumah , ukuran kamar berbeda - beda . kolam renang oke . tidak ada air panas untuk mandi dan wifi nya tidak jalan ( padahal username dan password sudah benar ) . | (lokasi, oke, positive); (kamar, agak tidak sesuai foto, negative); (kolam renang, oke, positive); (air panas, tidak ada, negative)
+52 | untuk lokasi nya agak masuk disebelakang rumah toko , ketika saya sampai dsana jam 12 pintu sudah di tutup dan perlu menelepon operator hotel , untuk kamar kondisinya kurang baik , ruangannya bau seperti habis di pakai , handuk berantakan , sabun mandi seperti habis di pakai , tempat tidur acak acakan dan penuh rambut di atas nya , wc tersumbat tidak berfungsi , ada kaos kaki di laci lemari , dan kamar berdebu . untung ada wifi dan ac sehingga ruangan tidak terlalu sempit . | (kamar, kurang baik, negative); (ruangannya, bau, negative); (handuk, berantakan, negative); (tempat tidur, penuh rambut, negative); (wc, tersumbat, negative); (wc, tidak berfungsi, negative); (kamar, berdebu, negative)
+53 | untuk lokasi nya agak masuk disebelakang rumah toko , ketika saya sampai dsana jam 12 pintu sudah di tutup dan perlu menelepon operator hotel , untuk kamar kondisinya kurang baik , ruangannya bau seperti habis di pakai , handuk berantakan , sabun mandi seperti habis di pakai , tempat tidur acak acakan dan penuh rambut di atas nya , wc tersumbat tidak berfungsi , ada kaos kaki di laci lemari , dan kamar berdebu . untung ada wifi dan ac sehingga ruangan tidak terlalu sempit . | (kamar, kurang baik, negative); (ruangannya, bau, negative); (handuk, berantakan, negative); (tempat tidur, penuh rambut, negative); (wc, tersumbat, negative); (wc, tidak berfungsi, negative); (kamar, berdebu, negative)
+54 | untuk lokasi nya agak masuk disebelakang rumah toko , ketika saya sampai dsana jam 12 pintu sudah di tutup dan perlu menelepon operator hotel , untuk kamar kondisinya kurang baik , ruangannya bau seperti habis di pakai , handuk berantakan , sabun mandi seperti habis di pakai , tempat tidur acak acakan dan penuh rambut di atas nya , wc tersumbat tidak berfungsi , ada kaos kaki di laci lemari , dan kamar berdebu . untung ada wifi dan ac sehingga ruangan tidak terlalu sempit . | (kamar, kurang baik, negative); (ruangannya, bau, negative); (handuk, berantakan, negative); (tempat tidur, penuh rambut, negative); (wc, tersumbat, negative); (wc, tidak berfungsi, negative); (kamar, berdebu, negative)
+55 | lumayan ok . sarapannya kalau bisa ada ayam goreng atau apa begitu walau dalam irisan kecil sja . | 
+56 | kamar rapi , sepertinya hotel sudh berumur . agak horor juga iya . | (kamar, rapi, positive)
+57 | sangat ramah pelayanannya . dan bersih tempatnya . pokonya nyaman banget deh . | (pelayanannya, sangat ramah, positive); (tempatnya, bersih, positive)
+58 | tidak sesuai alamat di traveloka . di map traveloka , foto depan tampak di depan jalan raya . ternyata dia bekerja sama dengan ayu beach in . dan letaknya didalem . tidak bisa buat parkir mobil . akhirnya saya tinggal pergi tanpa saya tempati . kecewa banget . | 
+59 | pelayanan sangat memuaskan semua peralatan bersih , fasilitas oke receomended banget pokoknya . | (pelayanan, sangat memuaskan, positive); (peralatan, bersih, positive); (fasilitas, oke, positive)
+60 | bagus menyenangkan , anak anak happy banget disini . | 
+61 | jika dibenahi dan lebih terawat padahal akan sangat menyenangkan . | 
+62 | kamar jauh dari lobi , air sangat kecil , sudah diperbaiki tetapi tetap tidak maksimal . | (air, sangat kecil, negative); (air, tidak maksimal, negative)
+63 | kamarnya dicat ulang , kalau perlu didekor ulang biar kelihatan hidup , cerminnya jangan cermin angker dong , tidak bisa ngaca , ac nya dibenarkan dong biar tidak matimati sendiri , tolong seranggaserangga dibasmi juga , tetapi petugas dan staf ramah maksimal ! lokasi hotel dekat pvj banget , lokasi bagus sayang kalau tidak dimaksimalkan , terimakasih . | (petugas, ramah maksimal, positive); (staf, ramah maksimal, positive); (lokasi, bagus, positive)
+64 | baru pertama x coba airy rooms . suka banget deh , perlatan mandi lengkap plus bonus snack juga dari airy . | (perlatan mandi, lengkap, positive)
+65 | hanya jarak tempuh menuju metro tanah abang lumayan jauh . | 
+66 | cukup baik untuk kamar dengan harga 100ribu malam , kamar bersih , ac berfungsi , tv lcd berfungsi , kasur springbed nyaman dan bersih , hanya saja untuk kamar mandi tidak dilengkapi exhaust fan sehingga agak bau , air dari kamar mandi juga mengalir keluar masuk ke kamar . | (kamar, bersih, positive); (ac, berfungsi, positive); (tv, berfungsi, positive); (kasur springbed, nyaman, positive); (kasur springbed, bersih, positive); (kamar mandi, agak bau, negative); (exhaust fan, tidak dilengkapi, negative)
+67 | bagus , sesuai dengan ekspektasi dan dekat banget dengan mesjid , rekomen deh . | 
+68 | airy banget , kamar bersih , kamar mandi juga bersih , wifi lancar dan lain lain . pokoknya airy banget deh . | (kamar, bersih, positive); (kamar mandi, bersih, positive); (wifi, lancar, positive)
+69 | bagus banget untuk penginapan seharga ini . | 
+70 | keren banget , puas pokoknya . makasii iya . | 
+71 | cukup baik . waktu pertama masuk kamar , kamarnya bau . shower air panas tidak berfungai . padahal sudah panggil petugas . | (kamarnya, bau, negative); (shower air panas, tidak berfungai, negative)
+72 | kamarnya bersih , rapi , alat mandi lengkap , dan disediakan makanan ringan di dalam kamar . sarapan roti dan minuman seduh sendiri . sangat direkomendasi buat yang budget minimal . terimakasih . | (kamarnya, bersih, positive); (kamarnya, rapi, positive); (alat mandi, lengkap, positive); (makanan ringan, disediakan, positive)
+73 | hotel agak masuk ke gang , tetapi tidak jauh , dan jadi keuntungan tersendiri karena jauh dari kebisingan jalan rs farmawati yang always macet itu . | 
+74 | sangat nyaman seperti di rumah , ownernya ramah . mksh iya : ) . | (ownernya, ramah, positive)
+75 | semoga tetap dipertahnkn . | 
+76 | nyaman banget , ramah dan bersiih . | 
+77 | pelayanannya sangat kurang . harusnya bisa check in jam 14.00 bahkan check in jam 16.30 kamarnya masih belum dirapikan . untuk fasilitas kolam renang airnya kurang terawat . pesan 2 kamar sampai tempat dapat 1 kamar , dan yang 1 kamarnya dikasih dekat pintu gerbang dan kayaknya dekat sepitank . karena bau banget . untung cuma 1 hari . | (pelayanannya, sangat kurang, negative); (kolam renang airnya, kurang terawat, negative)
+78 | tempatnya bersih , kemarin saya tinggal 3 hari tetapi sayang airnya mati pas kemarin di pakai , iya meskipun hidup lagi menunggu 10 menit , lumayan bagus . | (tempatnya, bersih, positive); (airnya, mati, negative)
+79 | sangat baik . | 
+80 | hotel tidak ditemukan sudah mutermuter ikuti peta sampai jam 3 pagi dan sebagai pelanggan sangat kecewa . | (hotel, tidak ditemukan, negative)
+81 | lumayan buat istirahat . | 
+82 | denah peta ke lokasi kurang jelas , cukup nyaman kalau untuk transit ke kota tujuan , gabung dengan koskosan . | (denah, kurang jelas, negative)
+83 | nyaman banget , airy mantap pkonya . | 
+84 | lumayan buat backpakeran seperti kita , harga terjangkau dan dekat dari pusatpusat perbelanjaan . | (harga, terjangkau, positive)
+85 | lumayan , lebih seperti kos ber ac , kamar mandi berisik dengan suara tidak jelas , colokan cuma ada 1 jadi saya harus pinjam t , tetapi not bad . | (kamar mandi, berisik, negative); (colokan, cuma ada 1, negative)
+86 | lokasi sangat dekat dengan bandara , cari makan gampang dan dekat . akses gampang . | (akses, gampang, positive)
+87 | lokasi mudah dicari , lumayan bersih , cuma seprai dan bantal tidak standar airy , pakai seprai coklat biasa . dapat kamar lantai 3 pojok , wifi susah nyangkut . kalau sekedar untuk tidur semalam sih oke . | (lokasi, mudah dicari, positive); (seprai, tidak standar, negative); (bantal, tidak standar, negative); (wifi, susah nyangkut, negative)
+88 | tidak ada telepon di kamar dan telepon hanya tersedia di koridor dengan deringan sangat keras sekali . | (telepon, tidak ada, negative)
+89 | cukup bersih dan enak kalau buat backpakeran . | 
+90 | aksesnya mudah puas banget pokoknya kami sekeluarga . | (aksesnya, mudah, positive)
+91 | tempat nyaman dan tenang . kamar luas . pelayanan ramah , hade lah . sangat memuaskan . | (tempat, nyaman, positive); (tempat, tenang, positive); (kamar, luas, positive); (pelayanan, ramah, positive)
+92 | saya sangat sangat sangat kecewa sekali . | 
+93 | menginap pada tanggal 31 desember , memesan beberapa kamar . sempat bermasalah dengan 1 kamar karena ada krusakan . tetapi di bantu pihak hotel nya , mbak rani , bapak dian dan bapak rudi dengan sangat baik . keluarga kami sangat puas . area luas , bersih . akan kembali lagi nanti . terima kasih hotel dan airy . | (area, luas, positive)
+94 | sangat suka . room nya juga bersih . tatanan rapi . dapat snack juga . | (room nya, bersih, positive); (tatanan, rapi, positive); (snack, dapat, positive)
+95 | mudahmudahan lain kali dapat yang lebih baik kondisinya , harga boleh murah tetapi tetap kelayakan harus diutamakan . | 
+96 | lumayan murah . ac tidak dingin . kamar mandi kurang bersih . lingkungan sekitar kamar kurang bersih . | (ac, tidak dingin, negative); (kamar mandi, kurang bersih, negative); (lingkungan, kurang bersih, negative)
+97 | lumayan lah . | 
+98 | lumayan untuk liburan keluarga kecil , tempat nyaman dan aman . | (tempat, nyaman, positive); (tempat, aman, positive)
+99 | awalnya . kami agak sulit mencari , ternyata ini adalah nama yang sama oggi house yang terdaftar juga di list . | 
+100 | sangat puas so far . dengan airy ( taman remaja kusuma bangsa surabaya ) . | 
+101 | secara garis besar cukup bagus dan nyaman . termasuk fasilitas internet . cuma sayangnya , terutama untuk yang muslim seperti saya , susah untuk sholat didalam kamar karena sempit . terima kasih . | (kamar, sempit, negative)
+102 | tidak kedap suara , sehingga suara dari luar kamar terdengar jelas dan itu sangat menganggu , seperti tengah malam ada suara orang dorongdorong trolly . | 
+103 | lumayan bagus , resepsionis harusnya 24 jam standby . | 
+104 | lebih dari cukup untuk di kelasnya . | 
+105 | sangat memuaskan . setiap hari kamar dibersihkan . karyawan hotelnya juga telaten dan baik banget . | (karyawan hotelnya, telaten, positive); (karyawan hotelnya, baik banget, positive)
+106 | sangat memuaskan . recomended . | 
+107 | sangat rekomen banget , tempatnya bersih , rapi , pelayanannya ramah . wangi , pokoknya bagus ! tidak akan nyesal menginap di sini . pasti kami akan berkunjung lagi jika istri dinas ke jakarta lagi : ) . | (tempatnya, bersih, positive); (tempatnya, rapi, positive); (pelayanannya, ramah, positive)
+108 | sangat rekomen banget , tempatnya bersih , rapi , pelayanannya ramah . wangi , pokoknya bagus ! tidak akan nyesal menginap di sini . pasti kami akan berkunjung lagi jika istri dinas ke jakarta lagi : ) . | (tempatnya, bersih, positive); (tempatnya, rapi, positive); (pelayanannya, ramah, positive)
+109 | lumayan untuk harga diskon . ac , tv , westafel semua baik . cuma kmrrn habis ada wedding party , belum selesai , jadi sampah nya bau . | (ac, baik, positive); (tv, baik, positive); (westafel, baik, positive)
+110 | cukup nyaman untuk keluarga , sangat strategis dengan objek wisata . kebersihan perlu di tingkatkan lagi . kamar yang saya tempati sedikit aroma tidak sedap dari kamar mandi . | (kebersihan, perlu di tingkatkan lagi, negative); (kamar mandi, sedikit aroma tidak sedap, negative)
+111 | cukup nyaman untuk keluarga , sangat strategis dengan objek wisata . kebersihan perlu di tingkatkan lagi . kamar yang saya tempati sedikit aroma tidak sedap dari kamar mandi . | (kebersihan, perlu di tingkatkan lagi, negative); (kamar mandi, sedikit aroma tidak sedap, negative)
+112 | kamar luas , pelayanan ramah , sangat nyaman . | (kamar, luas, positive); (pelayanan, ramah, positive)
+113 | lumayan untuk first time . | 
+114 | asyik bisa bertiga sekamar . dapat sarapan juga , walopun sarapannya kalau habis , tidak ditambah lagi he . kamar airy nya juga di lantai 3 , lumayan juga naik tangganya he . tetapi overall oke . | (sarapan, dapat, positive); (sarapannya, tidak ditambah lagi, negative); (overall, oke, positive)
+115 | sudah beberapa kali menginap disini . dekat juga dengan tempattempat kuliner , meskipun agak masuk gang tetapi lokasi strategis . | (lokasi, strategis, positive)
+116 | kamar nyaman bersih , puas banget , harga pun bersahabat . | (kamar, nyaman, positive); (kamar, bersih, positive); (harga, bersahabat, positive)
+117 | cukup menyenangkan hanya pelayanan dari resepsiinis yang kurang oke , saya datang jam 1 sing diminta mnunggu dan meninggalkan nomor telepon agar saat room sudah siap saya akan di hubungi , kemudian saya keluar makan siang sehingga jam 2 sing lebih tidak ada kabar dari pihak hotel ternyata room sudah siap saat saya datang lagi . | (pelayanan, kurang oke, negative); (resepsiinis, kurang oke, negative)
+118 | airnya jam 12 malam mati , padahal sangat butuh . | (airnya, mati, negative)
+119 | karnaa salah masukkan tanggal jadi nya pembayaran ini sangat siaa sia . | 
+120 | lumayan cocok buat salesman . sayang tidak ada air panas dan wifi . | (air panas, tidak ada, negative); (wifi, tidak ada, positive)
+121 | sangat menyenangkan , nyaman , homey , kamar rapi , parkir kondusif . kamar cukup untuk dua orang , tetapi terlalu kecil ketika harus bawa anak kecil lebih dari 1 . | (kamar, rapi, positive); (parkir, kondusif, positive); (kamar, cukup, positive)
+122 | sangat menyenangkan , nyaman , homey , kamar rapi , parkir kondusif . kamar cukup untuk dua orang , tetapi terlalu kecil ketika harus bawa anak kecil lebih dari 1 . | (kamar, rapi, positive); (parkir, kondusif, positive); (kamar, cukup, positive)
+123 | sangat menyenangkan , nyaman , homey , kamar rapi , parkir kondusif . kamar cukup untuk dua orang , tetapi terlalu kecil ketika harus bawa anak kecil lebih dari 1 . | (kamar, rapi, positive); (parkir, kondusif, positive); (kamar, cukup, positive)
+124 | suka banget tetapi sayang kemarin dapat kamar yang agak sedikit kurang bersih dan bau . | (kamar, agak sedikit kurang bersih, negative); (kamar, bau, negative)
+125 | lumayan untuk istirahat . tetapi lain kali tidak pakai bonus kecoak iya . | 
+126 | lumayan lah hotel dekat ke mana mana bisa jalan kaki , dekat juga dari bandara . | 
+127 | tertawa . kelihatan kolam renang besar , tidak tahu buat anakanak kali iya . naik tangga lagi . kamarnya cukup luas dan bersih . cuma air di kamar mandi kecil . shower harus diganti . wifi tidak ada . dapat kamarnya lt.3 . naik tangga . bawa barang agak ngosngosan . cuma untungnya ke manamana dekat . | (kolam renang, besar, positive); (kamarnya, cukup luas, positive); (kamarnya, bersih, positive); (air, kecil, negative); (shower, harus diganti, negative); (wifi, tidak ada, negative)
+128 | cukup baik dengan harga murah , fasilitas oke cuma kamar mandi saja sedikit kotor . | (harga, murah, positive); (fasilitas, oke, positive); (kamar mandi, sedikit kotor, negative)
+129 | handuk bersih , free wifi bagus , ada snack . pintu kamar mandi tidak bisa ditutup rapat dari luar sehingga bau wc masuk ke dalam kamar cukup mengganggu . | (handuk, bersih, positive); (wifi, bagus, positive); (snack, ada, positive); (pintu kamar mandi, tidak bisa ditutup rapat, negative)
+130 | lumayan lah dengan harga segitu . | 
+131 | cukup memuaskan . nanti mau menginap di sana lagi deh . | 
+132 | nyaman banget untuk rehat sebelum ke bandara kamar bersih cuma tidak ada air panas ada dapur nya juga love bangett murah lagii top banget . | (kamar, bersih, positive); (air panas, tidak ada, negative)
+133 | nyaman banget dan bersih , free pula pengantaran kebandara pokoky good bgtz pelayanan . | (pelayanan, good bgtz, positive)
+134 | lumayan untuk singgah menghabiskan waktu istirahat . | 
+135 | cukup nyaman . | 
+136 | ketiadaan tempat parkir mobil seharusnya diinfokan di profile hotel . itu akan sangat membantu . | (tempat parkir mobil, ketiadaan, negative)
+137 | nyman banget mantap ! recommended . | 
+138 | bersih dan ramah banget . | 
+139 | saluran ac yang ke kamar mandi tolong diperbaiki masalahnya tidak enak banget lagi buang air kena tetesan air dari selang pembuangan ac . | (saluran ac, tolong diperbaiki, negative)
+140 | cukup puas dan hotelnya sangat bersih . | (hotelnya, sangat bersih, positive)
+141 | hari pertama tidur berisik banget . suara dari luar kedengaran jelas di dlam , suara tutup pintu , buka pintu , orang berjalan . hari keke tidak terlalu , jendela silau . kamar tidur yang saya tempati sebelumnya sudah pernah saya tempati dan kerusakan meja sebelah tempat tidur tetap saja dibiarkan rusak seperti itu , tidak ada perbaikan . kebersihan dan kerapian oke . | (jendela, silau, negative); (kebersihan, oke, positive); (kerapian, oke, positive)
+142 | hari pertama tidur berisik banget . suara dari luar kedengaran jelas di dlam , suara tutup pintu , buka pintu , orang berjalan . hari keke tidak terlalu , jendela silau . kamar tidur yang saya tempati sebelumnya sudah pernah saya tempati dan kerusakan meja sebelah tempat tidur tetap saja dibiarkan rusak seperti itu , tidak ada perbaikan . kebersihan dan kerapian oke . | (jendela, silau, negative); (kebersihan, oke, positive); (kerapian, oke, positive)
+143 | hari pertama tidur berisik banget . suara dari luar kedengaran jelas di dlam , suara tutup pintu , buka pintu , orang berjalan . hari keke tidak terlalu , jendela silau . kamar tidur yang saya tempati sebelumnya sudah pernah saya tempati dan kerusakan meja sebelah tempat tidur tetap saja dibiarkan rusak seperti itu , tidak ada perbaikan . kebersihan dan kerapian oke . | (jendela, silau, negative); (kebersihan, oke, positive); (kerapian, oke, positive)
+144 | hari pertama tidur berisik banget . suara dari luar kedengaran jelas di dlam , suara tutup pintu , buka pintu , orang berjalan . hari keke tidak terlalu , jendela silau . kamar tidur yang saya tempati sebelumnya sudah pernah saya tempati dan kerusakan meja sebelah tempat tidur tetap saja dibiarkan rusak seperti itu , tidak ada perbaikan . kebersihan dan kerapian oke . | (jendela, silau, negative); (kebersihan, oke, positive); (kerapian, oke, positive)
+145 | lumayan hanya untuk transit istirahat dalam perjalanan . | 
+146 | penginapan sekaligus kostkostan , lumayan kalau hanya untuk beristirahat . kamar luas . | (kamar, luas, positive)
+147 | lumayan lah . cuma belinya lewat applikasi saja lebih murah . | 
+148 | pelayannya ramah . menu lumayan . iya buat transit atau cuma buat istirahat cukup nyaman . | (pelayannya, ramah, positive); (menu, lumayan, positive)
+149 | lumayan worth it untuk harga promo . | 
+150 | nyaman banget , kerasan deh pokoknya . suasananya tenang tetapi tetap terasa ada manusianya . he . | (suasananya, tenang, positive)
+151 | nyaman banget , kerasan deh pokoknya . suasananya tenang tetapi tetap terasa ada manusianya . he . | (suasananya, tenang, positive)
+152 | lokasi strategis , dekat dengan laundry , indomaret , tempat makan , pelayanan ramah , cctv , rental motor dan mobil , kamar bersih dan cukup luas , ada air panas , ac , tv , wifi . kekurangannya hanya wifi di kamar kurang kencang , jadi harus buka pintu atau duduk di depan kamar , dan tidak ada keset di depan wc . | (lokasi, strategis, positive); (pelayanan, ramah, positive); (kamar, bersih, positive); (air panas, ada, positive); (ac, ada, positive); (tv, ada, positive); (wifi, ada, positive); (wifi, kurang kencang, negative); (keset, tidak ada, negative)
+153 | ruangan lebar . namun kekurangannya tidak ada hot shower . kamar dibersihkan tanpa diminta , tetapi hal tersebut sangat berbahaya untuk menjaga kepercayaan pelanggan . sebaiknya kamar jangan dibersihkan tanpa diminta . csnya ramah . | (ruangan, lebar, positive); (hot shower, tidak ada, negative); (csnya, ramah, positive)
+154 | sangat bagus , tetapi airnya bau . | (airnya, bau, negative)
+155 | saya harus berjalan kaki sangat jauh karena nebeng parkir di gedung lain . | 
+156 | lumayan lah untuk penginapan saja , oke punya . | 
+157 | lumayan bagus . disarankan untuk mengganti spring bednya karena sudah lembek . | (spring bednya, lembek, negative)
+158 | murmer , agak kotor , pelayannya ramah , kelengkapan kurang sesuai , showernya brekelwe . | (pelayannya, ramah, positive); (kelengkapan, kurang sesuai, negative); (showernya, brekelwe, negative)
+159 | kamar bersih , chanel tv sedikit . lumayan lah . | (kamar, bersih, positive); (chanel tv, sedikit, negative)
+160 | pelayanan ramah . cuma kondisi hotel minus banget ( liftnya seram , cat hotel kusam , cat terkelupas , masih ada handuk bekas tergantung dalam lemari , no wifi ) . | (pelayanan, ramah, positive); (liftnya, seram, negative); (cat hotel, kusam, negative); (cat, terkelupas, negative); (wifi, no, negative)
+161 | kamarnya bersih , akses ke lantai 3 masih pakai tangga jadi lumayan lelah . | (kamarnya, bersih, positive)
+162 | cukup memuaskan , harga terjangkau dapat snack sama mnum lagi free . | (harga, terjangkau, positive); (snack, dapat, positive); (mnum, dapat, positive)
+163 | nyaman banget , sepi , dekat kota dan mall . | 
+164 | sangat baik . semua fasilitas yang dijanjikan ada . | 
+165 | cukup nyaman , tetapi di lantai tiga tidak ada wifi . wifinya tidak menjangkau kamar . | (wifi, tidak ada, negative); (wifinya, tidak menjangkau, negative)
+166 | sangat menyenangkan bersih dan nyaman . | 
+167 | semuanya bagus . tempat bersih , wifi cepat , yang punyanya ramah , pokoknya luar biasa . kekurangannya cuma terlalu masuk ke dalam sih , jadi agak sulit nyarinya : ) . | (semuanya, bagus, positive); (tempat, bersih, positive); (wifi, cepat, positive); (yang punyanya, ramah, positive)
+168 | semuanya bagus . tempat bersih , wifi cepat , yang punyanya ramah , pokoknya luar biasa . kekurangannya cuma terlalu masuk ke dalam sih , jadi agak sulit nyarinya : ) . | (semuanya, bagus, positive); (tempat, bersih, positive); (wifi, cepat, positive); (yang punyanya, ramah, positive)
+169 | semuanya bagus . tempat bersih , wifi cepat , yang punyanya ramah , pokoknya luar biasa . kekurangannya cuma terlalu masuk ke dalam sih , jadi agak sulit nyarinya : ) . | (semuanya, bagus, positive); (tempat, bersih, positive); (wifi, cepat, positive); (yang punyanya, ramah, positive)
+170 | kamarnya bagus , rapi , dan bersih , pegawainya juga ramah , parkiran luas . suasana sekitar lokasi penginapan nyaman , dekat dengan tempat makan dan tempat wisata . sayang sekali agak bising suara mobil karena saya dapat kamar di dekat jalan . saluran air di kamar mandi tersumbat sehingga air meluap , dan tidak ada air panas . | (kamarnya, bagus, positive); (kamarnya, rapi, positive); (kamarnya, bersih, positive); (pegawainya, ramah, positive); (parkiran, luas, positive); (suasana, nyaman, positive); (saluran air, tersumbat, negative); (air panas, tidak ada, negative)
+171 | kamarnya bersih dan rapi , ac nya sejuk , tersedia free snack dan air mineral . cuma karena kamarnya berada di lantai 4 , dan hanya tersedia tangga manual , jadi agak males ketika mau keluar kamar , bahkan hanya untuk sekedar sarapan sekalipun . namun demikian untuk penilaian secara umum baik . | (kamarnya, bersih, positive); (kamarnya, rapi, positive); (ac nya, sejuk, positive); (free snack, tersedia, positive); (air mineral, tersedia, positive); (secara umum, baik, positive)
+172 | cukup baik untuk airy eco . | 
+173 | kami sangat puas dengan hotelnya , recomended banget deh pokoknya . | (hotelnya, sangat puas, positive); (hotelnya, recomended, positive)
+174 | hotel yang bagus , tetap pertahankan . | (hotel, bagus, positive)
+175 | lumayan bagus untuk harga yang ada hanya saja kloset otomatisnya tidak bisa jalan kamar 408 . sehingga saya harus turun ke toilet lobi untuk kebutuhan kloset . | (kloset otomatisnya, tidak bisa jalan, negative)
+176 | kamarnya sangat luas dan bersih . kamar mandi oke pokoknya semuanya oke . bahkan dapat snack dan perlengkapan sanitasi yang bisa dibawa pulang . pokoknya puas banget . | (kamarnya, sangat luas, positive); (kamarnya, bersih, positive); (kamar mandi, oke, positive); (semuanya, oke, positive); (snack, dapat, positive); (perlengkapan sanitasi, dapat, positive)
+177 | pas banget buat liburan , kmna dekat . | 
+178 | hotel yang lumayan , terjangkau , dekat dengan stasiun cukup jalan kaki , kemana mana juga dekat mudah di akses , sayang lagi renovasi dan kamar mandi banyak yang perlu di perbaiki . | (hotel, lumayan, positive); (hotel, terjangkau, positive); (kamar mandi, banyak yang perlu di perbaiki, negative)
+179 | untuk harga segitu lumayan , sayangnya air shower nya kurang kencang mengalirnya . | (air shower nya, kurang kencang mengalirnya, negative)
+180 | enak banget nyaman , feels like home . | 
+181 | cukup baik tetapi menurut saya overpriced karena kamarnya kecil dan sarapannya kurang oke rasanya dan minimimalis . | (kamarnya, kecil, negative); (sarapannya, kurang oke, negative); (sarapannya, minimimalis, negative)
+182 | kamar luas , tempat nya agak masuk ke dalam gang , sinyal wifi tidak stabil , staf ramah , parkiran luas . | (kamar, luas, positive); (wifi, tidak stabil, negative); (staf, ramah, positive); (parkiran, luas, positive)
+183 | walaupun harganya murah , tetapi kelasx bukan murahan . sangat recommended buat ini hotel . | (harganya, murah, positive); (kelasx, bukan murahan, positive)
+184 | lumayan lah , kamar besar , pelayanannya oke , cuma wifinya susah sambung , sarapan nya kurang bervariasi . | (kamar, besar, positive); (pelayanannya, oke, positive); (wifinya, susah sambung, negative); (sarapan nya, kurang bervariasi, negative)
+185 | lumayan . cocok buat salesman . sayang tidak ada air panas dan wifi . | (air panas, tidak ada, negative); (wifi, tidak ada, negative)
+186 | pegawainya ramah , kamarnya bersih , nyaman , akses ke alunalun juga dekat , recomended banget pokoknya . | (pegawainya, ramah, positive); (kamarnya, bersih, positive); (kamarnya, nyaman, positive)
+187 | baguus banget . sesuai sama yang difoto . | 
+188 | mantap , lumayan bersih , ada kulkasnya cuma kulkasnya kotor , cuma tetap saya masukkan minum tetapi ditutupin plastik , dekat tempat kuliner , dapat hadiah pemandangan gedung gedung tinggi : ) . | (kulkasnya, kotor, negative)
+189 | mantap , lumayan bersih , ada kulkasnya cuma kulkasnya kotor , cuma tetap saya masukkan minum tetapi ditutupin plastik , dekat tempat kuliner , dapat hadiah pemandangan gedung gedung tinggi : ) . | (kulkasnya, kotor, negative)
+190 | kami datang pagi pagi , tetapi tetap dilayani dengan baik . kondisi kamar dan fasilitas lainnya cukup bersih dan berfungsi dengan baik . | (dilayani, baik, positive); (kamar, cukup bersih, positive); (fasilitas lainnya, cukup bersih, positive); (fasilitas lainnya, berfungsi dengan baik, positive)
+191 | suka banget , kamarnya beesih , staf ramah dan helpful . | (kamarnya, beesih, positive); (staf, ramah, positive); (staf, helpful, positive)
+192 | ac nya per 30 menit mati . alhasil saya tidak nyenyak tidur karena jagain ac supaya tetap on . supaya anak istri bisa tidur . kamar mandi nya agak seram . begitu saja ! think again lah ! | (ac nya, per 30 menit mati, negative); (kamar mandi nya, agak seram, negative)
+193 | cukup baik . cuma remote tv tidak berfungsi . | (remote tv, tidak berfungsi, negative)
+194 | suasana di sekitar sangat tenang . recomended banget . | (suasana, sangat tenang, positive)
+195 | kamarnya nyaman , fasilitas oke , recommended banget deh . terutama buat para traveller seperti kami . dengan adanya airy room semakin mudah , tidak perlu repot cari penginapan atw hotel . next time , kami pesan lagi . | (kamarnya, nyaman, positive); (fasilitas, oke, positive)
+196 | hotelnya dekat banget , sama tempat tempat wisata dalam kota . | 
+197 | sangat memuaskan saya senang sekali menginap disini . | 
+198 | kamar bersih . nyaman , dan fasilitas pelayanan cukup memuaskan . ketenangan dalam beristirahat sangat rekomended . | (kamar, bersih, positive); (kamar, nyaman, positive); (fasilitas pelayanan, cukup memuaskan, positive)
+199 | kamar luas bersih dan staf nya ramah , dari hotelnya cukup puas , box mill ariy nya tidak ada kata pekerja hotel mereka suda email ke pusat ariy tetapi belum ada tanggapan dari ariy , tolong ariy direspon dengan cepat , jangan sampai penginap kecewa . | (kamar, luas, positive); (kamar, bersih, positive); (staf nya, ramah, positive)
+200 | hotel yang sangat mengerti kebutuhan tamu yang akan transit kebatam , . | 
+201 | lumayan oke lah buat traveller . | 
+202 | bagus , nyaman , sangat dekat dengan stasiun kereta sawah besar . makanannya standar tetapi . siaran tv nya juga bisa di tambah seharusnya . staf ramah dan membantu . no deposit . | (makanannya, standar, negative); (staf, ramah, positive); (staf, membantu, positive)
+203 | sangat baik , pelayanan ramah . | (pelayanan, ramah, positive)
+204 | rekomen banget di hotel ini , bersih dan nyaman . | 
+205 | sangat berkesan karena pelayanan baik , komplit , plus bisa pesan makanan jadi tidak perlu jauh " keluar . | (pelayanan, baik, positive); (pelayanan, komplit, positive)
+206 | baik sangat nyaman sekali . promo di airi menyenangkan . | 
+207 | sangat nyaman terima kasih pegawainya ramah bersih dan dekat kemana mana pokonya betah . | (pegawainya, ramah, positive)
+208 | ac tidak bekerja dengan baik , saya bhkn upgrade ke suite room , ruangan tetap tidak dingin . membuat saya tidak bisa istirahat . | (ac, tidak bekerja dengan baik, negative); (ruangan, tidak dingin, negative)
+209 | pintu gerbang di lock hanya penghuni bulanan yang dapat kunci . jadi kalau pulang malam , agak kesusahan , harus bangunin orangorang . tetapi suasananya sepi . | (suasananya, sepi, positive)
+210 | sangat nyaman , bersih dan lokasinya strategis . | (lokasinya, strategis, positive)
+211 | sangat buruk , tempat hotel horor , kamar tidak nyaman , setiap lorong suram lampu redup , wifi tidak kencang di lantai 3 . | (tempat hotel, horor, negative); (kamar, tidak nyaman, negative); (lampu, redup, negative); (wifi, tidak kencang, negative)
+212 | agak seram iya . banyak gbrgbr anehaneh . gelapgelap . tidak bisa tidur semlman . | 
+213 | tidak sesuai foto terlalu brusik dari luar . | 
+214 | tidak sesuai foto terlalu brusik dari luar . | 
+215 | kamar mandi nya kotor banget . mati lampu 2kali dan lumayan lamaa . | (kamar mandi nya, kotor banget, negative)
+216 | seprainya kotor seperti bekas darah begitu . jijik banget , baru ktahuan malam karena di tutup sama selimut . | (seprainya, kotor, negative)
+217 | bagus , tetapi lebih nyaman kalau ac tidak terlalu jauh apalagi terbatas tembok . | 
+218 | bagus , tetapi lebih nyaman kalau ac tidak terlalu jauh apalagi terbatas tembok . | 
+219 | tisu toilet tidak ada , untuk yang lainlainnya lumayan bagus . | (tisu toilet, tidak ada, negative)
+220 | cukup memuaskan dengan harga yang sangat terjangkau . | (harga, sangat terjangkau, positive)
+221 | sangat mengecewakan . diberikan room yang lembab , kurang baik dari room lainnya , pembuangan air di kamar mandi tidak lancar , tidak ada sinyal . terletak di daerah yang strategis , pusat kota . | (room, lembab, negative); (room, kurang baik, negative); (pembuangan air, tidak lancar, negative); (daerah, strategis, positive)
+222 | mantap sangat . | 
+223 | masak hotel tidak ada gedet ? tidak ada petugas yang berjaga ? sungguh terlalu . | (petugas yang berjaga, tidak ada, negative)
+224 | masak hotel tidak ada gedet ? tidak ada petugas yang berjaga ? sungguh terlalu . | (petugas yang berjaga, tidak ada, negative)
+225 | kamar sempit , air di kamar mandi tidak keluar dari maghrib sampai tengah malam smpesmpe tidak bisa gosok gigi sbelum tidur , sangat mengecewakan . | (kamar, sempit, negative); (air, tidak keluar, negative)
+226 | bingung sampai mutermuter cari airy hotel nya . telepon pelayanan nya , terlalu banyak pertanyaan yang harus dijawab hanya untuk tahu alamat airy yang sebenarnya . aneh satu alamat terdapat dua hotel . | 
+227 | bingung sampai mutermuter cari airy hotel nya . telepon pelayanan nya , terlalu banyak pertanyaan yang harus dijawab hanya untuk tahu alamat airy yang sebenarnya . aneh satu alamat terdapat dua hotel . | 
+228 | strategis , nyaman . tetapi dapat lantai 5 tidak ada lift . jadi lumayan naikturunnya . | (lift, tidak ada, negative)
+229 | ( - ) kamar mandi kurang bersih berkerak . air beberapa kali mati , utamanya ketika subuh . tidak disediakan keset . air panas untuk minum siap baru jam 7 . ruangan terlalu sempit , tidak cukup space untuk sholat . sinyal hp di kamar mati suri ( + ) lokasi bagus , menyewakan motor , wifi kencang . | (kamar mandi, kurang bersih, negative); (air, beberapa kali mati, negative); (keset, tidak disediakan, negative); (ruangan, terlalu sempit, negative); (lokasi, bagus, positive); (wifi, kencang, positive)
+230 | keren banget . mau singgah lagi . | 
+231 | tempatnya enak , iya walaupun agak masuk gang kecil tetapi mobil masih bisa masuk kok . dekat juga sama malioboro , paling tidak kalau aku ke jogja lagi kayaknya bakal menginap disini lagi . | (tempatnya, enak, positive)
+232 | alhamdulillah cukup puas , roof top nya keren , makanan di restonya enak . air hangat untuk mandi tidak berfungsi . | (roof top nya, keren, positive); (makanan, enak, positive); (air hangat, tidak berfungsi, negative)
+233 | sangat baik untuk pelayanan kamar hotelnya , semoga kedepannya tetap menjaga pelayanan kamarnya iya ! | (pelayanan, sangat baik, positive)
+234 | pas banget buat kelas seperti saya , pas di dompet harganya . | 
+235 | menginap 4 hari disini sangat menyenangkan . | 
+236 | kamar lumayan tetapi tolong dengan sangat resepsionis jangan judes dan galak begitu , tidak ada sopan santun . tidak pantas jadi resepsionis . semoga bisa diperbaiki . | (kamar, lumayan, positive); (resepsionis, judes, negative); (resepsionis, galak, negative); (sopan santun, tidak ada, negative)
+237 | lokasi di perumahan dan pojok sekali , tetapi daerah itu cukup oke untuk yang mau ke jalan namanama gunung di malang karena dekat . | 
+238 | sangat menyenangkan . | 
+239 | tetap baik dan nyaman . semoga terus berinovasi . | 
+240 | lumayan asyik . | 
+241 | dekat dengan bandara , walaupun sedikit sempit dan harus naik tangga kalau mau ke kasur tetapi untuk yang niatnya cuma transit sudah cukup memadai . tombol lampu sebaiknya dipindah di dekat kasur saja supaya gampang diakses . | 
+242 | sangat puas . terbaik . | 
+243 | sangat merekomendasikan , tempatnya memuaskan . | (tempatnya, memuaskan, positive)
+244 | lokasi agak kedalam . tidak ada tanda tanda di jalan besar sehingga menyulitkan pencarian . | 
+245 | kamar mandi kotor dan retakretak . penerangan kamar kurang jadi terkesan gelap . kelebihannya lokasi hotel dekat bandara jadi untuk penerbangan pagi sangat membantu . terima kasih . | (kamar mandi, kotor, negative); (kamar mandi, retakretak, negative); (penerangan kamar, kurang, negative); (penerangan kamar, gelap, negative)
+246 | lumayan . cuma tidak ada kesed , sama sandal . | (kesed, tidak ada, negative); (sandal, tidak ada, negative)
+247 | lumayan lah . sesuai harga . tetapi jauh tmpatnya . | 
+248 | staf ramah , pelayanan memuaskan , kamar dan toilet bersih dan bagus . sangat direkomendasi . sarapan cuma ada 3 menu , nasi goreng , mie goreng dan omelet . sarapan ditingkatkan lagi . thank you airy dan premium hotel . | (staf, ramah, positive); (pelayanan, memuaskan, positive); (kamar, bersih, positive); (kamar, bagus, positive); (toilet, bersih, positive); (toilet, bagus, positive); (sarapan, ditingkatkan lagi, positive)
+249 | tempatnya bersih , nyaman , pemiliknya ramah , rekomen banget . dekat dari stasiun . senen juga . | (tempatnya, bersih, positive); (tempatnya, nyaman, positive); (pemiliknya, ramah, positive)
+250 | tempatnya nyaman dan pegawainya ramah . rekom banget buat yang inap disana . | (tempatnya, nyaman, positive); (pegawainya, ramah, positive)
+251 | lumayan buat istirahat sesaat . terimakasih . | 
+252 | cuma ada beberapa masukan . 1 . jika malam banyak nyamuk , mungkin karena depan nya tempat sampah . 2 . kurang nya gantungan baju . 3 . tidak ada air panas , meskipun ini jakarta , tetap harus ada air panas , saya yang pulang malam jam 12 terpaksa mandi air dingin . 4 . sisanya oke , kamar bersih , pelayanan oke . | (gantungan baju, kurang, negative); (air panas, tidak ada, negative); (sisanya, oke, positive); (kamar, bersih, positive); (pelayanan, oke, positive)
+253 | tempat memang tidak strategis . bangunannya pun sudah usang dan tidak terurus karena hotelnya sangat sepi . beberapa fasilitas hotel pun ada yang rusak , contohnya ac , shower , kasur , kunci lemari . walaupun yang menginap sedikit , tetapi tetap saja di buatkan sarapan . iya sesuai lah sama budget kita . overall hotelnya lumayan bagus kok . terima kasih ~ . | (tempat, tidak strategis, negative); (bangunannya, usang, negative); (bangunannya, tidak terurus, negative); (beberapa fasilitas, rusak, negative); (overall hotelnya, lumayan bagus, positive)
+254 | tempat memang tidak strategis . bangunannya pun sudah usang dan tidak terurus karena hotelnya sangat sepi . beberapa fasilitas hotel pun ada yang rusak , contohnya ac , shower , kasur , kunci lemari . walaupun yang menginap sedikit , tetapi tetap saja di buatkan sarapan . iya sesuai lah sama budget kita . overall hotelnya lumayan bagus kok . terima kasih ~ . | (tempat, tidak strategis, negative); (bangunannya, usang, negative); (bangunannya, tidak terurus, negative); (beberapa fasilitas, rusak, negative); (overall hotelnya, lumayan bagus, positive)
+255 | saya rasa terlalu banyak kalau deposit nya rp.100.000 . hotel lain ratarata cuma rp.50.000 . | 
+256 | saya rasa terlalu banyak kalau deposit nya rp.100.000 . hotel lain ratarata cuma rp.50.000 . | 
+257 | sangat nyaman . | 
+258 | agak berbeda dengan kamar biasa , souvernir makanan ringan di kamar sampai perlengkapan toilet khusus dari airy . tidak nyesal milih hotel dengan airy room . murah tetapi juga sangat memuaskan . next pasti akan pakai airy room lagi . | 
+259 | agak berbeda dengan kamar biasa , souvernir makanan ringan di kamar sampai perlengkapan toilet khusus dari airy . tidak nyesal milih hotel dengan airy room . murah tetapi juga sangat memuaskan . next pasti akan pakai airy room lagi . | 
+260 | lumayan nyaman . cuma kamar nya agak sempit . tetapi good lah untuk sesekali . | (kamar nya, agak sempit, negative); (kamar nya, good, positive)
+261 | kecewa banget . | 
+262 | saluran air di westafel buntu , handuk kasar jaringan wifi tidak smpai karena dapat kamar paling ujung untuk air di showernya agak bermasalah dengan air pnas dan dinginnya sehingga yang berfungsi cuma air panasnya . mau keluhan nanggung karena cuma sebentar disini dan harus jalan kaki kedepan jauh banget karena dapat kamar paling ujung :/ . | (saluran air, buntu, negative); (handuk, kasar, negative); (wifi, tidak smpai, negative); (showernya, agak bermasalah, negative)
+263 | saya baru pertama kali pakai airy room dan agak kecewa sekali , tolong iya mbak nya gausah galak begitu , pelayanannya kurang baik . | (mbak nya, gausah galak begitu, negative); (pelayanannya, kurang baik, negative)
+264 | lumayan yang penting bisa buat istirahat , cuma kamar mandinya masih kurang bersih . | (kamar mandinya, kurang bersih, negative)
+265 | terlalu seram dan resepsionis tidak tanggap , ditelepon tidak pernah diangkat . | (resepsionis, tidak tanggap, negative)
+266 | terlalu seram dan resepsionis tidak tanggap , ditelepon tidak pernah diangkat . | (resepsionis, tidak tanggap, negative)
+267 | bersih dan nyaman juga sangat ramah . | 
+268 | tidak disiapkan air putih , sabun . tetapi cukup nyaman . | (air putih, tidak disiapkan, negative); (sabun, tidak disiapkan, negative)
+269 | tempatnya sempurna , ketika didepan pantai losari , namun sayang acnya kurang dingin padahal sudah lapor namun tetap tidak bisa dingin . | (tempatnya, sempurna, positive); (acnya, kurang dingin, negative)
+270 | kamar bagus , rapi , enak air panasnya agak lama iya baru panas puas banget dan recommended banget . | (kamar, bagus, positive); (kamar, rapi, positive); (kamar, enak, positive); (air panasnya, agak lama, negative)
+271 | sangat bagus dan memuaskan sekali menginapbnya . | 
+272 | saya sangat kecewa . saya jauh jauh mana mencari alamt nya salah hotel di dalam . sdah sampae sana bahkan di suruh samlai jam 2 . akhir nya saya pergi tanpa harus pernah masuk hotel ini . walau 1 menit sekalipun . bagai mana tanggapan nya . | 
+273 | sangat terbantu . | 
+274 | lumayan , pelayanan cukup , sayang musholla kurang memadai , dan tidak ada lift . | (pelayanan, cukup, positive); (musholla, kurang memadai, negative); (lift, tidak ada, negative)
+275 | ini recommended banget . terimakasih airy room . | 
+276 | cukup baik , dekat dengan supermall karawaci , kamar bersih , ada ac , tv , dan air panas nya juga . | (kamar, bersih, positive); (ac, ada, positive); (tv, ada, positive); (air panas, ada, positive)
+277 | kamar nya bersih , pelayan nya juga baik , akses nya gampang . kamar mandi nya oke , cuma air panas nya mati , so lumayan lah . | (kamar nya, bersih, positive); (pelayan nya, baik, positive); (akses nya, gampang, positive); (kamar mandi nya, oke, positive); (air panas nya, mati, negative)
+278 | cukup nyaman , kamar bersih , sarapan pagi banyak pilihan . | (kamar, bersih, positive); (sarapan pagi, banyak pilihan, positive)
+279 | sangat memuaskan . seprai dan handuknya wangi , kamarnya cukup bersih dan nyaman . ac dan air panasnya berfungsi dengan baik . saluran tv sedikit bermasalah tetapi cukup memuaskan . ini pengalaman kedua saya di airy gunung sahari . terima . kasih . | (seprai, wangi, positive); (handuknya, wangi, positive); (kamarnya, cukup bersih, positive); (kamarnya, nyaman, positive); (ac, berfungsi dengan baik, positive); (air panasnya, berfungsi dengan baik, positive); (saluran tv, sedikit bermasalah, negative); (saluran tv, cukup memuaskan, positive)
+280 | ada nyamuk , acnya kurang jos . selain itu oke banget . | (acnya, kurang jos, negative)
+281 | desain kamar briliant . kamar tidak terlalu luas dan kamar mandi di dalam . | (desain kamar, briliant, positive)
+282 | desain kamar briliant . kamar tidak terlalu luas dan kamar mandi di dalam . | (desain kamar, briliant, positive)
+283 | tempatnya oke , price sama kualitas pas . suka banget . | (tempatnya, oke, positive); (price, pas, positive); (kualitas, pas, positive)
+284 | lumayan bersih dan terjangkau . bagus ! | 
+285 | untuk pelayanan dan kamar sangat nyaman meskipun agak sedikit berisik di malam hari karena suara mus . | (pelayanan, sangat nyaman, positive); (kamar, sangat nyaman, positive)
+286 | lumayan bersih dan ramah , cuma kamarnya tidak kedap suara , kebetulan kamar saya dekat dengan resepsionis , kalau resepsionisnya bicara , kedengaran sampai kamar . | (kamarnya, tidak kedap suara, negative)
+287 | meskipun luas kamarnya pas , tetapi bersih banget . ada air hangat untuk mandi . bahkan disediakan snack yang buat happy banget . terima kasih airy rooms . | (luas kamarnya, pas, positive); (air hangat, ada, positive); (snack, disediakan, positive)
+288 | lumayan . kamarnya agak sempit , jalan menuju ke kamar juga sempit , tidak terlalu nyaman . lift yang berfungsi hanya satu . tetapi lumayan untuk hotel dengan harga seperti itu . | (kamarnya, agak sempit, negative)
+289 | lumayan . kamarnya agak sempit , jalan menuju ke kamar juga sempit , tidak terlalu nyaman . lift yang berfungsi hanya satu . tetapi lumayan untuk hotel dengan harga seperti itu . | (kamarnya, agak sempit, negative)
+290 | lumayan . kamarnya agak sempit , jalan menuju ke kamar juga sempit , tidak terlalu nyaman . lift yang berfungsi hanya satu . tetapi lumayan untuk hotel dengan harga seperti itu . | (kamarnya, agak sempit, negative)
+291 | nyaman banget , ramah semua pegawainya . recommended . cuma perlu sedikit diperbaiki showernya . | (semua pegawainya, ramah, positive); (showernya, perlu sedikit diperbaiki, negative)
+292 | nyaman banget pokoknya top banget airy room . | (airy room, top, positive)
+293 | sangat puas menginap disini . | 
+294 | lumayan , sayang peralatan sanitair nya banyak yang rusak . | (peralatan sanitair nya, rusak, negative)
+295 | sangat menyenangkan . tetapi untuk masalah privasi kurang terjaga karena jendela kaca tidak dilengkapi kain trasparan sehingga terlihat jelas dari luar . | (privasi, kurang terjaga, negative)
+296 | tidak sesuai kamar sama fotonya . agak kecewa . | (kamar, tidak sesuai, negative)
+297 | puas banget menginap disini , depan jatim park 2 dekat mau kemana " terus klu mau beli makan pun banyak yang jual jadi tidak perlu repot " . | 
+298 | kamar luas , ada restoran , kolam renang , dan layanan kamar , sayangnya : kamar kotor dan lembab . lingkungan sekitar kotor , kamar mandi kotor . air kecil dan berbau . lokasi kamar ke parkiran cukup jauh seharusnya itu mobil golf stand oleh terus untuk antar jemput tamu . yang sulit ketika check out harus angkat barang sendiri . jalan juga tidak friendly buat gerek koper . | (kamar, luas, positive); (restoran, ada, positive); (kolam renang, ada, positive); (layanan kamar, ada, positive); (kamar, kotor, negative); (kamar, lembab, negative); (lingkungan, kotor, negative); (kamar mandi, kotor, negative); (air, kecil, negative); (air, berbau, negative)
+299 | nyaman banget pelanya ramah . | (pelanya, ramah, positive)
+300 | lokasi sangat dekat dengan pasar dan strategis , namun hotel kurang bersih , kamar mandi ada ulat kecil kecil sepertinya dari lubang air , setelah disiram bersih beberapa jam kemudian ada lagi , kamar kurang bersih , pelayanan cukup cepat jk diminta bantuan . | (lokasi, strategis, positive); (hotel, kurang bersih, negative); (kamar mandi, ada ulat kecil kecil, negative); (kamar, kurang bersih, negative); (pelayanan, cukup cepat, positive)
+301 | lokasi strategis , sangat dekat dengan stasiun cirebon kejaksan . mau cari makan juga gampang karena dekat dengan tempat tempat kuliner khas cirebon . | (lokasi, strategis, positive)
+302 | sangat nyaman mungkin pelayanan nya di tingkatkan dan lebih ramah . | (pelayanan nya, di tingkatkan, positive)
+303 | pengalaman saya inap disini sejauh ini saya suka sangat nyaman , hanya snack dari airy sisa dari visitor sebelumnya . | 
+304 | bagus pelayanan dan good place . recommended banget sudah ! | (pelayanan, bagus, positive); (place, good, positive)
+305 | lumayan bagus , hanya air showernya awal panas lamalama dingin . | (air showernya, lamalama dingin, negative)
+306 | sangat memuaskan , cekin tengah malam masih di layani . | 
+307 | sangat baik , hanya kurang sajadah di kamar . | (sajadah, kurang, negative)
+308 | kamarnya bersih , toilet juga bagus beraih . parkir sangat luas . sayangnya tidak ada sarapan saja sih he . sama masuk kedalam bnjar indah agak jauhan over all bagus semua . cocok banget buat kost ekslusif . | (kamarnya, bersih, positive); (toilet, bagus, positive); (parkir, sangat luas, positive); (sarapan, tidak ada, negative); (over all, bagus, positive)
+309 | kamarnya bersih , toilet juga bagus beraih . parkir sangat luas . sayangnya tidak ada sarapan saja sih he . sama masuk kedalam bnjar indah agak jauhan over all bagus semua . cocok banget buat kost ekslusif . | (kamarnya, bersih, positive); (toilet, bagus, positive); (parkir, sangat luas, positive); (sarapan, tidak ada, negative); (over all, bagus, positive)
+310 | cukup , tetapi keramahan yah agak kurang bagi kami . | (keramahan, agak kurang, negative)
+311 | lokasi sangat dekat dengan pia mangkok dan mcdonalds . banyak tempat kuliner di sekitar . wifi juga setara 4g dengan kecepatan rata rata 2mib s . sarapan juga bervariasi . cocok buat anak kecil karena tidak berisik . setara hotel bintang 4 . | (sarapan, bervariasi, positive)
+312 | lumayan lah . sayang kamar mandinya agak bagaimana begitu , wcnya flushernya harus diperbaiki . | (kamar mandinya, agak bagaimana begitu, negative); (wcnya flushernya, harus diperbaiki, negative)
+313 | tempat nyaman dan strategis dengan tempat wisata jatim park 2 dan bns . air panas nya kadang tidak nyala dan saat saya menginap sedang ada renovasi jadi agak berisik . tetapi overall baik . | (tempat, nyaman, positive); (tempat, strategis, positive); (air panas nya, kadang tidak nyala, negative); (overall, baik, positive)
+314 | untuk traveler yang kalau budget ini pas banget tmptnya karena sangat nyaman , bersih , dan enak cuma kurang air panas saja tidak nyala selebihnya mantap pelayanannya juga oke dan 24jam . | (tmptnya, sangat nyaman, positive); (tmptnya, bersih, positive); (tmptnya, enak, positive); (air panas, tidak nyala, negative); (selebihnya, mantap, positive); (pelayanannya, oke, positive)
+315 | transit semalam di mataram menginap disini sangat nya . | 
+316 | cukup baik tetapi wc nya kurang nyaman . | (wc nya, kurang nyaman, negative)
+317 | bagus banget . memuaskan . | 
+318 | kamar nyaman , cari makan mudah , tetapi kok sinyal di dalam kamar agak susah . | (kamar, nyaman, positive)
+319 | lokasi cukup strategis meskipun di jalan satu mobil . seprai set lebih ditingkatkan kebersihannya . kamar dan kamar mandi akan terasa lebih segar apabila diberi pengharum ruangan . snack ada 3 macam cukup mengenyangkan untuk sarapan . air minum mineral botol sebaiknya yang 600ml , jangan 330ml karena terlalu sedikit ( dari sisi harga juga tidak beda banyak ) . | (lokasi, cukup strategis, positive); (kebersihannya, ditingkatkan, positive)
+320 | lokasi cukup strategis meskipun di jalan satu mobil . seprai set lebih ditingkatkan kebersihannya . kamar dan kamar mandi akan terasa lebih segar apabila diberi pengharum ruangan . snack ada 3 macam cukup mengenyangkan untuk sarapan . air minum mineral botol sebaiknya yang 600ml , jangan 330ml karena terlalu sedikit ( dari sisi harga juga tidak beda banyak ) . | (lokasi, cukup strategis, positive); (kebersihannya, ditingkatkan, positive)
+321 | untuk backpacker sangat bagus . cuma penjaga nya tidak mau buka pintu kalau pulang lewat dari jam 11 malam . | 
+322 | petugas ramah , kamar bersih , fasilitas oke , walau wifinya kadang tidak nyantol ' , saya dan suami cukup puas : ) . | (petugas, ramah, positive); (kamar, bersih, positive); (fasilitas, oke, positive); (wifinya, kadang tidak nyantol, negative)
+323 | sangat memuaskan dan nyaman . | 
+324 | tolong agak disiplin klok tamu meminta kamarnya di bersihkan . | 
+325 | sangat amazing menginap di airy sutoyo hotel dewarna , sudah murah tempat juga nyaman buat istirahat , apalagi breakfastnya juga nikmat tidak asalasalan dengan harga murah kualitas tidak murahan . tetapi yang perlu diperbaiki cuma kebersihan kamar kurang bersih kalau ngepel , overall rekomen banget . | (tempat, nyaman, positive); (breakfastnya, nikmat, positive); (breakfastnya, tidak asalasalan, positive); (harga, murah, positive); (kualitas, tidak murahan, positive); (kebersihan kamar, kurang bersih, negative); (overall, rekomen banget, positive)
+326 | suami dan anakanak sangat puas , pokoknya recommended banget . | 
+327 | suami dan anakanak sangat puas , pokoknya recommended banget . | 
+328 | kamar bersih tetapi agak bau dan asalnya dari lemari pakaian . alhasil lemari tidak kepake karena takut baunya ikut . biaya tambahan 1 orang untuk sarapan terlalu tinggi untuk ukuran hotel bintang 3 . | (kamar, bersih, positive); (kamar, agak bau, negative)
+329 | kamar bersih tetapi agak bau dan asalnya dari lemari pakaian . alhasil lemari tidak kepake karena takut baunya ikut . biaya tambahan 1 orang untuk sarapan terlalu tinggi untuk ukuran hotel bintang 3 . | (kamar, bersih, positive); (kamar, agak bau, negative)
+330 | nyaman banget sudah , harga oke . cuma air panasnya lama . | (harga, oke, positive); (air panasnya, lama, negative)
+331 | lumayan lah untuk bermalam disini . | 
+332 | tidak terlalu mahal . tetapi memang tempatnya standar sekali . | (tempatnya, standar sekali, negative)
+333 | tidak terlalu mahal . tetapi memang tempatnya standar sekali . | (tempatnya, standar sekali, negative)
+334 | cukup bersih . kondisi keran kamar mandi saya yang harus diperbaiki . susah bukanya . | (keran kamar mandi, harus diperbaiki, negative); (keran kamar mandi, susah bukanya, negative)
+335 | tempatnya nyaman , bersih , tempo dulu banget . | (tempatnya, nyaman, positive); (tempatnya, bersih, positive)
+336 | pengalaman menyenangkan , tetapi agak terganggu dengan asap rokok dari kamar sebelah . yang menghuni selalu merokok di depan kamarnya . | 
+337 | pelayanan baik , staf yang ramah . pengalaman yang sangat menggembiran . | (pelayanan, baik, positive); (staf, ramah, positive)
+338 | sangat menyenangkan , awalnya sempat mencari cari lokasi namun tidak menjadi masalah karena tidak terlalu jauh . | 
+339 | sangat menyenangkan , awalnya sempat mencari cari lokasi namun tidak menjadi masalah karena tidak terlalu jauh . | 
+340 | sangat menyenangkan , awalnya sempat mencari cari lokasi namun tidak menjadi masalah karena tidak terlalu jauh . | 
+341 | kualitas wifi sangat buruk sekali bahkan kadangkadang mati berkali kali saya menginap disini tetapi kualitas wifi tetap saja begitu bahkan semakin parah . tolong diperhatikan . | (wifi, sangat buruk sekali, negative)
+342 | lumayan ramah tetapi saya pul jam 1 sudah di kunci : ( . | 
+343 | sangat nyaman . snack nya kurang banyak . | (snack nya, kurang banyak, negative)
+344 | lumayan , ramah pelayanan , nyaman tempat nya , betah 5hari . | (pelayanan, ramah, positive); (tempat nya, nyaman, positive)
+345 | nyaman dan sangat murah dengan kamar yang sangat bagus , namun seprai sedikit kusam dan ada sedikit noda , shower kurang berfungsi , dan lantai berdebu . walaupun begitu tetap recommended karena nyaman dan ada rooftop untuk sunrise . | (kamar, sangat bagus, positive); (seprai, sedikit kusam, negative); (seprai, ada sedikit noda, negative); (shower, kurang berfungsi, negative); (lantai, berdebu, negative)
+346 | sangat tidak recomended . | 
+347 | airy eco sanur beach . lokasinya sangat dekat dengan pantai sanur . berada di ananda beach hotel . | 
+348 | fasilitaa lengkap , nyaman , dan petugasnya juga ramahramah . next tidak ush caricari lagi deh , disini saja sudah sangat memuaskan . happy deh pokoknya , pemandangan fotonya juga bagusbagus . | (fasilitaa, lengkap, positive); (fasilitaa, nyaman, positive); (petugasnya, ramahramah, positive); (pemandangan fotonya, bagusbagus, positive)
+349 | suka banget menginap disini . | 
+350 | lumayan nyaman untuk backpack , sesuai dengan hargalah . | 
+351 | pelayanan bagus , lumayan bersih , lebih ditinglatkan lagi terimakasih . | (pelayanan, bagus, positive)
+352 | kamarnya kotor tidak ada sama sekali hal yang menunjukkan kalau inap di airy room , perlengkapan mandi satupun tidak ada , telepon dkamar tidak bisa dgunakan , pokoknya sangat mengecewakan buat saya yang pertama kali menggunakan kamar dari airy room . | (kamarnya, kotor, negative); (perlengkapan mandi, tidak ada, negative); (telepon dkamar, tidak bisa dgunakan, negative)
+353 | cukup bagus , sesuai dengan tarif . hanya air panas dari shower , tidak keluar pada pagi hari . terus makanan sarapan pagi kurang enak . | (tarif, sesuai, positive); (air panas, tidak keluar, negative); (sarapan pagi, kurang enak, negative)
+354 | secara umum sangat nyaman . dan bersih . walaupun dari jalan besar masuk kedalam gang cukup jauh . t . | (secara umum, sangat nyaman, positive); (secara umum, bersih, positive)
+355 | lumayan nyaman dengan harga yang sebanding . | 
+356 | fasilitas semua sudah baik , resepsionis juga ramah , saya menginap selama 2 hari dan di hari kedua kamar dibersihkan . sangat recomended ! | (fasilitas, baik, positive); (resepsionis, ramah, positive)
+357 | cukup nyaman . sayangnya shower tidak mengalir dengan lancar , terpaksa mandi menggunakan keran air . | (shower, tidak mengalir dengan lancar, negative)
+358 | awalnya sedikit kecewa karena check in terlalu malam jadi dapat kamar di basement , pihak bangka suite memberikan opsi pindah kamar di malam kedua , tetapi saya tidak jadi pindah kamar karena sudah terlalu nyaman sama kamarnya yang bersih , luas dan semua fasilitas berfungsi dengan baik . | (kamarnya, bersih, positive); (kamarnya, luas, positive); (fasilitas, berfungsi dengan baik, positive)
+359 | awalnya sedikit kecewa karena check in terlalu malam jadi dapat kamar di basement , pihak bangka suite memberikan opsi pindah kamar di malam kedua , tetapi saya tidak jadi pindah kamar karena sudah terlalu nyaman sama kamarnya yang bersih , luas dan semua fasilitas berfungsi dengan baik . | (kamarnya, bersih, positive); (kamarnya, luas, positive); (fasilitas, berfungsi dengan baik, positive)
+360 | sudah cukup , hanya perlu diatasi bau apek nya saja . | 
+361 | lumayan disediakan air mineral , snack dan sikat gigi . | (air mineral, disediakan, positive); (snack, disediakan, positive); (sikat gigi, disediakan, positive)
+362 | pemandangan keren , alat mandi lengkap , cemilan+air minum ada , tetapi kamar mandi tidak terlalu bersih . seprai dan bed covernya sempat bau pesing , sudah minta diganti tetapi tetap bau meski tidak pesing lagi . mohon diperhatikan . terima kasih airy ^^ . | (pemandangan, keren, positive); (alat mandi, lengkap, positive); (cemilan+air minum, ada, positive); (kamar mandi, tidak terlalu bersih, negative); (seprai, sempat bau pesing, negative); (bed covernya, sempat bau pesing, negative)
+363 | perlu ditambah pengharum di lemarinya . overall kamarnya bersih banget , nyaman , fasilitas lengkap , ac dingin . kalau bisa sediakan line telepon untuk pemesanan taksi , karena letaknya cukup jauh dari jalan raya . | (overall kamarnya, bersih banget, positive); (overall kamarnya, nyaman, positive); (fasilitas, lengkap, positive); (ac, dingin, positive); (letaknya, jauh, negative)
+364 | sangat nyaman sekali dan strategis . | 
+365 | cukup memuaskan tetapi lokasinya susah ditemukan . | (lokasinya, susah ditemukan, negative)
+366 | lumayan untuk istirahat . | 
+367 | buruk pelayan dari resepsionis , sangat kecewa serta cukup 1x menginap tidak akan untuk selanjutnya . pesan untuk resepsionis : mmg saya menginap tidak membayar ! sopan santun sedikit terhadap tamu menginap . | (pelayan, buruk, negative)
+368 | buruk pelayan dari resepsionis , sangat kecewa serta cukup 1x menginap tidak akan untuk selanjutnya . pesan untuk resepsionis : mmg saya menginap tidak membayar ! sopan santun sedikit terhadap tamu menginap . | (pelayan, buruk, negative)
+369 | airy nya mantap namun kondisi bangunan kurang maintenance padahal kalau dipoles sedikit saja akan sangat reccomended sekali hotel ini serta kebersihan nya mohon dijaga . | (airy nya, mantap, positive); (kondisi bangunan, kurang maintenance, negative); (kebersihan nya, mohon dijaga, negative)
+370 | tempatnya nyaman , bersih , cuma agak susah kalau cari makan . terimakasih airy . | (tempatnya, nyaman, positive); (tempatnya, bersih, positive)
+371 | yang perlu ditingkatkan , ukuran ranjang yang twin kurang besar , buat yang body agak big size , terus lift nya kecil dan cuma satu . | (ranjang, kurang besar, negative); (lift nya, kecil, negative)
+372 | penginapannya di dalam komplek perumahan , jadi sangat nyaman dan jauh dari kebisingan . very rekomen . | 
+373 | lumayan untuk bacpakeran , harganya terjangkau banget . tempatnya bersih , cuma seprainya agak berdebu . | (harganya, terjangkau banget, positive); (tempatnya, bersih, positive); (seprainya, agak berdebu, negative)
+374 | sangat memuaskan , recommended bisa dijadikan standar pelayanan airy rooms yang lainnya . | 
+375 | bagus , nyaman , juga keamanan kendaraan tidak buat khawatir . cuma agak perjuangan mencapai lantai 3 he . | (keamanan kendaraan, tidak buat khawatir, positive)
+376 | sangat memuaskan , mau banget balik ke hotel airy tugu yogyakarta sangaji 68 . | 
+377 | sangat memuaskan , mau banget balik ke hotel airy tugu yogyakarta sangaji 68 . | 
+378 | satpamnya ramah dan sigap , wifinya kencang , selain snack airy set ada tambahan coklat silverqueen . tetapi resepsionis tidak ramah , payah banget seperti keteteran begitu , kerjanya super manual , dan penampilannya seperti emak - emak habis selesaikan rumah seharian . | (satpamnya, ramah, positive); (satpamnya, sigap, positive); (wifinya, kencang, positive); (resepsionis, tidak ramah, negative)
+379 | recommended banget : ) . | 
+380 | sangat puas sekali . water heater mantaap , ac dngin . pokok nya recomended banget ! | (water heater, mantaap, positive); (ac, dngin, positive)
+381 | sangat puas sekali . water heater mantaap , ac dngin . pokok nya recomended banget ! | (water heater, mantaap, positive); (ac, dngin, positive)
+382 | kamar agak kecil , tetapi bersih , cukup untuk keluarga kecil saya . pelayanan kamar baik , hanya air panasnya tidak panas , tetapi overall oke . | (kamar, agak kecil, negative); (kamar, bersih, positive); (pelayanan kamar, baik, positive); (air panasnya, tidak panas, negative); (overall, oke, positive)
+383 | lumayan dengan harga murah . | (harga, murah, positive)
+384 | . jadi pelanggan tetap . | 
+385 | kamarnya luas , tempatnya mudah dijangkau , dan viewnya bagus di lantai 6 . pas banget buat celebrate new year kemarin . tetapi kok sabtu minggunya jadi tidak bisa di booked lagi iya ? tolong recheck untuk room availablenya di weekend . | (kamarnya, luas, positive); (tempatnya, mudah dijangkau, positive); (viewnya, bagus, positive)
+386 | sangat praktis dan sangat memuaskan . | 
+387 | setiap menginap di airy pasti puas banget . pelayanannya ramah . cuma yang ini . kamar mandinya bau . air panasnya tidak nyala . tidak ada tempat sampah di kamar . tidak ada snack . padahal setiap menginap di airyroom selalu disediakan . | (pelayanannya, ramah, positive); (kamar mandinya, bau, negative); (air panasnya, tidak nyala, negative); (tempat sampah, tidak ada, negative); (snack, tidak ada, negative)
+388 | bagus , walopun datang dini hari namun tetap dilayani dengan baik . | (dilayani, baik, positive)
+389 | kurang nyaman kurang bersih kurang rapi dan kurang ramah pelayanannya sangat sangat kecewa baru kali ini inap di airy rooms kecewa sebelumnya sya selalu senang mnginap di airyromms . | (pelayanannya, kurang ramah, negative)
+390 | kali ini sangat kecewa . tidak ada mineral water , tidak ada handuk , kamar agak kotor . mengapa seperti itu ? : ( . | (mineral water, tidak ada, negative); (handuk, tidak ada, negative); (kamar, agak kotor, negative)
+391 | puas banget . bersih nyamaan muraah . saran , kalau bisa diperbanyak kamar yang disewakan untuk airy rooms , sering kehabisan pesan kamar di sini karena kamar lainnya dipakai kos hiks : ( . | 
+392 | kamar sangat memuaskan . sedikit catatan sayang , lokasi penginapan ini di dalam gang . mungkin akan agak sulit ditemukan . | (kamar, sangat memuaskan, positive)
+393 | kolam bernang tidak bisa digunain . pokonya kecewa banget . | (kolam, tidak bisa digunain, negative)
+394 | kamar yang dikasih terlalu jauh , jadi lelah turun naik tangga . harga cucokk mehong kok . | (kamar, jauh, negative); (harga, cucokk, positive)
+395 | kamar yang dikasih terlalu jauh , jadi lelah turun naik tangga . harga cucokk mehong kok . | (kamar, jauh, negative); (harga, cucokk, positive)
+396 | sangat bagus dan bersih seperti di gambar . | 
+397 | cukup bagus kalau cuma untuk dipakai tidur . kalau dipakai berlama lama agak kurang nyaman saja . he . overall oke lah . bersih . | (overall, oke, positive)
+398 | cukup bagus kalau cuma untuk dipakai tidur . kalau dipakai berlama lama agak kurang nyaman saja . he . overall oke lah . bersih . | (overall, oke, positive)
+399 | lumayan bersih dan nyaman . | 
+400 | its so worth it ! kamar yang luas , kebersihan lumayan , lokasi strategis . cukup menyenangkan sih menginap disini . apalagi waktu kemarin itu ada diskon 50 , jadi jatohnya itu murah banget ! . | (kamar, luas, positive); (kebersihan, lumayan, positive); (lokasi, strategis, positive)
+401 | its so worth it ! kamar yang luas , kebersihan lumayan , lokasi strategis . cukup menyenangkan sih menginap disini . apalagi waktu kemarin itu ada diskon 50 , jadi jatohnya itu murah banget ! . | (kamar, luas, positive); (kebersihan, lumayan, positive); (lokasi, strategis, positive)
+402 | kamar nya kotor dan sempit , handuknya tipis dan bau air mani . kamar mandi nya banjir air lama mengalir . saya langsung cek out setelah melihat kondisi kamarnya . pokoknya tidak recomended banget . nyesal juga tidak sesuai sama fotonya menipu banget kapok deh . | (kamar nya, kotor, negative); (kamar nya, sempit, negative); (handuknya, tipis, negative); (handuknya, bau air mani, negative); (kamar mandi nya, banjir, negative)
+403 | lumayan tetapi bantal airy nya sedikit kotor . | (bantal airy nya, sedikit kotor, negative)
+404 | ada rupa ada harga . lumayan lah . | 
+405 | cukup baik , lokasi sangat strategis . | (lokasi, sangat strategis, positive)
+406 | sangat dekat dengan terminal tirtonadi hanya 100m . bisa jalan kaki . | 
+407 | cukup baik . tetapi lebih apik lagi membereskan kasurnya . masa ada pakaian dalam di dalam selimutnya ! sarapan oklah . | (sarapan, oklah, positive)
+408 | saya lihat bed seperti di hotel krbanyakan . tetapi saya tidak boleh stay . karena ordernya hanya untuk 1 orang . dan kalau tetap mau tinggal saya harus bayar sejumlah 4x50.000 = 200.000 lagi . | 
+409 | lumayan untuk budget hotel . cuma banyak nyamuk . | 
+410 | bagus . tetapi terlalu terpencil . resepsionis pun tidak 24 jam . | (resepsionis, tidak 24 jam, negative)
+411 | bagus . tetapi terlalu terpencil . resepsionis pun tidak 24 jam . | (resepsionis, tidak 24 jam, negative)
+412 | tempatnya bagus , kamar mandi bersih , ada hairdryer juga recom banget deh . | (tempatnya, bagus, positive); (kamar mandi, bersih, positive); (hairdryer, ada, positive)
+413 | kondisi kamar baik hanya saja kurang bersih , terlihat debu di lantai dan furniture terutama di kotak snack , lalu semprotan toiletnya lepas . kamarnya juga bau rokok , namun setelah melapor pada housekeeping langsung disemprot , sayangnya ternyata di kamar mandi bau rokoknya tetap tidak hilang . kasurnya lumayan empuk . menu sarapan alakadarnya . | (kamar, baik, positive); (kamar, kurang bersih, negative); (kamarnya, bau rokok, negative); (kamar mandi, bau, negative); (kasurnya, lumayan empuk, positive); (menu sarapan, alakadarnya, negative)
+414 | lumayan oke , ac snack tv perlengkapan mandi ada . | (ac, ada, positive); (snack, ada, positive); (tv, ada, positive); (perlengkapan mandi, ada, positive)
+415 | lumayan lah . tetapi kamar agak sempit . tempat bersih . pelayanan ramah . | (kamar, agak sempit, negative); (tempat, bersih, positive); (pelayanan, ramah, positive)
+416 | sangat nyaman dengan harga segitu . sangat recomended . | 
+417 | cukup memuaskan , lokasi strategis . | (lokasi, strategis, positive)
+418 | saya suka , nyaman dan tenang , hanya saja kamar mandi sedikit berbau tetapi buat saya tidak masalah tetap puas . | (kamar mandi, sedikit berbau, negative)
+419 | sudah 2 kali di sini . servis , lokasi dan kamar oke . rate kompetitif . hanya saja cukup strict untuk waktu checkin . | (servis, oke, positive); (lokasi, oke, positive); (kamar, oke, positive)
+420 | bersih , petugas ramah , lokasi strategis dan sekarang sudah jadi langganan tetap . | (petugas, ramah, positive); (lokasi, strategis, positive)
+421 | awalnya kami diberikan kamar yang belum dibersihkan . setelah kami keluhan , kami cukup puas . | 
+422 | lumayan lah . bersih , ramah dan dekat dengan tempat tempat kuliner dan mal . | 
+423 | ini adalah 1x saya pakai airy . kesan 1 memang beda pelayanan dengan hotel berbintang , tetapi fine . kaget surprise dan senang banget dapat box meal free pula . kebersihan kerapian kamar keren deh . apalagi kamar mandi bathup mantap wes . sayang ac kurang dingin , tv mati hidup sendiri berulangberulang bahkan respons resepsionis buruk . internet jelek banget . lumayan saja wes . | (kebersihan kerapian kamar, keren, positive); (kamar mandi, mantap, positive); (ac, kurang dingin, negative); (tv, mati hidup sendiri, negative); (resepsionis, buruk, negative); (internet, jelek banget, negative)
+424 | kamarnya luas , lokasinya lumayan jauh dari jalan utama , tetapi kalau mau kemana mana pakai angkutan on . | (kamarnya, luas, positive)
+425 | tidak enak banget lah pokoknya enakan bobo di rumah . | 
+426 | cukup bersih . tetapi bangunan sudah tua . jadi kurang fresh . | (bangunan, tua, negative)
+427 | baiknya cuma dekat dengan perbelanjaan cihampelas . kamarnya lembab , cat nya sudah lapuk , agak berdebu , seprainya kurang bersih dan tanpa logo airy rooms , debit air nya kecil ( kurang puas mandinya ) , tidak ada remote ac ( jadi minta petugas buat atur suhu . | (kamarnya, lembab, negative); (cat nya, lapuk, negative); (seprainya, kurang bersih, negative); (air nya, kecil, negative); (air nya, kurang puas, negative); (remote, tidak ada, negative)
+428 | sangat memuaskan dengan harga segitu . | 
+429 | tempatnya nyaman , ada welcome snack nya . sangat menarik . | (tempatnya, nyaman, positive); (welcome snack nya, ada, positive)
+430 | lumayan bagus nanti kalau ke jakarta lagi menginap di sini lagi . | 
+431 | kamar bersih , pelayanan ramah , harga terjangkau , sangat memuaskan . | (kamar, bersih, positive); (pelayanan, ramah, positive); (harga, terjangkau, positive)
+432 | cukup ramah pelayanan nya baik karena menyediakan pemesanan makanan minuman , namun perlu diperbaiki dari segi fasilitas kamar seperti stopkontak nya di tambah , air hangatnya kadang tidak berfungsi maka perlu di cek berkala . | (pelayanan nya, baik, positive); (fasilitas kamar, perlu diperbaiki, negative); (air hangatnya, kadang tidak berfungsi, negative)
+433 | lokasi cukup strategis meskipun di jalan satu mobil . seprai set lebih ditingkatkan kebersihannya . kamar dan kamar mandi akan terasa lebih segar apabila diberi pengharum ruangan . snack ada 3 macam cukup mengenyangkan untuk sarapan . air minum mineral botol sebaiknya yang 600ml , jangan 330ml karena terlalu sedikit ( dari sisi harga juga tidak beda banyak ) . | (lokasi, cukup strategis, positive); (kebersihannya, lebih ditingkatkan, negative)
+434 | lokasi cukup strategis meskipun di jalan satu mobil . seprai set lebih ditingkatkan kebersihannya . kamar dan kamar mandi akan terasa lebih segar apabila diberi pengharum ruangan . snack ada 3 macam cukup mengenyangkan untuk sarapan . air minum mineral botol sebaiknya yang 600ml , jangan 330ml karena terlalu sedikit ( dari sisi harga juga tidak beda banyak ) . | (lokasi, cukup strategis, positive); (kebersihannya, lebih ditingkatkan, negative)
+435 | lumayan kok . bersih tempatnya . nyaman juga . cuma agak jau ke jalan raya besar . tetapi don't worry ada angkot buat backpacker . | (tempatnya, bersih, positive)
+436 | lumayan kok . bersih tempatnya . nyaman juga . cuma agak jau ke jalan raya besar . tetapi don't worry ada angkot buat backpacker . | (tempatnya, bersih, positive)
+437 | baik , dekat dengan sekolah jadi agak berisik . | 
+438 | lokasi memang agak masuk ke dalam gang dan belum ada plang airy karena baru seminggu hotel ini beroperasi . tetapi kualitas dan pelayanan hotel oke banget ! | (kualitas, oke banget, positive); (pelayanan hotel, oke banget, positive)
+439 | lumayan lah , not bad . untuk semalam . | 
+440 | air kecil , kolam kotor , ac tidak dingin , sedih banget deh , tetapi petugasnya baik . | (air, kecil, negative); (kolam, kotor, negative); (ac, tidak dingin, negative); (petugasnya, baik, positive)
+441 | sangat nyaman banget buat yang butuh harga terjangkau dengan kamar yang bisa disamakan dengan harga hotel 400rbuan . good rooms deh buat yang ini . | (harga, terjangkau, positive)
+442 | sangat nyaman banget buat yang butuh harga terjangkau dengan kamar yang bisa disamakan dengan harga hotel 400rbuan . good rooms deh buat yang ini . | (harga, terjangkau, positive)
+443 | cukup nyaman untuk sekedar beristirahat . | 
+444 | homey dan cukup nyaman , hanya perlu ditambahkan sedikit tentang varian sarapan dan kebersihan area bapak . | (varian sarapan, perlu ditambahkan sedikit, positive); (kebersihan area, perlu ditambahkan sedikit, positive)
+445 | kecewa banget aku di sana . enga layak huni . enga di kasih tahu pasword wifinya . kasurnya enga enak , lebih baik ke hotel lain saja . kecewa sumpah ! | (kasurnya, enga enak, negative)
+446 | hotelnya bagus , dekat ciwalk jadi banyak kuliner dan tempat belanja . ada kolam renangnya juga . lumayan buat olah raga sedikt . | (hotelnya, bagus, positive)
+447 | karena terlalu banyak kamar jadi tidak diperhatikan masalah kebersihan . | (kebersihan, tidak diperhatikan, negative)
+448 | karena terlalu banyak kamar jadi tidak diperhatikan masalah kebersihan . | (kebersihan, tidak diperhatikan, negative)
+449 | lumayan , karena cukup murah terus dekat sama plaza , pizza hut , mcd , kfc , dsb. buat yang mau bawa pacar aman temanteman , gas saja . tertawa . | 
+450 | lumayan , karena cukup murah terus dekat sama plaza , pizza hut , mcd , kfc , dsb. buat yang mau bawa pacar aman temanteman , gas saja . tertawa . | 
+451 | sudah pastii sangat bersihh rekomen ini mah . | 
+452 | suasana enak , hotel nuansa jawa banget atau klasik . kamar besar nyaman . satu hal yang buat kurang . hotel kalau tidak ada tamu jadi sepi banget , nek malam jadi seram . pos satuan pengamanan gelap . resto gelap , resepsionis sendiri . pas pagi pun resepsionis masih sendiri , masakin sarapan terus balik jaga front office . | (suasana, enak, positive); (kamar, besar, positive); (kamar, nyaman, positive); (pos satuan pengamanan, gelap, negative); (resto, gelap, negative); (resepsionis, sendiri, negative)
+453 | ini pertama kalinya saya memesan airy rooms . saya pesan tanggal 13april untuk menginap tanggal 28april . tetapi ketika saya sampai di hotel , kamar yang saya booking tidak ada dan pihak hotel mengembalikan uang saya , alhasil saya harus mencari hotel lain pada hari itu ! sangat mengecewakan karena tidak ada pemberitahuan dari jauh hari ! tidak profesional ! | 
+454 | sangat murah dan nyaman . | 
+455 | room nya luas dan ac nya ducting , kece banget apalagi dapat diskon 50 dari airy . hanya kurang adalah kunci pintu yang susah sekali seperti sudah rusak dan model lama . sarapan enak , tetapi beberapa masakan seperti sudah dipanaskan berkaliberkali . tv indovision , untuk harga diskon , room ini baik sekali . | (room nya, luas, positive); (ac nya, ducting, positive); (sarapan, enak, positive); (room, baik sekali, positive)
+456 | puas sangat mwembantu . | 
+457 | biasa saja sempit tidak seperti yang saya pikir kantan lumayan lau buat istirahat tidak berisik . | 
+458 | kamar nya bersih , dekat banget dengan bandara . | (kamar nya, bersih, positive)
+459 | lokasi yang alami berada di lereng bukit . memberikan nuansa alam yang sangat indah . | 
+460 | banyak nyamuk , uang deposit lebih mahal dibandingkan harga kamarnya , ktp juga di tahan selama stay sangat tidak rekomen untuk menginap di sini . | 
+461 | sebenarnya saat saya masuk dan lihat kondisinya , saya merasa cukup puas jika disesuaikan dengan harganya . yang membuat saya kecewa adalah , penjaganya tidak ada di tempat ( sedang pergi ) dan perlengkapan mandi juga tidak tersedia , khususnya handuk , saya dapat bekas orang pakai , kemungkinan kamar yang saya pakai belum sempat dibersihkan oleh penjaganya sebelum dia pergi . terimakasih . | (penjaganya, tidak ada, negative); (perlengkapan mandi, tidak tersedia, negative); (handuk, tidak tersedia, negative)
+462 | menginap disini nyaman banget . | 
+463 | amat sangat mengecewakan sekali . | 
+464 | lumayan . tetapi kebersihanya masih kurang . selimut dan bantal nya kuning . harap ditingkat kan lagi . kebersihan nya . | (kebersihanya, kurang, negative); (selimut, kuning, negative); (bantal nya, kuning, negative); (kebersihan nya, ditingkat kan lagi, negative)
+465 | bersih , rapi , aman , ramah dan recommended banget . | 
+466 | memuaskan . sangat mewah . | 
+467 | lumayan untuk ukuran backpacker . | 
+468 | nyaman banget . | 
+469 | sangat tidak memuaskan ! kamar penuh nyamuk , minta obat nyamuk semprot saja tidak ada . | (kamar, penuh nyamuk, negative)
+470 | menu sarapan nya banyak dan enak tetapi sayang , saya dapat nya kamar 222 gedung lama sarang nyamuk banyak banget nyamuk di kamar oleh untuk untuk untuk . garagara masuk lewat bawah pintu . | (menu sarapan nya, banyak, positive); (menu sarapan nya, enak, positive)
+471 | semula kamar nyaman dan bersih , tetapi ketika hujan ada rembesan air yang cukup banyak masuk dalam kamar . | (kamar, nyaman, positive); (kamar, bersih, positive)
+472 | cukup bagus buat yang backpackeran . buat keluarga tidak cocok karena bersebelahan dengan club karaoke . | 
+473 | jangan menginap disini deh . lebih baik cari hotel lain . kelas deluxe tetapi seperti ekonomi sempit sekali , wc bau , colokkan listrik tidak ada . mau charger hp tidak bisa . nghabiskan uang saja . sangat kecewa . | (wc, bau, negative); (colokkan listrik, tidak ada, negative)
+474 | terlalu berdebu dan kurang menarik . | 
+475 | terlalu berdebu dan kurang menarik . | 
+476 | kamar sangat bersih nyaman . pelayanan ramah . islamii banget . | (kamar, sangat bersih nyaman, positive); (pelayanan, ramah, positive)
+477 | lumayan depan kolam renang , ac dingin , . | (ac, dingin, positive)
+478 | pelayanan ramah sekali , namun gang jalan masuk terlalu kecil . untuk kamar nya sendiri ac nya kurang dingin , banyak nyamuk . | (pelayanan, ramah sekali, positive); (ac nya, kurang dingin, negative)
+479 | pelayanan ramah sekali , namun gang jalan masuk terlalu kecil . untuk kamar nya sendiri ac nya kurang dingin , banyak nyamuk . | (pelayanan, ramah sekali, positive); (ac nya, kurang dingin, negative)
+480 | lumayan bagus , tempat dkat dengan malioboro . harga hemat . | (harga, hemat, positive)
+481 | cukup nyaman , kualitas air dan wifi bagus . | (kualitas air, bagus, positive); (wifi, bagus, positive)
+482 | bagus tetapi agak sempit . | 
+483 | extra bednya yang kurang , terlalu soft saat ditiduri kasurnya . | (kasurnya, soft, negative)
+484 | extra bednya yang kurang , terlalu soft saat ditiduri kasurnya . | (kasurnya, soft, negative)
+485 | nyaman , ramah dan terjangkau , tidak terlalu dekat pusat kota jadi udaranya masih bersih dan sejuk . | (udaranya, bersih, positive); (udaranya, sejuk, positive)
+486 | nyaman , ramah dan terjangkau , tidak terlalu dekat pusat kota jadi udaranya masih bersih dan sejuk . | (udaranya, bersih, positive); (udaranya, sejuk, positive)
+487 | bagus , tidak ramai . tidak terlalu jauh dari pizza hut , kfc , dan mcd . bersih . kolamnya bagus . | (kolamnya, bagus, positive)
+488 | bagus , tidak ramai . tidak terlalu jauh dari pizza hut , kfc , dan mcd . bersih . kolamnya bagus . | (kolamnya, bagus, positive)
+489 | saya sangat suka dengan lingkungannya yang nyaman , kamarnya yang bersih , dan shower di kamar mandi yang kencang . jadi untuk kamar tidak ada masalah . namun untuk pegawai resepsionisnya kurang ramah pada tamu , sangat jarang sekali tersenyum dan justru terkesan tidak bersahabat . jadi saya memberikan " kurang baik " untuk attitude pegawainya . | (lingkungannya, nyaman, positive); (kamarnya, bersih, positive); (shower, kencang, positive); (pegawai resepsionisnya, kurang ramah, negative); (pegawai resepsionisnya, tidak bersahabat, negative); (attitude pegawainya, kurang baik, negative)
+490 | bagus banget jk kita bandingkan dengan harga yang kita dapatkan . tidak akan nyesal deh . | 
+491 | sangat kecewa kami sudah lelah mencari , akhirnya kami cari hotel lain ! | 
+492 | lumayan . tetapi kamar mandi agak menggenang . lama durutnya . | (kamar mandi, agak menggenang, negative)
+493 | kamar bersih , ac dingin , tetapi sarung bantal + seprai tidak bersih , masih ada noda , jadi kurang nyaman , minta yang baru tetap masih ada nodanya . | (kamar, bersih, positive); (ac, dingin, positive); (sarung bantal, tidak bersih, negative); (seprai, tidak bersih, negative)
+494 | nyaman dan fasilitas lumayan lengkap . hanya kebersihannya tidak di lakukan setiap hari berhubung saya menginap lebih dari 1 malam jadi agak risih dengan lantai yang tidak di bersihkan . untuk air mineral hanya diberikan saat check in dan untuk snacknya tidak ada . | (fasilitas, lumayan lengkap, positive); (snacknya, tidak ada, negative)
+495 | cukup baik . | 
+496 | sangat nyaman , kamar bersih , layanan 24 jam , pelayanan ramah tetapi hanya lokasi saja yang terlalu sepi dikarenakan di dalam perkomplekan . cari warung susah . harus keluar jauh dulu . | (kamar, bersih, positive); (pelayanan, ramah, positive)
+497 | sangat nyaman , kamar bersih , layanan 24 jam , pelayanan ramah tetapi hanya lokasi saja yang terlalu sepi dikarenakan di dalam perkomplekan . cari warung susah . harus keluar jauh dulu . | (kamar, bersih, positive); (pelayanan, ramah, positive)
+498 | sangat nyaman , kamar bersih , layanan 24 jam , pelayanan ramah tetapi hanya lokasi saja yang terlalu sepi dikarenakan di dalam perkomplekan . cari warung susah . harus keluar jauh dulu . | (kamar, bersih, positive); (pelayanan, ramah, positive)
+499 | puas banget , overall bagus , betah tinggal di sini , next pasti datang lagi , terimakasih airy . | (overall, bagus, positive)
+500 | sangat memuaskan . akhir pekan sering full booked . | 
+501 | puri ratu babarsari sangat bagus , tempat nyaman . untuk perbaikan ke depan , mohon disediakan hanger di lemari . selebihnya sudah oke semua . | (tempat, nyaman, positive); (selebihnya, oke, positive)
+502 | untuk harga yang kami dapat 200 ribu pada hari pasca lebaran sangat memuaskan , kamar bersih , rapi , kolam renang dan vie bagus hanya kami tidak dapat snack dan alat mandi dalam dompet airy seperti biasa . | (kamar, bersih, positive); (kamar, rapi, positive); (kolam renang, bagus, positive); (vie, bagus, positive); (snack, tidak dapat, negative); (alat mandi, tidak dapat, negative)
+503 | lumayan ayem , sayang acnya banyak yang rusak jadi kurang dingin . | (acnya, rusak, negative); (acnya, kurang dingin, negative)
+504 | biasanya aku dapat snack di room ini tidak sama sekali ac nya bau cuka ( tidak tahu seperti cuka tetapi aneh banget . | (ac nya, bau cuka, negative)
+505 | kamarnya bersih , pelayanan cukup oke , ada cemilan gratisnya di kamar lumayan banyak , terima kasih breakfastnya bervariasi . makanannya enak apalagi restonya berada di rooftop 4 floor . jadi sarapan bisa langsung lihat pemandangan laut yang bagus dan sunrise pagi ini itu keren dan indah banget kelihatan sekali dari rooftopnya , beruntung pas kesana cuacanya lagi cerah banget , terima kasih airy untuk pelayanannya cukup mengesankan . | (kamarnya, bersih, positive); (pelayanan, cukup oke, positive); (cemilan gratisnya, ada, positive); (breakfastnya, bervariasi, positive); (makanannya, enak, positive); (pelayanannya, cukup mengesankan, positive)
+506 | kamarnya bersih , pelayanan cukup oke , ada cemilan gratisnya di kamar lumayan banyak , terima kasih breakfastnya bervariasi . makanannya enak apalagi restonya berada di rooftop 4 floor . jadi sarapan bisa langsung lihat pemandangan laut yang bagus dan sunrise pagi ini itu keren dan indah banget kelihatan sekali dari rooftopnya , beruntung pas kesana cuacanya lagi cerah banget , terima kasih airy untuk pelayanannya cukup mengesankan . | (kamarnya, bersih, positive); (pelayanan, cukup oke, positive); (cemilan gratisnya, ada, positive); (breakfastnya, bervariasi, positive); (makanannya, enak, positive); (pelayanannya, cukup mengesankan, positive)
+507 | lumayan . hanya saja kalau malam air kurang kencang dan air panasnya tidak terasa . | (air, kurang kencang, negative); (air panasnya, tidak terasa, negative)
+508 | kamar nya bagus , tetapi tidak ada room pelayanan nya . cuma jangan khawatir karena depan hotel banyak banget yang jual makanan . | (kamar nya, bagus, positive); (room pelayanan nya, tidak ada, negative)
+509 | memang sangat murah menurut saya . hanya sayang tidak bersih , khususnya di kamar mandi . sepertinya berbulan bulan tidak dibersihkan , hanya disiram siram saja . | (kamar mandi, tidak bersih, negative)
+510 | sangat dekat dengan bandara bersih , harga terjangkau . | (harga, terjangkau, positive)
+511 | lumayan dengan harga segitu di balikpapan . | 
+512 | lumayan bersih , tetapi ada kecoak keluar , tolong di monitoring terus untuk kebersihan . recomended untuk backpacker . | 
+513 | lobi hotel bau gorengan , panas , kitchen ada di front office , baru lihat ada kitchen kecil di fo . lift mati , kamar ada cecunguk di bantal sangat menjijikan . saya minta cancel dan refund order saya 2 malam disini . | (lobi hotel, bau gorengan, negative); (lobi hotel, panas, negative); (lift, mati, negative); (kamar, ada cecunguk, negative)
+514 | cukup memuaskan menginap di airy room . terima kasih banyak airy room . | 
+515 | sebanding dengan harga lah , cukup memuaskan . | 
+516 | lumayan sama budget nya . | 
+517 | sangat sangat memuaskan . terimakasih airy syariah teluk bayur gatot subroto berau . | 
+518 | kue untuk breakfastnya enak , . kurang berkesan karena pegawainya kurang senyum , . pas datang engak jelas lihat pintu masuk hotelnya , . di ketuk " pintunya lah , . eh petugasnya datang memberikan tahu nya dengan nada agak galak . | (kue, enak, positive); (pegawainya, kurang senyum, negative)
+519 | kamarnya baik . pelayanan baik . meski check in terlambat tetap dibukakan pintu . | (kamarnya, baik, positive); (pelayanan, baik, positive)
+520 | memang sudah agak tua . kolam renang kotor , kamar mandi ada beberapa kecoaknya : ( . | (kolam renang, kotor, negative); (kamar mandi, ada beberapa kecoaknya, negative)
+521 | berssih . putih . tetapi agak masuk lokasi nya . di perumahan . | 
+522 | bersih , rekomendasi banget buat yang mau liburan di lembang . | 
+523 | yang buat heran saya , pasti sebelum tamu masuk kamar sudah dibereskan dan dibersihkan , apalagi kalau pakai airy ada bennefit lebih yang dirapikan dahulu di kamar sbelum pengunjung masuk . masa bau pengak seperti begitu tidak terasa ? bau nya nyengat banget , sampai buat pusing kepala . ditambah tidak ada ventilasi udara di kamarnya . sehingga sangat wajar jika saat awal diingatkan oleh petugas bahwa kamar no smoking area , sirkulasi udara mengandalkan ac , tetapi jadi parah saat ada bau pengap seperti yang saya alami diatas . | (bau nya, nyengat banget, negative); (ventilasi udara, tidak ada, negative)
+524 | kamar bersih . cuma biasanya dapat snack tetapi kok ini tidak ada iya . tidak ada lift jadi lumayan lah naik turun lantai 3 pakai tangga . | (kamar, bersih, negative); (snack, tidak ada, negative); (lift, tidak ada, negative)
+525 | kamarnya bersih , karyawannya ramah , cafenya bagus , enak buat tempat kumpulkumpul , akses ke hotel mudah , tempat strategis di pusat kota , dekat dengan tempat wisata , harga bersahabat , sangat recommended ! | (kamarnya, bersih, positive); (karyawannya, ramah, positive); (cafenya, bagus, positive); (akses, mudah, positive); (tempat, strategis, positive); (harga, bersahabat, positive)
+526 | cukup memuaskan . | 
+527 | kalau budget , agak berisik , kurangnya peredam ruangan di kamar , sehingga suara dari luar kamar terdengar sehingga ke dalam . | 
+528 | bersih , kamar luas , ac dingin , sangat puas . | (kamar, luas, positive); (ac, dingin, positive)
+529 | sangat memuaskan , bersih dan luas . | 
+530 | stafnya baik . rekomendasi buat yang punya dana sedikit tetapi ingin kenyamanan seperti hotel . akan pesan lagi kalau berobat lagi ke rspad gatot subroto dekat banget naik gocar cuma 12000 . | (stafnya, baik, positive)
+531 | saat lampu mati , pihak hotel tidak menyediakan genset buat cadangan . dan dua kali hotel mati lampu , serta waktu nya lumayan lama . | 
+532 | dekat banget sama jatim park 2 dan jatim park lainnya . | 
+533 | sangat nyaman : ) . | 
+534 | sangat baik , akan menginap lagi disini . | 
+535 | ini bentuknya kost an putri . cukup nyaman kalau hanya untuk istirahat . tetapi kalau bawa bayi batita kurang pas karena takut mengganggu penghuni kost . | 
+536 | agak kotor sekarang yah , banyak yang rusak dan tidak dibetulkan . tetapi overall oke lah . air panas langsung keluar , tetapi ketika malam airnya panasnya tidak ada . | (overall, oke, positive); (airnya panasnya, tidak ada, negative)
+537 | air panas susah . sedikit banget . cuma 5 menit habis langsung . room oke sih . | (air panas, susah, negative); (room, oke, positive)
+538 | kamar nyaman , bersih , pelayanan memuaskan , sarapan enak dan lokasi strategis . sangat recommended untuk kenyamanan maksimalis . | (kamar, nyaman, positive); (kamar, bersih, positive); (pelayanan, memuaskan, positive); (sarapan, enak, positive); (lokasi, strategis, positive); (kenyamanan, maksimalis, positive)
+539 | sya sangat suka . jauh dari expektasi sya . thaks airy . next harus ada kamar di daerah papua juga iya . | 
+540 | sangat dekat ke bandara . dan sangat mudah . ke bandara . dan tidak mahal . terimakasih . airy . , kalau pulkam pasti inap deh . | 
+541 | lumayan tetapi tidak kedap suara . | 
+542 | lampu kamar dan wc remangremang . spring bed lembab . wc banyak semut . ac nya juga tidak dingin . jalan menuju hotel juga rumit dan sempit sekali . padahal di foto bagus . sangat kecewa . | (lampu kamar dan wc, remangremang, negative); (spring bed, lembab, negative); (wc, banyak semut, negative); (ac nya, tidak dingin, negative)
+543 | kamar bagus bersih , rekomendasi banget lah dengan harga segitu . kolam berenangnya bersih . terimakasih airy room . | (kamar, bagus, positive); (kamar, bersih, positive); (kolam berenangnya, bersih, positive)
+544 | penginapannya menyenangkan . cuma nama hotelnya agak susah di cari padahal sebelah jalan . di situ dan . | (penginapannya, menyenangkan, positive)
+545 | bersih , fasilitas oke , strategis , sangat ekonomis . | (fasilitas, oke, positive)
+546 | sangat baik . hanya sayang tidak disediakan handun . | (handun, tidak disediakan, negative)
+547 | sangat memuaskan . guest house layak nya hotel 3 . recomended . akan kembali lagi . | 
+548 | minusnya jalan masuk ke hotel agak sempit , tetapi mobil bisa masuk . | 
+549 | pelayanan memuaskan , kamar juga nyaman , cuma gedungnya tidak terlalu terlihat , sempat bingung nyarinya , tetapi sangat nyaman untuk beristirahat terimakasih . | (pelayanan, memuaskan, positive); (kamar, nyaman, positive); (gedungnya, tidak terlalu terlihat, negative)
+550 | sangat buruk ! saya datang kesana malam hari mala seperti pengemis tidak dibukakan pintu . di telepon pihaknya mala tidak . | 
+551 | suasana kamar tidak seperti airy room biasanya . remote tv tidak bisa digunakan dan terlalu sepi . tetapi , pelayanan cukup oke . | (remote tv, tidak bisa digunakan, negative); (pelayanan, cukup oke, positive)
+552 | suasana kamar tidak seperti airy room biasanya . remote tv tidak bisa digunakan dan terlalu sepi . tetapi , pelayanan cukup oke . | (remote tv, tidak bisa digunakan, negative); (pelayanan, cukup oke, positive)
+553 | sangat mengecewakan sekali , kamar dan fasilitas tidak sesuai dengan foto yang tercantum pada penawaran di . | (kamar, tidak sesuai, negative); (fasilitas, tidak sesuai, negative)
+554 | sangat bagus , lokasi strategi dan bersih , pasti akan menginap disini lagi . | (lokasi, strategi, positive); (lokasi, bersih, positive)
+555 | agak kecewa iya tetapi maklum hotel tua tetapi pelayanannya jempol . | (pelayanannya, jempol, positive)
+556 | depet nya tidak sama he mklum lihat nya di gambar , agak kecil sedikit . tetapi tetap oke lah gpp untuk kebrsihan kamar oke pelayanan ramah di sediakan penyewaan motor juga jadi gampang deh kemana " . | (kebrsihan kamar, oke, positive); (pelayanan, ramah, positive)
+557 | depet nya tidak sama he mklum lihat nya di gambar , agak kecil sedikit . tetapi tetap oke lah gpp untuk kebrsihan kamar oke pelayanan ramah di sediakan penyewaan motor juga jadi gampang deh kemana " . | (kebrsihan kamar, oke, positive); (pelayanan, ramah, positive)
+558 | nyaman , dekat banget dengan gd sate bandung indah plaza dan lainlain dengan harga trjgkau aplgi pakai promo , recomended buat yang mau liburan di kota bandung . | 
+559 | cukup memuaskan , walaupun sempat ada kerusakan di keran air toilet . | 
+560 | untuk jet washer airnya beraroma iya , kalau bisa dibenahi supply air untuk jet washer karena sangat menyengat saat di gunakan , agak mengganggu kenyamanan dengan aroma yang ditimbulkan . untuk yang lain saya merasa puas . terima kasih . | (jet washer airnya, beraroma, negative); (air, sangat menyengat, negative); (yang lain, puas, positive)
+561 | cukup bersih dan nyaman . | 
+562 | ok . cukup luas dan lengkap . ! | 
+563 | sangat memuaskan lah menginap disini , dan di dalam kota lagi . tidak nyesal sudah hotel nya nyaman pkok nya . | (hotel nya, nyaman, positive)
+564 | tempat nyaman tenang enak buat liburan sama keluarga . recommended banget . | (tempat, nyaman, positive); (tempat, tenang, positive); (tempat, enak, positive)
+565 | sangat senang bisa berkunjung , semuanya te o pe , recommended ! | 
+566 | untuk yang menginap disini dengan kendaraan pribadi sangat reccomended , karena lokasi di dalam perumahan . overall bagus dengan harga segitu di bogor . | (overall, bagus, positive)
+567 | fasilitas oke , hanya agak berisik karena area sekitar lokasi sedang ada proyek pembangunan . | (fasilitas, oke, positive)
+568 | cukup memuaskan untuk sebuah hotel transit . | 
+569 | lumayan lah dengan hsrga segitu discount dari local guade dan airy . | 
+570 | sangat memuaskan . fasilitas baik , pelayanan ramah , breakfast menarik ( tetapi kurang bervariasi ) . | (fasilitas, baik, positive); (pelayanan, ramah, positive); (breakfast, menarik, positive); (breakfast, kurang bervariasi, negative)
+571 | bersih tetapi lumayan berisik kalau malam . | 
+572 | sangat baik . ada snack nya . senang ada jendelanya , jadi bisa buka jendela . | (snack nya, ada, positive)
+573 | lumayan , cuma channel tv nya banyak yang kabur . | (channel tv nya, banyak yang kabur, negative)
+574 | sangat kotor , banyak semut , selimutnya dan handuknya kecil , cleaning pelayanan nya tidak mau buang sampah padahal saya 2mlm , dibiarkan saja nmpuk , seprai juga tidak jelas diganti . kalau tidak disuruh bersihkan kamar tidak dibersihkan . | (selimutnya, kecil, negative); (handuknya, kecil, negative); (seprai, tidak jelas diganti, negative)
+575 | cukup nyaman kalau hanya untuk istirahat . tetapi kalau bawa bayi batita kurang pas karena takut mengganggu penghuni kost . | 
+576 | pas kebetulan waktu inap pas lagi acara wisudaan beberapa universitas jadi full terus dan yang disayangkan untuk makan pagi pegawainya belum datang jadi kalau yang pagi banget tidak makan jdnya . | 
+577 | saat check in harus ninggalin uang deposit agak ribet jadi nya karena biasa nya airy tidak ada buat deposit ribet karena tidak ada pemberitaun dari pihak airys sebelum nya moga kedepan nya lebih baik . | 
+578 | kamar minimalis namun tetap nyaman . | (kamar, minimalis, negative); (kamar, nyaman, positive)
+579 | kamar nyaman , harga terjangkau , bersih , kamar mandi bersih , nyaman . cocoknya memang untuk tempat beristirahat karrna agak jauh dari jalan raya . | (kamar, nyaman, positive); (harga, terjangkau, positive); (kamar mandi, bersih, positive); (kamar mandi, nyaman, positive)
+580 | penjaganya ramah . semuanya sesuai ekspetasi tidak ada masalah , cocok banget buat tempat peristirahatan selama liburan buat yang budgetnya pas pasan . | (penjaganya, ramah, positive); (semuanya, sesuai, positive)
+581 | bersih dan nyaman cuma agak berisik . | 
+582 | cukup baik , pelayanan ramah , cuma seprai agak kotor dan lantai nya sedikit lengket . | (pelayanan, ramah, positive); (seprai, agak kotor, negative); (lantai nya, sedikit lengket, negative)
+583 | sangat baik . | 
+584 | kamar luas banget , bisa diisi banyakan tetap nyaman . kamar mandi mewah luas . rekomen banget . pasti balik lagi kesini . | (kamar, luas banget, positive); (kamar mandi, mewah, positive); (kamar mandi, luas, positive)
+585 | cukup nyaman , bersih , hanya agak jauh dari jalan utama . | 
+586 | cukup nyaman , bersih , hanya agak jauh dari jalan utama . | 
+587 | cukup baik untuk liburan keluarga . | 
+588 | biasa saja , tidak terlalu ramai , pelayanannya bagus dan ramah . | (pelayanannya, bagus, positive); (pelayanannya, ramah, positive)
+589 | biasa saja , tidak terlalu ramai , pelayanannya bagus dan ramah . | (pelayanannya, bagus, positive); (pelayanannya, ramah, positive)
+590 | lokasi di daerah komplek , . kalau untu kamar yang singel room itu mmg kecil , area untu sholat di kamar terbatas , mungkin kedepannya bisa diganti seprainya karena ada noda yang kurang sedap dipandang , tetapi secara keseluruhan untuk yang menginap sehari sangat cocok dengan budget minimal . | (seprainya, kurang sedap dipandang, negative)
+591 | ini kali kedua menginap di airy umbulharjo babaran 71 homestay rasa hotel berbintang . recomanded banget . | 
+592 | ( - ) tempatnya kurang bersih . tipetipe penginapan lama . aku personal terus terang agak seram . tidak sempat sarapan karena baru siap jam 7 , padahal terlanjur pergi . ( + ) pegawainya cukup ramah . | (tempatnya, kurang bersih, negative); (pegawainya, cukup ramah, positive)
+593 | tidak ada yang bertulisan airy di room 107 , remote tv tidak bisa di pakai ( rusak ) , remote ac tidak ada ( hidupin ac manual ) , perlengkapan kamar mandi hanya ada handuk . kami sangat kecewa yang di room 107 room 103 sangat puas perlengkapan room ada semua . | (remote tv, tidak bisa, negative); (remote ac, tidak ada, negative)
+594 | cukup bersih dan wifi okelah . | (wifi, okelah, positive)
+595 | sudah cukup baik . harga segitu cuma untuk istirahat sudah sangat bagus . hanya saja air hangatnya kurang berfungsi dengan baik . | (harga, sangat bagus, positive); (air hangatnya, kurang berfungsi dengan baik, negative)
+596 | recommended banget untuk harga segitu . | 
+597 | resepsionis baru bangun . pelayanan kurang ramah , sampai disana pun kamar belum disiapkan , padahal sudah jauh banget dari jam check in , terus ac tidak nyala dan harus menunggu lagi , waktu check out juga mengecewakan . saya tidak ingin menginap dihotel ini lagi . | (resepsionis, baru bangun, negative); (pelayanan, kurang ramah, negative); (kamar, belum disiapkan, negative); (ac, tidak nyala, negative); (check out, mengecewakan, negative)
+598 | sangat menyenangkan . | 
+599 | sangat buruk . sudah pesan dan bayar tetapi dibatalkan sepihak sama airy . tidak lagi pakai airy . | 
+600 | lumayan twrjangkau , putaran air keran nya kadang panas kadang dingin : ) . | (air keran nya, kadang panas kadang dingin, negative)
+601 | nyaman sih . cuma agak sempit . makanan lumayanlah untuk perut lapar . tetapi kopinya amat sangat tidak enak . pelayanan ramah . kamar bersih . kurang relah rela beli neskafe sachet dari pada minum kopinya hotel . | (makanan, lumayanlah, positive); (kopinya, amat sangat tidak enak, negative); (pelayanan, ramah, positive); (kamar, bersih, positive)
+602 | pilih kamar yang kasurnya muat 2 orang . awalnya bagus tetapi tengah malam listriknya habis dan disuruh pindah kamar yang kasurnya lebih kecil . tidak ada disediakan pouch yang isinya perlengkapan mandi . agak kecewa sebenarnya . | (awalnya, bagus, negative); (listriknya, habis, negative); (kasurnya, kecil, negative); (pouch yang isinya perlengkapan mandi, tidak ada disediakan, negative)
+603 | 1 . hentikan kontak dari yang tersedia 6 lubang , yang bisa dipakai cuma 1 lubang , 2 lubang buat tv dan kulkas . kok pelit listrik banget , terus pas pakai kompor listrik bahkan turun daya . | (yang bisa dipakai, cuma 1, negative); (listrik, pelit, negative); (daya, turun, negative)
+604 | lumayan lah . meski lelah naik turun tangga mantap . | (tangga, lelah naik turun, negative)
+605 | kolam renang nya kotor sik . tetapi pelayanannya lumayan untuk budget sangat . | (kolam renang nya, kotor, negative); (pelayanannya, lumayan, positive)
+606 | cukup baik hanya sedang renovasi jadi terlihat kotor , pelayanan oke . | (pelayanan, oke, positive)
+607 | sangat ramah , sangat bersih , sangat memuaskan . | 
+608 | pelayanan ramah , hotel baru , kamar mandi besar , tetapi sayangnya air panas untuk malam tidak menyala ( agak kecewa dengan ini ) . | (pelayanan, ramah, positive); (hotel, baru, positive); (kamar mandi, besar, positive); (air panas, tidak menyala, negative)
+609 | sangat memuaskan . tempat nyaman , bersih , penjaga nya ramah , dekat dengan prawirotaman . harga terjangkau . | (tempat, nyaman, positive); (penjaga nya, ramah, positive); (prawirotaman, dekat, positive); (harga, terjangkau, positive)
+610 | hotel bagus dan pemandanganya juga bagus . tetapi kusus buat kamat airynya benarbenar berbeda sekali dengan kamar lainya , kamar airynya banyak sarang labalaba tempat tidur yang sudah tidak nyaman karena pernya berasa banget dibadan dan sudah miringmiring , ac dikamat juga tidak dingin apa lagi kamar tidak ada ventilasi sama sekali jadi semakin berasa pengap . | (hotel, bagus, positive); (pemandanganya, bagus, positive); (kamat airynya, benarbenar berbeda sekali dengan kamar lainya, negative); (kamar airynya, banyak sarang labalaba, negative); (tempat tidur, tidak nyaman, negative); (ac, tidak dingin, negative); (kamar, pengap, negative); (ventilasi, tidak ada, negative)
+611 | cukup nyaman . | 
+612 | mantap , kamar bersih , fasilitas mewah , pelayanan ramah . sangat recommended . | (kamar, bersih, positive); (fasilitas, mewah, positive); (pelayanan, ramah, positive)
+613 | cukup baik , namun fasilitas kamarnya banyak yang rusak . | (fasilitas kamarnya, rusak, negative)
+614 | lumayan lah . sangat terjangkau , namun perlu ada yang dibenahi soal kebersihan kasurnya . kemarin saya mendapati kasurnya jorok , banyak helai rambut , sepertinya belum dibersihkan belum diganti seprai bekas pengunjung sebelumnya . | (kebersihan kasurnya, perlu ada yang dibenahi, negative); (kasurnya, jorok, negative); (dibersihkan, belum, negative); (seprai, belum diganti, negative)
+615 | lumayan lah . sangat terjangkau , namun perlu ada yang dibenahi soal kebersihan kasurnya . kemarin saya mendapati kasurnya jorok , banyak helai rambut , sepertinya belum dibersihkan belum diganti seprai bekas pengunjung sebelumnya . | (kebersihan kasurnya, perlu ada yang dibenahi, negative); (kasurnya, jorok, negative); (dibersihkan, belum, negative); (seprai, belum diganti, negative)
+616 | bagus nyaman beraih rapi wangi , top banget . | 
+617 | kamar nyaman cuma parkir untuk kendaraan roda 4 yang kurang jadi agak kesulitan untuk parkir . | (kamar, nyaman, positive); (parkir, kurang, negative)
+618 | lokasi memang strategis walaupun memang agak terganggu karena tepat di depan hotel sedang ada pembangunan . namun resepsionis laki laki yang rambutnya di cat sedikit warna putih , tidak ada senyum sama sekali , cenderung kaku seperti robot . | (lokasi, strategis, positive); (resepsionis, kaku, negative)
+619 | sangat nyaman dan pemandangan nya bagus . | (pemandangan nya, bagus, positive)
+620 | baik dan sangat nyaman . | 
+621 | good dan recomended banget . | 
+622 | keluarga ketinggalan kacamata baca tetapi baru beberapa jam kemudian kami datangi kembali informasi yang kami dapat justru sangat mengecewakan bahwa kacamata tersebut sudah dibuang . hal ini yang sangat disesalkan sekali bukannya disimpan terlebih dahulu . | (kacamata, dibuang, negative)
+623 | kebersihan sama pelayanannya oke . recommended banget . | (kebersihan, oke, positive); (pelayanannya, oke, positive)
+624 | sangat puas , pelayanan baik . | (pelayanan, baik, positive)
+625 | kotor dan tidak bagus servicenya . kapok banget . | (servicenya, tidak bagus, negative)
+626 | saya cek in tanggal 2 maret 2018 hari jumat tetapi malamnya saya tidak tidur dikamar dan kunci tetap saya bawa . dan saya besoknya dihubungi oleh pihak penjaga bahwasannya kamar saya dimasukin mereka karena ada yang bocor dipipa wastafel . lalu mereka mengganti kamar saya dan kamar yang digantikan bekas dipakai orang . karena ada handuk basah dan kotor . | (handuk, basah, negative); (handuk, kotor, negative)
+627 | agak bau rokok : ) . | 
+628 | tidak layak untuk hotel , penginapan apalagi airy room yang terkenal dengan bersih nyaman dengan harga lumayan standar bagi kita hanya sekedar numpang tidur . | (hotel, tidak layak, negative)
+629 | kebersihan seprai harus tetap dijaga iya . tetapi overall semua oke . | (overall, oke, positive)
+630 | kamar rapi , nyaman , pelayanan ramah . recomended banget deh . tetapi sayang pas buka tirai jendela , pemandangan nya kurang bagus . | (kamar, rapi, positive); (kamar, nyaman, positive); (pelayanan, ramah, positive); (pemandangan nya, kurang bagus, negative)
+631 | banyak jaring laba laba kasur berisik sangat tidak layak dengan nama besar dan sering malang melintang di iklan tv , sangat butuh perbaikan kedepannya . | (kasur, banyak jaring laba laba, negative)
+632 | cukup memuaskan dan tempat nya tenang . | (tempat nya, tenang, positive)
+633 | dekat banget sama tempat pemberlanjaan . | 
+634 | pelayanannya sangat baik , cocok banget buat para traveller yang ingin inap di daerah ciputat . | (pelayanannya, sangat baik, positive)
+635 | sangat baik . | 
+636 | lumayan buat istirahat . | 
+637 | sebel karena restoran tempat sarapan ruangan ber ac tetapi diperbolehkan merokok bau nya sangat mengganggu pernapasan bagi yang tidak merokok . | (merokok, diperbolehkan, negative); (bau, mengganggu pernapasan, negative)
+638 | cukup nyaman tetapi ac nya kurang dingin . | (ac nya, kurang dingin, negative)
+639 | tenang cuma agak kepanasan sedikit ac kurang stabil . | (ac, kurang stabil, negative)
+640 | cukup sekali . selimut masih bau , buat tidak nyaman tidur . yah sesuai harga lah . | (selimut, bau, negative)
+641 | sangat memuaskan , penjaganya ramah . ac cukup dingin . | (penjaganya, ramah, positive); (ac, cukup dingin, positive)
+642 | overall nyamanlah . lokasi dekat stasiun , banyak warung makan dan laundri si sekitar . ac dingin , kamar mandi lumayan tanpa pemanas , tv oke . cuma agak sempit saja dan wifi tidak bisa diakses . | (overall, nyamanlah, positive); (lokasi, dekat stasiun, positive); (warung makan, banyak, positive); (laundri, banyak, positive); (ac, dingin, positive); (kamar mandi, lumayan, positive); (pemanas, tanpa, negative); (tv, oke, positive); (wifi, tidak bisa diakses, negative)
+643 | bagus ini nyaman banget yang kurang itu coba saja ada termos yang teko buat masak air panas sama teh saset sama gula jadi pagi " bisa buat teh . tetapi ini sudah bagus kok . | (termos, coba saja ada, negative)
+644 | sangat memuaskan . kamar dibersihkan tiap hari , handuk diganti , ada welcome snack , dilengkapi dengan pemanas air dan pengering rambut . | (kamar, dibersihkan, positive); (handuk, diganti, positive); (welcome snack, ada, positive); (pemanas air, dilengkapi, positive); (pengering rambut, dilengkapi, positive)
+645 | sudah lunas bayar tetapi kamar tidak tersedia sampai harus menunggu dan agak rebutan dengan pelanggan lainnya agar dapat kamar . | (kamar, tidak tersedia, negative); (kamar, menunggu, negative); (kamar, rebutan, negative)
+646 | cukup baik kok . tetapi , kamar yang saya dapat no window . dan handuknya kotor , mengeluh . selebihnya seperti ac dan air panas si oke saja . | (window, no, negative); (handuknya, kotor, negative); (selebihnya, oke, positive); (ac, oke, positive); (air panas, oke, positive)
+647 | iya lumayan baik , semoga airy lebih jaya lagi dan nilai lebih bersaing dengan travel yang lain dan kami terjangkau oleh pengguna jasa airy terimakasih . | 
+648 | untuk harga murah , worth it . bersih , cukup tenang , mudah ditemukan . dekat alfamidi . | (harga, murah, positive)
+649 | pelayananya ramah dan pokoknya keren banget deh . | (pelayananya, ramah, positive)
+650 | nyaman dan bersih banget ! | 
+651 | kamarnya sempit dan pengap . unik memang designnya . kalau luas sedikit lagi saja pasti bagus . dan ventilasi / blower . itu perlu banget . posisi ac perlu diganti . | (kamarnya, sempit, negative); (kamarnya, pengap, negative); (designnya, unik, positive); (posisi ac, perlu diganti, negative)
+652 | yah sebenarnya tidak berharap bagaimana juga . karena memang sesuai harga sih . tetapi yang agak buat kesel di kamar mandi jorok sekali . ada handuk bekas orang menginap dan masih bau pesing . | (kamar mandi, jorok sekali, negative); (kamar mandi, bau pesing, negative)
+653 | sangat bagus dan sangat nyaman . | 
+654 | sangat puas . | 
+655 | lumayan bagus dan tempat nya strategis . | (tempat nya, strategis, positive)
+656 | kamar bersih , toilet bersih , ac dingin , air panas lancar , nyamuk lumayan banyak , mohon diperhatikan , saat sarapan tidak diberitahu makanannya sudah dingin jadi tidak enak . | (kamar, bersih, positive); (toilet, bersih, positive); (ac, dingin, positive); (air panas, lancar, positive); (sarapan, tidak enak, negative)
+657 | sangat baik pelayanan prima . | (pelayanan, prima, positive)
+658 | lumayan untuk budget hotel . | 
+659 | sangat direkomendasikan untuk tinggal disini , bersih , sunyi dan tenang , dapat welcome snack dan ibunya so friendly . bintang 5 deh . | (welcome snack, dapat, positive); (ibunya, friendly, positive)
+660 | sangat memuaskan . liburan bersama keluarga dan orang tua . anak sangat senang karena bisa main di kolam renang . | 
+661 | bersih banget , kamar mandi bersih , kasur tv dan ada snacknya , senang banget menginap disini , bakal jadi langganan . | (kamar mandi, bersih, positive); (snacknya, ada, positive)
+662 | kamar sangat bagus untuk biaya ekonomis . rekomen banget . | (kamar, sangat bagus, positive)
+663 | naik ke lantai 3 jam tangga , lelah . tetapi kamar nya mantap , bersih , nyaman , dan tenang buat istirahat . puas banget inap disini . | (kamar nya, mantap, positive); (kamar nya, bersih, positive); (kamar nya, nyaman, positive); (kamar nya, tenang, positive)
+664 | tempat nya bagus cuma sebelah studio musik jadi lumayan berisik . | (tempat nya, bagus, positive)
+665 | pemilik penginapan ramah dan kamarnya bersih , sangat memuaskan . | (pemilik penginapan, ramah, positive); (kamarnya, bersih, positive)
+666 | saya sangat puas pertama kali menginap 2 malam di airy rooms . fasilitas lengkap , bersih , rapi dan nyaman banget pokoknya baru kali ini saya menginap seperti di hotel berbintang dengan harga yang sangat terjangkau sukses terus iya perbanyak diskon biar saya seringsering menginap , betah banget ! | (fasilitas, lengkap, positive)
+667 | saya sangat puas pertama kali menginap 2 malam di airy rooms . fasilitas lengkap , bersih , rapi dan nyaman banget pokoknya baru kali ini saya menginap seperti di hotel berbintang dengan harga yang sangat terjangkau sukses terus iya perbanyak diskon biar saya seringsering menginap , betah banget ! | (fasilitas, lengkap, positive)
+668 | sangat kecewa , dapat konfirmasi kamar ini penuh , padahal sebelum saya bayar masih ada 1 kamar kosong , mohon di perbaiki . | (kamar, penuh, negative)
+669 | saat saya memilih tempat ini , sangat mengecewakan dari pihak airy , karena pesanan kar saya di batalkan tibatiba . dengan alasan kamar telah penuh . padahal saya sudah memesan kamar hotel ini melalui airy dan sudah melakukan pembayaran . dan invoice saya sudah terbit . sangat kecewa dengan pihak airy . | (kamar, penuh, negative)
+670 | lumayan memuaskan . | 
+671 | tidak terlalu berisik meski di kuta . | 
+672 | tidak terlalu berisik meski di kuta . | 
+673 | terlalu kecil dan sempit . | 
+674 | terlalu kecil dan sempit . | 
+675 | cukup memuaskan sesuai dengan harganya . | 
+676 | lumayan karena letaknya ditengah kota dan disediakan makanan ( breakfast ) juga . pegawai hotelnya pun ramah . tetapi untuk kamar tidak terlalu nyaman , pengap dan buat pusing . kamar mandi hotel berbunyi krietkriet sewaktu lantainya diinjak dan sedikit bau . | (makanan, disediakan, positive); (pegawai hotelnya, ramah, positive); (kamar, tidak terlalu nyaman, negative); (kamar, pengap, negative); (kamar, buat pusing, negative); (kamar mandi, berbunyi, negative); (kamar mandi, sedikit bau, negative)
+677 | lumayan , tetapi air panas nya tidak hidup . | (air panas nya, tidak hidup, negative)
+678 | lokasi strategis harga murah dan ada kolam renang . cukup pantas . | (lokasi, strategis, positive); (harga, murah, positive); (kolam renang, ada, positive)
+679 | alhamdulillah , terimakasih banyak airy nusa dua alam bali : ) suasana yang tenang dan rindang , dipadu dengan budaya bali , sangat menentramkan hati . plus bersih , pelayanan juga ramah dan fast respons . recommended : ) . | (suasana, tenang, positive); (suasana, rindang, positive); (pelayanan, ramah, positive); (respons, fast, positive)
+680 | bersih dan sangat nyaman , terima kasih efa hotel . | 
+681 | terima kasih , disini sangat nyaman banget menurutku . semoga next bisa menginap lagi disini . | 
+682 | terima kasih , disini sangat nyaman banget menurutku . semoga next bisa menginap lagi disini . | 
+683 | layanan nya memuaskan . masukan saja kamar yang kami tempati agak bau nya kurang enak . mungkin kamar nya bisa di kasih pengharum ruanagan . | (layanan nya, memuaskan, positive); (bau nya, kurang enak, negative)
+684 | lumayan enak sih dan sebenarnya dekat dari kuta kalau mau jalan kaki . | 
+685 | bagus kamarnya nyaman , bersih , pelayanan ramah . cuma agak jauh iya mau kmana mana susah . masuknya dalam banget . tetapi buat yang ingin cari ketenangan cocok dehh . | (kamarnya, nyaman, positive); (kamarnya, bersih, positive); (pelayanan, ramah, positive)
+686 | bagus kamarnya nyaman , bersih , pelayanan ramah . cuma agak jauh iya mau kmana mana susah . masuknya dalam banget . tetapi buat yang ingin cari ketenangan cocok dehh . | (kamarnya, nyaman, positive); (kamarnya, bersih, positive); (pelayanan, ramah, positive)
+687 | tempatnya luas . suka banget . | (tempatnya, luas, positive)
+688 | sangat baik . recomended untuk menginap . | 
+689 | kamar mandi dan wc tidak enak . shower lepas . gantungan baju pun tidak ada . tv tabung tidak ada tv cable . kecewa banget . | (kamar mandi, tidak enak, negative); (wc, tidak enak, negative); (shower, lepas, negative); (gantungan baju, tidak ada, negative); (tv cable, tidak ada, negative)
+690 | sudah sangat bagus untuk hotel yang baru , mungkin lebih di perbanyak fasilitasnya agar lebih baik lagi . | 
+691 | lokasinya dekat banget sama perempatan sadang dan rsia asri , cocok ini untuk yang menunggu kerabatnya di rs buat menginap disini . | (lokasinya, dekat, positive)
+692 | cukup bagus . kamar luas . | (kamar, luas, positive)
+693 | over all okey cuma ac nya yang kurang dingin jadi gerah banget . | (over all, okey, positive); (ac nya, kurang dingin, negative)
+694 | rekomen banget pokonya , enak , pelayanannya baik , lumayan ramah , bagus juga kamarnya . | (pelayanannya, baik, positive); (pelayanannya, lumayan ramah, positive); (kamarnya, bagus, positive)
+695 | sangat menyenangkan , kamar bersih fasilitas oke banget sesuai sama digambar . | (kamar, bersih, positive); (fasilitas, oke banget, positive); (fasilitas, sesuai, positive)
+696 | ternyata hotel wisata . fasilitas cukup minus pastikan gigiminus ada nyamuk agak lembab walaupun di luar ekpektasi tetapi cukup memuaskan . | (fasilitas, cukup minus, negative); (fasilitas, cukup memuaskan, positive)
+697 | cukup bagus . saya kurang paham saya tidak tahu tetapi saya cari tempat sampah kok tidak ada iya . a . | (tempat sampah, tidak ada, negative)
+698 | tetap ada minus dan plusnya saja . | 
+699 | sangat nyaman , sangat memuaskan . | 
+700 | kamarnya bersih tetapi sedikit berbau , tidak ada jendela . handle switch keran bath tub ke shower sudah rusak , jadi harus ditahan jika ingin menggunakan shower . handuk , peralatan mandi dan sanitary lengkap . dikasih cemilan dan air minum . wifi nya oke . untuk harga begini lumayan : ) . | (kamarnya, bersih, positive); (kamarnya, sedikit berbau, negative); (jendela, tidak ada, negative); (handle switch keran bath tub, rusak, negative); (handuk, lengkap, positive); (peralatan mandi, lengkap, positive); (sanitary, lengkap, positive); (wifi nya, oke, positive)
+701 | cukup memuaskan dan refresentatif untuk transit . | 
+702 | over all , suka banget lah menginap di sini , apalagi dapat diskon lumayan dari airy . | (over all, suka banget, positive)
+703 | tempat tidur jangan terlalu dekat dengan plafon karena sulit bagi orang yang tidak biasa dengan ruang sempit susah bernapas dengan baik . | 
+704 | tempat tidur jangan terlalu dekat dengan plafon karena sulit bagi orang yang tidak biasa dengan ruang sempit susah bernapas dengan baik . | 
+705 | cukup nyaman hanya saja banyak orang merokok di dekat ruang resepsionis . | 
+706 | pelayanan memuaskan , merek mengijinkan untuk early check in dan sangat homey , breakfast yummy . | (pelayanan, memuaskan, positive); (breakfast, yummy, positive)
+707 | lumayan tetapi kamar sangatlah kecil . | (kamar, sangatlah kecil, negative)
+708 | cukup nyaman kamar besar tetapi ac kurang dingin . enaknya cukup dekat kemanakemana tempat strategis . | (kamar, besar, positive); (ac, kurang dingin, negative); (tempat, strategis, positive)
+709 | rekomen banget buat budget terbatas fasilitasnya semua oke . | (fasilitasnya, oke, positive)
+710 | cukup puas . hanya kamar madinya sempit banget iya . tetapi cukup lah buat kembali packer an . lain lainnya puas semua . | (kamar madinya, sempit banget, negative); (lainnya, puas, positive)
+711 | so far lumayan sih buat budget hotel . tetapi pelayanannya agak kurang ini , wifi tidak terhubung , terus mau bersih up room , kunci digantungin begitu saja di pintu kamar , tidak disimpen lagi di resepsionis . | (pelayanannya, agak kurang, negative); (wifi, tidak terhubung, negative)
+712 | pelayanan okey . bersih , lumayan lah . | (pelayanan, okey, positive)
+713 | bagus . recommended banget . | 
+714 | kamarnya sangat bagus . bersih dan nyaman dan yang paling penting harganya yang sangat miring di banding hotel lainya . pokoknya mantap banget ini buat kalian yang butuh peristirahatan . | (kamarnya, sangat bagus, positive); (kamarnya, bersih, positive); (kamarnya, nyaman, positive)
+715 | bagus dan cukup menarik . | 
+716 | bersih banget . tetapi sayang tidak ada smoking room dan smoking area . | (smoking room, tidak ada, negative); (smoking area, tidak ada, negative)
+717 | agak horor . | 
+718 | dekat kemana mana , bagus , cukup nyaman . | 
+719 | saya sudah beberapa kali menginap disini . so far sangat puas . | 
+720 | ac tidak dingin , tidak bisa change kamar pula dan parkiran sempit hanya cukup 5 motor . cukup sekali kesini deh . | (ac, tidak dingin, negative); (parkiran, sempit, negative)
+721 | lumayan , harga murah banged . | (harga, murah banged, positive)

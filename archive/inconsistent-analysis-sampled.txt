@@ -1,0 +1,50 @@
+banyak para pengunjung yang berpenampilan kurang sopan . anakanak pada takut . | (pengunjung, berpenampilan kurang sopan, negative)
+kamar kotor bau , ada bekas handuk orng ( kamar gavdi bersihkan ) , banyak kecoak dan nyamuk , ranjang kotor , pesan yang 1 ranjang besar di kasih yang twin bed , kamar mandi jorok ada bekas darah orang , susah sinyal , harus ke cafe baru dpet wifi , sry saya jujurjujur saja bukan di buatbuat , terimakasih . | (kamar, kotor, negative); (kamar, bau, negative); (ranjang, kotor, negative); (kamar mandi, jorok, negative); (wifi, susah sinyal, negative)
+bagus wih , lokasi oke banget dekat kemanakemana , tetapi tidak terlalu berisik . kamar luas tetapi ac tidak dingin . | (lokasi, oke banget, positive); (lokasi, tidak terlalu berisik, neutral); (kamar, luas, positive); (ac, tidak dingin, negative)
+kamar nyaman , suasana tenang . | (kamar, nyaman, positive); (suasana, tenang, positive)
+pelayanan baik , tengah kota . | (pelayanan, baik, positive)
+kamar bersih . | (kamar, bersih, positive)
+top . pelayanan memuaskan . | (pelayanan, memuaskan, positive)
+resepsionis selalu ada . tetapi entah jika ada peraturan sop gorden dari airy nya . | (resepsionis, selalu ada, positive)
+very recommended , nyaman . | 
+kamar bersih . nyaman . tenang . pelayanan ramah . next time akan kembali lagi . rekomendedd . terimakasih airyrooms . | (kamar, bersih, positive); (kamar, nyaman, positive); (kamar, tenang, positive); (pelayanan, ramah, positive)
+dengan rate yang diberikan , fasilitas kamar yang diberikan cukup memuaskan . desain kamar yang agak unik , memberikan nuansa yang lain , dengan kebersihan yang lumayan baik , walau benerapa sudut kurang diperhatikan seperti tempat sampah yang sudah agak rusak . | (fasilitas kamar, cukup memuaskan, positive); (desain kamar, agak unik, positive); (kebersihan, lumayan baik, positive); (tempat sampah, agak rusak, negative)
+kamar oke . wifi oke . cuma agak kurang nyaman kamar mandinya dan pas kesana ada mati listrik , tetapi selain itu . oke semua . | (kamar, oke, positive); (wifi, oke, positive); (kamar mandinya, agak kurang nyaman, negative); (listrik, mati, negative); (semua, oke, positive)
+good , tetapi gadapet fasilitas dari airy rooms seperti biasanya , huhu . | (fasilitas, gadapet, negative)
+bersih . nyaman meskipun lokasi agak susah dicari . | (lokasi, agak susah dicari, negative)
+buat saya ini yang kedua kali bermlm di hotel citi smart gatsu . terimakasih . | 
+tempatnya nyaman , bersih cuma tidak ada lift . | (tempatnya, nyaman, positive); (tempatnya, bersih, positive); (lift, tidak ada, negative)
+sayang tidak ada breakfastnya . hihihj . | (breakfastnya, tidak ada, negative)
+bau pesing . tolong di perhatikan . kotor juga . | 
+pelayanannya oke . | (pelayanannya, oke, positive)
+kamar tidak seperti yang ada di foto . kotor . pintu seperti kamar koskosan . | (kamar, tidak seperti, negative); (kamar, kotor, negative)
+kemarin pagi pagi airnya kotor , tidak bisa mandi , padahal mau ada acara . katanya ada perbaikan . mungkin masukan perbaikannya dilakukan saat orang tidak butuh air , terimakasih . | (airnya, kotor, negative)
+villanya bersih . letaknya strategis dan udaranya dingin . cocok untuk keluarga istirahat menikmati udara sejuk dan jauh dari keramaian . | (villanya, bersih, positive); (letaknya, strategis, positive); (udaranya, dingin, positive)
+air panas tidak berfungsi , wastafel bocor , tirainya kok kotor sekali . | (air panas, tidak berfungsi, negative); (wastafel, bocor, negative); (tirainya, kotor sekali, negative)
+resepsionis friendly ke customernya . | (resepsionis, friendly, positive)
+kamar nyaman dan bersih . terimakasih . | (kamar, nyaman, positive); (kamar, bersih, positive)
+nyaman dan enak . | 
+banyak nyamuk , uang deposit lebih mahal dibandingkan harga kamarnya , ktp juga di tahan selama stay sangat tidak rekomen untuk menginap di sini . | 
+nyaman dan bersih . | 
+hotelnya bersih , tidak ada bau sedikitpun , interior kamarnya modern , kami betah , dan pelayanannya juga memuaskan . | (hotelnya, bersih, positive); (hotelnya, tidak ada bau, positive); (interior kamarnya, modern, positive); (pelayanannya, memuaskan, positive)
+bersih nyaman . saya menginap lebih dari dua malam . apakah snack dan minum hanya diberikan hari pertama check in ? padahal kan bayarnya sama harga . | 
+pelayanan baik tetapi maaf kondisi kamar dan pengaturan parkir mohon diperbaiki . | (pelayanan, baik, positive); (kondisi kamar, diperbaiki, negative); (parkir, diperbaiki, negative)
+tempatnya bagus , sayang lantai atas bocor jalan menuju kamarnya jadi banjir . | (tempatnya, bagus, positive)
+air kamar mandi kurang baik , agak berbau . terimakasih , . | (air kamar mandi, kurang baik, negative); (air kamar mandi, agak berbau, negative)
+cons : 1 . air mati , baru keluar pagi , jadi tidak bisa mandi dan cebok 2 . sarang nyamuk 3 . dipan bergoyang profesional : 1 . ruangan lumayan besar 2 . dekat kuliner saran semoga bisa ditingkatkan lebih baik lagi . | (air, mati, negative); (ruangan, lumayan besar, positive)
+nyaman , bersih , ada snack nya . | (snack nya, ada, positive)
+ok . cukup luas dan lengkap . ! | 
+mantap airy . saya suka voucher dan promo . jaya selalu airy . | 
+pelayanan ramah . breakfast enak dan banyak pilihan . | (pelayanan, ramah, positive); (breakfast, enak, positive); (breakfast, banyak pilihan, positive)
+pelayanan ramah , ruangan bersih sangat memuaskan . | (pelayanan, ramah, positive); (ruangan, bersih, positive); (ruangan, sangat memuaskan, positive)
+satpamnya ramah , kamar enak , sayang tidak ada gantungan bajunya . tidak ada pewangi ruangan over all oke lah . | (satpamnya, ramah, positive); (kamar, enak, positive); (gantungan bajunya, tidak ada, negative); (pewangi ruangan, tidak ada, negative); (over all, oke, positive)
+bersih , nyaman , cocok untuk istirahat . | 
+kamar bersih dan rapi , hanya saja cukup sempit mungkin karena room hanya yang standar . | (kamar, bersih, positive); (kamar, rapi, positive); (kamar, cukup sempit, negative)
+tidak layak untuk hotel , penginapan apalagi airy room yang terkenal dengan bersih nyaman dengan harga lumayan standar bagi kita hanya sekedar numpang tidur . | (hotel, tidak layak, negative)
+airy perlu cek standardisasi homestay yang bergabung agar kualitas selalu terjaga . | (standardisasi, perlu cek, negative)
+bersih . rapi . dekat sama pusat kota . | 
+nyaman , tenang , sarapan oke . | (sarapan, oke, positive)
+overall baik murah pelayanan prima semua fasilitas lengkap sesuai yang ditawarkan pada saat reservasi . namun , salah satu kamar dari pesanan saya yang acnya panas . untungnya pihak hotel bersedia memindahkan kamar ke yang lebih baik . bagus airy ! | (overall, baik, positive); (overall, murah, positive); (pelayanan, prima, positive); (fasilitas, lengkap, positive); (fasilitas, sesuai yang ditawarkan, positive); (acnya, panas, negative)
+kamar bersih , toilet bersih , ac dingin , air panas lancar , nyamuk lumayan banyak , mohon diperhatikan , saat sarapan tidak diberitahu makanannya sudah dingin jadi tidak enak . | (kamar, bersih, positive); (toilet, bersih, positive); (ac, dingin, positive); (air panas, lancar, positive); (sarapan, tidak enak, negative)
+bagus kamarnya nyaman , bersih , pelayanan ramah . cuma agak jauh iya mau kmana mana susah . masuknya dalam banget . tetapi buat yang ingin cari ketenangan cocok dehh . | (kamarnya, nyaman, positive); (kamarnya, bersih, positive); (pelayanan, ramah, positive)
+so far , untuk kebersihan sudah oke . lokasi juga strategis , pelayanan juga ramah . | (kebersihan, oke, positive); (lokasi, strategis, positive); (pelayanan, ramah, positive)

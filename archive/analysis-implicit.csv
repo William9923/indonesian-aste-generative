@@ -1,0 +1,67 @@
+idx,text,all_labels,all_preds,all_fixed_preds,matching_comments
+51,bersih nyaman aman .,"('hotel', 'aman', 'positif')","('hotel', 'bersih nyaman aman', 'positif')","('hotel', 'bersih nyaman aman', 'positif')",Different Sentiment Term
+51,bersih nyaman aman .,"('hotel', 'bersih', 'positif')",-,-,Not Generated
+51,bersih nyaman aman .,"('hotel', 'nyaman', 'positif')",-,-,Not Generated
+152,bersih nyaman mudah ditemukan .,"('hotel', 'bersih', 'positif')","('hotel', 'bersih nyaman', 'positif')","('hotel', 'bersih nyaman', 'positif')",Different Sentiment Term
+152,bersih nyaman mudah ditemukan .,"('hotel', 'nyaman', 'positif')",-,-,Not Generated
+156,"bagus nyaman beraih rapi wangi , top banget .","('hotel', 'bagus', 'positif')","('hotel', 'bagus nyaman beraih', 'positif')","('hotel', 'bagus nyaman beraih', 'positif')",Different Sentiment Term
+156,"bagus nyaman beraih rapi wangi , top banget .","('hotel', 'nyaman', 'positif')","('hotel', 'rapi', 'positif')","('hotel', 'rapi', 'positif')",Different Sentiment Term
+156,"bagus nyaman beraih rapi wangi , top banget .","('hotel', 'rapi wangi', 'positif')","('hotel', 'wangi', 'positif')","('hotel', 'wangi', 'positif')",Different Sentiment Term
+156,"bagus nyaman beraih rapi wangi , top banget .","('hotel', 'top banget', 'positif')",-,-,Not Generated
+239,"tidak ada , bagus saya nyaman .",-,"('hotel', 'tidak ada', 'negatif')","('hotel', 'tidak ada', 'negatif')",No Label Matched
+273,agak bau rokok : ) .,"('hotel', ':', 'positif')","('hotel', 'agak bau rokok', 'negatif')","('hotel', 'agak bau rokok', 'negatif')",No Label Matched
+291,saya memesan 2 kamar . twin dan double room .,-,"('kamar', 'memesan', 'positif')","('kamar', 'memesan', 'positif')",No Label Matched
+317,dekat banget sama tempat pemberlanjaan .,-,"('hotel', 'dekat banget', 'positif')","('hotel', 'dekat banget', 'positif')",No Label Matched
+321,"sarapan hari pertama nasi telur bumbu sayur , sayang hari kedua menginap sarapan hanya ada roti dan telur omelet .",-,"('sarapan', 'hanya ada roti', 'negatif')","('sarapan', 'hanya ada roti', 'negatif')",No Label Matched
+321,"sarapan hari pertama nasi telur bumbu sayur , sayang hari kedua menginap sarapan hanya ada roti dan telur omelet .",-,"('telur omelet', 'hanya ada', 'negatif')","('telur omelet', 'hanya ada', 'negatif')",No Label Matched
+326,lumayan buat istirahat .,-,"('hotel', 'lumayan', 'positif')","('hotel', 'lumayan', 'positif')",No Label Matched
+333,tambahkan jendela disetiap ruang kamar .,-,"('jendela', 'tambahkan', 'positif')","('jendela', 'tambahkan', 'positif')",No Label Matched
+352,"teko air , meja , peralatan lainnya .",-,"('peralatan lainnya', 'tidak ada', 'negatif')","('peralatan lainnya', 'teko air', 'negatif')",No Label Matched
+352,"teko air , meja , peralatan lainnya .",-,"('teko air', 'teko air', 'negatif')","('teko air', 'teko air', 'negatif')",No Label Matched
+354,orang tua janga di lantai 3 .,-,"('hotel', 'tua janga', 'negatif')","('hotel', 'tua janga', 'negatif')",No Label Matched
+363,ini bentuknya kost an putri .,-,"('hotel', 'ini bentuknya kost an', 'negatif')","('hotel', 'ini bentuknya kost an', 'negatif')",No Label Matched
+403,"memang diroom berantem , lucu . padahal cuma tidur .",-,"('room', 'berantem', 'negatif')","('diroom', 'berantem', 'negatif')",No Label Matched
+428,lebih di tingkat kan lagi .,-,"('hotel', 'lebih di tingkat kan lagi', 'negatif')","('hotel', 'lebih di tingkat kan lagi', 'negatif')",No Label Matched
+451,ditingkatkan saja terus . terimakasih .,-,"('hotel', 'ditingkatkan saja terus', 'negatif')","('hotel', 'ditingkatkan saja terus', 'negatif')",No Label Matched
+467,ayo diskon 50 nya dibikin lagi .,-,"('diskon', '50', 'positif')","('diskon', '50', 'positif')",No Label Matched
+471,sebenarnya tidak jadi di airy cabang setiabudi karena overbooking . tetapi pihak airy cekatan dalam mem .,-,"('hotel', 'cekatan', 'positif')","('hotel', 'cekatan', 'positif')",No Label Matched
+547,"bersih , lebih nyaman lagi bila disiapin air panas di dispenser . terimakasih .","('hotel', 'bersih', 'positif')","('air panas', 'dispenser', 'negatif')","('air panas', 'dispenser', 'negatif')",No Label Matched
+555,kalau bisa disediakan sandal untuk tamu .,-,"('sandal', 'disediakan', 'positif')","('sandal', 'disediakan', 'positif')",No Label Matched
+567,saya dan istri cuma di kasih handuk buat lap keringat bukan nya handuk mandi . di sangkanya kami anak bayi .,-,"('handuk', 'cuma di kasih', 'negatif')","('handuk', 'cuma di kasih', 'negatif')",No Label Matched
+601,mantaap . airy room memang gila .,"('hotel', 'mantaap', 'positif')","('airy room', 'gila', 'negatif')","('airy room', 'gila', 'negatif')",No Label Matched
+621,minta pindh yang gedung baru tidak bisa . seram penggap bau .,"('hotel', 'bau', 'negatif')","('hotel', 'seram penggap bau', 'negatif')","('hotel', 'seram penggap bau', 'negatif')",Different Sentiment Term
+621,minta pindh yang gedung baru tidak bisa . seram penggap bau .,"('hotel', 'penggap', 'negatif')",-,-,Not Generated
+621,minta pindh yang gedung baru tidak bisa . seram penggap bau .,"('hotel', 'seram', 'negatif')",-,-,Not Generated
+652,ternyata ini kos kosan yang disewakan harian .,-,"('kos kosan', 'disewakan harian', 'negatif')","('kos kosan', 'disewakan harian', 'negatif')",No Label Matched
+680,"katanya eco syariah , tetapi bakar dupa tiap hari , buat pusing baunya ngundang setan gundoruwo .",-,"('hotel', 'eco syariah', 'negatif')","('hotel', 'eco syariah', 'negatif')",No Label Matched
+700,meski dibookingnya tertulis jam 1400 untuk check in tetapi saya datang jam 1200 langsung dilayani tidak harus menunggu .,-,"('check in', 'menunggu', 'negatif')","('check in', 'menunggu', 'negatif')",No Label Matched
+710,sudah beberapa kali menginap belum pernah kecewa oke terimakasih .,"('hotel', 'oke', 'positif')","('hotel', 'belum pernah kecewa', 'netral')","('hotel', 'belum pernah kecewa', 'netral')",No Label Matched
+711,"pada saat saya menginap , terdengar suara ketuk ketuk palu dari samping kamar sampai malam tidak berhenti , walaupun saya sudah keluhan ke petugas hotel .",-,"('ketuk ketuk palu', 'terdengar', 'negatif')","('ketuk ketuk palu', 'terdengar', 'negatif')",No Label Matched
+724,"walaupun cuma sebentar inap di sana , nyaman saja .","('hotel', 'nyaman', 'positif')","('hotel', 'nyaman saja', 'positif')","('hotel', 'nyaman saja', 'positif')",Different Sentiment Term
+729,"dekat dengan pasar , gampang belanja makanan .","('hotel', 'dekat', 'positif')","('hotel', 'gampang belanja', 'positif')","('hotel', 'gampang belanja', 'positif')",Different Sentiment Term
+740,"di airy rating excellent , tetapi trnyta kurang baik . semoga untuk rating di perbaiki .",-,"('hotel', 'excellent', 'positif')","('hotel', 'excellent', 'positif')",No Label Matched
+762,"tetapi kurang bersih , masih ada sisa rambut di tempat tidur .","('hotel', 'kurang bersih', 'negatif')","('tempat tidur', 'kurang bersih', 'negatif')","('tempat tidur', 'kurang bersih', 'negatif')",Different Aspect Term
+763,bangunan hotel bisa dipermanis lagi jika tanaman dirawat dan beberapa area dicat ulang . : ) .,-,"('bangunan hotel', 'bisa dipermanis lagi', 'negatif')","('bangunan hotel', 'bisa dipermanis lagi', 'negatif')",No Label Matched
+768,"sudah sangat bagus untuk hotel yang baru , mungkin lebih di perbanyak fasilitasnya agar lebih baik lagi .","('hotel', 'sudah sangat', 'positif')","('hotel', 'sangat bagus', 'positif')","('hotel', 'sangat bagus', 'positif')",Different Sentiment Term
+771,saya pesan kamar dengan double bed tetapi dapatnya twin bed .,-,"('double bed', 'dapatnya', 'negatif')","('double bed', 'dapatnya', 'negatif')",No Label Matched
+771,saya pesan kamar dengan double bed tetapi dapatnya twin bed .,-,"('hotel', 'pesan kamar', 'negatif')","('hotel', 'pesan kamar', 'negatif')",No Label Matched
+779,kamar hotelnya seperti kamar rumah .,-,"('kamar hotelnya', 'seperti kamar hotelnya', 'negatif')","('kamar hotelnya', 'seperti kamar hotelnya', 'negatif')",No Label Matched
+783,"bangunan 3 lantai , 1st floor dipakai parkir jadi ala ala basement begitu .",-,"('bangunan', '3 lantai', 'negatif')","('bangunan', '3 lantai', 'negatif')",No Label Matched
+798,baru dapat disc 50 mantap . seringsering dong .,-,"('disc', 'mantap', 'positif')","('disc', 'mantap', 'positif')",No Label Matched
+804,sepi tetapi lebih baik cari hotel lain lah .,"('hotel', 'sepi', 'positif')","('hotel', 'sepi', 'negatif')","('hotel', 'sepi', 'negatif')",Different Polarity
+816,"nyaman , aman , bersih , tidak pusing cari makanan .",-,"('hotel', 'tidak pusing cari makanan', 'positif')","('hotel', 'tidak pusing cari makanan', 'positif')",No Label Matched
+830,nyaman . sesuai dengan kondisi yang dipromosikan .,-,"('hotel', 'sesuai', 'positif')","('hotel', 'sesuai', 'positif')",No Label Matched
+833,tetap ada minus dan plusnya saja .,-,"('plusnya', 'ada', 'positif')","('plusnya', 'ada', 'positif')",No Label Matched
+846,alhamdulillah nyaman dan bersih .,-,"('hotel', 'bersih', 'positif')","('hotel', 'bersih', 'positif')",No Label Matched
+846,alhamdulillah nyaman dan bersih .,-,"('hotel', 'nyaman', 'positif')","('hotel', 'nyaman', 'positif')",No Label Matched
+859,cukup memuaskan dan refresentatif untuk transit .,-,"('hotel', 'refresentatif', 'positif')","('hotel', 'refresentatif', 'positif')",No Label Matched
+887,menyenangkan menginap disini .,"('menginap', 'menyenangkan', 'positif')","('hotel', 'menyenangkan', 'positif')","('hotel', 'menyenangkan', 'positif')",Different Aspect Term
+891,tempat tidur jangan terlalu dekat dengan plafon karena sulit bagi orang yang tidak biasa dengan ruang sempit susah bernapas dengan baik .,-,"('ruang', 'sempit', 'negatif')","('ruang', 'sempit', 'negatif')",No Label Matched
+911,pihak hotel tidak memberikan keterangan yang lengkap tentang persyaratan menginap pada airy .,-,"('persyaratan menginap', 'tidak memberikan keterangan', 'negatif')","('persyaratan menginap', 'tidak memberikan keterangan', 'negatif')",No Label Matched
+921,sya sadar harga dibawah 150 sulit mndapatkan bath tube namun alangkah lebih baik jila fto bath tube tidak ditampilkan .,-,"('bath tube', 'sulit mndapatkan', 'negatif')","('bath tube', 'sulit mndapatkan', 'negatif')",No Label Matched
+934,memuaskan dan sesuai dengan budget . terima kasih : ) .,-,"('hotel', 'sesuai', 'positif')","('hotel', 'sesuai', 'positif')",No Label Matched
+967,"tidak menemukan hotel , traveloka tidak membantu . saya complain pun sampai sekarang follow upnya slow .","('follow upnya', 'slow', 'negatif')","('hotel', 'tidak membantu', 'negatif')","('hotel', 'tidak membantu', 'negatif')",Subset aspect/sentiment
+967,"tidak menemukan hotel , traveloka tidak membantu . saya complain pun sampai sekarang follow upnya slow .",-,"('hotel', 'tidak ditemukan', 'negatif')","('hotel', 'tidak menemukan', 'negatif')",No Label Matched
+974,lebih baik cari yang lain . lebih jam 11 tidak bisa masuk . harus beli hotel lain .,-,"('hotel', 'tidak bisa masuk', 'negatif')","('hotel', 'tidak bisa masuk', 'negatif')",No Label Matched
+978,"kamar airy diletakan dilantai 3 . tangga manual , lelah naiknya .",-,"('tangga', 'manual', 'negatif')","('tangga', 'manual', 'negatif')",No Label Matched
+979,ke lobi susah jika ada penitipan barang di bawah .,-,"('lobi', 'susah', 'negatif')","('lobi', 'susah', 'negatif')",No Label Matched
