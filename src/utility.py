@@ -21,6 +21,9 @@ def extract(sequence):
         except ValueError:
             a, b, c = '', '', ''
         
+        a = a.strip()
+        b = b.strip()
+        c = c.strip()
         # Postprocess...
         if (a == EMPTY or b == EMPTY or c == EMPTY) or (a,b,c) in extractions:
             continue

@@ -46,10 +46,10 @@ class T5Generator(Generator):
         outputs = [self.tokenizer.decode(ids, skip_special_tokens=True) for ids in outs]
 
         # --- [Normalization, if needed] ---
+        all_preds = []
+        for out in outputs:
+            all_preds.append(extract(out))
         if fix:
-            all_preds = []
-            for out in outputs:
-                all_preds.append(extract(out))
-            outputs = self.postprocessor.check_and_fix_preds(all_preds, splitted_sents)
-
+            all_preds = self.postprocessor.check_and_fix_preds(all_preds, splitted_sents)
+        outputs = all_preds
         return outputs
