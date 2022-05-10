@@ -14,9 +14,20 @@ def load(path):
     idx = list(df.idx)
     sents = [eval(sent) for sent in list(df.sents)]
     labels = [eval(label) for label in list(df.labels)]
+    checkpoints = [str(checker) for checker in list(df.checkpoint)]
 
-    assert len(idx) == len(sents) == len(labels)
-    return idx, sents, labels 
+    filter_idx = []
+    filter_sents = []
+    filter_labels = []
+    
+    for i, checkpoint in enumerate(checkpoints):
+        if checkpoint != "False":
+            filter_idx.append(idx[i])
+            filter_sents.append(sents[i])
+            filter_labels.append(labels[i])
+
+    assert len(filter_idx) == len(filter_sents) == len(filter_labels)
+    return filter_idx, filter_sents, filter_labels 
 
 def parse(file, separator):
     sents, labels = [], []
@@ -47,6 +58,7 @@ def write_annotated(sents, labels, target_path):
 
 
 if __name__ == "__main__":
+
     idx, _, labels = load(os.path.join("data", "annotation", "test-annotated.csv"))
     
     with open(os.path.join("data", "processed", "unfilter", "test.txt"), 'r') as f:
