@@ -36,11 +36,12 @@ def score(pred, gold):
 
     return {"precision": precision, "recall": recall, "f1": f1}
 
-def check_implicit_aspect(t1, t2):
-    print(t1)
-    print(t2)
-    return t1[1] == t2[1] and t1[2] == t2[2] and t2[0] == GENERAL_ASPECT and t1[0] in GENERAL_ASPECTS
-
+def check_implicit_aspect(t1, coll_t2):
+    for t2 in coll_t2:
+        if t1[1] == t2[1] and t1[2] == t2[2] and t2[0] == GENERAL_ASPECT and t1[0] in GENERAL_ASPECTS
+            return True 
+    return False 
+    
 def score_include_implicit(pred, gold):
     assert len(pred) == len(gold)
     n_tp, n_gold, n_pred = 0, 0, 0
