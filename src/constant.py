@@ -1,6 +1,7 @@
 import os
 
-GENERAL_ASPECT = "hotel"
+GENERAL_ASPECT = "general"
+GENERAL_ASPECTS = ["general", "hotel", "kamar", "pelayanan", "tempat"]
 
 class ModelType:
     T5Model = "t5"
@@ -14,7 +15,7 @@ class ProcessType:
 class DatasetType:
     FILTERED = "filter"
     UNFILTERED = "unfilter"
-    ANNOTATION = "implicit"
+    ANNOTATION = "implicit-v2"
 
 
 class PostprocessType:

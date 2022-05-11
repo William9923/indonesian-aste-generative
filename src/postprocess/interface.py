@@ -3,7 +3,7 @@
 # Postprocess Interface:
 from typing import Tuple, List
 
-from src.constant import GENERAL_ASPECT
+from src.constant import GENERAL_ASPECT, GENERAL_ASPECTS
 
 sentiment_word_list = ["positif", "negatif", "netral"]
 
@@ -11,7 +11,7 @@ sentiment_word_list = ["positif", "negatif", "netral"]
 class IPostprocess:
     # == Generalize strategy ==
     def check_and_fix_preds(
-        self, all_pairs: List[List[Tuple[str, str, str]]], sents: List[List[str]]
+        self, all_pairs: List[List[Tuple[str, str, str]]], sents: List[List[str]], implicit=False
     ) -> List[List[Tuple[str, str, str]]]:
         all_new_pairs = []
 
@@ -25,8 +25,11 @@ class IPostprocess:
                     at, ot, polarity = pair
 
                     # --- [Recovering aspect term] ---
-                    if at not in sents[i] and at != GENERAL_ASPECT:
-                        new_at = self.recover_term(at, sents[i])
+                    if at not in sents[i] or at not in GENERAL_ASPECTS:
+                        collection = sents[i]
+                        if implicit:
+                            collection = collection + GENERAL_ASPECTS
+                        new_at = self.recover_term(at, collection)
                     else:
                         new_at = at
 

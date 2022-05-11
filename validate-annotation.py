@@ -54,11 +54,13 @@ def generate_extraction_style_target(sents_e, labels):
     return extracted_targets
 
 if __name__ == "__main__":
-    with open(os.path.join("data", "processed", "implicit", "test.txt"), 'r') as f:
+    with open(os.path.join("data", "processed", "implicit-v2", "dev.txt"), 'r') as f:
         sents, labels = parse(f, "####")
 
     print("Problematic...")
     targets = generate_extraction_style_target(sents, labels)
+    print(len(sents))
+    print(len(targets))
     assert len(sents) == len(targets)
 
     # View some example
