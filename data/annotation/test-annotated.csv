@@ -1,4 +1,4 @@
-idx,sents,labels,,,,,
+idx,sents,labels,checkpoint,,,,
 1,"['pelayanan', 'ramah', ',', 'kamar', 'nyaman', 'dan', 'fasilitas', 'lengkap', '.', 'hanya', 'airnya', 'showernya', 'kurang', 'panas', '.']","[([0], [1], 'POS'), ([3], [4], 'POS'), ([6], [7], 'POS'), ([10, 11], [12, 13], 'NEG')]",FALSE,,,,
 2,"['tidak', 'terlalu', 'jauh', 'dari', 'pusat', 'kota', '.']","[([3, 4, 5], [0, 1, 2], 'POS')]",FALSE,,,,
 3,"['dengan', 'harga', 'terjangkau', 'kita', 'sudah', 'mendapatkan', 'fasilitas', 'yang', 'nyaman', '.']","[([1], [2], 'POS'), ([6], [8], 'POS')]",FALSE,,,,
