@@ -2,7 +2,7 @@ from typing import List
 
 from torch.nn.functional import cosine_similarity
 
-from src.postprocess.interface import IPostprocess
+from src.postprocess.interface import IPostprocess, special_chars
 from src.utility import get_device
 
 class EmbeddingDistancePostProcessor(IPostprocess):
@@ -17,6 +17,8 @@ class EmbeddingDistancePostProcessor(IPostprocess):
         words = original_term.split(" ")
         new_words = []
         for word in words:
+            if word in special_chars: # make sure not to recover on punctuation (or any special char)...
+                continue
             cosine_sim = []
             for token in sent:
                 cosine_sim.append(self.get_cosine_similarity(word, token))

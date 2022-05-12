@@ -1,7 +1,7 @@
 import editdistance
 from typing import List
 
-from src.postprocess.interface import IPostprocess
+from src.postprocess.interface import IPostprocess, special_chars
 
 class EditDistancePostProcessor(IPostprocess):
     # == Levenshtein distance normalization strategy ==
@@ -9,6 +9,8 @@ class EditDistancePostProcessor(IPostprocess):
         words = original_term.split(" ")
         new_words = []
         for word in words:
+            if word in special_chars: # make sure not to recover on punctuation (or any special char)...
+                continue
             edit_dis = []
             for token in sent:
                 edit_dis.append(editdistance.eval(word, token))

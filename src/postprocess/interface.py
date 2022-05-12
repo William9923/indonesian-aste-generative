@@ -2,11 +2,13 @@
 # Current Implementation: EditDistancePostProcessor, EmbeddingDistancePostProcessor
 # Postprocess Interface:
 from typing import Tuple, List
+import string
 
 from src.constant import GENERAL_ASPECT, GENERAL_ASPECTS
 
 sentiment_word_list = ["positif", "negatif", "netral"]
 
+special_chars = string.punctuation
 
 class IPostprocess:
     # == Generalize strategy ==
@@ -25,6 +27,7 @@ class IPostprocess:
                     at, ot, polarity = pair
 
                     # --- [Recovering aspect term] ---
+                    at = at.translate(str.maketrans('', '', special_chars)) # Remove Special character...
                     if at not in sents[i]:
                         if implicit and at in GENERAL_ASPECTS:
                             new_at = GENERAL_ASPECT

@@ -1,1 +1,0 @@
-from src.frontend.run import main
