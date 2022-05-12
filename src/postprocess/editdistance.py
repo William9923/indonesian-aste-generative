@@ -9,7 +9,6 @@ class EditDistancePostProcessor(IPostprocess):
         words = original_term.split(" ")
         new_words = []
         for word in words:
-            print(word)
             edit_dis = []
             for token in sent:
                 if token not in special_chars:
