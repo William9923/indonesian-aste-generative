@@ -17,11 +17,12 @@ class EmbeddingDistancePostProcessor(IPostprocess):
         words = original_term.split(" ")
         new_words = []
         for word in words:
-            if word in special_chars: # make sure not to recover on punctuation (or any special char)...
-                continue
             cosine_sim = []
             for token in sent:
-                cosine_sim.append(self.get_cosine_similarity(word, token))
+                if token not in special_chars:
+                    cosine_sim.append(self.get_cosine_similarity(word, token))
+                else:
+                    cosine_sim.append(-1)
             smallest_idx = cosine_sim.index(max(cosine_sim))
             new_words.append(sent[smallest_idx])
         new_term = " ".join(new_words)

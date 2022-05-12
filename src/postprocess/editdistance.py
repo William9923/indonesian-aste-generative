@@ -9,11 +9,13 @@ class EditDistancePostProcessor(IPostprocess):
         words = original_term.split(" ")
         new_words = []
         for word in words:
-            if word in special_chars: # make sure not to recover on punctuation (or any special char)...
-                continue
+            print(word)
             edit_dis = []
             for token in sent:
-                edit_dis.append(editdistance.eval(word, token))
+                if token not in special_chars:
+                    edit_dis.append(editdistance.eval(word, token))
+                else:
+                    edit_dis.append(float("inf"))
             smallest_idx = edit_dis.index(min(edit_dis))
             new_words.append(sent[smallest_idx])
         new_term = " ".join(new_words)
