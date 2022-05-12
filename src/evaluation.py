@@ -36,12 +36,14 @@ def score(pred, gold):
 
     return {"precision": precision, "recall": recall, "f1": f1}
 
+## Unused...
 def check_implicit_aspect(t1, coll_t2):
     for t2 in coll_t2:
         if t1[1] == t2[1] and t1[2] == t2[2] and t2[0] == GENERAL_ASPECT and t1[0] in GENERAL_ASPECTS:
             return True 
     return False 
 
+## Unused....
 def score_include_implicit(pred, gold):
     assert len(pred) == len(gold)
     n_tp, n_gold, n_pred = 0, 0, 0
@@ -75,16 +77,10 @@ def evaluate(pred_seqs, gold_seqs, postprocessor: IPostprocess, sents, implicit=
         all_labels.append(gold_list)
         all_preds.append(pred_list)
 
-    if implicit:
-        raw_scores = score_include_implicit(all_preds, all_labels)
-    else:
-        raw_scores = score(all_preds, all_labels)
+    raw_scores = score(all_preds, all_labels)
 
     all_fixed_preds = postprocessor.check_and_fix_preds(all_preds, sents, implicit)
-    if implicit:
-        fixed_scores = score_include_implicit(all_fixed_preds, all_labels)
-    else:
-        fixed_scores = score(all_fixed_preds, all_labels)
+    fixed_scores = score(all_fixed_preds, all_labels)
 
     return raw_scores, fixed_scores, all_labels, all_preds, all_fixed_preds
 

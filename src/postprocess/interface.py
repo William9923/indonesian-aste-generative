@@ -25,11 +25,11 @@ class IPostprocess:
                     at, ot, polarity = pair
 
                     # --- [Recovering aspect term] ---
-                    if at not in sents[i] or at not in GENERAL_ASPECTS:
-                        collection = sents[i]
-                        if implicit:
-                            collection = collection + GENERAL_ASPECTS
-                        new_at = self.recover_term(at, collection)
+                    if at not in sents[i]:
+                        if implicit and at in GENERAL_ASPECTS:
+                            new_at = GENERAL_ASPECT
+                        else:
+                            new_at = self.recover_term(at, sents[i])
                     else:
                         new_at = at
 

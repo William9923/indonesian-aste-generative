@@ -1,7 +1,7 @@
 import os
 
-GENERAL_ASPECT = "general"
-GENERAL_ASPECTS = ["general", "hotel", "kamar", "pelayanan", "tempat"]
+GENERAL_ASPECT = "hotel"
+GENERAL_ASPECTS = ["hotel", "kamar", "pelayanan", "tempat", "menginap", "lokasi"]
 
 class ModelType:
     T5Model = "t5"
