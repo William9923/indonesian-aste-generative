@@ -7,7 +7,7 @@ main:
   num_worker: 2
 
 loader:
-  mode: implicit
+  mode: implicit-v2
   max_seq_length: 128
   seperator: "####"
   padding: max_length
