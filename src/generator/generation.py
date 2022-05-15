@@ -17,7 +17,7 @@ class T5Generator(Generator):
     def __init__(self, tokenizer, model, postprocessor, configs):
         super().__init__(tokenizer, model, postprocessor, configs)
 
-    def generate(self, sents: List[str], fix:bool=False) -> List[str]:
+    def generate(self, sents: List[str], implicit:bool=False, fix:bool=False) -> List[str]:
 
         # --- [Preprocessing] ---
         splitted_sents = [txt.split(" ") for txt in sents]
@@ -50,6 +50,6 @@ class T5Generator(Generator):
         for out in outputs:
             all_preds.append(extract(out))
         if fix:
-            all_preds = self.postprocessor.check_and_fix_preds(all_preds, splitted_sents)
+            all_preds = self.postprocessor.check_and_fix_preds(all_preds, splitted_sents, implicit=implicit)
         outputs = all_preds
         return outputs
