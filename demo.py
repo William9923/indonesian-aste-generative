@@ -84,9 +84,9 @@ def build_generator(configs, path):
     device = get_device()
     model_type = configs.get("type")
     model_name = configs.get("main").get("pretrained")
-    # use_checkpoint = configs.get("trainer").get("use_checkpoint")
-    # if use_checkpoint:
-    #     model_name = configs.get("trainer").get("checkpoint_path")
+    use_checkpoint = configs.get("trainer").get("use_checkpoint")
+    if use_checkpoint:
+        model_name = configs.get("trainer").get("checkpoint_path")
     tokenizer = tokenizer_config_names.get(model_type).from_pretrained(model_name)
 
     checkpoint = torch.load(path, map_location=device)
