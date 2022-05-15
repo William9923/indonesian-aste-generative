@@ -163,7 +163,7 @@ if __name__ == "__main__":
     generator: IGenerator = generator_config_names.get(model_type)(
         tokenizer, model, postprocessor, configs
     )
-    res = generator.generate(sents, fix=True)
+    res = generator.generate(sents, implicit=False,fix=True)
     pprint(res)
 
 

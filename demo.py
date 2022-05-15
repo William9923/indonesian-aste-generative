@@ -73,8 +73,8 @@ def visualize_triplet_opinion(predictions):
         print(Style.RESET_ALL)
 
 
-def predict(generator, sent, fix=True):
-    res = generator.generate([sent], fix=fix)
+def predict(generator, sent, implicit=False, fix=True):
+    res = generator.generate([sent], implicit=implicit,fix=fix)
     data = res[0]
     return data
 
@@ -91,8 +91,8 @@ def build_generator(configs, path):
     print(path)
     tokenizer = T5Tokenizer.from_pretrained(model_name)
     checkpoint = torch.load(path, map_location=device)
-    model = T5ForConditionalGeneration.from_pretrained(model_name)
-    model.load_state_dict(checkpoint["model_state_dict"], strict=False)
+    model = T5ForConditionalGeneration.from_pretrained(model_name,  ignore_mismatched_sizes=True)
+    model.load_state_dict(checkpoint["model_state_dict"], strict=False,  ignore_mismatched_sizes=True)
     model.to(device)
 
     postprocessor_type = configs.get("normalization").get("mode")
