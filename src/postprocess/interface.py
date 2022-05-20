@@ -8,7 +8,7 @@ from src.constant import GENERAL_ASPECT, GENERAL_ASPECTS
 
 sentiment_word_list = ["positif", "negatif", "netral"]
 
-special_chars = string.punctuation
+special_chars = r'"!"#$%&\'()*+,-./:;<=>?@[\\]^`{|}~"'
 
 class IPostprocess:
     # == Generalize strategy ==

@@ -17,9 +17,12 @@ polarity_annotation_map = {
 
 def get_elmt_idx(data):
     """
-    Helper func to help identify the start & end idx from IOB Tagging
+    Helper func to help identify the start & end idx from IOB Tagging ///O
     """
-    tag = [datum.split(BIOTAG_SEPERATOR) for datum in data]
+    splitter = lambda val : val[1:].split(BIOTAG_SEPERATOR)
+    tag = [splitter(datum) for datum in data]
+    for i in range(len(tag)):
+        tag[i][0] = data[i][0] + tag[i][0]
     start_idx, end_idx, found = -1, -1, False
     for idx, word_tag in enumerate(tag):
         _, tag = word_tag
@@ -27,6 +30,8 @@ def get_elmt_idx(data):
             start_idx = idx
             end_idx = idx
             found = True
+        elif tag == "I" and found:
+            end_idx = idx
         elif tag == "O" and found:
             end_idx = idx - 1
             break
@@ -254,20 +259,20 @@ if __name__ == "__main__":
     RAW_DATA_DIR = "data/raw"
     INTERIM_DATA_FILTER_DIR = "data/interim/filter"
     INTERIM_DATA_UNFILTER_DIR = "data/interim/unfilter"
-    PROCESSED_DATA_FILTER_DIR = "data/processed/filter"
-    PROCESSED_DATA_UNFILTER_DIR = "data/processed/unfilter"
+    PROCESSED_DATA_FILTER_DIR = "dataset/processed/filter"
+    PROCESSED_DATA_UNFILTER_DIR = "dataset/v1"
 
     # == Save Interim data ==
     json_datas, filenames = parse_raw_batch(os.path.join(RAW_DATA_DIR), os.path.join(INTERIM_DATA_UNFILTER_DIR), check_validity=False)
     write_file_batch(json_datas=json_datas, filenames=filenames)
 
-    json_datas, filenames = parse_raw_batch(os.path.join(RAW_DATA_DIR), os.path.join(INTERIM_DATA_FILTER_DIR), check_validity=True)
-    write_file_batch(json_datas=json_datas, filenames=filenames)
+    # json_datas, filenames = parse_raw_batch(os.path.join(RAW_DATA_DIR), os.path.join(INTERIM_DATA_FILTER_DIR), check_validity=True)
+    # write_file_batch(json_datas=json_datas, filenames=filenames)
 
     parsed_datas, filenames = parse_interim_batch(os.path.join(INTERIM_DATA_UNFILTER_DIR), os.path.join(PROCESSED_DATA_UNFILTER_DIR))
     write_parsed_batch(parsed_datas=parsed_datas, filenames=filenames)
 
-    parsed_datas, filenames = parse_interim_batch(os.path.join(INTERIM_DATA_FILTER_DIR), os.path.join(PROCESSED_DATA_FILTER_DIR))
-    write_parsed_batch(parsed_datas=parsed_datas, filenames=filenames)
+    # parsed_datas, filenames = parse_interim_batch(os.path.join(INTERIM_DATA_FILTER_DIR), os.path.join(PROCESSED_DATA_FILTER_DIR))
+    # write_parsed_batch(parsed_datas=parsed_datas, filenames=filenames)
 
 
