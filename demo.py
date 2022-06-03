@@ -101,6 +101,7 @@ def build_generator(configs, path):
     if isinstance(postprocessor, EmbeddingDistancePostProcessor) and isinstance(
         model, T5ForConditionalGeneration
     ):
+        # TODO : modify this part for demo...
         postprocessor.set_embedding(tokenizer, model.get_input_embeddings())
 
     generator: IGenerator = generator_config_names.get(model_type)(
