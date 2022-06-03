@@ -24,13 +24,8 @@ class EmbeddingDistancePostProcessor(IPostprocess):
     def recover_term(self, original_term: str, sent: List[str]) -> str:
         words = original_term.split()
         new_words = []
-        print(words)
-        print("tes is changed?")
-        print(sent)
         for word in words:
-            print(word)
             if word in sent:
-                print("hit dis plis")
                 new_words.append(word)
             else:
                 cosine_sim = []
@@ -41,6 +36,7 @@ class EmbeddingDistancePostProcessor(IPostprocess):
                         cosine_sim.append(-1)
                 smallest_idx = cosine_sim.index(max(cosine_sim))
                 new_words.append(sent[smallest_idx])
+            print(new_words)
         new_term = " ".join(new_words)
         return new_term
 
@@ -49,6 +45,3 @@ class EmbeddingDistancePostProcessor(IPostprocess):
         em1 = get_embedding(self.embedding, word1)
         em2 = get_embedding(self.embedding, word2)
         return cosine_similarity(em1, em2)
-        
-
-    
