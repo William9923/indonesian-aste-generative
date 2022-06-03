@@ -135,7 +135,7 @@ if __name__ == "__main__":
 
     if isinstance(postprocessor, EmbeddingDistancePostProcessor) and isinstance(model, T5ForConditionalGeneration) :
         word_vectors = Word2Vec.load(os.path.join("bin", "idwiki_word2vec_300.model")).wv
-        postprocessor.set_embedding(tokenizer, word_vectors)
+        postprocessor.set_embedding(word_vectors)
 
     # 4. Evaluation ...
     evaluator = Evaluator(postprocessor, configs)
