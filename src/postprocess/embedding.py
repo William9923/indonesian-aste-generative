@@ -27,6 +27,8 @@ class EmbeddingDistancePostProcessor(IPostprocess):
         for word in words:
             cosine_sim = []
             for token in sent:
+                if token in sent:
+                    cosine_sim.append(2) 
                 if token not in special_chars:
                     cosine_sim.append(self.get_cosine_similarity(word, token))
                 else:
