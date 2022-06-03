@@ -22,13 +22,13 @@ class EmbeddingDistancePostProcessor(IPostprocess):
 
     # == Cosine Similarity normalization strategy ==
     def recover_term(self, original_term: str, sent: List[str]) -> str:
-        words = original_term.split(" ")
+        words = original_term.split()
         new_words = []
         print(words)
         for word in words:
             print(word)
             if word in sent:
-                print("hit dis")
+                print("hit dis plis")
                 new_words.append(word)
             else:
                 cosine_sim = []
