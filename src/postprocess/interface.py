@@ -33,8 +33,6 @@ class IPostprocess:
                         if implicit and at in GENERAL_ASPECTS:
                             new_at = GENERAL_ASPECT
                         else:
-                            print(sents)
-                            print(at)
                             new_at = self.recover_term(at, sents[i])
                     else:
                         new_at = at

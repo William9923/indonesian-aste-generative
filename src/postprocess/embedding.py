@@ -24,9 +24,11 @@ class EmbeddingDistancePostProcessor(IPostprocess):
     def recover_term(self, original_term: str, sent: List[str]) -> str:
         words = original_term.split(" ")
         new_words = []
+        print(words)
         for word in words:
-            
+            print(word)
             if word in sent:
+                print("hit dis")
                 new_words.append(word)
             else:
                 cosine_sim = []
