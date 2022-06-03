@@ -36,7 +36,6 @@ class EmbeddingDistancePostProcessor(IPostprocess):
                         cosine_sim.append(-1)
                 smallest_idx = cosine_sim.index(max(cosine_sim))
                 new_words.append(sent[smallest_idx])
-            print(new_words)
         new_term = " ".join(new_words)
         return new_term
 
