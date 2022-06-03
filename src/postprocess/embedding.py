@@ -25,6 +25,8 @@ class EmbeddingDistancePostProcessor(IPostprocess):
         words = original_term.split()
         new_words = []
         print(words)
+        print("tes is changed?")
+        print(sent)
         for word in words:
             print(word)
             if word in sent:

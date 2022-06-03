@@ -29,6 +29,7 @@ class IPostprocess:
 
                     # --- [Recovering aspect term] ---
                     at = at.translate(str.maketrans('', '', special_chars)) # Remove Special character...
+                    # Loop through each expr?
                     if at not in sents[i]:
                         if implicit and at in GENERAL_ASPECTS:
                             new_at = GENERAL_ASPECT
