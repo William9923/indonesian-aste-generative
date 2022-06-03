@@ -15,6 +15,7 @@ class IPostprocess:
     def check_and_fix_preds(
         self, all_pairs: List[List[Tuple[str, str, str]]], sents: List[List[str]], implicit=False
     ) -> List[List[Tuple[str, str, str]]]:
+        
         all_new_pairs = []
 
         for i, pairs in enumerate(all_pairs):
@@ -32,6 +33,8 @@ class IPostprocess:
                         if implicit and at in GENERAL_ASPECTS:
                             new_at = GENERAL_ASPECT
                         else:
+                            print(sents)
+                            print(at)
                             new_at = self.recover_term(at, sents[i])
                     else:
                         new_at = at

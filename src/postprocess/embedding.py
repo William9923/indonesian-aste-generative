@@ -19,7 +19,6 @@ class EmbeddingDistancePostProcessor(IPostprocess):
     
     def set_embedding(self, embedding):
         self.embedding = embedding
-        self.device = get_device()
 
     # == Cosine Similarity normalization strategy ==
     def recover_term(self, original_term: str, sent: List[str]) -> str:
