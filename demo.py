@@ -1,8 +1,9 @@
-from email.policy import strict
+import os
 from transformers import (
     T5ForConditionalGeneration,
     T5Tokenizer,
 )
+from gensim.models import Word2Vec
 
 from colorama import Fore, Style
 import torch
@@ -22,7 +23,7 @@ from src.trainer import ITrainer, T5Trainer
 from src.generator import IGenerator, T5Generator
 
 MODEL_NAME = "Wikidepia/IndoT5-base"
-CHECKPOINT = "/content/drive/MyDrive/TA/posttraining/checkpoint-10990"
+W2VPath = "drive/MyDrive/TA/wv/idwiki_word2vec_300.model"
 
 # == Dependencies Maps (Factory) ==
 trainer_config_maps = {ModelType.T5Model: T5Trainer}
@@ -101,8 +102,8 @@ def build_generator(configs, path):
     if isinstance(postprocessor, EmbeddingDistancePostProcessor) and isinstance(
         model, T5ForConditionalGeneration
     ):
-        # TODO : modify this part for demo...
-        postprocessor.set_embedding(tokenizer, model.get_input_embeddings())
+        word_vectors = Word2Vec.load(W2VPath).wv
+        postprocessor.set_embedding(word_vectors)
 
     generator: IGenerator = generator_config_names.get(model_type)(
         tokenizer, model, postprocessor, configs
