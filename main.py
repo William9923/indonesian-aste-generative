@@ -4,7 +4,6 @@ from pprint import pprint
 import time
 
 from transformers import T5ForConditionalGeneration, T5Tokenizer
-from gensim.models import Word2Vec
 
 from args import init_args
 from src.postprocess import (
@@ -134,8 +133,7 @@ if __name__ == "__main__":
     postprocessor: IPostprocess = postprocess_config_names.get(postprocessor_type)()
 
     if isinstance(postprocessor, EmbeddingDistancePostProcessor) and isinstance(model, T5ForConditionalGeneration) :
-        word_vectors = Word2Vec.load(os.path.join("bin", "idwiki_word2vec_300.model")).wv
-        postprocessor.set_embedding(word_vectors)
+        postprocessor.set_embedding(tokenizer, model.get_input_embeddings())
 
     # 4. Evaluation ...
     evaluator = Evaluator(postprocessor, configs)
