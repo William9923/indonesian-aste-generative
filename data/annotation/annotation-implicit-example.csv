@@ -1,6 +1,0 @@
-id,sents,expr,polarity,labels,target_repr,completed_labels,completed_target_repr,checkpoint
-8,"baik , tetapi sudah tidak diadakan di aplikasi airy .",baik,POS,"([-1], [0], ","(hotel, baik, ","([-1], [0], POS)","(hotel, baik, positif)",TRUE
-10,cukup bersih dan wifi okelah .,cukup bersih,POS,"([-1], [0, 1], ","(hotel, cukup bersih, ","([-1], [0, 1], POS)","(hotel, cukup bersih, positif)",TRUE
-11,sudah cukup baik . harga segitu cuma untuk istirahat sudah sangat bagus . hanya saja air hangatnya kurang berfungsi dengan baik .,cukup baik,POS,"([-1], [1, 2], ","(hotel, cukup baik, ","([-1], [1, 2], POS)","(hotel, cukup baik, positif)",TRUE
-21,pelayanan yang ramah dan fasilitas yang mencukupi . recommended .,recommended,POS,"([-1], [8], ","(hotel, recommended, ","([-1], [8], POS)","(hotel, recommended, positif)",TRUE
-22,"proses check in lama , kamar belum disiapkan , pesan kamar airy tetapi lihat kamarnya bukan airy , berisik .",berisik,NEG,"([-1], [18], ","(hotel, berisik, ","([-1], [18], NEG)","(hotel, berisik, negatif)",TRUE
