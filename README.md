@@ -5,10 +5,10 @@
 This repository is my final year undergraduate project on Institut Teknologi Bandung, supervised by Dr. Masayu Leylia Khodra, ST., MT. It contains the unpolished source codes (.py on /src and .ipynb on /notebooks), book (Indonesian), and paper (English).
 
 - Book title:
-  [Pendekatan Generatif Berbasis Model Bahasa Pralatih Untuk Ekstraksi Triplet Opini]()
+  [Pendekatan Generatif Berbasis Model Bahasa Pralatih Untuk Ekstraksi Triplet Opini](docs/13518138-William.pdf)
 
 - Paper title (Arxiv):
-  [Text Generation for Opinion Triplet Extraction]()
+  [Text Generation for Opinion Triplet Extraction](docs/paper.pdf)
 
 ## Abstract
 
@@ -30,6 +30,7 @@ OTE is solving the same task proposed in https://arxiv.org/abs/1911.01616. Our w
 
 More details of dataset on the book and paper.
 [Source](https://drive.google.com/drive/folders/1k1gIu56Y6zS-qmypq5hzecCqAiWrTR-a?usp=sharing)
+
 For more information, v1 dataset is obtained from Wirawan & Khodra, 2021 work for Indonesian hotel review. v2 dataset is v1 dataset with minor fix for some label, while v3 dataset is v2 + triplet opinions with implicit aspect.
 
 ## Requirement
@@ -40,7 +41,7 @@ For more information, v1 dataset is obtained from Wirawan & Khodra, 2021 work fo
 
 ## Changelog
 
-- June. 25th, 2021. Initial update and release of unpolished source code for this work, along with the dataset used (v2 and v3).
+- June. 25th, 2022. Initial update and release of unpolished source code for this work, along with the dataset used (v2 and v3).
 
 ## Contact
 
